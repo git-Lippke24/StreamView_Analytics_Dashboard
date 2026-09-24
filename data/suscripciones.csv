@@ -1,0 +1,1501 @@
+﻿suscripcion_id,usuario_id,plan,fecha_inicio,fecha_fin,estado,precio_mensual_usd,renovacion_automatica,motivo_cancelacion
+S00001,U00001,Premium,2024-02-06,,Activa,13.99,Sí,
+S00002,U00002,Básico,2025-05-13,,Activa,6.99,Sí,
+S00003,U00003,Básico,2023-03-17,2025-12-20,Cancelada,6.99,No,Precio
+S00004,U00004,Estándar,2023-01-25,,Activa,9.99,Sí,
+S00005,U00005,Estándar,2025-03-16,,Activa,9.99,Sí,
+S00006,U00006,Estándar,2025-03-13,,Activa,9.99,Sí,
+S00007,U00007,Estándar,2023-05-16,2025-02-15,Cancelada,9.99,Sí,Poco uso
+S00008,U00008,Estándar,2024-12-12,2025-04-12,Cancelada,9.99,Sí,Problemas técnicos
+S00009,U00009,Premium,2024-04-26,,Activa,13.99,Sí,
+S00010,U00010,Premium,2024-03-14,,Activa,13.99,Sí,
+S00011,U00011,Básico,2023-04-10,,Activa,6.99,Sí,
+S00012,U00012,Básico,2025-10-05,,Activa,6.99,Sí,
+S00013,U00013,Básico,2024-12-02,,Activa,6.99,Sí,
+S00014,U00014,Estándar,2025-03-04,,Activa,9.99,Sí,
+S00015,U00015,Premium,2025-02-03,,Activa,13.99,Sí,
+S00016,U00016,Premium,2023-01-16,,Activa,13.99,Sí,
+S00017,U00017,Básico,2023-11-21,2025-05-18,Cancelada,6.99,No,Contenido insuficiente
+S00018,U00018,Estándar,2024-06-19,2025-10-15,Cancelada,9.99,No,Problemas técnicos
+S00019,U00019,Premium,2024-02-19,,Activa,13.99,Sí,
+S00020,U00020,Premium,2025-07-16,,Activa,13.99,Sí,
+S00021,U00021,Premium,2025-06-01,,Activa,13.99,Sí,
+S00022,U00022,Básico,2023-06-22,2025-10-11,Cancelada,6.99,No,Poco uso
+S00023,U00023,Básico,2024-12-15,,Activa,6.99,Sí,
+S00024,U00024,Premium,2025-01-30,,Activa,13.99,Sí,
+S00025,U00025,Estándar,2024-11-02,2025-03-30,Cancelada,9.99,No,Precio
+S00026,U00026,Estándar,2025-08-09,2025-10-14,Cancelada,9.99,No,Poco uso
+S00027,U00027,Básico,2025-04-21,,Activa,6.99,Sí,
+S00028,U00028,Básico,2023-09-22,,Activa,6.99,Sí,
+S00029,U00029,Premium,2024-02-12,,Activa,13.99,Sí,
+S00030,U00030,Básico,2024-03-16,,Activa,6.99,Sí,
+S00031,U00031,Básico,2024-12-20,2025-06-24,Cancelada,6.99,No,Contenido insuficiente
+S00032,U00032,Básico,2025-06-17,2025-12-20,Cancelada,6.99,No,Poco uso
+S00033,U00033,Estándar,2023-02-10,,Activa,9.99,Sí,
+S00034,U00034,Estándar,2024-04-23,,Activa,9.99,Sí,
+S00035,U00035,Básico,2025-05-11,2025-09-21,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00036,U00036,Básico,2024-02-21,,Activa,6.99,Sí,
+S00037,U00037,Básico,2023-02-13,2025-05-31,Cancelada,6.99,No,Poco uso
+S00038,U00038,Básico,2025-10-10,,Activa,6.99,Sí,
+S00039,U00039,Estándar,2024-10-26,,Activa,9.99,Sí,
+S00040,U00040,Básico,2025-02-21,,Activa,6.99,Sí,
+S00041,U00041,Estándar,2023-11-02,,Activa,9.99,Sí,
+S00042,U00042,Premium,2025-08-20,,Activa,13.99,Sí,
+S00043,U00043,Estándar,2023-03-30,,Activa,9.99,Sí,
+S00044,U00044,Básico,2024-06-15,,Activa,6.99,Sí,
+S00045,U00045,Premium,2024-06-26,2025-01-29,Cancelada,13.99,Sí,Precio
+S00046,U00046,Estándar,2025-01-21,,Activa,9.99,Sí,
+S00047,U00047,Estándar,2025-09-23,,Activa,9.99,Sí,
+S00048,U00048,Básico,2025-08-09,,Activa,6.99,Sí,
+S00049,U00049,Estándar,2024-09-25,,Activa,9.99,Sí,
+S00050,U00050,Estándar,2023-12-08,,Activa,9.99,Sí,
+S00051,U00051,Estándar,2023-02-12,,Activa,9.99,Sí,
+S00052,U00052,Básico,2024-11-26,,Activa,6.99,Sí,
+S00053,U00053,Básico,2023-05-07,,Activa,6.99,Sí,
+S00054,U00054,Premium,2025-01-12,,Activa,13.99,Sí,
+S00055,U00055,Estándar,2025-11-01,,Activa,9.99,Sí,
+S00056,U00056,Estándar,2025-09-13,2025-11-26,Cancelada,9.99,No,Precio
+S00057,U00057,Estándar,2025-02-26,,Activa,9.99,Sí,
+S00058,U00058,Básico,2023-07-15,2025-11-29,Cancelada,6.99,No,Cambio a otra plataforma
+S00059,U00059,Premium,2024-02-24,2025-11-14,Cancelada,13.99,No,Cambio a otra plataforma
+S00060,U00060,Estándar,2025-01-17,,Activa,9.99,Sí,
+S00061,U00061,Estándar,2025-03-11,,Activa,9.99,Sí,
+S00062,U00062,Estándar,2023-09-04,,Activa,9.99,Sí,
+S00063,U00063,Estándar,2024-09-09,,Activa,9.99,Sí,
+S00064,U00064,Básico,2025-01-07,2025-12-03,Cancelada,6.99,No,Problemas técnicos
+S00065,U00065,Estándar,2023-05-27,,Activa,9.99,Sí,
+S00066,U00066,Estándar,2023-08-18,,Activa,9.99,Sí,
+S00067,U00067,Premium,2024-04-14,,Activa,13.99,Sí,
+S00068,U00068,Básico,2025-05-01,2025-06-27,Cancelada,6.99,Sí,Poco uso
+S00069,U00069,Premium,2023-04-01,2025-06-22,Cancelada,13.99,No,Poco uso
+S00070,U00070,Básico,2025-10-16,2025-12-02,Cancelada,6.99,No,Otro
+S00071,U00071,Básico,2023-12-21,2025-10-11,Cancelada,6.99,Sí,Contenido insuficiente
+S00072,U00072,Estándar,2024-10-07,,Activa,9.99,Sí,
+S00073,U00073,Estándar,2024-12-08,,Activa,9.99,Sí,
+S00074,U00074,Premium,2025-09-14,2025-12-10,Cancelada,13.99,No,Cambio a otra plataforma
+S00075,U00075,Estándar,2024-04-30,,Activa,9.99,Sí,
+S00076,U00076,Básico,2024-02-05,,Activa,6.99,Sí,
+S00077,U00077,Básico,2023-03-18,,Activa,6.99,Sí,
+S00078,U00078,Premium,2024-10-06,,Activa,13.99,Sí,
+S00079,U00079,Premium,2023-07-03,,Activa,13.99,Sí,
+S00080,U00080,Básico,2023-10-11,2025-12-20,Cancelada,6.99,No,Poco uso
+S00081,U00081,Estándar,2023-02-24,,Activa,9.99,Sí,
+S00082,U00082,Premium,2024-06-19,,Activa,13.99,Sí,
+S00083,U00083,Premium,2025-08-02,,Activa,13.99,Sí,
+S00084,U00084,Básico,2025-08-31,2025-11-26,Cancelada,6.99,No,Poco uso
+S00085,U00085,Estándar,2025-05-17,,Activa,9.99,Sí,
+S00086,U00086,Estándar,2024-03-02,2025-11-03,Cancelada,9.99,Sí,Otro
+S00087,U00087,Premium,2023-09-10,,Activa,13.99,Sí,
+S00088,U00088,Básico,2025-01-25,2025-12-04,Cancelada,6.99,No,Poco uso
+S00089,U00089,Básico,2025-04-12,,Activa,6.99,Sí,
+S00090,U00090,Estándar,2023-07-08,2025-09-02,Cancelada,9.99,No,Cambio a otra plataforma
+S00091,U00091,Estándar,2024-07-20,,Activa,9.99,Sí,
+S00092,U00092,Premium,2023-05-09,,Activa,13.99,Sí,
+S00093,U00093,Estándar,2024-04-22,,Activa,9.99,Sí,
+S00094,U00094,Estándar,2024-01-25,,Activa,9.99,Sí,
+S00095,U00095,Estándar,2024-10-26,2025-08-28,Cancelada,9.99,Sí,Precio
+S00096,U00096,Estándar,2025-03-28,,Activa,9.99,Sí,
+S00097,U00097,Premium,2024-01-27,2025-10-30,Cancelada,13.99,Sí,Precio
+S00098,U00098,Estándar,2025-04-17,,Activa,9.99,Sí,
+S00099,U00099,Estándar,2023-08-09,,Activa,9.99,Sí,
+S00100,U00100,Premium,2024-12-20,,Activa,13.99,Sí,
+S00101,U00101,Básico,2023-08-12,,Activa,6.99,Sí,
+S00102,U00102,Premium,2025-01-09,2025-12-04,Cancelada,13.99,No,Poco uso
+S00103,U00103,Premium,2024-12-08,,Activa,13.99,Sí,
+S00104,U00104,Básico,2024-08-31,,Activa,6.99,Sí,
+S00105,U00105,Básico,2025-08-31,,Activa,6.99,Sí,
+S00106,U00106,Premium,2023-11-13,,Activa,13.99,Sí,
+S00107,U00107,Básico,2025-10-12,2025-11-29,Cancelada,6.99,No,Poco uso
+S00108,U00108,Estándar,2023-06-12,2025-04-13,Cancelada,9.99,No,Problemas técnicos
+S00109,U00109,Básico,2023-07-21,,Activa,6.99,Sí,
+S00110,U00110,Básico,2024-03-22,2025-11-11,Cancelada,6.99,Sí,Contenido insuficiente
+S00111,U00111,Básico,2024-09-25,,Activa,6.99,Sí,
+S00112,U00112,Básico,2024-05-19,2025-05-10,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00113,U00113,Estándar,2024-10-26,,Activa,9.99,Sí,
+S00114,U00114,Básico,2025-06-24,2025-09-27,Cancelada,6.99,No,Poco uso
+S00115,U00115,Estándar,2025-06-05,,Activa,9.99,Sí,
+S00116,U00116,Premium,2024-08-13,,Activa,13.99,Sí,
+S00117,U00117,Básico,2025-08-15,,Activa,6.99,Sí,
+S00118,U00118,Básico,2023-08-22,2025-09-26,Cancelada,6.99,No,Poco uso
+S00119,U00119,Estándar,2023-02-10,,Activa,9.99,Sí,
+S00120,U00120,Básico,2025-02-10,,Activa,6.99,Sí,
+S00121,U00121,Básico,2024-12-24,,Activa,6.99,Sí,
+S00122,U00122,Básico,2025-01-23,,Activa,6.99,Sí,
+S00123,U00123,Estándar,2024-11-02,2025-05-08,Cancelada,9.99,No,Precio
+S00124,U00124,Estándar,2024-08-17,,Activa,9.99,Sí,
+S00125,U00125,Premium,2025-06-16,2025-08-20,Cancelada,13.99,No,Precio
+S00126,U00126,Básico,2023-09-06,,Activa,6.99,Sí,
+S00127,U00127,Básico,2024-08-12,,Activa,6.99,Sí,
+S00128,U00128,Estándar,2023-12-24,,Activa,9.99,Sí,
+S00129,U00129,Premium,2024-01-13,,Activa,13.99,Sí,
+S00130,U00130,Básico,2025-06-21,,Activa,6.99,Sí,
+S00131,U00131,Estándar,2025-04-07,,Activa,9.99,Sí,
+S00132,U00132,Básico,2024-09-24,,Activa,6.99,Sí,
+S00133,U00133,Premium,2024-10-29,,Activa,13.99,Sí,
+S00134,U00134,Premium,2023-07-05,,Activa,13.99,Sí,
+S00135,U00135,Estándar,2024-06-18,,Activa,9.99,Sí,
+S00136,U00136,Estándar,2024-04-24,,Activa,9.99,Sí,
+S00137,U00137,Estándar,2023-07-08,,Activa,9.99,Sí,
+S00138,U00138,Básico,2023-04-15,,Activa,6.99,Sí,
+S00139,U00139,Básico,2025-10-17,,Activa,6.99,Sí,
+S00140,U00140,Estándar,2025-07-25,,Activa,9.99,Sí,
+S00141,U00141,Básico,2023-07-07,,Activa,6.99,Sí,
+S00142,U00142,Básico,2025-06-27,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00143,U00143,Premium,2023-07-24,2025-08-12,Cancelada,13.99,No,Poco uso
+S00144,U00144,Estándar,2023-10-28,2025-08-28,Cancelada,9.99,No,Cambio a otra plataforma
+S00145,U00145,Estándar,2025-07-01,,Activa,9.99,Sí,
+S00146,U00146,Básico,2024-09-28,2025-05-12,Cancelada,6.99,No,Cambio a otra plataforma
+S00147,U00147,Premium,2023-10-02,2025-10-10,Cancelada,13.99,Sí,Problemas técnicos
+S00148,U00148,Básico,2023-02-21,2025-06-28,Cancelada,6.99,No,Poco uso
+S00149,U00149,Premium,2023-08-18,2025-08-08,Cancelada,13.99,No,Contenido insuficiente
+S00150,U00150,Básico,2024-12-04,,Activa,6.99,Sí,
+S00151,U00151,Premium,2025-11-13,,Activa,13.99,Sí,
+S00152,U00152,Estándar,2023-12-16,,Activa,9.99,Sí,
+S00153,U00153,Estándar,2023-05-09,,Activa,9.99,Sí,
+S00154,U00154,Básico,2024-11-09,2025-11-16,Cancelada,6.99,No,Poco uso
+S00155,U00155,Básico,2024-03-07,,Activa,6.99,Sí,
+S00156,U00156,Estándar,2024-07-10,,Activa,9.99,Sí,
+S00157,U00157,Premium,2023-05-09,2025-08-26,Cancelada,13.99,Sí,Contenido insuficiente
+S00158,U00158,Premium,2024-09-21,2025-06-28,Cancelada,13.99,Sí,Precio
+S00159,U00159,Estándar,2024-06-23,,Activa,9.99,Sí,
+S00160,U00160,Estándar,2025-03-18,,Activa,9.99,Sí,
+S00161,U00161,Estándar,2023-03-24,,Activa,9.99,Sí,
+S00162,U00162,Premium,2025-09-18,,Activa,13.99,Sí,
+S00163,U00163,Básico,2025-10-06,,Activa,6.99,Sí,
+S00164,U00164,Básico,2023-08-05,2025-07-14,Cancelada,6.99,Sí,Contenido insuficiente
+S00165,U00165,Estándar,2023-01-27,,Activa,9.99,Sí,
+S00166,U00166,Básico,2024-08-25,2025-01-30,Cancelada,6.99,Sí,Precio
+S00167,U00167,Estándar,2023-07-07,,Activa,9.99,Sí,
+S00168,U00168,Estándar,2023-01-28,,Activa,9.99,Sí,
+S00169,U00169,Premium,2023-05-22,,Activa,13.99,Sí,
+S00170,U00170,Estándar,2024-09-25,,Activa,9.99,Sí,
+S00171,U00171,Básico,2023-02-23,,Activa,6.99,Sí,
+S00172,U00172,Estándar,2025-08-06,,Activa,9.99,Sí,
+S00173,U00173,Premium,2023-06-09,,Activa,13.99,Sí,
+S00174,U00174,Premium,2023-11-07,,Activa,13.99,Sí,
+S00175,U00175,Básico,2025-04-21,2025-11-20,Cancelada,6.99,No,Otro
+S00176,U00176,Estándar,2024-04-08,,Activa,9.99,Sí,
+S00177,U00177,Básico,2023-12-27,2025-07-02,Cancelada,6.99,No,Contenido insuficiente
+S00178,U00178,Básico,2025-01-22,2025-08-29,Cancelada,6.99,No,Poco uso
+S00179,U00179,Estándar,2025-01-07,,Activa,9.99,Sí,
+S00180,U00180,Básico,2024-07-14,,Activa,6.99,Sí,
+S00181,U00181,Estándar,2024-12-08,,Activa,9.99,Sí,
+S00182,U00182,Básico,2024-04-15,,Activa,6.99,Sí,
+S00183,U00183,Estándar,2024-11-19,2025-03-24,Cancelada,9.99,No,Precio
+S00184,U00184,Básico,2025-01-29,2025-12-20,Cancelada,6.99,No,Poco uso
+S00185,U00185,Estándar,2025-08-15,,Activa,9.99,Sí,
+S00186,U00186,Premium,2024-10-27,,Activa,13.99,Sí,
+S00187,U00187,Estándar,2025-06-02,,Activa,9.99,Sí,
+S00188,U00188,Básico,2023-05-24,,Activa,6.99,Sí,
+S00189,U00189,Básico,2025-07-07,,Activa,6.99,Sí,
+S00190,U00190,Estándar,2025-04-23,,Activa,9.99,Sí,
+S00191,U00191,Básico,2025-07-04,,Activa,6.99,Sí,
+S00192,U00192,Estándar,2025-04-25,,Activa,9.99,Sí,
+S00193,U00193,Básico,2024-11-12,2025-08-30,Cancelada,6.99,No,Cambio a otra plataforma
+S00194,U00194,Premium,2024-10-01,,Activa,13.99,Sí,
+S00195,U00195,Estándar,2024-12-11,,Activa,9.99,Sí,
+S00196,U00196,Básico,2024-12-18,2025-09-20,Cancelada,6.99,No,Problemas técnicos
+S00197,U00197,Premium,2024-03-26,,Activa,13.99,Sí,
+S00198,U00198,Estándar,2024-09-13,,Activa,9.99,Sí,
+S00199,U00199,Premium,2025-03-02,,Activa,13.99,Sí,
+S00200,U00200,Premium,2025-10-16,,Activa,13.99,Sí,
+S00201,U00201,Estándar,2024-03-19,,Activa,9.99,Sí,
+S00202,U00202,Básico,2024-02-11,2025-04-02,Cancelada,6.99,No,Poco uso
+S00203,U00203,Estándar,2023-10-09,,Activa,9.99,Sí,
+S00204,U00204,Básico,2023-01-28,,Activa,6.99,Sí,
+S00205,U00205,Premium,2023-04-22,,Activa,13.99,Sí,
+S00206,U00206,Premium,2023-04-17,,Activa,13.99,Sí,
+S00207,U00207,Básico,2025-05-16,,Activa,6.99,Sí,
+S00208,U00208,Estándar,2023-10-11,,Activa,9.99,Sí,
+S00209,U00209,Premium,2023-07-06,,Activa,13.99,Sí,
+S00210,U00210,Básico,2023-07-30,2025-06-06,Cancelada,6.99,No,Contenido insuficiente
+S00211,U00211,Estándar,2025-09-24,2025-12-13,Cancelada,9.99,No,Poco uso
+S00212,U00212,Básico,2023-06-22,,Activa,6.99,Sí,
+S00213,U00213,Estándar,2023-02-20,,Activa,9.99,Sí,
+S00214,U00214,Estándar,2024-05-03,,Activa,9.99,Sí,
+S00215,U00215,Básico,2024-03-15,,Activa,6.99,Sí,
+S00216,U00216,Premium,2023-03-10,,Activa,13.99,Sí,
+S00217,U00217,Básico,2023-10-27,2025-12-20,Cancelada,6.99,No,Poco uso
+S00218,U00218,Estándar,2024-11-12,,Activa,9.99,Sí,
+S00219,U00219,Estándar,2023-09-27,,Activa,9.99,Sí,
+S00220,U00220,Estándar,2024-07-05,,Activa,9.99,Sí,
+S00221,U00221,Básico,2023-07-20,,Activa,6.99,Sí,
+S00222,U00222,Estándar,2023-08-14,,Activa,9.99,Sí,
+S00223,U00223,Básico,2024-04-25,,Activa,6.99,Sí,
+S00224,U00224,Estándar,2023-03-18,2025-03-14,Cancelada,9.99,No,Problemas técnicos
+S00225,U00225,Estándar,2023-05-22,,Activa,9.99,Sí,
+S00226,U00226,Premium,2024-06-21,,Activa,13.99,Sí,
+S00227,U00227,Estándar,2023-04-13,2025-11-05,Cancelada,9.99,No,Poco uso
+S00228,U00228,Básico,2024-03-27,,Activa,6.99,Sí,
+S00229,U00229,Premium,2023-06-01,,Activa,13.99,Sí,
+S00230,U00230,Estándar,2023-10-06,,Activa,9.99,Sí,
+S00231,U00231,Estándar,2023-05-11,,Activa,9.99,Sí,
+S00232,U00232,Estándar,2023-05-16,,Activa,9.99,Sí,
+S00233,U00233,Estándar,2025-02-02,2025-10-03,Cancelada,9.99,Sí,Poco uso
+S00234,U00234,Premium,2023-07-14,,Activa,13.99,Sí,
+S00235,U00235,Estándar,2024-07-26,,Activa,9.99,Sí,
+S00236,U00236,Básico,2025-09-01,,Activa,6.99,Sí,
+S00237,U00237,Premium,2023-11-13,,Activa,13.99,Sí,
+S00238,U00238,Estándar,2025-08-23,2025-11-03,Cancelada,9.99,No,Precio
+S00239,U00239,Estándar,2024-05-15,,Activa,9.99,Sí,
+S00240,U00240,Premium,2024-09-11,,Activa,13.99,Sí,
+S00241,U00241,Estándar,2025-11-09,,Activa,9.99,Sí,
+S00242,U00242,Estándar,2024-07-19,2025-09-08,Cancelada,9.99,Sí,Poco uso
+S00243,U00243,Estándar,2024-07-01,,Activa,9.99,Sí,
+S00244,U00244,Estándar,2025-08-05,,Activa,9.99,Sí,
+S00245,U00245,Estándar,2024-03-20,,Activa,9.99,Sí,
+S00246,U00246,Estándar,2024-11-30,,Activa,9.99,Sí,
+S00247,U00247,Estándar,2023-01-04,2025-08-24,Cancelada,9.99,No,Contenido insuficiente
+S00248,U00248,Estándar,2025-04-14,2025-08-27,Cancelada,9.99,No,Problemas técnicos
+S00249,U00249,Estándar,2025-09-07,,Activa,9.99,Sí,
+S00250,U00250,Estándar,2025-05-17,,Activa,9.99,Sí,
+S00251,U00251,Básico,2025-02-10,,Activa,6.99,Sí,
+S00252,U00252,Básico,2024-03-26,,Activa,6.99,Sí,
+S00253,U00253,Estándar,2023-06-03,,Activa,9.99,Sí,
+S00254,U00254,Estándar,2025-09-22,,Activa,9.99,Sí,
+S00255,U00255,Básico,2023-11-02,2025-03-18,Cancelada,6.99,No,Poco uso
+S00256,U00256,Básico,2023-02-11,,Activa,6.99,Sí,
+S00257,U00257,Básico,2025-09-05,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00258,U00258,Estándar,2023-02-15,,Activa,9.99,Sí,
+S00259,U00259,Premium,2024-01-05,,Activa,13.99,Sí,
+S00260,U00260,Estándar,2023-12-20,,Activa,9.99,Sí,
+S00261,U00261,Estándar,2024-07-06,,Activa,9.99,Sí,
+S00262,U00262,Estándar,2025-03-05,,Activa,9.99,Sí,
+S00263,U00263,Premium,2024-10-08,,Activa,13.99,Sí,
+S00264,U00264,Estándar,2023-07-09,2025-12-02,Cancelada,9.99,No,Cambio a otra plataforma
+S00265,U00265,Estándar,2023-11-15,,Activa,9.99,Sí,
+S00266,U00266,Estándar,2023-10-18,2025-08-15,Cancelada,9.99,No,Otro
+S00267,U00267,Básico,2025-08-14,,Activa,6.99,Sí,
+S00268,U00268,Básico,2024-07-19,2025-12-19,Cancelada,6.99,No,Poco uso
+S00269,U00269,Básico,2024-09-21,,Activa,6.99,Sí,
+S00270,U00270,Estándar,2025-07-26,,Activa,9.99,Sí,
+S00271,U00271,Básico,2024-10-23,2025-04-30,Cancelada,6.99,No,Precio
+S00272,U00272,Estándar,2023-05-12,,Activa,9.99,Sí,
+S00273,U00273,Básico,2024-07-13,,Activa,6.99,Sí,
+S00274,U00274,Estándar,2024-06-14,,Activa,9.99,Sí,
+S00275,U00275,Estándar,2025-01-01,,Activa,9.99,Sí,
+S00276,U00276,Básico,2025-03-11,,Activa,6.99,Sí,
+S00277,U00277,Estándar,2025-10-29,,Activa,9.99,Sí,
+S00278,U00278,Estándar,2024-05-01,,Activa,9.99,Sí,
+S00279,U00279,Estándar,2025-08-22,,Activa,9.99,Sí,
+S00280,U00280,Básico,2023-03-19,,Activa,6.99,Sí,
+S00281,U00281,Estándar,2025-01-29,,Activa,9.99,Sí,
+S00282,U00282,Estándar,2024-07-27,,Activa,9.99,Sí,
+S00283,U00283,Estándar,2025-06-28,,Activa,9.99,Sí,
+S00284,U00284,Básico,2024-01-29,2025-10-19,Cancelada,6.99,Sí,Poco uso
+S00285,U00285,Premium,2023-07-09,,Activa,13.99,Sí,
+S00286,U00286,Básico,2025-10-27,,Activa,6.99,Sí,
+S00287,U00287,Básico,2024-11-05,,Activa,6.99,Sí,
+S00288,U00288,Básico,2025-11-22,,Activa,6.99,Sí,
+S00289,U00289,Estándar,2024-02-17,,Activa,9.99,Sí,
+S00290,U00290,Básico,2024-09-24,,Activa,6.99,Sí,
+S00291,U00291,Básico,2024-02-03,,Activa,6.99,Sí,
+S00292,U00292,Básico,2024-04-12,2025-10-27,Cancelada,6.99,No,Problemas técnicos
+S00293,U00293,Básico,2025-08-07,,Activa,6.99,Sí,
+S00294,U00294,Básico,2025-10-13,2025-12-12,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00295,U00295,Estándar,2023-12-09,,Activa,9.99,Sí,
+S00296,U00296,Básico,2025-09-03,2025-12-20,Cancelada,6.99,No,Precio
+S00297,U00297,Básico,2025-10-14,2025-12-04,Cancelada,6.99,No,Cambio a otra plataforma
+S00298,U00298,Básico,2024-04-11,2025-09-14,Cancelada,6.99,No,Poco uso
+S00299,U00299,Estándar,2025-10-08,,Activa,9.99,Sí,
+S00300,U00300,Estándar,2025-03-23,,Activa,9.99,Sí,
+S00301,U00301,Premium,2025-01-03,,Activa,13.99,Sí,
+S00302,U00302,Premium,2025-04-17,,Activa,13.99,Sí,
+S00303,U00303,Básico,2025-02-22,2025-09-26,Cancelada,6.99,Sí,Poco uso
+S00304,U00304,Básico,2025-10-12,,Activa,6.99,Sí,
+S00305,U00305,Básico,2024-06-29,2025-12-20,Cancelada,6.99,No,Poco uso
+S00306,U00306,Básico,2023-12-02,,Activa,6.99,Sí,
+S00307,U00307,Estándar,2025-09-02,,Activa,9.99,Sí,
+S00308,U00308,Básico,2024-02-03,2025-11-19,Cancelada,6.99,No,Precio
+S00309,U00309,Básico,2024-11-04,2025-09-11,Cancelada,6.99,No,Contenido insuficiente
+S00310,U00310,Estándar,2023-01-18,,Activa,9.99,Sí,
+S00311,U00311,Premium,2023-11-25,,Activa,13.99,Sí,
+S00312,U00312,Premium,2024-09-27,,Activa,13.99,Sí,
+S00313,U00313,Básico,2025-05-30,,Activa,6.99,Sí,
+S00314,U00314,Premium,2023-08-06,,Activa,13.99,Sí,
+S00315,U00315,Básico,2025-10-12,,Activa,6.99,Sí,
+S00316,U00316,Básico,2024-09-14,2025-06-22,Cancelada,6.99,No,Problemas técnicos
+S00317,U00317,Básico,2025-06-08,,Activa,6.99,Sí,
+S00318,U00318,Estándar,2024-07-26,,Activa,9.99,Sí,
+S00319,U00319,Básico,2023-10-21,2025-04-13,Cancelada,6.99,No,Contenido insuficiente
+S00320,U00320,Estándar,2024-12-15,,Activa,9.99,Sí,
+S00321,U00321,Premium,2023-04-11,,Activa,13.99,Sí,
+S00322,U00322,Básico,2024-02-08,,Activa,6.99,Sí,
+S00323,U00323,Básico,2024-10-31,,Activa,6.99,Sí,
+S00324,U00324,Estándar,2023-11-17,,Activa,9.99,Sí,
+S00325,U00325,Premium,2024-07-02,,Activa,13.99,Sí,
+S00326,U00326,Estándar,2024-02-19,,Activa,9.99,Sí,
+S00327,U00327,Básico,2024-12-14,2025-03-05,Cancelada,6.99,No,Poco uso
+S00328,U00328,Básico,2025-09-12,2025-11-24,Cancelada,6.99,Sí,Poco uso
+S00329,U00329,Premium,2024-04-11,,Activa,13.99,Sí,
+S00330,U00330,Estándar,2023-03-05,,Activa,9.99,Sí,
+S00331,U00331,Estándar,2023-03-13,,Activa,9.99,Sí,
+S00332,U00332,Estándar,2025-02-02,,Activa,9.99,Sí,
+S00333,U00333,Básico,2025-05-20,,Activa,6.99,Sí,
+S00334,U00334,Estándar,2024-07-21,,Activa,9.99,Sí,
+S00335,U00335,Estándar,2025-08-01,,Activa,9.99,Sí,
+S00336,U00336,Estándar,2023-07-20,,Activa,9.99,Sí,
+S00337,U00337,Estándar,2025-10-29,2025-12-13,Cancelada,9.99,Sí,Precio
+S00338,U00338,Básico,2025-10-20,,Activa,6.99,Sí,
+S00339,U00339,Estándar,2024-09-13,,Activa,9.99,Sí,
+S00340,U00340,Estándar,2023-07-12,,Activa,9.99,Sí,
+S00341,U00341,Estándar,2023-07-09,2025-02-19,Cancelada,9.99,Sí,Cambio a otra plataforma
+S00342,U00342,Estándar,2025-09-09,,Activa,9.99,Sí,
+S00343,U00343,Estándar,2025-07-22,2025-10-18,Cancelada,9.99,No,Cambio a otra plataforma
+S00344,U00344,Estándar,2023-10-09,,Activa,9.99,Sí,
+S00345,U00345,Estándar,2023-07-03,,Activa,9.99,Sí,
+S00346,U00346,Básico,2024-11-19,,Activa,6.99,Sí,
+S00347,U00347,Básico,2024-09-07,,Activa,6.99,Sí,
+S00348,U00348,Básico,2025-07-13,2025-10-01,Cancelada,6.99,No,Precio
+S00349,U00349,Premium,2023-01-13,,Activa,13.99,Sí,
+S00350,U00350,Premium,2024-03-26,,Activa,13.99,Sí,
+S00351,U00351,Premium,2023-10-16,,Activa,13.99,Sí,
+S00352,U00352,Básico,2024-12-25,,Activa,6.99,Sí,
+S00353,U00353,Estándar,2023-06-16,2025-07-12,Cancelada,9.99,No,Poco uso
+S00354,U00354,Básico,2024-03-26,,Activa,6.99,Sí,
+S00355,U00355,Básico,2025-08-15,2025-10-31,Cancelada,6.99,No,Poco uso
+S00356,U00356,Estándar,2024-12-31,,Activa,9.99,Sí,
+S00357,U00357,Estándar,2025-05-11,,Activa,9.99,Sí,
+S00358,U00358,Estándar,2023-07-29,,Activa,9.99,Sí,
+S00359,U00359,Premium,2023-05-02,,Activa,13.99,Sí,
+S00360,U00360,Estándar,2025-08-18,,Activa,9.99,Sí,
+S00361,U00361,Estándar,2025-05-16,,Activa,9.99,Sí,
+S00362,U00362,Estándar,2025-05-23,2025-11-02,Cancelada,9.99,No,Precio
+S00363,U00363,Básico,2023-12-23,2025-05-19,Cancelada,6.99,Sí,Precio
+S00364,U00364,Premium,2024-09-28,,Activa,13.99,Sí,
+S00365,U00365,Estándar,2024-03-13,,Activa,9.99,Sí,
+S00366,U00366,Estándar,2023-03-02,,Activa,9.99,Sí,
+S00367,U00367,Premium,2024-12-18,2025-05-24,Cancelada,13.99,No,Contenido insuficiente
+S00368,U00368,Estándar,2025-05-26,,Activa,9.99,Sí,
+S00369,U00369,Básico,2023-03-24,2025-01-19,Cancelada,6.99,No,Otro
+S00370,U00370,Básico,2023-09-15,,Activa,6.99,Sí,
+S00371,U00371,Estándar,2024-05-13,,Activa,9.99,Sí,
+S00372,U00372,Estándar,2023-10-15,2025-11-10,Cancelada,9.99,No,Precio
+S00373,U00373,Básico,2023-03-03,,Activa,6.99,Sí,
+S00374,U00374,Estándar,2024-12-17,2025-02-17,Cancelada,9.99,No,Contenido insuficiente
+S00375,U00375,Básico,2024-01-20,2025-02-11,Cancelada,6.99,No,Poco uso
+S00376,U00376,Básico,2023-12-06,2025-12-02,Cancelada,6.99,No,Poco uso
+S00377,U00377,Estándar,2024-02-26,,Activa,9.99,Sí,
+S00378,U00378,Estándar,2025-06-25,,Activa,9.99,Sí,
+S00379,U00379,Estándar,2025-03-12,,Activa,9.99,Sí,
+S00380,U00380,Estándar,2024-07-30,,Activa,9.99,Sí,
+S00381,U00381,Premium,2024-08-23,,Activa,13.99,Sí,
+S00382,U00382,Premium,2025-01-28,,Activa,13.99,Sí,
+S00383,U00383,Estándar,2023-01-21,,Activa,9.99,Sí,
+S00384,U00384,Estándar,2024-08-12,,Activa,9.99,Sí,
+S00385,U00385,Estándar,2023-01-04,,Activa,9.99,Sí,
+S00386,U00386,Estándar,2023-12-02,,Activa,9.99,Sí,
+S00387,U00387,Estándar,2024-02-21,,Activa,9.99,Sí,
+S00388,U00388,Estándar,2024-04-05,2025-11-09,Cancelada,9.99,No,Otro
+S00389,U00389,Básico,2024-12-07,2025-12-20,Cancelada,6.99,No,Poco uso
+S00390,U00390,Estándar,2023-05-12,,Activa,9.99,Sí,
+S00391,U00391,Estándar,2023-08-11,,Activa,9.99,Sí,
+S00392,U00392,Estándar,2024-04-08,,Activa,9.99,Sí,
+S00393,U00393,Estándar,2024-05-27,,Activa,9.99,Sí,
+S00394,U00394,Estándar,2024-04-11,2025-01-22,Cancelada,9.99,No,Poco uso
+S00395,U00395,Básico,2024-10-14,2025-03-14,Cancelada,6.99,No,Poco uso
+S00396,U00396,Premium,2025-01-24,2025-07-31,Cancelada,13.99,Sí,Poco uso
+S00397,U00397,Básico,2025-05-31,,Activa,6.99,Sí,
+S00398,U00398,Estándar,2023-07-17,2025-11-06,Cancelada,9.99,No,Cambio a otra plataforma
+S00399,U00399,Premium,2025-04-12,2025-10-13,Cancelada,13.99,No,Poco uso
+S00400,U00400,Básico,2023-05-04,,Activa,6.99,Sí,
+S00401,U00401,Premium,2024-04-24,,Activa,13.99,Sí,
+S00402,U00402,Estándar,2025-10-08,,Activa,9.99,Sí,
+S00403,U00403,Básico,2024-11-20,,Activa,6.99,Sí,
+S00404,U00404,Básico,2023-03-06,2025-10-01,Cancelada,6.99,Sí,Precio
+S00405,U00405,Básico,2023-07-12,,Activa,6.99,Sí,
+S00406,U00406,Estándar,2023-09-15,,Activa,9.99,Sí,
+S00407,U00407,Premium,2023-04-08,,Activa,13.99,Sí,
+S00408,U00408,Premium,2023-12-31,2025-09-17,Cancelada,13.99,Sí,Contenido insuficiente
+S00409,U00409,Básico,2024-06-01,2025-03-28,Cancelada,6.99,No,Cambio a otra plataforma
+S00410,U00410,Básico,2023-05-03,,Activa,6.99,Sí,
+S00411,U00411,Estándar,2025-04-28,,Activa,9.99,Sí,
+S00412,U00412,Básico,2025-06-23,2025-08-30,Cancelada,6.99,No,Problemas técnicos
+S00413,U00413,Premium,2024-07-26,,Activa,13.99,Sí,
+S00414,U00414,Premium,2024-11-05,,Activa,13.99,Sí,
+S00415,U00415,Básico,2023-08-28,2025-02-07,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00416,U00416,Básico,2024-01-17,,Activa,6.99,Sí,
+S00417,U00417,Básico,2024-11-10,,Activa,6.99,Sí,
+S00418,U00418,Básico,2024-08-12,,Activa,6.99,Sí,
+S00419,U00419,Estándar,2024-04-10,,Activa,9.99,Sí,
+S00420,U00420,Estándar,2024-12-27,,Activa,9.99,Sí,
+S00421,U00421,Básico,2023-07-14,,Activa,6.99,Sí,
+S00422,U00422,Premium,2023-06-04,,Activa,13.99,Sí,
+S00423,U00423,Estándar,2023-08-01,2025-09-07,Cancelada,9.99,No,Contenido insuficiente
+S00424,U00424,Estándar,2024-10-24,,Activa,9.99,Sí,
+S00425,U00425,Estándar,2025-04-25,2025-10-05,Cancelada,9.99,No,Poco uso
+S00426,U00426,Básico,2025-09-14,2025-11-04,Cancelada,6.99,No,Contenido insuficiente
+S00427,U00427,Premium,2025-02-08,2025-07-22,Cancelada,13.99,No,Problemas técnicos
+S00428,U00428,Básico,2023-11-06,,Activa,6.99,Sí,
+S00429,U00429,Premium,2023-09-17,,Activa,13.99,Sí,
+S00430,U00430,Básico,2025-03-30,2025-10-24,Cancelada,6.99,Sí,Poco uso
+S00431,U00431,Premium,2024-01-23,,Activa,13.99,Sí,
+S00432,U00432,Básico,2023-04-06,2025-04-09,Cancelada,6.99,No,Precio
+S00433,U00433,Estándar,2025-05-18,,Activa,9.99,Sí,
+S00434,U00434,Estándar,2024-01-06,,Activa,9.99,Sí,
+S00435,U00435,Básico,2023-02-14,,Activa,6.99,Sí,
+S00436,U00436,Premium,2025-11-22,,Activa,13.99,Sí,
+S00437,U00437,Básico,2023-05-08,2025-05-24,Cancelada,6.99,No,Problemas técnicos
+S00438,U00438,Básico,2023-05-25,,Activa,6.99,Sí,
+S00439,U00439,Estándar,2025-04-15,,Activa,9.99,Sí,
+S00440,U00440,Básico,2024-07-26,2025-07-30,Cancelada,6.99,Sí,Otro
+S00441,U00441,Básico,2025-04-20,,Activa,6.99,Sí,
+S00442,U00442,Básico,2023-11-17,,Activa,6.99,Sí,
+S00443,U00443,Estándar,2025-09-10,,Activa,9.99,Sí,
+S00444,U00444,Estándar,2025-02-08,,Activa,9.99,Sí,
+S00445,U00445,Estándar,2025-02-25,,Activa,9.99,Sí,
+S00446,U00446,Básico,2024-06-10,2025-08-12,Cancelada,6.99,No,Poco uso
+S00447,U00447,Estándar,2025-08-16,2025-11-16,Cancelada,9.99,No,Precio
+S00448,U00448,Estándar,2024-08-31,2025-06-18,Cancelada,9.99,No,Contenido insuficiente
+S00449,U00449,Estándar,2024-09-23,,Activa,9.99,Sí,
+S00450,U00450,Estándar,2024-07-27,,Activa,9.99,Sí,
+S00451,U00451,Básico,2023-06-25,,Activa,6.99,Sí,
+S00452,U00452,Básico,2025-03-06,,Activa,6.99,Sí,
+S00453,U00453,Premium,2023-10-22,,Activa,13.99,Sí,
+S00454,U00454,Estándar,2023-10-25,2025-08-01,Cancelada,9.99,No,Precio
+S00455,U00455,Estándar,2024-05-15,,Activa,9.99,Sí,
+S00456,U00456,Básico,2024-05-30,,Activa,6.99,Sí,
+S00457,U00457,Estándar,2025-07-29,2025-09-22,Cancelada,9.99,Sí,Poco uso
+S00458,U00458,Estándar,2023-03-21,,Activa,9.99,Sí,
+S00459,U00459,Estándar,2025-07-30,2025-10-10,Cancelada,9.99,No,Otro
+S00460,U00460,Estándar,2025-05-05,2025-08-14,Cancelada,9.99,No,Cambio a otra plataforma
+S00461,U00461,Estándar,2024-07-16,2025-05-28,Cancelada,9.99,Sí,Poco uso
+S00462,U00462,Estándar,2025-01-29,,Activa,9.99,Sí,
+S00463,U00463,Estándar,2024-05-23,,Activa,9.99,Sí,
+S00464,U00464,Premium,2024-01-28,,Activa,13.99,Sí,
+S00465,U00465,Estándar,2025-02-06,,Activa,9.99,Sí,
+S00466,U00466,Estándar,2023-11-01,,Activa,9.99,Sí,
+S00467,U00467,Premium,2025-05-23,,Activa,13.99,Sí,
+S00468,U00468,Estándar,2023-07-10,,Activa,9.99,Sí,
+S00469,U00469,Estándar,2024-06-18,,Activa,9.99,Sí,
+S00470,U00470,Estándar,2025-08-16,,Activa,9.99,Sí,
+S00471,U00471,Básico,2023-10-03,,Activa,6.99,Sí,
+S00472,U00472,Básico,2024-05-22,2025-08-10,Cancelada,6.99,No,Cambio a otra plataforma
+S00473,U00473,Estándar,2025-10-23,,Activa,9.99,Sí,
+S00474,U00474,Básico,2024-01-16,,Activa,6.99,Sí,
+S00475,U00475,Premium,2025-01-31,2025-06-14,Cancelada,13.99,No,Precio
+S00476,U00476,Estándar,2024-08-31,,Activa,9.99,Sí,
+S00477,U00477,Básico,2023-07-23,,Activa,6.99,Sí,
+S00478,U00478,Estándar,2024-12-14,2025-07-26,Cancelada,9.99,No,Cambio a otra plataforma
+S00479,U00479,Estándar,2023-08-02,2025-06-07,Cancelada,9.99,No,Poco uso
+S00480,U00480,Estándar,2024-07-14,2025-03-25,Cancelada,9.99,No,Poco uso
+S00481,U00481,Básico,2023-08-20,,Activa,6.99,Sí,
+S00482,U00482,Básico,2024-06-28,,Activa,6.99,Sí,
+S00483,U00483,Básico,2024-02-22,,Activa,6.99,Sí,
+S00484,U00484,Premium,2024-02-24,,Activa,13.99,Sí,
+S00485,U00485,Estándar,2025-07-07,,Activa,9.99,Sí,
+S00486,U00486,Estándar,2024-12-04,,Activa,9.99,Sí,
+S00487,U00487,Básico,2023-08-29,2025-09-28,Cancelada,6.99,No,Contenido insuficiente
+S00488,U00488,Estándar,2025-03-11,,Activa,9.99,Sí,
+S00489,U00489,Estándar,2023-05-12,,Activa,9.99,Sí,
+S00490,U00490,Premium,2024-06-05,,Activa,13.99,Sí,
+S00491,U00491,Básico,2023-03-04,2025-02-08,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00492,U00492,Básico,2024-04-11,,Activa,6.99,Sí,
+S00493,U00493,Básico,2024-06-02,,Activa,6.99,Sí,
+S00494,U00494,Premium,2024-08-02,2025-04-28,Cancelada,13.99,Sí,Contenido insuficiente
+S00495,U00495,Estándar,2023-10-24,,Activa,9.99,Sí,
+S00496,U00496,Premium,2023-05-08,,Activa,13.99,Sí,
+S00497,U00497,Estándar,2025-11-27,,Activa,9.99,Sí,
+S00498,U00498,Estándar,2025-08-27,,Activa,9.99,Sí,
+S00499,U00499,Estándar,2025-04-14,,Activa,9.99,Sí,
+S00500,U00500,Básico,2023-01-18,2025-08-13,Cancelada,6.99,No,Poco uso
+S00501,U00501,Básico,2023-02-12,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00502,U00502,Estándar,2025-09-01,,Activa,9.99,Sí,
+S00503,U00503,Estándar,2024-12-21,,Activa,9.99,Sí,
+S00504,U00504,Básico,2023-04-24,,Activa,6.99,Sí,
+S00505,U00505,Estándar,2023-02-07,,Activa,9.99,Sí,
+S00506,U00506,Estándar,2024-04-16,,Activa,9.99,Sí,
+S00507,U00507,Básico,2025-06-04,2025-07-30,Cancelada,6.99,No,Cambio a otra plataforma
+S00508,U00508,Estándar,2024-02-20,,Activa,9.99,Sí,
+S00509,U00509,Básico,2024-05-12,,Activa,6.99,Sí,
+S00510,U00510,Estándar,2023-09-27,2025-08-22,Cancelada,9.99,No,Cambio a otra plataforma
+S00511,U00511,Estándar,2023-12-15,,Activa,9.99,Sí,
+S00512,U00512,Básico,2025-09-19,2025-11-29,Cancelada,6.99,No,Problemas técnicos
+S00513,U00513,Premium,2024-02-15,,Activa,13.99,Sí,
+S00514,U00514,Premium,2023-05-27,,Activa,13.99,Sí,
+S00515,U00515,Básico,2024-08-16,,Activa,6.99,Sí,
+S00516,U00516,Premium,2023-02-16,,Activa,13.99,Sí,
+S00517,U00517,Premium,2025-08-05,,Activa,13.99,Sí,
+S00518,U00518,Básico,2025-06-21,,Activa,6.99,Sí,
+S00519,U00519,Estándar,2024-05-25,,Activa,9.99,Sí,
+S00520,U00520,Estándar,2025-06-16,,Activa,9.99,Sí,
+S00521,U00521,Premium,2023-02-17,,Activa,13.99,Sí,
+S00522,U00522,Estándar,2023-06-17,,Activa,9.99,Sí,
+S00523,U00523,Premium,2023-08-15,,Activa,13.99,Sí,
+S00524,U00524,Estándar,2023-05-22,,Activa,9.99,Sí,
+S00525,U00525,Básico,2025-04-10,2025-08-20,Cancelada,6.99,Sí,Contenido insuficiente
+S00526,U00526,Premium,2024-07-03,,Activa,13.99,Sí,
+S00527,U00527,Estándar,2024-11-27,,Activa,9.99,Sí,
+S00528,U00528,Básico,2023-09-17,2025-11-04,Cancelada,6.99,No,Precio
+S00529,U00529,Estándar,2024-03-20,,Activa,9.99,Sí,
+S00530,U00530,Básico,2024-01-11,,Activa,6.99,Sí,
+S00531,U00531,Básico,2023-04-14,,Activa,6.99,Sí,
+S00532,U00532,Premium,2024-03-07,,Activa,13.99,Sí,
+S00533,U00533,Estándar,2025-04-18,,Activa,9.99,Sí,
+S00534,U00534,Básico,2023-01-31,2025-06-09,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00535,U00535,Básico,2024-03-25,2025-12-20,Cancelada,6.99,No,Precio
+S00536,U00536,Estándar,2024-02-21,,Activa,9.99,Sí,
+S00537,U00537,Básico,2023-04-16,2025-03-08,Cancelada,6.99,No,Contenido insuficiente
+S00538,U00538,Estándar,2025-04-01,,Activa,9.99,Sí,
+S00539,U00539,Básico,2025-04-28,2025-10-03,Cancelada,6.99,No,Poco uso
+S00540,U00540,Estándar,2023-03-18,,Activa,9.99,Sí,
+S00541,U00541,Estándar,2023-07-29,,Activa,9.99,Sí,
+S00542,U00542,Estándar,2025-08-17,,Activa,9.99,Sí,
+S00543,U00543,Estándar,2024-02-24,,Activa,9.99,Sí,
+S00544,U00544,Estándar,2024-10-19,,Activa,9.99,Sí,
+S00545,U00545,Premium,2025-02-20,,Activa,13.99,Sí,
+S00546,U00546,Básico,2024-01-09,,Activa,6.99,Sí,
+S00547,U00547,Estándar,2023-03-07,,Activa,9.99,Sí,
+S00548,U00548,Básico,2024-03-19,,Activa,6.99,Sí,
+S00549,U00549,Estándar,2024-05-26,,Activa,9.99,Sí,
+S00550,U00550,Estándar,2023-09-05,,Activa,9.99,Sí,
+S00551,U00551,Estándar,2024-09-19,,Activa,9.99,Sí,
+S00552,U00552,Básico,2025-11-16,,Activa,6.99,Sí,
+S00553,U00553,Básico,2023-02-14,2025-03-01,Cancelada,6.99,No,Precio
+S00554,U00554,Básico,2023-03-12,,Activa,6.99,Sí,
+S00555,U00555,Básico,2023-10-24,2025-03-31,Cancelada,6.99,No,Contenido insuficiente
+S00556,U00556,Premium,2025-09-20,,Activa,13.99,Sí,
+S00557,U00557,Estándar,2025-10-14,,Activa,9.99,Sí,
+S00558,U00558,Básico,2024-12-16,,Activa,6.99,Sí,
+S00559,U00559,Básico,2023-04-12,,Activa,6.99,Sí,
+S00560,U00560,Estándar,2024-07-10,,Activa,9.99,Sí,
+S00561,U00561,Premium,2025-05-17,,Activa,13.99,Sí,
+S00562,U00562,Estándar,2024-03-05,,Activa,9.99,Sí,
+S00563,U00563,Básico,2023-06-05,2025-09-21,Cancelada,6.99,No,Poco uso
+S00564,U00564,Premium,2023-02-03,,Activa,13.99,Sí,
+S00565,U00565,Estándar,2024-11-27,,Activa,9.99,Sí,
+S00566,U00566,Premium,2023-06-20,,Activa,13.99,Sí,
+S00567,U00567,Estándar,2024-04-20,,Activa,9.99,Sí,
+S00568,U00568,Estándar,2023-05-14,2025-04-25,Cancelada,9.99,No,Precio
+S00569,U00569,Básico,2023-10-11,2025-12-20,Cancelada,6.99,No,Precio
+S00570,U00570,Estándar,2025-06-27,,Activa,9.99,Sí,
+S00571,U00571,Estándar,2023-02-07,,Activa,9.99,Sí,
+S00572,U00572,Estándar,2024-11-18,,Activa,9.99,Sí,
+S00573,U00573,Premium,2025-03-03,2025-09-24,Cancelada,13.99,No,Contenido insuficiente
+S00574,U00574,Básico,2025-10-17,,Activa,6.99,Sí,
+S00575,U00575,Premium,2024-08-18,,Activa,13.99,Sí,
+S00576,U00576,Básico,2024-07-01,,Activa,6.99,Sí,
+S00577,U00577,Premium,2024-12-06,,Activa,13.99,Sí,
+S00578,U00578,Premium,2025-07-19,,Activa,13.99,Sí,
+S00579,U00579,Básico,2024-05-12,2025-04-30,Cancelada,6.99,No,Contenido insuficiente
+S00580,U00580,Básico,2024-08-21,,Activa,6.99,Sí,
+S00581,U00581,Estándar,2025-02-16,2025-08-28,Cancelada,9.99,No,Problemas técnicos
+S00582,U00582,Básico,2024-02-17,,Activa,6.99,Sí,
+S00583,U00583,Estándar,2025-03-25,,Activa,9.99,Sí,
+S00584,U00584,Básico,2023-09-28,2025-04-16,Cancelada,6.99,Sí,Precio
+S00585,U00585,Estándar,2025-08-01,2025-09-26,Cancelada,9.99,Sí,Poco uso
+S00586,U00586,Premium,2025-04-27,,Activa,13.99,Sí,
+S00587,U00587,Estándar,2023-04-22,,Activa,9.99,Sí,
+S00588,U00588,Estándar,2025-11-11,,Activa,9.99,Sí,
+S00589,U00589,Básico,2024-12-29,,Activa,6.99,Sí,
+S00590,U00590,Básico,2025-08-23,,Activa,6.99,Sí,
+S00591,U00591,Básico,2024-10-10,,Activa,6.99,Sí,
+S00592,U00592,Estándar,2024-02-26,,Activa,9.99,Sí,
+S00593,U00593,Premium,2023-11-19,,Activa,13.99,Sí,
+S00594,U00594,Estándar,2023-04-13,,Activa,9.99,Sí,
+S00595,U00595,Premium,2024-06-21,,Activa,13.99,Sí,
+S00596,U00596,Estándar,2023-12-07,,Activa,9.99,Sí,
+S00597,U00597,Estándar,2025-09-14,,Activa,9.99,Sí,
+S00598,U00598,Premium,2023-06-17,,Activa,13.99,Sí,
+S00599,U00599,Básico,2024-06-09,,Activa,6.99,Sí,
+S00600,U00600,Básico,2024-06-24,,Activa,6.99,Sí,
+S00601,U00601,Básico,2023-07-05,,Activa,6.99,Sí,
+S00602,U00602,Básico,2025-09-08,2025-10-30,Cancelada,6.99,No,Contenido insuficiente
+S00603,U00603,Estándar,2023-05-01,,Activa,9.99,Sí,
+S00604,U00604,Estándar,2023-08-02,,Activa,9.99,Sí,
+S00605,U00605,Premium,2025-05-03,,Activa,13.99,Sí,
+S00606,U00606,Estándar,2025-06-14,,Activa,9.99,Sí,
+S00607,U00607,Estándar,2023-01-29,,Activa,9.99,Sí,
+S00608,U00608,Básico,2025-08-26,,Activa,6.99,Sí,
+S00609,U00609,Estándar,2025-05-02,,Activa,9.99,Sí,
+S00610,U00610,Premium,2024-08-20,,Activa,13.99,Sí,
+S00611,U00611,Básico,2024-04-11,,Activa,6.99,Sí,
+S00612,U00612,Estándar,2024-11-16,2025-05-26,Cancelada,9.99,Sí,Cambio a otra plataforma
+S00613,U00613,Premium,2023-08-26,,Activa,13.99,Sí,
+S00614,U00614,Estándar,2024-08-13,,Activa,9.99,Sí,
+S00615,U00615,Estándar,2025-05-14,,Activa,9.99,Sí,
+S00616,U00616,Básico,2024-06-23,,Activa,6.99,Sí,
+S00617,U00617,Estándar,2023-06-20,,Activa,9.99,Sí,
+S00618,U00618,Premium,2025-05-02,,Activa,13.99,Sí,
+S00619,U00619,Básico,2024-04-21,2025-05-31,Cancelada,6.99,No,Problemas técnicos
+S00620,U00620,Estándar,2023-02-20,,Activa,9.99,Sí,
+S00621,U00621,Básico,2025-05-14,2025-12-20,Cancelada,6.99,No,Precio
+S00622,U00622,Básico,2025-03-04,2025-09-17,Cancelada,6.99,No,Cambio a otra plataforma
+S00623,U00623,Estándar,2025-01-10,,Activa,9.99,Sí,
+S00624,U00624,Básico,2025-03-09,2025-06-28,Cancelada,6.99,No,Precio
+S00625,U00625,Básico,2025-11-09,,Activa,6.99,Sí,
+S00626,U00626,Premium,2025-07-22,,Activa,13.99,Sí,
+S00627,U00627,Premium,2023-02-21,2025-08-31,Cancelada,13.99,Sí,Cambio a otra plataforma
+S00628,U00628,Premium,2023-06-01,,Activa,13.99,Sí,
+S00629,U00629,Estándar,2024-05-19,,Activa,9.99,Sí,
+S00630,U00630,Básico,2023-11-10,2025-04-16,Cancelada,6.99,No,Poco uso
+S00631,U00631,Básico,2023-07-03,2025-06-15,Cancelada,6.99,No,Contenido insuficiente
+S00632,U00632,Estándar,2025-08-03,2025-11-08,Cancelada,9.99,Sí,Precio
+S00633,U00633,Premium,2023-08-23,,Activa,13.99,Sí,
+S00634,U00634,Premium,2025-10-17,,Activa,13.99,Sí,
+S00635,U00635,Básico,2023-04-11,,Activa,6.99,Sí,
+S00636,U00636,Premium,2024-06-09,,Activa,13.99,Sí,
+S00637,U00637,Estándar,2025-03-08,,Activa,9.99,Sí,
+S00638,U00638,Básico,2024-03-02,,Activa,6.99,Sí,
+S00639,U00639,Básico,2025-05-06,,Activa,6.99,Sí,
+S00640,U00640,Estándar,2025-04-17,,Activa,9.99,Sí,
+S00641,U00641,Estándar,2024-11-22,,Activa,9.99,Sí,
+S00642,U00642,Básico,2024-08-18,,Activa,6.99,Sí,
+S00643,U00643,Estándar,2023-04-20,,Activa,9.99,Sí,
+S00644,U00644,Premium,2025-08-28,,Activa,13.99,Sí,
+S00645,U00645,Premium,2023-09-23,,Activa,13.99,Sí,
+S00646,U00646,Estándar,2023-03-15,,Activa,9.99,Sí,
+S00647,U00647,Estándar,2025-11-04,,Activa,9.99,Sí,
+S00648,U00648,Estándar,2024-06-06,,Activa,9.99,Sí,
+S00649,U00649,Estándar,2024-12-15,,Activa,9.99,Sí,
+S00650,U00650,Premium,2023-04-24,,Activa,13.99,Sí,
+S00651,U00651,Estándar,2024-12-28,,Activa,9.99,Sí,
+S00652,U00652,Estándar,2024-05-02,2025-08-30,Cancelada,9.99,No,Poco uso
+S00653,U00653,Premium,2024-07-27,2025-10-07,Cancelada,13.99,No,Contenido insuficiente
+S00654,U00654,Estándar,2023-08-02,,Activa,9.99,Sí,
+S00655,U00655,Básico,2023-07-26,2025-09-02,Cancelada,6.99,No,Problemas técnicos
+S00656,U00656,Básico,2024-03-24,,Activa,6.99,Sí,
+S00657,U00657,Básico,2025-08-12,2025-12-02,Cancelada,6.99,No,Cambio a otra plataforma
+S00658,U00658,Básico,2023-05-08,,Activa,6.99,Sí,
+S00659,U00659,Básico,2023-03-19,,Activa,6.99,Sí,
+S00660,U00660,Básico,2025-09-25,,Activa,6.99,Sí,
+S00661,U00661,Premium,2023-08-15,,Activa,13.99,Sí,
+S00662,U00662,Básico,2025-03-02,2025-07-30,Cancelada,6.99,No,Contenido insuficiente
+S00663,U00663,Básico,2023-10-14,2025-05-04,Cancelada,6.99,Sí,Precio
+S00664,U00664,Premium,2024-10-31,,Activa,13.99,Sí,
+S00665,U00665,Básico,2024-03-29,2025-05-26,Cancelada,6.99,Sí,Otro
+S00666,U00666,Estándar,2024-04-11,2025-12-05,Cancelada,9.99,Sí,Problemas técnicos
+S00667,U00667,Estándar,2024-08-20,,Activa,9.99,Sí,
+S00668,U00668,Básico,2023-05-30,,Activa,6.99,Sí,
+S00669,U00669,Estándar,2025-08-21,,Activa,9.99,Sí,
+S00670,U00670,Estándar,2023-02-27,,Activa,9.99,Sí,
+S00671,U00671,Estándar,2025-05-11,,Activa,9.99,Sí,
+S00672,U00672,Premium,2025-09-17,,Activa,13.99,Sí,
+S00673,U00673,Básico,2024-03-08,,Activa,6.99,Sí,
+S00674,U00674,Estándar,2025-08-22,,Activa,9.99,Sí,
+S00675,U00675,Básico,2025-06-29,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00676,U00676,Estándar,2024-03-21,2025-03-17,Cancelada,9.99,Sí,Cambio a otra plataforma
+S00677,U00677,Estándar,2024-05-05,,Activa,9.99,Sí,
+S00678,U00678,Básico,2023-06-08,2025-05-24,Cancelada,6.99,Sí,Precio
+S00679,U00679,Básico,2024-05-07,,Activa,6.99,Sí,
+S00680,U00680,Básico,2023-09-29,,Activa,6.99,Sí,
+S00681,U00681,Básico,2024-06-12,2025-10-01,Cancelada,6.99,No,Precio
+S00682,U00682,Básico,2023-06-26,,Activa,6.99,Sí,
+S00683,U00683,Básico,2025-09-21,,Activa,6.99,Sí,
+S00684,U00684,Básico,2025-06-02,,Activa,6.99,Sí,
+S00685,U00685,Básico,2024-09-08,,Activa,6.99,Sí,
+S00686,U00686,Estándar,2024-02-09,,Activa,9.99,Sí,
+S00687,U00687,Básico,2024-05-03,,Activa,6.99,Sí,
+S00688,U00688,Estándar,2024-10-20,,Activa,9.99,Sí,
+S00689,U00689,Estándar,2024-04-03,,Activa,9.99,Sí,
+S00690,U00690,Premium,2023-07-23,,Activa,13.99,Sí,
+S00691,U00691,Básico,2025-11-19,,Activa,6.99,Sí,
+S00692,U00692,Estándar,2025-04-13,,Activa,9.99,Sí,
+S00693,U00693,Básico,2025-06-22,2025-11-05,Cancelada,6.99,No,Contenido insuficiente
+S00694,U00694,Estándar,2024-06-22,2025-03-06,Cancelada,9.99,No,Precio
+S00695,U00695,Estándar,2025-05-25,,Activa,9.99,Sí,
+S00696,U00696,Premium,2025-03-10,,Activa,13.99,Sí,
+S00697,U00697,Estándar,2024-04-14,,Activa,9.99,Sí,
+S00698,U00698,Premium,2025-08-05,,Activa,13.99,Sí,
+S00699,U00699,Estándar,2023-10-04,,Activa,9.99,Sí,
+S00700,U00700,Premium,2025-10-21,2025-12-08,Cancelada,13.99,No,Poco uso
+S00701,U00701,Estándar,2024-01-01,,Activa,9.99,Sí,
+S00702,U00702,Estándar,2023-08-01,2025-05-19,Cancelada,9.99,No,Precio
+S00703,U00703,Básico,2025-10-11,,Activa,6.99,Sí,
+S00704,U00704,Básico,2025-07-18,,Activa,6.99,Sí,
+S00705,U00705,Estándar,2023-07-08,,Activa,9.99,Sí,
+S00706,U00706,Básico,2024-03-25,,Activa,6.99,Sí,
+S00707,U00707,Básico,2025-07-07,2025-09-20,Cancelada,6.99,No,Precio
+S00708,U00708,Básico,2023-05-16,,Activa,6.99,Sí,
+S00709,U00709,Básico,2024-08-28,2025-08-24,Cancelada,6.99,No,Cambio a otra plataforma
+S00710,U00710,Estándar,2025-08-18,,Activa,9.99,Sí,
+S00711,U00711,Estándar,2025-06-13,,Activa,9.99,Sí,
+S00712,U00712,Básico,2025-04-03,,Activa,6.99,Sí,
+S00713,U00713,Básico,2023-10-24,2025-03-06,Cancelada,6.99,No,Contenido insuficiente
+S00714,U00714,Básico,2024-06-18,,Activa,6.99,Sí,
+S00715,U00715,Premium,2023-12-26,,Activa,13.99,Sí,
+S00716,U00716,Básico,2024-03-03,2025-10-01,Cancelada,6.99,No,Precio
+S00717,U00717,Estándar,2025-08-05,2025-10-25,Cancelada,9.99,No,Poco uso
+S00718,U00718,Premium,2024-05-05,,Activa,13.99,Sí,
+S00719,U00719,Estándar,2023-06-14,,Activa,9.99,Sí,
+S00720,U00720,Básico,2024-08-23,,Activa,6.99,Sí,
+S00721,U00721,Básico,2024-06-12,,Activa,6.99,Sí,
+S00722,U00722,Premium,2023-05-20,,Activa,13.99,Sí,
+S00723,U00723,Estándar,2024-11-06,,Activa,9.99,Sí,
+S00724,U00724,Básico,2024-04-03,2025-06-16,Cancelada,6.99,No,Poco uso
+S00725,U00725,Estándar,2023-06-10,,Activa,9.99,Sí,
+S00726,U00726,Estándar,2023-02-24,2025-08-06,Cancelada,9.99,No,Poco uso
+S00727,U00727,Estándar,2025-04-17,2025-08-12,Cancelada,9.99,Sí,Precio
+S00728,U00728,Estándar,2023-07-26,2025-10-21,Cancelada,9.99,No,Poco uso
+S00729,U00729,Básico,2024-08-23,2025-05-24,Cancelada,6.99,No,Contenido insuficiente
+S00730,U00730,Básico,2023-11-30,,Activa,6.99,Sí,
+S00731,U00731,Estándar,2024-05-02,,Activa,9.99,Sí,
+S00732,U00732,Estándar,2024-12-15,,Activa,9.99,Sí,
+S00733,U00733,Estándar,2023-10-29,,Activa,9.99,Sí,
+S00734,U00734,Estándar,2023-11-24,,Activa,9.99,Sí,
+S00735,U00735,Básico,2025-03-05,2025-12-20,Cancelada,6.99,No,Poco uso
+S00736,U00736,Básico,2024-07-12,,Activa,6.99,Sí,
+S00737,U00737,Básico,2025-02-10,,Activa,6.99,Sí,
+S00738,U00738,Estándar,2025-03-07,,Activa,9.99,Sí,
+S00739,U00739,Estándar,2025-06-11,,Activa,9.99,Sí,
+S00740,U00740,Estándar,2023-11-02,,Activa,9.99,Sí,
+S00741,U00741,Premium,2024-07-20,,Activa,13.99,Sí,
+S00742,U00742,Básico,2024-11-19,2025-06-29,Cancelada,6.99,Sí,Contenido insuficiente
+S00743,U00743,Básico,2025-04-04,,Activa,6.99,Sí,
+S00744,U00744,Básico,2023-10-29,,Activa,6.99,Sí,
+S00745,U00745,Estándar,2023-07-15,2025-02-02,Cancelada,9.99,No,Problemas técnicos
+S00746,U00746,Básico,2025-04-28,2025-12-13,Cancelada,6.99,No,Precio
+S00747,U00747,Estándar,2024-09-24,2025-10-26,Cancelada,9.99,No,Poco uso
+S00748,U00748,Básico,2025-06-28,,Activa,6.99,Sí,
+S00749,U00749,Estándar,2023-06-21,,Activa,9.99,Sí,
+S00750,U00750,Básico,2023-07-11,,Activa,6.99,Sí,
+S00751,U00751,Básico,2025-07-24,2025-11-11,Cancelada,6.99,No,Cambio a otra plataforma
+S00752,U00752,Estándar,2025-01-20,2025-11-13,Cancelada,9.99,No,Cambio a otra plataforma
+S00753,U00753,Estándar,2025-10-03,,Activa,9.99,Sí,
+S00754,U00754,Básico,2025-02-18,,Activa,6.99,Sí,
+S00755,U00755,Estándar,2024-10-19,,Activa,9.99,Sí,
+S00756,U00756,Estándar,2024-05-30,,Activa,9.99,Sí,
+S00757,U00757,Estándar,2025-11-02,,Activa,9.99,Sí,
+S00758,U00758,Básico,2023-05-17,,Activa,6.99,Sí,
+S00759,U00759,Básico,2025-06-29,,Activa,6.99,Sí,
+S00760,U00760,Básico,2025-09-03,,Activa,6.99,Sí,
+S00761,U00761,Estándar,2023-02-05,,Activa,9.99,Sí,
+S00762,U00762,Básico,2025-03-23,,Activa,6.99,Sí,
+S00763,U00763,Básico,2024-01-05,,Activa,6.99,Sí,
+S00764,U00764,Estándar,2023-04-15,2025-08-08,Cancelada,9.99,No,Poco uso
+S00765,U00765,Estándar,2025-04-11,,Activa,9.99,Sí,
+S00766,U00766,Básico,2025-10-04,2025-12-08,Cancelada,6.99,No,Precio
+S00767,U00767,Premium,2023-03-06,,Activa,13.99,Sí,
+S00768,U00768,Estándar,2023-09-08,,Activa,9.99,Sí,
+S00769,U00769,Básico,2023-02-03,,Activa,6.99,Sí,
+S00770,U00770,Premium,2023-10-29,2025-09-23,Cancelada,13.99,No,Cambio a otra plataforma
+S00771,U00771,Premium,2023-12-06,,Activa,13.99,Sí,
+S00772,U00772,Básico,2024-11-14,2025-08-03,Cancelada,6.99,No,Poco uso
+S00773,U00773,Básico,2024-08-18,2025-01-23,Cancelada,6.99,Sí,Contenido insuficiente
+S00774,U00774,Básico,2024-01-22,,Activa,6.99,Sí,
+S00775,U00775,Premium,2025-03-04,,Activa,13.99,Sí,
+S00776,U00776,Premium,2025-01-27,,Activa,13.99,Sí,
+S00777,U00777,Estándar,2024-03-26,,Activa,9.99,Sí,
+S00778,U00778,Premium,2025-04-20,,Activa,13.99,Sí,
+S00779,U00779,Estándar,2025-10-08,,Activa,9.99,Sí,
+S00780,U00780,Estándar,2024-07-26,,Activa,9.99,Sí,
+S00781,U00781,Básico,2023-09-16,2025-04-26,Cancelada,6.99,No,Precio
+S00782,U00782,Estándar,2024-11-21,,Activa,9.99,Sí,
+S00783,U00783,Básico,2024-06-10,2025-05-01,Cancelada,6.99,No,Cambio a otra plataforma
+S00784,U00784,Básico,2024-11-09,,Activa,6.99,Sí,
+S00785,U00785,Estándar,2023-11-15,,Activa,9.99,Sí,
+S00786,U00786,Estándar,2024-02-12,,Activa,9.99,Sí,
+S00787,U00787,Básico,2025-03-22,2025-08-23,Cancelada,6.99,Sí,Poco uso
+S00788,U00788,Básico,2025-05-11,2025-09-26,Cancelada,6.99,No,Otro
+S00789,U00789,Estándar,2023-11-20,2025-04-30,Cancelada,9.99,No,Precio
+S00790,U00790,Estándar,2025-06-22,,Activa,9.99,Sí,
+S00791,U00791,Estándar,2025-02-21,2025-10-17,Cancelada,9.99,Sí,Contenido insuficiente
+S00792,U00792,Básico,2024-11-22,,Activa,6.99,Sí,
+S00793,U00793,Básico,2025-11-29,,Activa,6.99,Sí,
+S00794,U00794,Estándar,2025-08-04,2025-10-28,Cancelada,9.99,No,Poco uso
+S00795,U00795,Estándar,2023-05-06,2025-03-07,Cancelada,9.99,No,Problemas técnicos
+S00796,U00796,Estándar,2025-07-30,,Activa,9.99,Sí,
+S00797,U00797,Básico,2023-06-23,2025-02-01,Cancelada,6.99,Sí,Poco uso
+S00798,U00798,Estándar,2025-06-04,,Activa,9.99,Sí,
+S00799,U00799,Básico,2024-05-27,,Activa,6.99,Sí,
+S00800,U00800,Estándar,2025-01-06,,Activa,9.99,Sí,
+S00801,U00801,Básico,2023-04-18,,Activa,6.99,Sí,
+S00802,U00802,Estándar,2025-07-31,,Activa,9.99,Sí,
+S00803,U00803,Estándar,2024-05-04,2025-12-07,Cancelada,9.99,Sí,Poco uso
+S00804,U00804,Premium,2024-04-18,,Activa,13.99,Sí,
+S00805,U00805,Estándar,2023-07-01,,Activa,9.99,Sí,
+S00806,U00806,Estándar,2024-12-20,,Activa,9.99,Sí,
+S00807,U00807,Básico,2023-03-02,,Activa,6.99,Sí,
+S00808,U00808,Básico,2024-12-13,2025-11-24,Cancelada,6.99,No,Contenido insuficiente
+S00809,U00809,Estándar,2023-02-06,,Activa,9.99,Sí,
+S00810,U00810,Estándar,2025-05-13,2025-07-12,Cancelada,9.99,No,Otro
+S00811,U00811,Estándar,2025-11-12,,Activa,9.99,Sí,
+S00812,U00812,Básico,2025-03-31,,Activa,6.99,Sí,
+S00813,U00813,Estándar,2023-02-28,2025-08-03,Cancelada,9.99,No,Cambio a otra plataforma
+S00814,U00814,Básico,2023-01-06,,Activa,6.99,Sí,
+S00815,U00815,Básico,2024-11-29,,Activa,6.99,Sí,
+S00816,U00816,Premium,2023-07-07,,Activa,13.99,Sí,
+S00817,U00817,Premium,2024-11-04,,Activa,13.99,Sí,
+S00818,U00818,Premium,2025-02-14,,Activa,13.99,Sí,
+S00819,U00819,Premium,2024-05-26,,Activa,13.99,Sí,
+S00820,U00820,Premium,2024-01-05,,Activa,13.99,Sí,
+S00821,U00821,Básico,2023-11-18,,Activa,6.99,Sí,
+S00822,U00822,Estándar,2025-02-05,,Activa,9.99,Sí,
+S00823,U00823,Básico,2023-04-08,2025-07-22,Cancelada,6.99,No,Poco uso
+S00824,U00824,Básico,2023-09-08,2025-01-27,Cancelada,6.99,No,Otro
+S00825,U00825,Básico,2024-11-25,,Activa,6.99,Sí,
+S00826,U00826,Estándar,2025-08-06,,Activa,9.99,Sí,
+S00827,U00827,Estándar,2024-04-28,,Activa,9.99,Sí,
+S00828,U00828,Premium,2024-02-06,2025-09-01,Cancelada,13.99,No,Poco uso
+S00829,U00829,Básico,2024-07-04,2025-06-29,Cancelada,6.99,Sí,Poco uso
+S00830,U00830,Básico,2025-06-09,2025-11-18,Cancelada,6.99,No,Problemas técnicos
+S00831,U00831,Premium,2024-10-30,,Activa,13.99,Sí,
+S00832,U00832,Premium,2025-01-15,,Activa,13.99,Sí,
+S00833,U00833,Estándar,2025-01-24,2025-06-26,Cancelada,9.99,No,Poco uso
+S00834,U00834,Estándar,2025-02-18,,Activa,9.99,Sí,
+S00835,U00835,Estándar,2025-09-29,,Activa,9.99,Sí,
+S00836,U00836,Estándar,2024-03-27,,Activa,9.99,Sí,
+S00837,U00837,Premium,2023-08-03,,Activa,13.99,Sí,
+S00838,U00838,Estándar,2023-06-14,2025-10-02,Cancelada,9.99,No,Poco uso
+S00839,U00839,Estándar,2024-03-15,,Activa,9.99,Sí,
+S00840,U00840,Básico,2025-09-21,,Activa,6.99,Sí,
+S00841,U00841,Estándar,2024-08-04,2025-01-23,Cancelada,9.99,No,Cambio a otra plataforma
+S00842,U00842,Básico,2024-11-28,,Activa,6.99,Sí,
+S00843,U00843,Estándar,2023-03-09,,Activa,9.99,Sí,
+S00844,U00844,Premium,2023-11-14,,Activa,13.99,Sí,
+S00845,U00845,Estándar,2024-01-25,,Activa,9.99,Sí,
+S00846,U00846,Básico,2024-03-22,2025-09-07,Cancelada,6.99,Sí,Problemas técnicos
+S00847,U00847,Estándar,2025-03-25,,Activa,9.99,Sí,
+S00848,U00848,Básico,2025-11-09,2025-12-20,Cancelada,6.99,No,Poco uso
+S00849,U00849,Premium,2025-05-31,2025-11-11,Cancelada,13.99,No,Precio
+S00850,U00850,Estándar,2023-12-19,,Activa,9.99,Sí,
+S00851,U00851,Básico,2023-04-11,2025-12-20,Cancelada,6.99,No,Poco uso
+S00852,U00852,Estándar,2024-04-26,,Activa,9.99,Sí,
+S00853,U00853,Básico,2024-02-17,,Activa,6.99,Sí,
+S00854,U00854,Básico,2023-08-05,2025-08-29,Cancelada,6.99,Sí,Contenido insuficiente
+S00855,U00855,Estándar,2025-10-08,,Activa,9.99,Sí,
+S00856,U00856,Básico,2023-07-30,2025-10-02,Cancelada,6.99,No,Poco uso
+S00857,U00857,Básico,2023-10-09,2025-12-15,Cancelada,6.99,No,Otro
+S00858,U00858,Básico,2023-10-31,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00859,U00859,Básico,2025-05-28,2025-08-15,Cancelada,6.99,No,Poco uso
+S00860,U00860,Premium,2025-11-23,,Activa,13.99,Sí,
+S00861,U00861,Premium,2024-01-18,,Activa,13.99,Sí,
+S00862,U00862,Premium,2024-12-08,,Activa,13.99,Sí,
+S00863,U00863,Básico,2023-06-14,2025-03-02,Cancelada,6.99,Sí,Poco uso
+S00864,U00864,Premium,2025-06-28,,Activa,13.99,Sí,
+S00865,U00865,Básico,2023-03-28,2025-08-06,Cancelada,6.99,No,Cambio a otra plataforma
+S00866,U00866,Básico,2024-03-23,,Activa,6.99,Sí,
+S00867,U00867,Premium,2023-10-02,,Activa,13.99,Sí,
+S00868,U00868,Estándar,2025-04-24,,Activa,9.99,Sí,
+S00869,U00869,Básico,2025-09-05,,Activa,6.99,Sí,
+S00870,U00870,Premium,2025-05-02,,Activa,13.99,Sí,
+S00871,U00871,Premium,2023-09-05,,Activa,13.99,Sí,
+S00872,U00872,Estándar,2024-11-10,,Activa,9.99,Sí,
+S00873,U00873,Premium,2025-11-28,,Activa,13.99,Sí,
+S00874,U00874,Premium,2025-05-19,,Activa,13.99,Sí,
+S00875,U00875,Básico,2023-07-01,,Activa,6.99,Sí,
+S00876,U00876,Básico,2023-01-22,,Activa,6.99,Sí,
+S00877,U00877,Básico,2025-03-29,2025-05-25,Cancelada,6.99,No,Poco uso
+S00878,U00878,Básico,2023-03-25,,Activa,6.99,Sí,
+S00879,U00879,Estándar,2024-10-24,2025-02-17,Cancelada,9.99,No,Problemas técnicos
+S00880,U00880,Premium,2024-12-03,,Activa,13.99,Sí,
+S00881,U00881,Estándar,2024-10-31,2025-09-22,Cancelada,9.99,Sí,Precio
+S00882,U00882,Premium,2023-11-04,,Activa,13.99,Sí,
+S00883,U00883,Estándar,2024-10-28,,Activa,9.99,Sí,
+S00884,U00884,Estándar,2023-04-12,,Activa,9.99,Sí,
+S00885,U00885,Premium,2023-05-12,,Activa,13.99,Sí,
+S00886,U00886,Estándar,2024-08-06,,Activa,9.99,Sí,
+S00887,U00887,Estándar,2023-03-28,,Activa,9.99,Sí,
+S00888,U00888,Básico,2025-08-08,2025-10-24,Cancelada,6.99,Sí,Contenido insuficiente
+S00889,U00889,Estándar,2023-01-09,,Activa,9.99,Sí,
+S00890,U00890,Premium,2023-03-02,,Activa,13.99,Sí,
+S00891,U00891,Estándar,2024-09-13,2025-05-03,Cancelada,9.99,Sí,Problemas técnicos
+S00892,U00892,Básico,2023-04-03,,Activa,6.99,Sí,
+S00893,U00893,Básico,2025-11-09,,Activa,6.99,Sí,
+S00894,U00894,Estándar,2023-03-19,,Activa,9.99,Sí,
+S00895,U00895,Básico,2024-04-16,,Activa,6.99,Sí,
+S00896,U00896,Estándar,2023-01-19,2025-02-26,Cancelada,9.99,Sí,Cambio a otra plataforma
+S00897,U00897,Estándar,2023-02-18,,Activa,9.99,Sí,
+S00898,U00898,Premium,2023-02-23,,Activa,13.99,Sí,
+S00899,U00899,Estándar,2024-01-28,,Activa,9.99,Sí,
+S00900,U00900,Estándar,2023-12-07,2025-02-18,Cancelada,9.99,No,Precio
+S00901,U00901,Premium,2024-08-19,,Activa,13.99,Sí,
+S00902,U00902,Premium,2024-05-16,,Activa,13.99,Sí,
+S00903,U00903,Básico,2025-01-10,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00904,U00904,Básico,2023-09-12,,Activa,6.99,Sí,
+S00905,U00905,Premium,2024-05-18,,Activa,13.99,Sí,
+S00906,U00906,Básico,2024-05-24,,Activa,6.99,Sí,
+S00907,U00907,Estándar,2025-03-05,,Activa,9.99,Sí,
+S00908,U00908,Estándar,2025-01-06,,Activa,9.99,Sí,
+S00909,U00909,Estándar,2025-09-15,2025-11-03,Cancelada,9.99,No,Contenido insuficiente
+S00910,U00910,Premium,2024-06-16,,Activa,13.99,Sí,
+S00911,U00911,Básico,2025-03-10,2025-09-11,Cancelada,6.99,Sí,Precio
+S00912,U00912,Estándar,2023-02-11,,Activa,9.99,Sí,
+S00913,U00913,Premium,2025-02-25,,Activa,13.99,Sí,
+S00914,U00914,Premium,2024-03-08,,Activa,13.99,Sí,
+S00915,U00915,Básico,2024-06-25,2025-07-23,Cancelada,6.99,No,Contenido insuficiente
+S00916,U00916,Estándar,2024-07-07,,Activa,9.99,Sí,
+S00917,U00917,Estándar,2025-01-29,,Activa,9.99,Sí,
+S00918,U00918,Básico,2023-04-10,2025-07-18,Cancelada,6.99,No,Contenido insuficiente
+S00919,U00919,Estándar,2025-06-09,,Activa,9.99,Sí,
+S00920,U00920,Estándar,2025-08-31,,Activa,9.99,Sí,
+S00921,U00921,Básico,2024-12-03,2025-10-04,Cancelada,6.99,No,Contenido insuficiente
+S00922,U00922,Estándar,2025-11-11,,Activa,9.99,Sí,
+S00923,U00923,Estándar,2024-05-16,,Activa,9.99,Sí,
+S00924,U00924,Premium,2025-08-10,,Activa,13.99,Sí,
+S00925,U00925,Estándar,2023-02-28,2025-11-27,Cancelada,9.99,No,Poco uso
+S00926,U00926,Premium,2024-04-02,,Activa,13.99,Sí,
+S00927,U00927,Básico,2024-05-04,2025-12-14,Cancelada,6.99,No,Poco uso
+S00928,U00928,Premium,2025-06-02,,Activa,13.99,Sí,
+S00929,U00929,Estándar,2025-07-08,2025-12-11,Cancelada,9.99,Sí,Precio
+S00930,U00930,Premium,2023-09-06,,Activa,13.99,Sí,
+S00931,U00931,Estándar,2024-05-31,,Activa,9.99,Sí,
+S00932,U00932,Premium,2023-07-01,,Activa,13.99,Sí,
+S00933,U00933,Estándar,2023-03-28,,Activa,9.99,Sí,
+S00934,U00934,Estándar,2025-11-20,,Activa,9.99,Sí,
+S00935,U00935,Premium,2023-06-18,,Activa,13.99,Sí,
+S00936,U00936,Estándar,2023-04-19,,Activa,9.99,Sí,
+S00937,U00937,Básico,2025-08-10,,Activa,6.99,Sí,
+S00938,U00938,Estándar,2023-01-21,,Activa,9.99,Sí,
+S00939,U00939,Estándar,2023-01-17,,Activa,9.99,Sí,
+S00940,U00940,Premium,2023-06-03,,Activa,13.99,Sí,
+S00941,U00941,Estándar,2024-11-29,,Activa,9.99,Sí,
+S00942,U00942,Básico,2023-09-21,,Activa,6.99,Sí,
+S00943,U00943,Básico,2025-06-29,2025-08-23,Cancelada,6.99,No,Poco uso
+S00944,U00944,Básico,2024-03-10,2025-07-13,Cancelada,6.99,Sí,Precio
+S00945,U00945,Básico,2025-06-24,,Activa,6.99,Sí,
+S00946,U00946,Estándar,2024-07-18,,Activa,9.99,Sí,
+S00947,U00947,Estándar,2023-12-04,2025-05-19,Cancelada,9.99,Sí,Problemas técnicos
+S00948,U00948,Estándar,2023-10-10,,Activa,9.99,Sí,
+S00949,U00949,Básico,2025-11-06,,Activa,6.99,Sí,
+S00950,U00950,Básico,2024-08-08,2025-01-20,Cancelada,6.99,Sí,Cambio a otra plataforma
+S00951,U00951,Estándar,2025-03-04,2025-07-09,Cancelada,9.99,No,Precio
+S00952,U00952,Estándar,2025-04-17,2025-11-29,Cancelada,9.99,No,Contenido insuficiente
+S00953,U00953,Estándar,2024-05-25,,Activa,9.99,Sí,
+S00954,U00954,Básico,2023-02-18,2025-08-26,Cancelada,6.99,No,Precio
+S00955,U00955,Estándar,2024-10-05,2025-04-22,Cancelada,9.99,No,Contenido insuficiente
+S00956,U00956,Estándar,2024-08-23,,Activa,9.99,Sí,
+S00957,U00957,Estándar,2025-01-11,2025-10-06,Cancelada,9.99,No,Problemas técnicos
+S00958,U00958,Estándar,2025-11-19,,Activa,9.99,Sí,
+S00959,U00959,Básico,2024-05-16,,Activa,6.99,Sí,
+S00960,U00960,Básico,2025-04-27,,Activa,6.99,Sí,
+S00961,U00961,Básico,2024-01-18,,Activa,6.99,Sí,
+S00962,U00962,Estándar,2024-02-11,,Activa,9.99,Sí,
+S00963,U00963,Básico,2024-12-12,,Activa,6.99,Sí,
+S00964,U00964,Básico,2024-02-23,,Activa,6.99,Sí,
+S00965,U00965,Estándar,2024-05-11,,Activa,9.99,Sí,
+S00966,U00966,Estándar,2024-11-07,,Activa,9.99,Sí,
+S00967,U00967,Básico,2025-03-15,,Activa,6.99,Sí,
+S00968,U00968,Estándar,2025-05-21,,Activa,9.99,Sí,
+S00969,U00969,Básico,2024-06-08,2025-06-19,Cancelada,6.99,No,Otro
+S00970,U00970,Estándar,2025-06-04,,Activa,9.99,Sí,
+S00971,U00971,Premium,2024-10-18,,Activa,13.99,Sí,
+S00972,U00972,Básico,2023-05-24,,Activa,6.99,Sí,
+S00973,U00973,Premium,2023-03-18,,Activa,13.99,Sí,
+S00974,U00974,Premium,2023-09-20,,Activa,13.99,Sí,
+S00975,U00975,Estándar,2025-03-18,2025-11-06,Cancelada,9.99,No,Cambio a otra plataforma
+S00976,U00976,Estándar,2024-01-13,,Activa,9.99,Sí,
+S00977,U00977,Estándar,2023-10-10,2025-03-23,Cancelada,9.99,No,Cambio a otra plataforma
+S00978,U00978,Premium,2023-09-18,,Activa,13.99,Sí,
+S00979,U00979,Estándar,2025-11-02,,Activa,9.99,Sí,
+S00980,U00980,Básico,2023-02-23,,Activa,6.99,Sí,
+S00981,U00981,Básico,2025-05-30,,Activa,6.99,Sí,
+S00982,U00982,Premium,2025-09-17,2025-11-04,Cancelada,13.99,No,Problemas técnicos
+S00983,U00983,Estándar,2024-02-26,,Activa,9.99,Sí,
+S00984,U00984,Premium,2024-01-18,,Activa,13.99,Sí,
+S00985,U00985,Premium,2024-05-13,,Activa,13.99,Sí,
+S00986,U00986,Estándar,2024-12-22,,Activa,9.99,Sí,
+S00987,U00987,Básico,2023-07-07,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S00988,U00988,Estándar,2024-10-13,,Activa,9.99,Sí,
+S00989,U00989,Estándar,2025-05-06,,Activa,9.99,Sí,
+S00990,U00990,Básico,2025-08-13,,Activa,6.99,Sí,
+S00991,U00991,Premium,2025-04-21,,Activa,13.99,Sí,
+S00992,U00992,Básico,2023-03-18,,Activa,6.99,Sí,
+S00993,U00993,Estándar,2024-10-29,2025-07-14,Cancelada,9.99,No,Poco uso
+S00994,U00994,Básico,2024-04-08,,Activa,6.99,Sí,
+S00995,U00995,Básico,2024-10-11,,Activa,6.99,Sí,
+S00996,U00996,Premium,2024-06-12,,Activa,13.99,Sí,
+S00997,U00997,Básico,2025-09-24,2025-12-20,Cancelada,6.99,No,Precio
+S00998,U00998,Estándar,2023-05-10,,Activa,9.99,Sí,
+S00999,U00999,Básico,2023-11-22,2025-05-26,Cancelada,6.99,No,Poco uso
+S01000,U01000,Básico,2024-12-26,2025-12-10,Cancelada,6.99,No,Precio
+S01001,U01001,Premium,2025-07-20,,Activa,13.99,Sí,
+S01002,U01002,Premium,2025-05-01,2025-09-10,Cancelada,13.99,Sí,Poco uso
+S01003,U01003,Estándar,2023-06-15,,Activa,9.99,Sí,
+S01004,U01004,Básico,2023-11-02,2025-04-12,Cancelada,6.99,No,Cambio a otra plataforma
+S01005,U01005,Premium,2023-08-13,,Activa,13.99,Sí,
+S01006,U01006,Estándar,2023-05-17,,Activa,9.99,Sí,
+S01007,U01007,Estándar,2024-09-08,,Activa,9.99,Sí,
+S01008,U01008,Estándar,2024-11-14,,Activa,9.99,Sí,
+S01009,U01009,Básico,2023-03-11,2025-09-02,Cancelada,6.99,No,Problemas técnicos
+S01010,U01010,Básico,2024-07-17,2025-12-20,Cancelada,6.99,No,Poco uso
+S01011,U01011,Estándar,2024-07-07,2025-03-24,Cancelada,9.99,No,Precio
+S01012,U01012,Premium,2024-08-15,,Activa,13.99,Sí,
+S01013,U01013,Básico,2025-02-08,,Activa,6.99,Sí,
+S01014,U01014,Estándar,2023-07-15,2025-09-02,Cancelada,9.99,Sí,Problemas técnicos
+S01015,U01015,Estándar,2024-03-19,,Activa,9.99,Sí,
+S01016,U01016,Estándar,2025-06-08,,Activa,9.99,Sí,
+S01017,U01017,Básico,2024-04-21,,Activa,6.99,Sí,
+S01018,U01018,Premium,2025-06-22,,Activa,13.99,Sí,
+S01019,U01019,Básico,2023-06-09,,Activa,6.99,Sí,
+S01020,U01020,Básico,2023-02-10,2025-10-16,Cancelada,6.99,No,Precio
+S01021,U01021,Básico,2024-05-16,,Activa,6.99,Sí,
+S01022,U01022,Premium,2023-05-27,,Activa,13.99,Sí,
+S01023,U01023,Estándar,2025-11-01,,Activa,9.99,Sí,
+S01024,U01024,Estándar,2024-01-06,2025-05-08,Cancelada,9.99,Sí,Contenido insuficiente
+S01025,U01025,Premium,2024-05-26,,Activa,13.99,Sí,
+S01026,U01026,Básico,2024-12-03,2025-03-26,Cancelada,6.99,No,Poco uso
+S01027,U01027,Estándar,2025-06-02,,Activa,9.99,Sí,
+S01028,U01028,Básico,2024-07-02,,Activa,6.99,Sí,
+S01029,U01029,Estándar,2024-02-19,,Activa,9.99,Sí,
+S01030,U01030,Estándar,2024-02-16,2025-05-19,Cancelada,9.99,No,Cambio a otra plataforma
+S01031,U01031,Estándar,2024-11-23,,Activa,9.99,Sí,
+S01032,U01032,Básico,2025-05-27,,Activa,6.99,Sí,
+S01033,U01033,Estándar,2025-08-15,2025-09-30,Cancelada,9.99,Sí,Contenido insuficiente
+S01034,U01034,Básico,2025-02-09,2025-10-25,Cancelada,6.99,No,Poco uso
+S01035,U01035,Estándar,2025-07-03,,Activa,9.99,Sí,
+S01036,U01036,Premium,2025-09-27,,Activa,13.99,Sí,
+S01037,U01037,Básico,2025-08-10,,Activa,6.99,Sí,
+S01038,U01038,Básico,2023-03-13,,Activa,6.99,Sí,
+S01039,U01039,Estándar,2023-08-05,,Activa,9.99,Sí,
+S01040,U01040,Premium,2023-08-12,,Activa,13.99,Sí,
+S01041,U01041,Estándar,2023-01-20,,Activa,9.99,Sí,
+S01042,U01042,Básico,2024-03-25,,Activa,6.99,Sí,
+S01043,U01043,Básico,2024-01-07,,Activa,6.99,Sí,
+S01044,U01044,Básico,2024-10-31,2025-07-11,Cancelada,6.99,No,Poco uso
+S01045,U01045,Estándar,2024-01-01,,Activa,9.99,Sí,
+S01046,U01046,Premium,2025-11-20,,Activa,13.99,Sí,
+S01047,U01047,Premium,2024-08-22,,Activa,13.99,Sí,
+S01048,U01048,Estándar,2023-07-09,,Activa,9.99,Sí,
+S01049,U01049,Premium,2024-01-23,,Activa,13.99,Sí,
+S01050,U01050,Básico,2024-01-19,,Activa,6.99,Sí,
+S01051,U01051,Premium,2025-10-17,,Activa,13.99,Sí,
+S01052,U01052,Básico,2023-09-20,2025-06-13,Cancelada,6.99,No,Precio
+S01053,U01053,Estándar,2025-09-08,,Activa,9.99,Sí,
+S01054,U01054,Premium,2025-07-10,,Activa,13.99,Sí,
+S01055,U01055,Estándar,2025-07-31,2025-12-13,Cancelada,9.99,No,Precio
+S01056,U01056,Premium,2024-03-20,,Activa,13.99,Sí,
+S01057,U01057,Básico,2024-09-08,,Activa,6.99,Sí,
+S01058,U01058,Básico,2023-06-03,2025-04-05,Cancelada,6.99,No,Poco uso
+S01059,U01059,Básico,2023-08-27,,Activa,6.99,Sí,
+S01060,U01060,Premium,2023-02-25,,Activa,13.99,Sí,
+S01061,U01061,Premium,2024-10-13,,Activa,13.99,Sí,
+S01062,U01062,Básico,2023-01-30,2025-11-03,Cancelada,6.99,Sí,Cambio a otra plataforma
+S01063,U01063,Estándar,2025-07-07,,Activa,9.99,Sí,
+S01064,U01064,Premium,2024-01-02,,Activa,13.99,Sí,
+S01065,U01065,Básico,2024-12-01,,Activa,6.99,Sí,
+S01066,U01066,Estándar,2025-01-16,2025-07-13,Cancelada,9.99,Sí,Poco uso
+S01067,U01067,Básico,2024-03-31,,Activa,6.99,Sí,
+S01068,U01068,Básico,2023-04-27,2025-08-25,Cancelada,6.99,No,Precio
+S01069,U01069,Premium,2025-04-25,,Activa,13.99,Sí,
+S01070,U01070,Premium,2025-11-08,,Activa,13.99,Sí,
+S01071,U01071,Básico,2025-07-14,,Activa,6.99,Sí,
+S01072,U01072,Básico,2024-01-27,,Activa,6.99,Sí,
+S01073,U01073,Premium,2024-11-26,,Activa,13.99,Sí,
+S01074,U01074,Básico,2025-01-30,2025-08-18,Cancelada,6.99,No,Poco uso
+S01075,U01075,Básico,2024-11-03,2025-01-26,Cancelada,6.99,No,Problemas técnicos
+S01076,U01076,Básico,2024-07-20,,Activa,6.99,Sí,
+S01077,U01077,Premium,2023-10-22,,Activa,13.99,Sí,
+S01078,U01078,Básico,2024-08-26,2025-10-25,Cancelada,6.99,No,Poco uso
+S01079,U01079,Estándar,2025-03-22,,Activa,9.99,Sí,
+S01080,U01080,Estándar,2023-08-20,,Activa,9.99,Sí,
+S01081,U01081,Estándar,2025-01-27,,Activa,9.99,Sí,
+S01082,U01082,Estándar,2023-02-23,,Activa,9.99,Sí,
+S01083,U01083,Básico,2025-09-02,,Activa,6.99,Sí,
+S01084,U01084,Premium,2025-09-06,,Activa,13.99,Sí,
+S01085,U01085,Estándar,2025-05-31,,Activa,9.99,Sí,
+S01086,U01086,Estándar,2023-02-18,,Activa,9.99,Sí,
+S01087,U01087,Estándar,2024-02-29,,Activa,9.99,Sí,
+S01088,U01088,Estándar,2025-10-19,,Activa,9.99,Sí,
+S01089,U01089,Estándar,2024-03-25,,Activa,9.99,Sí,
+S01090,U01090,Premium,2023-05-07,2025-02-26,Cancelada,13.99,No,Poco uso
+S01091,U01091,Estándar,2023-08-27,,Activa,9.99,Sí,
+S01092,U01092,Básico,2023-08-08,2025-05-16,Cancelada,6.99,No,Cambio a otra plataforma
+S01093,U01093,Estándar,2023-10-18,,Activa,9.99,Sí,
+S01094,U01094,Estándar,2023-12-08,,Activa,9.99,Sí,
+S01095,U01095,Estándar,2024-05-02,,Activa,9.99,Sí,
+S01096,U01096,Estándar,2025-08-29,,Activa,9.99,Sí,
+S01097,U01097,Estándar,2025-06-05,,Activa,9.99,Sí,
+S01098,U01098,Estándar,2023-05-02,2025-06-07,Cancelada,9.99,No,Otro
+S01099,U01099,Básico,2023-11-12,,Activa,6.99,Sí,
+S01100,U01100,Básico,2023-05-30,,Activa,6.99,Sí,
+S01101,U01101,Estándar,2025-01-30,,Activa,9.99,Sí,
+S01102,U01102,Básico,2024-01-07,2025-08-04,Cancelada,6.99,Sí,Precio
+S01103,U01103,Premium,2024-04-29,,Activa,13.99,Sí,
+S01104,U01104,Básico,2023-04-24,2025-04-12,Cancelada,6.99,No,Precio
+S01105,U01105,Estándar,2025-09-05,,Activa,9.99,Sí,
+S01106,U01106,Básico,2024-05-26,2025-09-27,Cancelada,6.99,No,Precio
+S01107,U01107,Premium,2025-08-24,,Activa,13.99,Sí,
+S01108,U01108,Estándar,2023-03-05,2025-10-19,Cancelada,9.99,No,Cambio a otra plataforma
+S01109,U01109,Estándar,2025-07-15,2025-11-09,Cancelada,9.99,Sí,Poco uso
+S01110,U01110,Básico,2024-12-22,,Activa,6.99,Sí,
+S01111,U01111,Básico,2025-05-01,,Activa,6.99,Sí,
+S01112,U01112,Básico,2024-04-06,2025-09-30,Cancelada,6.99,No,Cambio a otra plataforma
+S01113,U01113,Estándar,2024-11-21,,Activa,9.99,Sí,
+S01114,U01114,Premium,2024-03-11,2025-03-22,Cancelada,13.99,No,Precio
+S01115,U01115,Básico,2024-08-07,2025-05-08,Cancelada,6.99,No,Poco uso
+S01116,U01116,Premium,2024-04-26,,Activa,13.99,Sí,
+S01117,U01117,Estándar,2023-10-24,,Activa,9.99,Sí,
+S01118,U01118,Básico,2025-09-24,2025-11-19,Cancelada,6.99,No,Otro
+S01119,U01119,Básico,2024-03-09,,Activa,6.99,Sí,
+S01120,U01120,Premium,2025-05-21,2025-09-03,Cancelada,13.99,No,Problemas técnicos
+S01121,U01121,Estándar,2025-02-18,2025-07-19,Cancelada,9.99,Sí,Precio
+S01122,U01122,Básico,2023-08-20,,Activa,6.99,Sí,
+S01123,U01123,Estándar,2024-02-21,,Activa,9.99,Sí,
+S01124,U01124,Estándar,2025-01-15,,Activa,9.99,Sí,
+S01125,U01125,Estándar,2023-10-11,,Activa,9.99,Sí,
+S01126,U01126,Básico,2023-11-02,2025-01-23,Cancelada,6.99,No,Contenido insuficiente
+S01127,U01127,Estándar,2025-07-28,,Activa,9.99,Sí,
+S01128,U01128,Básico,2025-10-13,2025-11-30,Cancelada,6.99,Sí,Precio
+S01129,U01129,Básico,2024-02-20,2025-11-25,Cancelada,6.99,No,Precio
+S01130,U01130,Básico,2023-07-12,2025-01-19,Cancelada,6.99,No,Precio
+S01131,U01131,Básico,2025-05-21,,Activa,6.99,Sí,
+S01132,U01132,Básico,2025-07-01,,Activa,6.99,Sí,
+S01133,U01133,Premium,2024-05-16,,Activa,13.99,Sí,
+S01134,U01134,Básico,2023-08-29,2025-03-31,Cancelada,6.99,No,Otro
+S01135,U01135,Premium,2023-06-25,,Activa,13.99,Sí,
+S01136,U01136,Estándar,2023-09-01,2025-02-11,Cancelada,9.99,Sí,Precio
+S01137,U01137,Estándar,2025-01-18,2025-10-22,Cancelada,9.99,Sí,Precio
+S01138,U01138,Estándar,2024-06-27,,Activa,9.99,Sí,
+S01139,U01139,Estándar,2024-05-23,2025-02-11,Cancelada,9.99,No,Poco uso
+S01140,U01140,Estándar,2024-07-13,,Activa,9.99,Sí,
+S01141,U01141,Básico,2023-07-20,,Activa,6.99,Sí,
+S01142,U01142,Premium,2024-10-11,,Activa,13.99,Sí,
+S01143,U01143,Estándar,2024-05-25,,Activa,9.99,Sí,
+S01144,U01144,Básico,2023-01-17,,Activa,6.99,Sí,
+S01145,U01145,Básico,2023-12-27,,Activa,6.99,Sí,
+S01146,U01146,Estándar,2023-10-18,,Activa,9.99,Sí,
+S01147,U01147,Premium,2025-07-24,,Activa,13.99,Sí,
+S01148,U01148,Estándar,2025-09-12,,Activa,9.99,Sí,
+S01149,U01149,Estándar,2023-06-15,,Activa,9.99,Sí,
+S01150,U01150,Básico,2023-08-22,,Activa,6.99,Sí,
+S01151,U01151,Premium,2025-07-14,,Activa,13.99,Sí,
+S01152,U01152,Estándar,2024-11-22,,Activa,9.99,Sí,
+S01153,U01153,Premium,2023-11-01,,Activa,13.99,Sí,
+S01154,U01154,Estándar,2023-07-15,,Activa,9.99,Sí,
+S01155,U01155,Básico,2025-04-02,,Activa,6.99,Sí,
+S01156,U01156,Básico,2023-05-04,,Activa,6.99,Sí,
+S01157,U01157,Estándar,2024-08-01,2025-09-25,Cancelada,9.99,No,Precio
+S01158,U01158,Estándar,2023-02-25,2025-07-08,Cancelada,9.99,No,Poco uso
+S01159,U01159,Básico,2025-10-11,,Activa,6.99,Sí,
+S01160,U01160,Básico,2025-02-26,,Activa,6.99,Sí,
+S01161,U01161,Básico,2024-08-13,,Activa,6.99,Sí,
+S01162,U01162,Premium,2025-11-25,,Activa,13.99,Sí,
+S01163,U01163,Premium,2024-08-03,,Activa,13.99,Sí,
+S01164,U01164,Básico,2023-06-15,2025-06-30,Cancelada,6.99,No,Problemas técnicos
+S01165,U01165,Básico,2024-12-21,,Activa,6.99,Sí,
+S01166,U01166,Básico,2023-08-09,,Activa,6.99,Sí,
+S01167,U01167,Estándar,2023-01-19,,Activa,9.99,Sí,
+S01168,U01168,Estándar,2024-09-19,,Activa,9.99,Sí,
+S01169,U01169,Estándar,2025-05-30,,Activa,9.99,Sí,
+S01170,U01170,Básico,2023-10-13,2025-12-04,Cancelada,6.99,No,Contenido insuficiente
+S01171,U01171,Estándar,2023-08-04,,Activa,9.99,Sí,
+S01172,U01172,Básico,2024-11-27,,Activa,6.99,Sí,
+S01173,U01173,Premium,2024-10-11,,Activa,13.99,Sí,
+S01174,U01174,Estándar,2024-10-25,,Activa,9.99,Sí,
+S01175,U01175,Estándar,2023-12-15,,Activa,9.99,Sí,
+S01176,U01176,Premium,2023-05-07,,Activa,13.99,Sí,
+S01177,U01177,Estándar,2024-09-20,,Activa,9.99,Sí,
+S01178,U01178,Estándar,2024-10-10,2025-09-08,Cancelada,9.99,No,Poco uso
+S01179,U01179,Básico,2024-12-05,,Activa,6.99,Sí,
+S01180,U01180,Estándar,2023-09-21,,Activa,9.99,Sí,
+S01181,U01181,Básico,2025-08-26,2025-10-24,Cancelada,6.99,Sí,Poco uso
+S01182,U01182,Premium,2024-03-08,,Activa,13.99,Sí,
+S01183,U01183,Básico,2025-04-13,,Activa,6.99,Sí,
+S01184,U01184,Premium,2024-11-18,,Activa,13.99,Sí,
+S01185,U01185,Básico,2023-05-16,2025-10-21,Cancelada,6.99,No,Cambio a otra plataforma
+S01186,U01186,Básico,2024-07-05,2025-10-12,Cancelada,6.99,No,Poco uso
+S01187,U01187,Premium,2024-07-10,,Activa,13.99,Sí,
+S01188,U01188,Básico,2025-06-05,,Activa,6.99,Sí,
+S01189,U01189,Básico,2024-05-19,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S01190,U01190,Básico,2024-02-25,,Activa,6.99,Sí,
+S01191,U01191,Estándar,2025-10-19,,Activa,9.99,Sí,
+S01192,U01192,Premium,2023-01-16,,Activa,13.99,Sí,
+S01193,U01193,Estándar,2023-12-01,,Activa,9.99,Sí,
+S01194,U01194,Estándar,2025-11-01,,Activa,9.99,Sí,
+S01195,U01195,Básico,2023-06-24,,Activa,6.99,Sí,
+S01196,U01196,Básico,2023-01-24,,Activa,6.99,Sí,
+S01197,U01197,Básico,2025-01-25,,Activa,6.99,Sí,
+S01198,U01198,Premium,2025-07-05,,Activa,13.99,Sí,
+S01199,U01199,Básico,2023-12-03,,Activa,6.99,Sí,
+S01200,U01200,Básico,2023-01-25,,Activa,6.99,Sí,
+S01201,U01201,Básico,2024-12-18,2025-11-04,Cancelada,6.99,No,Contenido insuficiente
+S01202,U01202,Básico,2024-05-13,2025-08-06,Cancelada,6.99,No,Poco uso
+S01203,U01203,Estándar,2023-09-27,,Activa,9.99,Sí,
+S01204,U01204,Básico,2024-09-25,2025-12-20,Cancelada,6.99,No,Precio
+S01205,U01205,Premium,2025-10-15,,Activa,13.99,Sí,
+S01206,U01206,Estándar,2025-11-26,,Activa,9.99,Sí,
+S01207,U01207,Básico,2024-01-01,,Activa,6.99,Sí,
+S01208,U01208,Básico,2024-11-19,,Activa,6.99,Sí,
+S01209,U01209,Premium,2025-08-27,,Activa,13.99,Sí,
+S01210,U01210,Premium,2023-03-28,,Activa,13.99,Sí,
+S01211,U01211,Estándar,2023-11-11,,Activa,9.99,Sí,
+S01212,U01212,Premium,2024-04-24,,Activa,13.99,Sí,
+S01213,U01213,Premium,2023-09-22,,Activa,13.99,Sí,
+S01214,U01214,Básico,2024-09-13,2025-02-06,Cancelada,6.99,No,Cambio a otra plataforma
+S01215,U01215,Básico,2023-09-23,2025-09-18,Cancelada,6.99,No,Poco uso
+S01216,U01216,Estándar,2025-02-18,,Activa,9.99,Sí,
+S01217,U01217,Premium,2023-07-06,,Activa,13.99,Sí,
+S01218,U01218,Estándar,2023-05-08,2025-09-25,Cancelada,9.99,No,Poco uso
+S01219,U01219,Estándar,2025-09-12,,Activa,9.99,Sí,
+S01220,U01220,Estándar,2023-10-27,,Activa,9.99,Sí,
+S01221,U01221,Estándar,2024-01-29,,Activa,9.99,Sí,
+S01222,U01222,Estándar,2024-11-24,,Activa,9.99,Sí,
+S01223,U01223,Estándar,2024-09-12,,Activa,9.99,Sí,
+S01224,U01224,Básico,2023-03-09,,Activa,6.99,Sí,
+S01225,U01225,Básico,2024-02-10,,Activa,6.99,Sí,
+S01226,U01226,Básico,2024-02-26,2025-07-07,Cancelada,6.99,No,Cambio a otra plataforma
+S01227,U01227,Estándar,2024-05-15,,Activa,9.99,Sí,
+S01228,U01228,Premium,2023-07-07,,Activa,13.99,Sí,
+S01229,U01229,Premium,2023-04-20,,Activa,13.99,Sí,
+S01230,U01230,Estándar,2025-10-11,,Activa,9.99,Sí,
+S01231,U01231,Estándar,2023-04-15,2025-06-25,Cancelada,9.99,No,Contenido insuficiente
+S01232,U01232,Estándar,2024-02-06,,Activa,9.99,Sí,
+S01233,U01233,Básico,2023-11-22,2025-12-20,Cancelada,6.99,No,Poco uso
+S01234,U01234,Básico,2025-08-17,,Activa,6.99,Sí,
+S01235,U01235,Básico,2025-11-14,,Activa,6.99,Sí,
+S01236,U01236,Premium,2023-12-26,,Activa,13.99,Sí,
+S01237,U01237,Estándar,2024-09-02,,Activa,9.99,Sí,
+S01238,U01238,Estándar,2024-04-20,,Activa,9.99,Sí,
+S01239,U01239,Estándar,2025-07-09,2025-11-06,Cancelada,9.99,No,Contenido insuficiente
+S01240,U01240,Premium,2023-05-16,,Activa,13.99,Sí,
+S01241,U01241,Premium,2023-01-10,,Activa,13.99,Sí,
+S01242,U01242,Estándar,2023-07-06,2025-10-11,Cancelada,9.99,No,Poco uso
+S01243,U01243,Estándar,2025-11-03,,Activa,9.99,Sí,
+S01244,U01244,Básico,2024-11-20,,Activa,6.99,Sí,
+S01245,U01245,Estándar,2024-07-07,,Activa,9.99,Sí,
+S01246,U01246,Básico,2024-10-18,,Activa,6.99,Sí,
+S01247,U01247,Básico,2023-04-02,2025-03-21,Cancelada,6.99,No,Cambio a otra plataforma
+S01248,U01248,Estándar,2023-09-19,,Activa,9.99,Sí,
+S01249,U01249,Estándar,2025-02-26,,Activa,9.99,Sí,
+S01250,U01250,Estándar,2023-03-31,,Activa,9.99,Sí,
+S01251,U01251,Básico,2024-01-28,2025-09-25,Cancelada,6.99,No,Precio
+S01252,U01252,Estándar,2023-09-23,2025-04-30,Cancelada,9.99,No,Precio
+S01253,U01253,Estándar,2023-03-12,2025-02-13,Cancelada,9.99,No,Otro
+S01254,U01254,Estándar,2024-11-18,2025-11-20,Cancelada,9.99,No,Otro
+S01255,U01255,Básico,2025-01-31,,Activa,6.99,Sí,
+S01256,U01256,Premium,2023-05-22,,Activa,13.99,Sí,
+S01257,U01257,Premium,2023-11-26,,Activa,13.99,Sí,
+S01258,U01258,Básico,2024-04-17,,Activa,6.99,Sí,
+S01259,U01259,Básico,2024-11-18,,Activa,6.99,Sí,
+S01260,U01260,Estándar,2025-01-16,2025-05-26,Cancelada,9.99,No,Poco uso
+S01261,U01261,Básico,2024-05-12,2025-08-28,Cancelada,6.99,Sí,Poco uso
+S01262,U01262,Básico,2023-02-13,,Activa,6.99,Sí,
+S01263,U01263,Estándar,2023-07-25,,Activa,9.99,Sí,
+S01264,U01264,Estándar,2025-05-29,,Activa,9.99,Sí,
+S01265,U01265,Estándar,2023-07-26,,Activa,9.99,Sí,
+S01266,U01266,Premium,2025-05-13,,Activa,13.99,Sí,
+S01267,U01267,Premium,2025-03-06,,Activa,13.99,Sí,
+S01268,U01268,Estándar,2024-12-08,,Activa,9.99,Sí,
+S01269,U01269,Básico,2025-09-06,,Activa,6.99,Sí,
+S01270,U01270,Estándar,2024-08-14,,Activa,9.99,Sí,
+S01271,U01271,Básico,2025-08-15,2025-11-19,Cancelada,6.99,No,Contenido insuficiente
+S01272,U01272,Básico,2024-03-03,2025-06-02,Cancelada,6.99,No,Poco uso
+S01273,U01273,Estándar,2025-05-27,,Activa,9.99,Sí,
+S01274,U01274,Premium,2024-09-02,,Activa,13.99,Sí,
+S01275,U01275,Básico,2024-06-22,,Activa,6.99,Sí,
+S01276,U01276,Estándar,2025-03-26,2025-09-11,Cancelada,9.99,No,Contenido insuficiente
+S01277,U01277,Estándar,2023-06-27,,Activa,9.99,Sí,
+S01278,U01278,Estándar,2024-12-25,,Activa,9.99,Sí,
+S01279,U01279,Básico,2024-02-25,2025-07-07,Cancelada,6.99,No,Precio
+S01280,U01280,Estándar,2023-01-28,2025-12-07,Cancelada,9.99,No,Precio
+S01281,U01281,Básico,2023-10-28,2025-07-08,Cancelada,6.99,No,Precio
+S01282,U01282,Estándar,2025-08-03,,Activa,9.99,Sí,
+S01283,U01283,Premium,2025-06-11,,Activa,13.99,Sí,
+S01284,U01284,Estándar,2023-02-07,,Activa,9.99,Sí,
+S01285,U01285,Estándar,2023-12-22,,Activa,9.99,Sí,
+S01286,U01286,Básico,2024-08-31,,Activa,6.99,Sí,
+S01287,U01287,Premium,2025-09-21,,Activa,13.99,Sí,
+S01288,U01288,Estándar,2025-11-16,,Activa,9.99,Sí,
+S01289,U01289,Estándar,2023-10-18,,Activa,9.99,Sí,
+S01290,U01290,Estándar,2024-06-06,,Activa,9.99,Sí,
+S01291,U01291,Estándar,2025-11-22,,Activa,9.99,Sí,
+S01292,U01292,Estándar,2024-12-16,,Activa,9.99,Sí,
+S01293,U01293,Estándar,2025-02-03,,Activa,9.99,Sí,
+S01294,U01294,Premium,2025-01-20,,Activa,13.99,Sí,
+S01295,U01295,Estándar,2024-11-12,,Activa,9.99,Sí,
+S01296,U01296,Estándar,2023-09-03,,Activa,9.99,Sí,
+S01297,U01297,Estándar,2025-11-02,,Activa,9.99,Sí,
+S01298,U01298,Estándar,2024-08-27,2025-08-18,Cancelada,9.99,No,Precio
+S01299,U01299,Básico,2023-07-01,2025-12-20,Cancelada,6.99,No,Poco uso
+S01300,U01300,Estándar,2023-06-05,2025-10-03,Cancelada,9.99,Sí,Precio
+S01301,U01301,Básico,2024-06-26,,Activa,6.99,Sí,
+S01302,U01302,Básico,2025-04-17,,Activa,6.99,Sí,
+S01303,U01303,Básico,2024-01-17,2025-03-02,Cancelada,6.99,No,Poco uso
+S01304,U01304,Básico,2025-10-03,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S01305,U01305,Básico,2025-06-11,,Activa,6.99,Sí,
+S01306,U01306,Básico,2024-10-06,,Activa,6.99,Sí,
+S01307,U01307,Básico,2025-06-16,,Activa,6.99,Sí,
+S01308,U01308,Estándar,2025-10-12,2025-12-04,Cancelada,9.99,No,Poco uso
+S01309,U01309,Básico,2024-01-08,2025-06-07,Cancelada,6.99,No,Otro
+S01310,U01310,Premium,2023-08-05,2025-08-05,Cancelada,13.99,No,Poco uso
+S01311,U01311,Estándar,2024-07-17,,Activa,9.99,Sí,
+S01312,U01312,Estándar,2024-02-09,,Activa,9.99,Sí,
+S01313,U01313,Premium,2023-11-08,,Activa,13.99,Sí,
+S01314,U01314,Básico,2024-04-05,2025-01-21,Cancelada,6.99,No,Contenido insuficiente
+S01315,U01315,Básico,2023-12-14,2025-08-31,Cancelada,6.99,Sí,Cambio a otra plataforma
+S01316,U01316,Estándar,2024-10-04,2025-04-26,Cancelada,9.99,Sí,Poco uso
+S01317,U01317,Estándar,2025-10-19,,Activa,9.99,Sí,
+S01318,U01318,Estándar,2025-04-28,,Activa,9.99,Sí,
+S01319,U01319,Básico,2025-08-01,2025-12-20,Cancelada,6.99,No,Poco uso
+S01320,U01320,Premium,2025-04-06,2025-07-20,Cancelada,13.99,No,Precio
+S01321,U01321,Básico,2024-09-26,2025-06-11,Cancelada,6.99,No,Contenido insuficiente
+S01322,U01322,Básico,2024-11-06,,Activa,6.99,Sí,
+S01323,U01323,Estándar,2025-10-30,,Activa,9.99,Sí,
+S01324,U01324,Estándar,2023-03-01,,Activa,9.99,Sí,
+S01325,U01325,Estándar,2025-06-03,,Activa,9.99,Sí,
+S01326,U01326,Estándar,2023-12-14,,Activa,9.99,Sí,
+S01327,U01327,Estándar,2024-11-09,,Activa,9.99,Sí,
+S01328,U01328,Premium,2025-08-16,,Activa,13.99,Sí,
+S01329,U01329,Estándar,2023-12-17,,Activa,9.99,Sí,
+S01330,U01330,Básico,2023-10-16,2025-11-05,Cancelada,6.99,No,Contenido insuficiente
+S01331,U01331,Básico,2024-07-09,2025-12-20,Cancelada,6.99,No,Poco uso
+S01332,U01332,Estándar,2024-08-25,,Activa,9.99,Sí,
+S01333,U01333,Básico,2024-04-02,,Activa,6.99,Sí,
+S01334,U01334,Estándar,2023-11-04,,Activa,9.99,Sí,
+S01335,U01335,Estándar,2024-08-08,,Activa,9.99,Sí,
+S01336,U01336,Básico,2024-08-15,,Activa,6.99,Sí,
+S01337,U01337,Estándar,2025-01-30,,Activa,9.99,Sí,
+S01338,U01338,Premium,2023-09-09,,Activa,13.99,Sí,
+S01339,U01339,Estándar,2025-10-15,,Activa,9.99,Sí,
+S01340,U01340,Premium,2024-02-11,,Activa,13.99,Sí,
+S01341,U01341,Básico,2024-08-03,,Activa,6.99,Sí,
+S01342,U01342,Estándar,2024-06-04,,Activa,9.99,Sí,
+S01343,U01343,Estándar,2025-10-24,,Activa,9.99,Sí,
+S01344,U01344,Estándar,2024-01-10,2025-05-27,Cancelada,9.99,Sí,Poco uso
+S01345,U01345,Básico,2025-11-27,,Activa,6.99,Sí,
+S01346,U01346,Básico,2024-11-19,2025-12-20,Cancelada,6.99,No,Poco uso
+S01347,U01347,Básico,2023-10-25,2025-12-20,Cancelada,6.99,No,Precio
+S01348,U01348,Básico,2024-06-21,,Activa,6.99,Sí,
+S01349,U01349,Estándar,2024-05-28,,Activa,9.99,Sí,
+S01350,U01350,Premium,2024-08-19,,Activa,13.99,Sí,
+S01351,U01351,Estándar,2025-01-07,,Activa,9.99,Sí,
+S01352,U01352,Básico,2025-04-11,,Activa,6.99,Sí,
+S01353,U01353,Premium,2024-01-16,,Activa,13.99,Sí,
+S01354,U01354,Premium,2023-02-14,,Activa,13.99,Sí,
+S01355,U01355,Estándar,2025-10-12,,Activa,9.99,Sí,
+S01356,U01356,Estándar,2024-01-26,,Activa,9.99,Sí,
+S01357,U01357,Estándar,2024-08-10,,Activa,9.99,Sí,
+S01358,U01358,Básico,2025-09-15,,Activa,6.99,Sí,
+S01359,U01359,Estándar,2024-03-06,,Activa,9.99,Sí,
+S01360,U01360,Estándar,2024-12-06,,Activa,9.99,Sí,
+S01361,U01361,Estándar,2025-09-20,,Activa,9.99,Sí,
+S01362,U01362,Premium,2023-01-17,,Activa,13.99,Sí,
+S01363,U01363,Premium,2024-06-12,,Activa,13.99,Sí,
+S01364,U01364,Estándar,2023-03-27,,Activa,9.99,Sí,
+S01365,U01365,Estándar,2024-06-10,,Activa,9.99,Sí,
+S01366,U01366,Premium,2023-11-12,,Activa,13.99,Sí,
+S01367,U01367,Estándar,2024-07-24,,Activa,9.99,Sí,
+S01368,U01368,Estándar,2024-10-31,,Activa,9.99,Sí,
+S01369,U01369,Básico,2025-11-19,2025-12-20,Cancelada,6.99,No,Poco uso
+S01370,U01370,Básico,2025-10-19,2025-12-05,Cancelada,6.99,No,Precio
+S01371,U01371,Premium,2024-03-02,,Activa,13.99,Sí,
+S01372,U01372,Básico,2024-08-21,2025-03-19,Cancelada,6.99,No,Otro
+S01373,U01373,Básico,2023-11-05,2025-11-25,Cancelada,6.99,No,Precio
+S01374,U01374,Estándar,2024-08-12,2025-07-30,Cancelada,9.99,Sí,Contenido insuficiente
+S01375,U01375,Estándar,2024-09-23,,Activa,9.99,Sí,
+S01376,U01376,Premium,2024-04-22,2025-02-20,Cancelada,13.99,No,Contenido insuficiente
+S01377,U01377,Premium,2023-06-08,,Activa,13.99,Sí,
+S01378,U01378,Básico,2024-01-21,,Activa,6.99,Sí,
+S01379,U01379,Básico,2025-01-15,2025-10-19,Cancelada,6.99,No,Poco uso
+S01380,U01380,Básico,2025-01-06,,Activa,6.99,Sí,
+S01381,U01381,Premium,2024-08-18,,Activa,13.99,Sí,
+S01382,U01382,Básico,2023-01-18,2025-12-20,Cancelada,6.99,No,Precio
+S01383,U01383,Estándar,2023-01-15,,Activa,9.99,Sí,
+S01384,U01384,Premium,2024-12-12,2025-11-26,Cancelada,13.99,No,Poco uso
+S01385,U01385,Estándar,2024-03-04,,Activa,9.99,Sí,
+S01386,U01386,Estándar,2023-08-09,,Activa,9.99,Sí,
+S01387,U01387,Básico,2025-04-30,2025-11-29,Cancelada,6.99,No,Poco uso
+S01388,U01388,Básico,2023-10-06,,Activa,6.99,Sí,
+S01389,U01389,Estándar,2023-01-15,2025-06-06,Cancelada,9.99,No,Precio
+S01390,U01390,Premium,2025-07-02,,Activa,13.99,Sí,
+S01391,U01391,Estándar,2025-05-27,,Activa,9.99,Sí,
+S01392,U01392,Estándar,2025-07-07,,Activa,9.99,Sí,
+S01393,U01393,Básico,2023-08-29,,Activa,6.99,Sí,
+S01394,U01394,Básico,2023-12-16,2025-10-10,Cancelada,6.99,No,Cambio a otra plataforma
+S01395,U01395,Básico,2025-04-25,2025-10-01,Cancelada,6.99,No,Problemas técnicos
+S01396,U01396,Básico,2024-01-23,,Activa,6.99,Sí,
+S01397,U01397,Estándar,2025-01-28,,Activa,9.99,Sí,
+S01398,U01398,Básico,2023-07-25,,Activa,6.99,Sí,
+S01399,U01399,Básico,2024-08-05,2025-04-26,Cancelada,6.99,No,Poco uso
+S01400,U01400,Premium,2023-07-30,,Activa,13.99,Sí,
+S01401,U01401,Premium,2023-05-12,,Activa,13.99,Sí,
+S01402,U01402,Premium,2023-06-15,,Activa,13.99,Sí,
+S01403,U01403,Estándar,2023-01-27,,Activa,9.99,Sí,
+S01404,U01404,Básico,2025-01-02,2025-08-26,Cancelada,6.99,Sí,Cambio a otra plataforma
+S01405,U01405,Estándar,2025-01-02,,Activa,9.99,Sí,
+S01406,U01406,Básico,2023-07-19,2025-12-20,Cancelada,6.99,No,Poco uso
+S01407,U01407,Estándar,2025-06-06,2025-09-18,Cancelada,9.99,No,Poco uso
+S01408,U01408,Básico,2025-07-27,2025-10-30,Cancelada,6.99,Sí,Precio
+S01409,U01409,Básico,2024-04-03,,Activa,6.99,Sí,
+S01410,U01410,Básico,2025-08-31,2025-11-27,Cancelada,6.99,No,Problemas técnicos
+S01411,U01411,Estándar,2023-05-28,,Activa,9.99,Sí,
+S01412,U01412,Estándar,2024-07-16,,Activa,9.99,Sí,
+S01413,U01413,Premium,2025-01-07,,Activa,13.99,Sí,
+S01414,U01414,Básico,2025-11-08,,Activa,6.99,Sí,
+S01415,U01415,Estándar,2023-12-15,,Activa,9.99,Sí,
+S01416,U01416,Premium,2024-07-20,,Activa,13.99,Sí,
+S01417,U01417,Básico,2024-12-16,2025-06-03,Cancelada,6.99,No,Otro
+S01418,U01418,Básico,2023-05-24,2025-11-04,Cancelada,6.99,No,Poco uso
+S01419,U01419,Estándar,2024-11-23,,Activa,9.99,Sí,
+S01420,U01420,Estándar,2025-04-06,,Activa,9.99,Sí,
+S01421,U01421,Básico,2024-03-28,,Activa,6.99,Sí,
+S01422,U01422,Básico,2023-04-03,,Activa,6.99,Sí,
+S01423,U01423,Estándar,2025-03-18,,Activa,9.99,Sí,
+S01424,U01424,Básico,2023-01-30,2025-09-05,Cancelada,6.99,Sí,Poco uso
+S01425,U01425,Básico,2023-10-29,2025-08-13,Cancelada,6.99,No,Precio
+S01426,U01426,Básico,2025-11-03,,Activa,6.99,Sí,
+S01427,U01427,Estándar,2024-11-10,,Activa,9.99,Sí,
+S01428,U01428,Estándar,2024-02-12,,Activa,9.99,Sí,
+S01429,U01429,Premium,2023-06-27,,Activa,13.99,Sí,
+S01430,U01430,Básico,2025-03-26,,Activa,6.99,Sí,
+S01431,U01431,Estándar,2025-01-26,,Activa,9.99,Sí,
+S01432,U01432,Estándar,2025-08-07,2025-12-08,Cancelada,9.99,No,Poco uso
+S01433,U01433,Básico,2023-12-28,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S01434,U01434,Estándar,2024-03-24,2025-05-08,Cancelada,9.99,No,Poco uso
+S01435,U01435,Estándar,2023-06-11,,Activa,9.99,Sí,
+S01436,U01436,Premium,2024-08-16,,Activa,13.99,Sí,
+S01437,U01437,Básico,2023-05-07,2025-08-28,Cancelada,6.99,No,Cambio a otra plataforma
+S01438,U01438,Básico,2025-10-07,2025-12-20,Cancelada,6.99,No,Cambio a otra plataforma
+S01439,U01439,Estándar,2025-05-11,2025-10-26,Cancelada,9.99,Sí,Problemas técnicos
+S01440,U01440,Estándar,2025-03-27,,Activa,9.99,Sí,
+S01441,U01441,Estándar,2025-04-14,2025-08-17,Cancelada,9.99,No,Precio
+S01442,U01442,Estándar,2024-03-13,,Activa,9.99,Sí,
+S01443,U01443,Premium,2023-04-25,,Activa,13.99,Sí,
+S01444,U01444,Estándar,2023-12-26,,Activa,9.99,Sí,
+S01445,U01445,Estándar,2025-11-17,,Activa,9.99,Sí,
+S01446,U01446,Estándar,2024-05-05,,Activa,9.99,Sí,
+S01447,U01447,Estándar,2025-01-22,,Activa,9.99,Sí,
+S01448,U01448,Básico,2024-10-20,2025-12-20,Cancelada,6.99,No,Poco uso
+S01449,U01449,Estándar,2025-01-16,,Activa,9.99,Sí,
+S01450,U01450,Estándar,2023-07-29,,Activa,9.99,Sí,
+S01451,U01451,Estándar,2023-07-20,,Activa,9.99,Sí,
+S01452,U01452,Estándar,2024-10-18,2025-01-20,Cancelada,9.99,No,Precio
+S01453,U01453,Básico,2025-01-23,,Activa,6.99,Sí,
+S01454,U01454,Estándar,2024-02-09,,Activa,9.99,Sí,
+S01455,U01455,Estándar,2024-03-04,2025-01-25,Cancelada,9.99,No,Problemas técnicos
+S01456,U01456,Básico,2024-05-18,2025-02-15,Cancelada,6.99,No,Contenido insuficiente
+S01457,U01457,Estándar,2024-05-12,,Activa,9.99,Sí,
+S01458,U01458,Estándar,2025-10-03,,Activa,9.99,Sí,
+S01459,U01459,Básico,2024-05-18,2025-11-28,Cancelada,6.99,No,Cambio a otra plataforma
+S01460,U01460,Básico,2025-08-14,2025-11-07,Cancelada,6.99,Sí,Poco uso
+S01461,U01461,Premium,2023-05-01,,Activa,13.99,Sí,
+S01462,U01462,Premium,2023-12-20,,Activa,13.99,Sí,
+S01463,U01463,Básico,2025-08-29,2025-11-28,Cancelada,6.99,No,Precio
+S01464,U01464,Estándar,2023-03-11,,Activa,9.99,Sí,
+S01465,U01465,Estándar,2025-10-04,,Activa,9.99,Sí,
+S01466,U01466,Estándar,2025-09-12,,Activa,9.99,Sí,
+S01467,U01467,Estándar,2025-01-29,,Activa,9.99,Sí,
+S01468,U01468,Básico,2025-07-03,2025-12-20,Cancelada,6.99,No,Poco uso
+S01469,U01469,Estándar,2023-02-23,,Activa,9.99,Sí,
+S01470,U01470,Estándar,2024-01-03,2025-06-24,Cancelada,9.99,No,Contenido insuficiente
+S01471,U01471,Estándar,2024-10-15,,Activa,9.99,Sí,
+S01472,U01472,Estándar,2023-03-12,2025-10-12,Cancelada,9.99,Sí,Otro
+S01473,U01473,Estándar,2023-07-16,,Activa,9.99,Sí,
+S01474,U01474,Básico,2024-08-11,,Activa,6.99,Sí,
+S01475,U01475,Premium,2023-06-17,,Activa,13.99,Sí,
+S01476,U01476,Estándar,2024-03-06,,Activa,9.99,Sí,
+S01477,U01477,Estándar,2024-03-01,2025-01-17,Cancelada,9.99,Sí,Cambio a otra plataforma
+S01478,U01478,Estándar,2025-10-24,,Activa,9.99,Sí,
+S01479,U01479,Estándar,2023-07-19,,Activa,9.99,Sí,
+S01480,U01480,Básico,2024-01-20,,Activa,6.99,Sí,
+S01481,U01481,Premium,2023-03-11,,Activa,13.99,Sí,
+S01482,U01482,Básico,2025-06-03,,Activa,6.99,Sí,
+S01483,U01483,Estándar,2024-07-27,,Activa,9.99,Sí,
+S01484,U01484,Estándar,2025-08-05,,Activa,9.99,Sí,
+S01485,U01485,Básico,2024-09-21,,Activa,6.99,Sí,
+S01486,U01486,Básico,2023-11-30,,Activa,6.99,Sí,
+S01487,U01487,Premium,2024-01-03,,Activa,13.99,Sí,
+S01488,U01488,Estándar,2024-08-23,,Activa,9.99,Sí,
+S01489,U01489,Premium,2024-05-18,,Activa,13.99,Sí,
+S01490,U01490,Básico,2024-05-24,2025-07-12,Cancelada,6.99,No,Cambio a otra plataforma
+S01491,U01491,Básico,2024-09-27,2025-03-07,Cancelada,6.99,No,Poco uso
+S01492,U01492,Estándar,2024-02-20,,Activa,9.99,Sí,
+S01493,U01493,Básico,2024-11-29,2025-03-21,Cancelada,6.99,No,Contenido insuficiente
+S01494,U01494,Básico,2023-02-25,,Activa,6.99,Sí,
+S01495,U01495,Estándar,2025-01-02,2025-06-12,Cancelada,9.99,No,Contenido insuficiente
+S01496,U01496,Básico,2025-02-09,,Activa,6.99,Sí,
+S01497,U01497,Básico,2025-06-07,,Activa,6.99,Sí,
+S01498,U01498,Básico,2025-11-21,2025-12-20,Cancelada,6.99,No,Poco uso
+S01499,U01499,Estándar,2025-02-24,,Activa,9.99,Sí,
+S01500,U01500,Premium,2025-04-03,,Activa,13.99,Sí,

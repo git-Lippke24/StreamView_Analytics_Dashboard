@@ -1,0 +1,27 @@
+# Entorno virtual (cada integrante crea el suyo con scripts/setup.ps1)
+.venv
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Streamlit: credenciales locales, nunca al repositorio
+.streamlit/secrets.toml
+
+# Sistema operativo y OneDrive
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Editores (se versionan solo settings.json y extensions.json de .vscode)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+.idea/

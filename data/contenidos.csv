@@ -1,0 +1,421 @@
+﻿contenido_id,titulo,tipo_contenido,genero_principal,subgenero,clasificacion_edad,anio_estreno,duracion_min,temporadas,episodios,idioma_original,pais_origen,exclusivo,fecha_alta_catalogo
+C0001,Marea Alto 1,Serie,Comedia,Romántica,16+,2012,49,1,9,Inglés,Estados Unidos,No,2023-08-19
+C0002,Tiempo Azul 2,Película,Documental,Sociedad,16+,2001,131,0,1,Español,España,No,2025-07-21
+C0003,Eco Global 3,Película,Acción,Supervivencia,18+,2005,123,0,1,Inglés,Estados Unidos,Sí,2025-05-09
+C0004,Destino Rojo 4,Película,Aventura,Exploración,13+,1998,98,0,1,Inglés,España,No,2025-04-08
+C0005,Eco Norte 5,Documental,Drama,Histórico,13+,2000,73,0,1,Español,España,No,2023-11-24
+C0006,Memoria Secreto 6,Película,Aventura,Supervivencia,13+,1998,145,0,1,Inglés,Estados Unidos,No,2024-01-19
+C0007,Secreto Secreto 7,Serie,Romance,Época,7+,2012,45,2,12,Español,México,No,2025-10-24
+C0008,Punto Nocturno 8,Película,Drama,Social,7+,2001,92,0,1,Español,Reino Unido,No,2023-11-06
+C0009,Luz Final 9,Documental,Animación,Familiar,13+,1998,65,0,1,Francés,Estados Unidos,Sí,2023-03-12
+C0010,Ciudad Digital 10,Película,Drama,Familiar,13+,2020,154,0,1,Español,Estados Unidos,No,2024-02-06
+C0011,Última Libre 11,Película,Romance,Comedia,13+,2022,120,0,1,Inglés,México,Sí,2024-03-22
+C0012,Origen Azul 12,Película,Ciencia ficción,Espacio,13+,2020,147,0,1,Español,Estados Unidos,No,2024-02-16
+C0013,Noche Azul 13,Serie,Crimen,Judicial,18+,1999,48,2,18,Español,Brasil,No,2025-02-05
+C0014,Planeta Rojo 14,Serie,Comedia,Romántica,13+,2019,48,5,55,Español,Estados Unidos,No,2022-07-27
+C0015,Planeta Central 15,Película,Thriller,Conspiración,18+,1999,104,0,1,Portugués,Argentina,No,2022-01-05
+C0016,Horizonte Norte 16,Serie,Thriller,Misterio,7+,2003,58,5,40,Español,Chile,No,2023-10-10
+C0017,Tiempo Perdido 17,Película,Romance,Época,18+,2024,134,0,1,Español,Estados Unidos,No,2025-07-24
+C0018,Frontera Central 18,Serie,Thriller,Conspiración,13+,2022,53,5,40,Inglés,Chile,No,2025-02-23
+C0019,Última Final 19,Película,Thriller,Psicológico,16+,2007,102,0,1,Coreano,Estados Unidos,No,2023-03-03
+C0020,Archivo Infinito 20,Serie,Animación,Fantasía,16+,2021,38,3,36,Español,México,Sí,2024-07-07
+C0021,Archivo Nocturno 21,Serie,Acción,Supervivencia,16+,2019,40,4,40,Portugués,Brasil,No,2023-06-09
+C0022,Archivo Secreto 22,Película,Thriller,Misterio,18+,2021,110,0,1,Español,España,No,2023-09-06
+C0023,Tiempo Secreto 23,Serie,Comedia,Familiar,13+,2014,48,4,32,Español,Chile,No,2025-01-27
+C0024,Latido Infinito 24,Película,Crimen,Judicial,16+,2005,98,0,1,Español,México,No,2025-06-22
+C0025,Horizonte Bajo 25,Serie,Comedia,Familiar,13+,2020,55,5,40,Español,Estados Unidos,No,2025-06-27
+C0026,Punto Secreto 26,Película,Documental,Naturaleza,Todo público,2023,144,0,1,Español,Reino Unido,Sí,2023-10-14
+C0027,Última Invisible 27,Serie,Romance,Drama,13+,2025,40,3,30,Inglés,Estados Unidos,No,2025-04-12
+C0028,Ciudad Oculto 28,Película,Ciencia ficción,Futuro,13+,2018,147,0,1,Español,Brasil,Sí,2025-09-14
+C0029,Vértigo Humano 29,Película,Acción,Supervivencia,7+,2005,118,0,1,Inglés,Reino Unido,Sí,2022-07-13
+C0030,Marea Perdido 30,Serie,Comedia,Situacional,Todo público,2017,39,4,44,Español,Estados Unidos,No,2023-10-31
+C0031,Última Perdido 31,Película,Drama,Histórico,18+,2013,119,0,1,Inglés,España,No,2025-05-07
+C0032,Pulso Global 32,Película,Comedia,Sátira,16+,2004,124,0,1,Inglés,Brasil,Sí,2023-03-15
+C0033,Código Central 33,Película,Thriller,Suspenso,18+,2004,92,0,1,Inglés,México,Sí,2022-09-09
+C0034,Ruta Silencioso 34,Serie,Comedia,Situacional,13+,2008,29,1,12,Español,España,Sí,2024-09-16
+C0035,Latido Invisible 35,Serie,Drama,Juvenil,13+,2025,30,5,40,Español,Chile,No,2022-07-24
+C0036,Ruta Invisible 36,Película,Ciencia ficción,Tecnología,7+,2013,103,0,1,Inglés,Estados Unidos,Sí,2024-10-09
+C0037,Sombras Abierto 37,Serie,Romance,Juvenil,7+,2018,57,2,18,Inglés,Corea del Sur,No,2022-12-10
+C0038,Planeta Secreto 38,Película,Animación,Familiar,18+,2016,143,0,1,Inglés,España,Sí,2022-12-04
+C0039,Punto Secreto 39,Película,Comedia,Sátira,7+,2001,150,0,1,Inglés,México,No,2022-02-05
+C0040,Latido Profundo 40,Documental,Acción,Artes marciales,16+,2003,84,0,1,Inglés,Reino Unido,No,2025-10-10
+C0041,Ciudad Final 41,Película,Drama,Social,18+,2015,132,0,1,Español,Argentina,No,2023-05-26
+C0042,Vértigo Humano 42,Serie,Comedia,Romántica,13+,2001,45,1,8,Español,Estados Unidos,Sí,2022-05-24
+C0043,Noche Humano 43,Película,Drama,Familiar,Todo público,1999,117,0,1,Español,Corea del Sur,Sí,2023-05-25
+C0044,Horizonte Perdido 44,Serie,Aventura,Supervivencia,18+,2017,31,1,8,Español,Estados Unidos,No,2024-07-29
+C0045,Secreto Nocturno 45,Película,Acción,Policial,18+,2006,97,0,1,Español,Argentina,No,2023-12-24
+C0046,Frontera Digital 46,Película,Aventura,Fantasía,18+,2025,90,0,1,Inglés,Estados Unidos,Sí,2022-04-25
+C0047,Ruta Nocturno 47,Película,Aventura,Viaje,7+,2013,130,0,1,Español,México,No,2023-10-12
+C0048,Destino Global 48,Serie,Acción,Policial,13+,2005,42,1,10,Español,Estados Unidos,Sí,2022-05-27
+C0049,Horizonte Digital 49,Serie,Drama,Social,13+,2003,50,3,24,Inglés,Reino Unido,No,2022-03-23
+C0050,Vértigo Norte 50,Serie,Crimen,Mafia,16+,2016,53,5,60,Inglés,Corea del Sur,No,2022-05-08
+C0051,Secreto Central 51,Película,Comedia,Familiar,16+,1998,127,0,1,Español,Estados Unidos,No,2022-08-07
+C0052,Luz Central 52,Película,Thriller,Suspenso,13+,2024,120,0,1,Inglés,Estados Unidos,No,2023-09-03
+C0053,Instante Bajo 53,Película,Documental,Naturaleza,7+,2011,129,0,1,Coreano,Reino Unido,No,2022-06-23
+C0054,Horizonte Imposible 54,Serie,Drama,Social,Todo público,2006,40,4,48,Inglés,México,No,2024-12-09
+C0055,Punto Bajo 55,Serie,Comedia,Familiar,13+,2011,40,1,9,Coreano,Argentina,Sí,2025-07-28
+C0056,Pulso Rojo 56,Serie,Comedia,Situacional,16+,2022,55,5,30,Inglés,España,Sí,2023-10-14
+C0057,Última Oculto 57,Serie,Animación,Comedia,13+,2023,29,1,6,Inglés,Brasil,No,2023-08-29
+C0058,Ruta Perdido 58,Serie,Documental,Tecnología,7+,2023,37,2,16,Español,México,No,2024-11-21
+C0059,Destino Cero 59,Película,Crimen,Mafia,Todo público,2017,144,0,1,Español,Estados Unidos,No,2025-10-22
+C0060,Latido Libre 60,Película,Thriller,Suspenso,18+,2023,129,0,1,Inglés,Estados Unidos,No,2024-10-13
+C0061,Pulso Global 61,Serie,Thriller,Misterio,16+,2016,52,5,40,Francés,Chile,No,2024-03-22
+C0062,Luz Alto 62,Serie,Romance,Época,13+,2023,35,1,10,Español,Estados Unidos,No,2025-10-22
+C0063,Vértigo Profundo 63,Película,Drama,Histórico,13+,2000,100,0,1,Inglés,Chile,Sí,2022-06-26
+C0064,Sombras Secreto 64,Película,Documental,Naturaleza,16+,2019,130,0,1,Inglés,Estados Unidos,No,2022-08-29
+C0065,Noche Secreto 65,Serie,Acción,Supervivencia,13+,2021,39,4,32,Español,Estados Unidos,No,2025-05-17
+C0066,Noche Digital 66,Película,Acción,Espionaje,7+,2025,86,0,1,Español,Estados Unidos,Sí,2023-08-20
+C0067,Secreto Bajo 67,Película,Crimen,Judicial,16+,2006,135,0,1,Español,Chile,No,2022-03-06
+C0068,Vértigo Humano 68,Película,Aventura,Exploración,7+,2009,101,0,1,Inglés,Estados Unidos,Sí,2023-02-26
+C0069,Última Rojo 69,Película,Comedia,Romántica,13+,2000,118,0,1,Inglés,España,No,2025-06-07
+C0070,Señal Digital 70,Película,Comedia,Romántica,13+,1998,146,0,1,Español,México,No,2024-11-02
+C0071,Tiempo Norte 71,Película,Comedia,Familiar,13+,1999,117,0,1,Portugués,Argentina,No,2022-09-07
+C0072,Punto Secreto 72,Serie,Documental,Naturaleza,13+,2015,33,1,12,Español,Chile,No,2023-03-10
+C0073,Eco Humano 73,Película,Comedia,Romántica,7+,2000,147,0,1,Coreano,Corea del Sur,No,2023-09-16
+C0074,Luz Alto 74,Película,Crimen,Judicial,13+,2002,130,0,1,Inglés,Brasil,No,2022-05-23
+C0075,Señal Invisible 75,Documental,Aventura,Supervivencia,13+,2019,92,0,1,Español,Estados Unidos,Sí,2024-11-07
+C0076,Archivo Imposible 76,Película,Documental,Historia,13+,2001,82,0,1,Inglés,España,Sí,2022-10-08
+C0077,Señal Secreto 77,Documental,Romance,Drama,Todo público,2005,86,0,1,Inglés,Reino Unido,No,2024-08-29
+C0078,Latido Perdido 78,Película,Crimen,Investigación,7+,2016,105,0,1,Coreano,Reino Unido,No,2025-08-12
+C0079,Última Silencioso 79,Película,Acción,Policial,7+,2002,99,0,1,Inglés,Estados Unidos,Sí,2023-09-27
+C0080,Código Final 80,Película,Ciencia ficción,Tecnología,16+,2018,109,0,1,Inglés,México,Sí,2022-04-14
+C0081,Marea Secreto 81,Película,Documental,Sociedad,16+,2006,120,0,1,Español,Brasil,No,2025-03-08
+C0082,Ruta Infinito 82,Película,Drama,Histórico,16+,2013,103,0,1,Inglés,Estados Unidos,Sí,2022-03-12
+C0083,Planeta Infinito 83,Película,Crimen,Judicial,7+,2005,121,0,1,Inglés,España,No,2022-05-24
+C0084,Vértigo Nocturno 84,Documental,Documental,Sociedad,7+,2024,100,0,1,Español,España,No,2022-10-04
+C0085,Marea Humano 85,Película,Comedia,Situacional,13+,1998,129,0,1,Portugués,Estados Unidos,No,2023-10-27
+C0086,Ciudad Digital 86,Serie,Comedia,Situacional,13+,2023,47,4,40,Francés,Estados Unidos,No,2022-11-30
+C0087,Horizonte Abierto 87,Película,Thriller,Conspiración,18+,2013,89,0,1,Español,España,No,2023-05-03
+C0088,Destino Perdido 88,Película,Aventura,Fantasía,13+,2021,98,0,1,Inglés,Estados Unidos,No,2024-03-18
+C0089,Ruta Imposible 89,Película,Documental,Naturaleza,13+,1998,133,0,1,Español,Reino Unido,No,2024-03-30
+C0090,Secreto Norte 90,Serie,Aventura,Fantasía,13+,2017,52,3,30,Inglés,Reino Unido,No,2022-12-25
+C0091,Ruta Central 91,Película,Comedia,Romántica,13+,2002,92,0,1,Español,Reino Unido,Sí,2022-05-01
+C0092,Marea Cero 92,Serie,Animación,Familiar,Todo público,2025,54,4,44,Español,Estados Unidos,No,2023-12-10
+C0093,Eco Silencioso 93,Película,Comedia,Sátira,18+,2025,102,0,1,Español,Estados Unidos,No,2025-03-14
+C0094,Frontera Central 94,Serie,Romance,Comedia,16+,2001,30,4,24,Coreano,Estados Unidos,No,2022-05-04
+C0095,Archivo Azul 95,Serie,Drama,Histórico,7+,2016,40,3,24,Español,Estados Unidos,No,2024-01-12
+C0096,Latido Nocturno 96,Película,Acción,Espionaje,16+,2022,150,0,1,Español,Estados Unidos,No,2024-11-20
+C0097,Punto Invisible 97,Serie,Comedia,Familiar,Todo público,2014,38,4,24,Inglés,Estados Unidos,Sí,2025-01-28
+C0098,Secreto Nocturno 98,Serie,Acción,Artes marciales,18+,2011,30,2,20,Español,Reino Unido,Sí,2025-03-11
+C0099,Código Digital 99,Documental,Acción,Policial,16+,2013,104,0,1,Español,Estados Unidos,No,2024-07-17
+C0100,Planeta Alto 100,Película,Ciencia ficción,Distopía,Todo público,2024,104,0,1,Español,Estados Unidos,No,2023-03-10
+C0101,Código Infinito 101,Serie,Thriller,Psicológico,13+,2002,34,3,30,Portugués,Estados Unidos,Sí,2024-07-03
+C0102,Ruta Digital 102,Película,Thriller,Psicológico,18+,2015,86,0,1,Coreano,Estados Unidos,No,2025-07-05
+C0103,Ruta Abierto 103,Documental,Drama,Histórico,16+,2016,94,0,1,Inglés,Brasil,No,2022-02-17
+C0104,Ruta Bajo 104,Serie,Animación,Comedia,7+,2024,36,2,16,Portugués,México,No,2023-10-24
+C0105,Memoria Alto 105,Serie,Drama,Social,13+,2024,37,4,36,Español,México,Sí,2022-09-11
+C0106,Luz Cero 106,Documental,Drama,Social,18+,2006,78,0,1,Inglés,Estados Unidos,No,2025-04-01
+C0107,Marea Humano 107,Serie,Comedia,Situacional,16+,2017,50,4,24,Inglés,Estados Unidos,No,2025-08-18
+C0108,Secreto Silencioso 108,Película,Ciencia ficción,Espacio,16+,2019,120,0,1,Español,México,No,2025-03-31
+C0109,Latido Azul 109,Serie,Ciencia ficción,Futuro,Todo público,2017,34,5,55,Español,Estados Unidos,No,2025-04-01
+C0110,Punto Final 110,Película,Drama,Social,18+,2021,110,0,1,Inglés,Estados Unidos,No,2022-09-10
+C0111,Ruta Global 111,Película,Drama,Histórico,18+,2016,87,0,1,Inglés,Brasil,Sí,2022-01-14
+C0112,Tiempo Alto 112,Serie,Comedia,Familiar,16+,2005,42,1,8,Portugués,Estados Unidos,No,2023-06-04
+C0113,Secreto Final 113,Serie,Romance,Drama,7+,2022,58,2,14,Español,Estados Unidos,Sí,2023-06-17
+C0114,Punto Profundo 114,Película,Crimen,Detectives,16+,2022,114,0,1,Español,Chile,Sí,2025-01-04
+C0115,Instante Secreto 115,Película,Crimen,Detectives,18+,2012,107,0,1,Inglés,España,No,2025-07-06
+C0116,Destino Invisible 116,Serie,Romance,Época,7+,2012,45,3,33,Francés,Estados Unidos,No,2025-11-06
+C0117,Archivo Norte 117,Película,Drama,Juvenil,13+,2018,115,0,1,Inglés,Estados Unidos,No,2022-11-13
+C0118,Destino Humano 118,Serie,Crimen,Judicial,Todo público,2018,42,1,7,Inglés,Chile,No,2025-11-04
+C0119,Archivo Nocturno 119,Serie,Drama,Juvenil,7+,2017,34,3,36,Español,España,Sí,2023-08-18
+C0120,Última Humano 120,Película,Comedia,Sátira,13+,2016,101,0,1,Coreano,España,No,2023-07-20
+C0121,Frontera Profundo 121,Serie,Crimen,Judicial,18+,2017,52,3,33,Español,Brasil,No,2022-11-01
+C0122,Eco Nocturno 122,Película,Ciencia ficción,Tecnología,13+,2012,105,0,1,Coreano,Estados Unidos,No,2024-08-29
+C0123,Vértigo Perdido 123,Serie,Comedia,Sátira,16+,2024,57,1,8,Coreano,Estados Unidos,Sí,2023-08-26
+C0124,Ruta Rojo 124,Serie,Documental,Historia,16+,2022,37,2,18,Español,España,Sí,2022-10-26
+C0125,Tiempo Invisible 125,Serie,Ciencia ficción,Tecnología,18+,2021,30,5,30,Inglés,Estados Unidos,No,2024-06-04
+C0126,Noche Libre 126,Película,Drama,Familiar,7+,2011,132,0,1,Inglés,México,No,2022-04-07
+C0127,Última Abierto 127,Documental,Romance,Juvenil,16+,2005,94,0,1,Inglés,Reino Unido,No,2024-03-03
+C0128,Latido Azul 128,Serie,Documental,Historia,Todo público,2003,52,1,8,Coreano,Estados Unidos,No,2024-03-01
+C0129,Marea Azul 129,Película,Comedia,Situacional,13+,1998,86,0,1,Inglés,Estados Unidos,No,2022-05-21
+C0130,Eco Profundo 130,Serie,Crimen,Investigación,Todo público,2012,36,5,30,Español,Estados Unidos,No,2022-04-18
+C0131,Planeta Digital 131,Documental,Comedia,Familiar,13+,2008,93,0,1,Español,Estados Unidos,Sí,2025-07-25
+C0132,Secreto Bajo 132,Serie,Ciencia ficción,Distopía,7+,2013,53,1,9,Portugués,Estados Unidos,Sí,2025-06-14
+C0133,Instante Imposible 133,Serie,Comedia,Situacional,16+,2008,44,4,32,Español,Chile,No,2023-09-29
+C0134,Última Rojo 134,Documental,Drama,Social,7+,2011,93,0,1,Español,México,No,2022-08-07
+C0135,Vértigo Silencioso 135,Película,Acción,Supervivencia,13+,2006,104,0,1,Español,México,No,2024-05-21
+C0136,Latido Alto 136,Película,Aventura,Fantasía,18+,1998,117,0,1,Español,Reino Unido,No,2024-04-29
+C0137,Planeta Silencioso 137,Documental,Ciencia ficción,Tecnología,16+,2000,77,0,1,Español,Estados Unidos,Sí,2022-01-10
+C0138,Punto Alto 138,Serie,Acción,Espionaje,18+,2016,31,1,7,Español,Estados Unidos,No,2022-03-03
+C0139,Luz Norte 139,Documental,Acción,Artes marciales,13+,1998,88,0,1,Coreano,Estados Unidos,Sí,2023-04-02
+C0140,Archivo Silencioso 140,Película,Acción,Policial,13+,2015,100,0,1,Español,Estados Unidos,No,2022-09-03
+C0141,Tiempo Central 141,Película,Crimen,Judicial,13+,1998,126,0,1,Español,Estados Unidos,No,2025-08-28
+C0142,Planeta Invisible 142,Serie,Acción,Espionaje,16+,1999,45,2,22,Inglés,Chile,No,2023-08-14
+C0143,Instante Norte 143,Película,Romance,Drama,16+,2024,155,0,1,Inglés,México,Sí,2025-03-10
+C0144,Tiempo Central 144,Película,Aventura,Fantasía,Todo público,2014,99,0,1,Inglés,Estados Unidos,Sí,2024-08-31
+C0145,Ciudad Libre 145,Serie,Drama,Histórico,13+,2022,47,4,44,Portugués,Brasil,No,2023-11-25
+C0146,Latido Secreto 146,Documental,Ciencia ficción,Futuro,13+,2012,54,0,1,Español,Corea del Sur,No,2024-06-24
+C0147,Sombras Profundo 147,Documental,Comedia,Sátira,Todo público,2015,99,0,1,Español,México,Sí,2022-02-07
+C0148,Código Rojo 148,Serie,Ciencia ficción,Espacio,16+,2019,49,3,18,Inglés,México,No,2022-02-13
+C0149,Eco Profundo 149,Película,Thriller,Misterio,13+,2000,102,0,1,Español,Estados Unidos,No,2022-10-30
+C0150,Origen Infinito 150,Serie,Romance,Comedia,7+,2005,34,4,28,Inglés,Reino Unido,Sí,2024-11-27
+C0151,Instante Abierto 151,Serie,Romance,Época,13+,2014,54,4,36,Francés,España,No,2024-05-12
+C0152,Eco Final 152,Película,Ciencia ficción,Distopía,18+,2025,93,0,1,Español,Estados Unidos,No,2022-09-11
+C0153,Código Silencioso 153,Serie,Aventura,Exploración,7+,2024,29,3,27,Inglés,Argentina,No,2024-06-02
+C0154,Memoria Humano 154,Serie,Acción,Espionaje,Todo público,2022,36,4,48,Inglés,España,Sí,2024-05-27
+C0155,Planeta Digital 155,Película,Acción,Policial,16+,1998,139,0,1,Portugués,Estados Unidos,No,2022-02-28
+C0156,Señal Imposible 156,Película,Crimen,Mafia,13+,1998,115,0,1,Español,Reino Unido,No,2023-06-28
+C0157,Pulso Silencioso 157,Serie,Romance,Drama,16+,2005,52,2,14,Coreano,Reino Unido,No,2022-11-10
+C0158,Vértigo Invisible 158,Película,Drama,Familiar,7+,2014,101,0,1,Inglés,México,No,2025-10-24
+C0159,Instante Norte 159,Película,Animación,Fantasía,13+,2001,94,0,1,Español,Corea del Sur,No,2024-06-05
+C0160,Noche Norte 160,Serie,Crimen,Mafia,13+,2003,38,1,9,Inglés,Estados Unidos,No,2022-04-02
+C0161,Luz Abierto 161,Documental,Drama,Familiar,18+,2024,79,0,1,Inglés,Estados Unidos,No,2023-03-19
+C0162,Planeta Invisible 162,Documental,Drama,Histórico,16+,2006,52,0,1,Español,Reino Unido,No,2023-07-16
+C0163,Tiempo Norte 163,Serie,Animación,Fantasía,13+,2006,53,4,24,Inglés,España,No,2024-09-12
+C0164,Archivo Bajo 164,Película,Aventura,Fantasía,16+,2002,98,0,1,Español,Estados Unidos,No,2023-02-18
+C0165,Señal Oculto 165,Película,Documental,Historia,13+,2012,153,0,1,Español,España,No,2024-01-22
+C0166,Destino Cero 166,Película,Drama,Histórico,18+,2007,82,0,1,Español,Chile,Sí,2024-07-08
+C0167,Luz Nocturno 167,Serie,Acción,Espionaje,13+,1999,53,5,45,Inglés,Estados Unidos,No,2024-01-22
+C0168,Última Alto 168,Película,Acción,Artes marciales,13+,2005,131,0,1,Inglés,Reino Unido,No,2025-11-10
+C0169,Ruta Secreto 169,Serie,Crimen,Detectives,13+,2008,35,2,18,Español,Brasil,Sí,2025-01-10
+C0170,Sombras Global 170,Documental,Thriller,Misterio,13+,2003,65,0,1,Español,Estados Unidos,No,2024-06-01
+C0171,Marea Digital 171,Película,Ciencia ficción,Espacio,18+,2017,87,0,1,Español,Estados Unidos,Sí,2023-04-28
+C0172,Origen Infinito 172,Película,Documental,Historia,18+,2005,84,0,1,Español,Estados Unidos,No,2024-08-13
+C0173,Sombras Infinito 173,Película,Animación,Comedia,16+,2007,154,0,1,Español,Corea del Sur,No,2024-07-27
+C0174,Archivo Azul 174,Película,Drama,Familiar,13+,2019,123,0,1,Inglés,Reino Unido,No,2022-04-06
+C0175,Frontera Oculto 175,Película,Crimen,Judicial,16+,2012,121,0,1,Inglés,México,No,2025-07-30
+C0176,Archivo Rojo 176,Película,Ciencia ficción,Futuro,7+,1998,96,0,1,Inglés,Chile,Sí,2023-06-09
+C0177,Noche Global 177,Serie,Drama,Social,18+,2005,32,4,40,Inglés,Estados Unidos,No,2025-01-25
+C0178,Origen Global 178,Película,Crimen,Mafia,Todo público,2012,96,0,1,Inglés,Reino Unido,No,2023-03-27
+C0179,Horizonte Invisible 179,Película,Crimen,Mafia,13+,2004,122,0,1,Español,Estados Unidos,No,2023-03-11
+C0180,Instante Global 180,Película,Comedia,Sátira,16+,2021,86,0,1,Español,España,No,2022-01-30
+C0181,Eco Alto 181,Película,Drama,Juvenil,16+,2002,106,0,1,Portugués,Estados Unidos,No,2023-01-02
+C0182,Vértigo Oculto 182,Documental,Romance,Juvenil,16+,2007,88,0,1,Español,España,No,2023-05-24
+C0183,Destino Nocturno 183,Serie,Drama,Familiar,18+,2019,48,5,60,Español,México,Sí,2025-09-28
+C0184,Latido Norte 184,Película,Thriller,Suspenso,7+,2021,109,0,1,Portugués,Chile,Sí,2022-02-22
+C0185,Origen Profundo 185,Serie,Aventura,Supervivencia,7+,2024,35,3,18,Coreano,Argentina,No,2025-09-03
+C0186,Marea Profundo 186,Película,Drama,Social,13+,1999,116,0,1,Español,Estados Unidos,No,2024-02-21
+C0187,Marea Libre 187,Serie,Documental,Historia,18+,2010,31,5,60,Inglés,México,No,2024-03-26
+C0188,Memoria Central 188,Serie,Thriller,Misterio,13+,2009,33,5,40,Portugués,Estados Unidos,No,2022-06-15
+C0189,Origen Global 189,Serie,Drama,Social,7+,1999,32,2,22,Español,Estados Unidos,No,2024-07-29
+C0190,Horizonte Global 190,Documental,Documental,Sociedad,16+,2023,69,0,1,Inglés,México,Sí,2023-03-09
+C0191,Horizonte Imposible 191,Serie,Thriller,Conspiración,13+,2001,52,1,6,Español,Reino Unido,Sí,2023-06-05
+C0192,Ciudad Norte 192,Serie,Acción,Espionaje,16+,2008,57,3,21,Inglés,México,No,2024-11-13
+C0193,Sombras Humano 193,Serie,Acción,Artes marciales,16+,1998,33,3,24,Español,Reino Unido,Sí,2023-06-24
+C0194,Punto Oculto 194,Documental,Drama,Juvenil,16+,2024,49,0,1,Inglés,Estados Unidos,Sí,2022-11-29
+C0195,Ciudad Global 195,Serie,Drama,Histórico,16+,2010,48,3,33,Inglés,México,No,2023-09-07
+C0196,Planeta Oculto 196,Película,Drama,Social,16+,2025,87,0,1,Español,España,Sí,2024-07-16
+C0197,Eco Digital 197,Serie,Comedia,Romántica,7+,2017,36,4,48,Español,Estados Unidos,Sí,2024-09-10
+C0198,Pulso Profundo 198,Película,Comedia,Familiar,13+,2000,151,0,1,Portugués,Estados Unidos,No,2024-05-06
+C0199,Sombras Oculto 199,Película,Thriller,Suspenso,13+,2025,82,0,1,Español,Reino Unido,No,2024-05-20
+C0200,Marea Secreto 200,Serie,Drama,Social,18+,2020,39,4,36,Español,Reino Unido,No,2023-03-01
+C0201,Planeta Norte 201,Documental,Acción,Espionaje,16+,2021,88,0,1,Inglés,Brasil,No,2024-09-10
+C0202,Pulso Abierto 202,Documental,Ciencia ficción,Espacio,13+,2012,52,0,1,Español,Estados Unidos,Sí,2025-08-05
+C0203,Código Bajo 203,Película,Acción,Supervivencia,13+,2020,84,0,1,Inglés,España,No,2023-03-02
+C0204,Pulso Infinito 204,Serie,Drama,Juvenil,Todo público,2024,33,3,27,Español,Corea del Sur,No,2025-07-12
+C0205,Eco Libre 205,Película,Romance,Juvenil,16+,2002,120,0,1,Español,Estados Unidos,No,2025-06-16
+C0206,Frontera Imposible 206,Serie,Documental,Tecnología,7+,2004,32,1,6,Inglés,Reino Unido,No,2023-04-15
+C0207,Latido Alto 207,Serie,Aventura,Exploración,Todo público,2000,53,5,55,Coreano,Brasil,No,2023-08-19
+C0208,Punto Global 208,Película,Thriller,Psicológico,Todo público,2024,101,0,1,Español,Brasil,No,2024-02-22
+C0209,Noche Profundo 209,Serie,Romance,Juvenil,16+,2014,43,4,24,Inglés,Estados Unidos,Sí,2023-08-04
+C0210,Marea Infinito 210,Serie,Animación,Familiar,13+,2003,36,3,18,Español,Brasil,Sí,2023-11-06
+C0211,Sombras Bajo 211,Película,Drama,Familiar,18+,2015,94,0,1,Coreano,Estados Unidos,Sí,2022-11-24
+C0212,Última Nocturno 212,Serie,Acción,Artes marciales,16+,2010,52,5,50,Español,Reino Unido,Sí,2023-10-24
+C0213,Latido Silencioso 213,Película,Animación,Fantasía,13+,2002,89,0,1,Inglés,Argentina,No,2025-07-11
+C0214,Origen Alto 214,Serie,Comedia,Familiar,18+,2008,34,5,40,Español,México,No,2024-09-28
+C0215,Ruta Final 215,Película,Drama,Social,16+,2015,126,0,1,Coreano,México,No,2025-07-25
+C0216,Latido Humano 216,Serie,Animación,Comedia,18+,1998,40,4,36,Inglés,Estados Unidos,No,2023-05-24
+C0217,Ciudad Digital 217,Película,Acción,Policial,16+,2001,108,0,1,Español,España,No,2024-02-05
+C0218,Secreto Alto 218,Documental,Comedia,Situacional,Todo público,2017,60,0,1,Portugués,Estados Unidos,Sí,2024-07-10
+C0219,Ciudad Profundo 219,Serie,Acción,Supervivencia,13+,1999,39,3,36,Inglés,Reino Unido,Sí,2023-09-22
+C0220,Señal Digital 220,Serie,Thriller,Conspiración,13+,2006,33,5,55,Español,Argentina,Sí,2025-08-11
+C0221,Destino Global 221,Película,Romance,Comedia,13+,2006,119,0,1,Inglés,Reino Unido,Sí,2025-06-22
+C0222,Frontera Norte 222,Serie,Documental,Sociedad,Todo público,2010,49,4,48,Español,Estados Unidos,No,2023-05-23
+C0223,Instante Nocturno 223,Película,Animación,Familiar,13+,2012,91,0,1,Francés,Brasil,Sí,2024-02-15
+C0224,Sombras Rojo 224,Película,Acción,Policial,18+,2009,88,0,1,Inglés,Argentina,No,2025-07-13
+C0225,Origen Bajo 225,Película,Ciencia ficción,Tecnología,16+,2005,129,0,1,Español,Brasil,No,2022-03-13
+C0226,Sombras Profundo 226,Documental,Thriller,Psicológico,16+,2024,90,0,1,Inglés,Estados Unidos,No,2023-04-13
+C0227,Última Nocturno 227,Serie,Drama,Histórico,13+,2010,39,2,18,Español,Estados Unidos,No,2025-05-26
+C0228,Origen Digital 228,Serie,Aventura,Supervivencia,Todo público,2016,56,2,16,Inglés,Argentina,No,2022-10-06
+C0229,Archivo Digital 229,Película,Aventura,Viaje,Todo público,2009,102,0,1,Español,México,No,2022-04-04
+C0230,Vértigo Oculto 230,Película,Drama,Juvenil,13+,2019,131,0,1,Inglés,Argentina,No,2024-04-02
+C0231,Código Global 231,Serie,Comedia,Romántica,Todo público,2020,29,4,36,Portugués,España,No,2025-08-28
+C0232,Punto Silencioso 232,Serie,Romance,Época,16+,2012,30,3,36,Español,Estados Unidos,Sí,2024-09-06
+C0233,Memoria Humano 233,Película,Documental,Naturaleza,16+,2001,142,0,1,Inglés,Estados Unidos,Sí,2022-12-05
+C0234,Pulso Bajo 234,Serie,Drama,Social,Todo público,2016,55,1,10,Inglés,México,No,2023-10-14
+C0235,Ciudad Central 235,Película,Aventura,Fantasía,13+,2011,124,0,1,Español,Argentina,No,2022-09-02
+C0236,Ciudad Bajo 236,Documental,Drama,Juvenil,16+,2001,99,0,1,Español,Brasil,No,2024-08-19
+C0237,Secreto Bajo 237,Documental,Drama,Familiar,16+,2018,75,0,1,Español,Estados Unidos,No,2024-01-29
+C0238,Marea Silencioso 238,Serie,Drama,Familiar,16+,2013,48,3,36,Coreano,México,No,2023-12-03
+C0239,Origen Profundo 239,Documental,Aventura,Supervivencia,7+,1998,52,0,1,Español,Chile,Sí,2023-10-12
+C0240,Sombras Alto 240,Película,Crimen,Judicial,16+,2009,112,0,1,Inglés,México,No,2023-06-21
+C0241,Última Perdido 241,Serie,Aventura,Fantasía,16+,2021,45,3,18,Inglés,Corea del Sur,No,2022-05-30
+C0242,Secreto Alto 242,Documental,Documental,Naturaleza,16+,1998,53,0,1,Portugués,Estados Unidos,No,2023-02-06
+C0243,Noche Norte 243,Película,Comedia,Situacional,Todo público,2025,131,0,1,Español,Reino Unido,Sí,2023-02-02
+C0244,Destino Infinito 244,Serie,Ciencia ficción,Espacio,13+,2013,49,2,24,Inglés,Estados Unidos,Sí,2022-02-18
+C0245,Sombras Azul 245,Película,Thriller,Suspenso,16+,2022,155,0,1,Inglés,Estados Unidos,No,2022-09-07
+C0246,Eco Oculto 246,Película,Acción,Policial,16+,1998,135,0,1,Español,Corea del Sur,Sí,2022-09-08
+C0247,Frontera Infinito 247,Documental,Thriller,Misterio,Todo público,2012,90,0,1,Español,Estados Unidos,No,2022-11-07
+C0248,Código Profundo 248,Serie,Thriller,Psicológico,16+,2007,32,4,40,Español,México,No,2024-03-25
+C0249,Luz Imposible 249,Serie,Thriller,Conspiración,16+,2005,51,5,40,Portugués,México,Sí,2022-08-31
+C0250,Instante Secreto 250,Serie,Drama,Familiar,Todo público,2000,48,3,30,Español,Argentina,No,2023-07-15
+C0251,Luz Digital 251,Serie,Drama,Social,13+,2012,58,4,36,Inglés,Chile,No,2024-04-20
+C0252,Frontera Central 252,Película,Documental,Tecnología,16+,2022,151,0,1,Inglés,México,No,2024-06-29
+C0253,Vértigo Final 253,Serie,Drama,Histórico,7+,2024,43,5,40,Inglés,Estados Unidos,No,2022-02-05
+C0254,Marea Nocturno 254,Película,Ciencia ficción,Tecnología,16+,2009,88,0,1,Portugués,Brasil,No,2022-09-23
+C0255,Origen Bajo 255,Película,Thriller,Conspiración,13+,1998,116,0,1,Inglés,España,Sí,2023-07-17
+C0256,Punto Digital 256,Película,Aventura,Exploración,7+,2004,134,0,1,Inglés,Estados Unidos,No,2022-09-26
+C0257,Eco Silencioso 257,Película,Drama,Histórico,Todo público,2006,82,0,1,Portugués,Estados Unidos,No,2023-11-02
+C0258,Eco Bajo 258,Documental,Aventura,Fantasía,16+,2008,75,0,1,Español,Corea del Sur,Sí,2025-10-26
+C0259,Ruta Oculto 259,Película,Documental,Tecnología,7+,2017,134,0,1,Coreano,Estados Unidos,Sí,2023-01-04
+C0260,Eco Abierto 260,Documental,Ciencia ficción,Espacio,Todo público,2017,45,0,1,Español,Estados Unidos,No,2023-03-17
+C0261,Memoria Libre 261,Película,Thriller,Conspiración,13+,2025,127,0,1,Francés,Chile,No,2022-02-24
+C0262,Latido Nocturno 262,Película,Ciencia ficción,Futuro,7+,2009,153,0,1,Inglés,España,No,2024-02-25
+C0263,Código Final 263,Película,Ciencia ficción,Distopía,13+,2007,94,0,1,Español,Brasil,No,2025-05-30
+C0264,Marea Invisible 264,Película,Animación,Familiar,16+,2010,122,0,1,Inglés,Brasil,No,2022-07-10
+C0265,Código Bajo 265,Serie,Acción,Espionaje,13+,2014,56,5,35,Español,Corea del Sur,No,2022-07-26
+C0266,Sombras Humano 266,Serie,Aventura,Exploración,18+,2009,50,4,44,Inglés,Estados Unidos,Sí,2024-04-21
+C0267,Tiempo Rojo 267,Serie,Comedia,Familiar,7+,2007,57,4,36,Español,México,Sí,2022-04-23
+C0268,Código Digital 268,Serie,Romance,Drama,7+,2009,35,1,6,Inglés,Reino Unido,No,2025-10-01
+C0269,Memoria Profundo 269,Documental,Aventura,Exploración,13+,2002,68,0,1,Coreano,Estados Unidos,Sí,2022-08-29
+C0270,Latido Norte 270,Documental,Ciencia ficción,Tecnología,13+,2005,75,0,1,Coreano,Estados Unidos,No,2022-06-01
+C0271,Horizonte Invisible 271,Película,Romance,Juvenil,13+,2008,108,0,1,Coreano,España,Sí,2022-11-28
+C0272,Punto Final 272,Serie,Romance,Drama,16+,2019,42,4,48,Español,Reino Unido,Sí,2025-05-25
+C0273,Marea Profundo 273,Serie,Crimen,Mafia,13+,2014,54,1,8,Español,Chile,No,2024-05-28
+C0274,Señal Norte 274,Película,Thriller,Misterio,18+,2016,129,0,1,Coreano,España,No,2025-03-04
+C0275,Archivo Bajo 275,Película,Ciencia ficción,Distopía,13+,1998,135,0,1,Inglés,México,No,2022-07-17
+C0276,Vértigo Digital 276,Serie,Comedia,Situacional,16+,2013,43,4,40,Español,Estados Unidos,No,2023-09-09
+C0277,Secreto Oculto 277,Película,Comedia,Familiar,13+,1999,150,0,1,Inglés,Reino Unido,No,2025-06-04
+C0278,Secreto Rojo 278,Serie,Animación,Aventura,16+,2008,45,3,21,Inglés,Argentina,Sí,2025-08-29
+C0279,Latido Humano 279,Documental,Animación,Familiar,16+,2010,86,0,1,Español,Chile,Sí,2023-10-16
+C0280,Origen Global 280,Película,Documental,Tecnología,13+,2012,89,0,1,Inglés,España,No,2023-04-15
+C0281,Archivo Central 281,Serie,Comedia,Situacional,13+,2000,49,1,9,Español,Argentina,Sí,2022-03-03
+C0282,Tiempo Invisible 282,Documental,Acción,Policial,Todo público,2016,62,0,1,Inglés,Estados Unidos,No,2024-05-27
+C0283,Memoria Global 283,Película,Drama,Histórico,7+,2024,89,0,1,Inglés,México,No,2024-01-02
+C0284,Archivo Secreto 284,Película,Drama,Familiar,13+,2021,143,0,1,Español,Estados Unidos,No,2025-01-14
+C0285,Código Norte 285,Serie,Comedia,Sátira,16+,2024,54,3,21,Coreano,Estados Unidos,No,2025-01-23
+C0286,Archivo Azul 286,Serie,Acción,Policial,16+,2018,58,4,28,Inglés,Estados Unidos,Sí,2024-01-17
+C0287,Archivo Rojo 287,Película,Crimen,Judicial,16+,2008,85,0,1,Español,Reino Unido,No,2022-09-20
+C0288,Instante Final 288,Serie,Documental,Tecnología,13+,2007,50,1,10,Inglés,Estados Unidos,No,2024-11-13
+C0289,Archivo Infinito 289,Serie,Comedia,Situacional,7+,2015,28,1,9,Español,Estados Unidos,Sí,2023-09-21
+C0290,Tiempo Rojo 290,Serie,Drama,Social,16+,2019,32,4,40,Inglés,México,Sí,2022-01-08
+C0291,Señal Invisible 291,Película,Romance,Drama,18+,2005,115,0,1,Inglés,Brasil,No,2022-06-08
+C0292,Noche Invisible 292,Serie,Crimen,Detectives,7+,2016,38,3,30,Español,Estados Unidos,No,2024-12-31
+C0293,Marea Profundo 293,Película,Comedia,Familiar,13+,2015,100,0,1,Español,Estados Unidos,Sí,2023-06-20
+C0294,Luz Abierto 294,Documental,Comedia,Familiar,13+,2017,57,0,1,Inglés,Estados Unidos,Sí,2023-07-03
+C0295,Luz Abierto 295,Serie,Acción,Espionaje,13+,2021,33,4,44,Español,Argentina,No,2025-06-24
+C0296,Planeta Invisible 296,Película,Thriller,Conspiración,13+,2024,111,0,1,Coreano,Estados Unidos,No,2022-03-02
+C0297,Señal Rojo 297,Serie,Documental,Tecnología,18+,2025,47,1,10,Español,México,No,2022-06-13
+C0298,Archivo Secreto 298,Película,Romance,Comedia,13+,1999,98,0,1,Español,Estados Unidos,No,2025-08-02
+C0299,Planeta Perdido 299,Película,Acción,Artes marciales,16+,2010,141,0,1,Español,Estados Unidos,No,2025-03-18
+C0300,Punto Global 300,Serie,Thriller,Conspiración,7+,2001,56,4,32,Español,Corea del Sur,No,2022-05-29
+C0301,Última Central 301,Serie,Crimen,Judicial,13+,2024,49,4,48,Inglés,Reino Unido,No,2022-03-11
+C0302,Noche Humano 302,Película,Romance,Época,13+,2011,114,0,1,Francés,Corea del Sur,No,2023-04-22
+C0303,Origen Oculto 303,Serie,Drama,Social,16+,2025,39,2,20,Español,México,Sí,2024-07-30
+C0304,Pulso Libre 304,Serie,Acción,Policial,16+,2022,34,2,22,Español,Estados Unidos,Sí,2023-05-24
+C0305,Ruta Invisible 305,Película,Drama,Social,7+,2000,116,0,1,Español,Chile,No,2022-11-20
+C0306,Marea Global 306,Película,Ciencia ficción,Distopía,18+,2009,130,0,1,Español,España,No,2023-09-20
+C0307,Noche Secreto 307,Película,Aventura,Fantasía,13+,2019,130,0,1,Español,Estados Unidos,No,2024-08-22
+C0308,Secreto Profundo 308,Serie,Comedia,Romántica,16+,2022,30,3,18,Español,Estados Unidos,Sí,2022-01-17
+C0309,Punto Norte 309,Documental,Drama,Familiar,16+,2024,103,0,1,Inglés,Estados Unidos,Sí,2024-04-17
+C0310,Eco Final 310,Serie,Thriller,Conspiración,13+,2013,33,2,18,Francés,Estados Unidos,No,2025-04-21
+C0311,Noche Rojo 311,Película,Aventura,Supervivencia,13+,2007,110,0,1,Inglés,Corea del Sur,Sí,2023-06-05
+C0312,Pulso Alto 312,Película,Ciencia ficción,Espacio,13+,2016,124,0,1,Inglés,Estados Unidos,No,2025-01-31
+C0313,Instante Libre 313,Documental,Animación,Familiar,7+,2003,64,0,1,Español,Chile,No,2024-11-18
+C0314,Punto Final 314,Serie,Animación,Familiar,13+,2009,38,5,45,Español,Estados Unidos,No,2022-09-15
+C0315,Destino Imposible 315,Serie,Comedia,Sátira,7+,2015,50,3,18,Español,Brasil,No,2022-09-30
+C0316,Memoria Digital 316,Serie,Romance,Comedia,16+,2009,32,3,36,Coreano,Argentina,No,2023-12-16
+C0317,Punto Bajo 317,Película,Documental,Tecnología,13+,2010,145,0,1,Español,Reino Unido,No,2022-12-05
+C0318,Origen Digital 318,Serie,Acción,Artes marciales,16+,2021,58,4,40,Español,México,No,2023-09-28
+C0319,Sombras Global 319,Película,Crimen,Investigación,13+,2003,132,0,1,Inglés,España,No,2024-05-11
+C0320,Tiempo Central 320,Serie,Aventura,Exploración,Todo público,2017,36,1,7,Inglés,España,No,2024-01-13
+C0321,Instante Oculto 321,Serie,Ciencia ficción,Tecnología,13+,2003,44,2,16,Español,Estados Unidos,No,2022-10-17
+C0322,Sombras Perdido 322,Película,Aventura,Exploración,18+,2009,150,0,1,Español,España,No,2024-04-24
+C0323,Señal Bajo 323,Serie,Ciencia ficción,Distopía,13+,2009,54,1,11,Portugués,España,Sí,2024-09-22
+C0324,Sombras Global 324,Película,Aventura,Supervivencia,7+,1998,104,0,1,Portugués,México,No,2022-09-21
+C0325,Pulso Global 325,Película,Ciencia ficción,Distopía,Todo público,2019,104,0,1,Español,Estados Unidos,No,2025-08-14
+C0326,Señal Infinito 326,Serie,Ciencia ficción,Distopía,16+,2010,42,1,7,Inglés,Estados Unidos,Sí,2024-03-04
+C0327,Memoria Abierto 327,Documental,Drama,Familiar,16+,2022,93,0,1,Portugués,Estados Unidos,Sí,2022-10-19
+C0328,Destino Imposible 328,Película,Ciencia ficción,Tecnología,13+,2002,83,0,1,Español,Corea del Sur,No,2025-02-05
+C0329,Planeta Global 329,Serie,Comedia,Familiar,13+,2020,29,2,20,Español,Brasil,Sí,2022-05-03
+C0330,Latido Humano 330,Serie,Animación,Fantasía,13+,2010,34,5,60,Español,Estados Unidos,No,2024-08-25
+C0331,Luz Global 331,Serie,Romance,Drama,16+,2008,49,1,7,Inglés,Estados Unidos,Sí,2023-10-12
+C0332,Archivo Libre 332,Película,Animación,Fantasía,16+,1999,107,0,1,Inglés,México,Sí,2025-04-04
+C0333,Noche Perdido 333,Película,Ciencia ficción,Distopía,13+,2020,111,0,1,Inglés,México,No,2025-08-17
+C0334,Tiempo Global 334,Película,Animación,Aventura,13+,2024,149,0,1,Español,México,No,2022-12-11
+C0335,Ciudad Profundo 335,Película,Comedia,Familiar,16+,2021,152,0,1,Francés,España,No,2022-06-24
+C0336,Ciudad Invisible 336,Película,Animación,Aventura,16+,2024,149,0,1,Francés,Reino Unido,No,2022-12-12
+C0337,Archivo Invisible 337,Documental,Romance,Época,13+,2008,85,0,1,Francés,México,No,2025-08-04
+C0338,Punto Libre 338,Película,Drama,Juvenil,16+,2005,96,0,1,Español,Corea del Sur,Sí,2022-04-01
+C0339,Instante Infinito 339,Película,Thriller,Psicológico,13+,2010,137,0,1,Inglés,Reino Unido,No,2022-06-14
+C0340,Sombras Secreto 340,Documental,Aventura,Viaje,13+,2025,67,0,1,Inglés,España,No,2022-05-26
+C0341,Marea Perdido 341,Serie,Aventura,Fantasía,13+,2019,28,1,8,Inglés,Estados Unidos,Sí,2024-09-14
+C0342,Instante Abierto 342,Película,Aventura,Fantasía,16+,2024,144,0,1,Inglés,Reino Unido,Sí,2025-01-10
+C0343,Archivo Secreto 343,Serie,Comedia,Sátira,13+,2003,38,1,10,Inglés,Reino Unido,No,2022-09-04
+C0344,Ruta Secreto 344,Serie,Romance,Drama,18+,1999,28,1,11,Español,Reino Unido,Sí,2025-10-21
+C0345,Origen Secreto 345,Película,Documental,Naturaleza,13+,2015,125,0,1,Español,Brasil,No,2025-08-12
+C0346,Última Final 346,Película,Comedia,Situacional,16+,2009,119,0,1,Español,Argentina,No,2023-10-04
+C0347,Ciudad Secreto 347,Serie,Aventura,Exploración,16+,2005,45,3,21,Portugués,Estados Unidos,No,2025-10-07
+C0348,Eco Abierto 348,Documental,Drama,Juvenil,13+,2015,84,0,1,Inglés,Estados Unidos,Sí,2024-02-08
+C0349,Secreto Rojo 349,Película,Acción,Policial,16+,2024,143,0,1,Inglés,Argentina,No,2022-05-31
+C0350,Noche Azul 350,Película,Ciencia ficción,Distopía,13+,2009,117,0,1,Portugués,México,No,2024-06-17
+C0351,Luz Libre 351,Película,Acción,Espionaje,13+,2019,102,0,1,Español,Estados Unidos,No,2025-03-20
+C0352,Noche Rojo 352,Documental,Drama,Familiar,16+,2008,69,0,1,Coreano,Corea del Sur,Sí,2024-09-07
+C0353,Sombras Libre 353,Película,Ciencia ficción,Espacio,13+,2011,108,0,1,Español,Argentina,No,2023-06-21
+C0354,Eco Secreto 354,Película,Comedia,Familiar,18+,2021,118,0,1,Inglés,Reino Unido,Sí,2025-07-12
+C0355,Pulso Imposible 355,Película,Thriller,Psicológico,Todo público,2014,137,0,1,Español,Estados Unidos,No,2025-10-16
+C0356,Instante Rojo 356,Serie,Drama,Social,18+,2014,36,4,24,Portugués,Argentina,No,2024-04-30
+C0357,Instante Digital 357,Documental,Thriller,Suspenso,13+,2009,60,0,1,Francés,Chile,No,2022-10-11
+C0358,Latido Abierto 358,Película,Crimen,Detectives,7+,2021,148,0,1,Español,Reino Unido,Sí,2024-04-29
+C0359,Vértigo Nocturno 359,Película,Comedia,Familiar,13+,2024,152,0,1,Español,España,Sí,2024-02-17
+C0360,Marea Nocturno 360,Serie,Drama,Juvenil,13+,1999,38,4,24,Francés,Brasil,No,2024-12-31
+C0361,Última Global 361,Película,Crimen,Detectives,18+,2009,120,0,1,Español,Estados Unidos,No,2024-06-14
+C0362,Ciudad Norte 362,Serie,Thriller,Psicológico,Todo público,2010,53,5,35,Inglés,Argentina,No,2024-02-06
+C0363,Tiempo Profundo 363,Serie,Drama,Juvenil,7+,2000,43,2,18,Coreano,México,No,2024-06-08
+C0364,Tiempo Silencioso 364,Serie,Comedia,Romántica,13+,2005,51,5,55,Inglés,Estados Unidos,No,2025-09-13
+C0365,Última Bajo 365,Serie,Animación,Familiar,13+,2007,56,1,9,Inglés,Reino Unido,No,2024-11-04
+C0366,Última Azul 366,Serie,Acción,Supervivencia,16+,2006,34,3,21,Español,Chile,No,2022-08-15
+C0367,Luz Perdido 367,Serie,Ciencia ficción,Espacio,13+,2019,35,1,6,Inglés,Reino Unido,No,2022-06-05
+C0368,Instante Final 368,Serie,Thriller,Conspiración,16+,2021,52,1,12,Inglés,Estados Unidos,No,2024-06-12
+C0369,Memoria Perdido 369,Serie,Comedia,Romántica,Todo público,1998,55,4,28,Inglés,Brasil,Sí,2024-10-05
+C0370,Frontera Silencioso 370,Película,Drama,Familiar,7+,2020,86,0,1,Español,Corea del Sur,No,2024-12-07
+C0371,Marea Silencioso 371,Documental,Comedia,Situacional,7+,2023,69,0,1,Inglés,Estados Unidos,No,2023-11-04
+C0372,Latido Humano 372,Película,Crimen,Mafia,18+,2010,127,0,1,Francés,Reino Unido,No,2025-10-24
+C0373,Señal Global 373,Película,Acción,Supervivencia,13+,2021,137,0,1,Inglés,México,Sí,2023-06-18
+C0374,Eco Central 374,Serie,Thriller,Conspiración,16+,2020,30,5,60,Español,Brasil,Sí,2025-05-29
+C0375,Frontera Infinito 375,Película,Crimen,Detectives,16+,2017,154,0,1,Francés,Argentina,No,2024-09-12
+C0376,Frontera Oculto 376,Serie,Thriller,Suspenso,Todo público,2001,34,1,12,Español,Estados Unidos,No,2025-10-26
+C0377,Ciudad Final 377,Película,Drama,Social,16+,2002,103,0,1,Español,México,Sí,2023-12-23
+C0378,Horizonte Infinito 378,Película,Animación,Familiar,16+,2001,121,0,1,Inglés,España,No,2024-08-07
+C0379,Última Perdido 379,Serie,Drama,Juvenil,16+,2024,45,4,28,Español,Estados Unidos,No,2025-09-21
+C0380,Vértigo Bajo 380,Película,Drama,Familiar,18+,2018,92,0,1,Español,España,Sí,2023-09-24
+C0381,Origen Final 381,Documental,Crimen,Judicial,16+,2000,62,0,1,Español,Estados Unidos,No,2023-08-25
+C0382,Ruta Humano 382,Serie,Documental,Historia,13+,2004,37,3,33,Español,Brasil,No,2022-12-16
+C0383,Origen Libre 383,Serie,Animación,Familiar,7+,2012,50,2,18,Inglés,Corea del Sur,No,2023-03-20
+C0384,Horizonte Azul 384,Serie,Romance,Época,16+,2025,50,4,32,Inglés,Estados Unidos,Sí,2024-11-21
+C0385,Señal Profundo 385,Documental,Animación,Familiar,7+,2025,82,0,1,Español,Estados Unidos,No,2025-09-21
+C0386,Horizonte Global 386,Película,Crimen,Mafia,13+,2008,110,0,1,Inglés,Chile,No,2022-03-27
+C0387,Punto Norte 387,Película,Acción,Policial,Todo público,2009,124,0,1,Español,Estados Unidos,No,2022-11-18
+C0388,Ciudad Nocturno 388,Película,Romance,Juvenil,Todo público,2000,107,0,1,Español,Estados Unidos,No,2023-07-28
+C0389,Secreto Invisible 389,Película,Comedia,Romántica,Todo público,2007,131,0,1,Inglés,Estados Unidos,No,2024-03-16
+C0390,Planeta Bajo 390,Película,Documental,Sociedad,7+,2000,120,0,1,Español,Estados Unidos,No,2023-07-01
+C0391,Noche Secreto 391,Serie,Drama,Juvenil,16+,2009,42,4,24,Español,México,No,2025-04-27
+C0392,Archivo Central 392,Serie,Acción,Policial,16+,1998,37,3,18,Francés,Brasil,No,2024-02-05
+C0393,Pulso Silencioso 393,Documental,Romance,Comedia,18+,1999,56,0,1,Español,Argentina,No,2025-02-15
+C0394,Noche Bajo 394,Documental,Ciencia ficción,Espacio,13+,2013,52,0,1,Coreano,Reino Unido,Sí,2023-12-14
+C0395,Marea Silencioso 395,Película,Crimen,Detectives,7+,2023,131,0,1,Inglés,Argentina,No,2023-05-11
+C0396,Luz Digital 396,Película,Crimen,Mafia,16+,2021,82,0,1,Francés,Brasil,No,2024-02-06
+C0397,Punto Humano 397,Película,Drama,Social,16+,2024,101,0,1,Español,Estados Unidos,No,2022-05-25
+C0398,Instante Abierto 398,Película,Documental,Historia,16+,2020,124,0,1,Inglés,España,Sí,2023-01-15
+C0399,Última Libre 399,Película,Aventura,Viaje,Todo público,2015,102,0,1,Español,Chile,No,2023-10-24
+C0400,Última Rojo 400,Serie,Documental,Sociedad,18+,2012,45,4,28,Español,Corea del Sur,No,2022-01-22
+C0401,Señal Cero 401,Serie,Ciencia ficción,Tecnología,16+,2025,40,4,28,Portugués,Chile,No,2025-10-10
+C0402,Código Alto 402,Serie,Drama,Social,13+,2008,47,1,7,Español,Corea del Sur,Sí,2024-05-07
+C0403,Ciudad Libre 403,Película,Drama,Familiar,18+,2000,140,0,1,Inglés,Estados Unidos,Sí,2022-03-04
+C0404,Luz Perdido 404,Documental,Ciencia ficción,Espacio,13+,2000,97,0,1,Español,Estados Unidos,No,2022-04-08
+C0405,Destino Libre 405,Serie,Acción,Artes marciales,Todo público,2012,33,3,30,Español,Estados Unidos,No,2024-06-19
+C0406,Punto Global 406,Película,Animación,Fantasía,13+,2011,123,0,1,Español,Estados Unidos,No,2024-11-14
+C0407,Latido Libre 407,Película,Crimen,Judicial,18+,2020,104,0,1,Español,Corea del Sur,No,2022-12-14
+C0408,Última Silencioso 408,Película,Thriller,Conspiración,16+,2015,129,0,1,Portugués,Corea del Sur,Sí,2025-03-18
+C0409,Horizonte Libre 409,Documental,Acción,Espionaje,16+,2003,90,0,1,Español,Estados Unidos,No,2022-08-20
+C0410,Luz Global 410,Película,Acción,Espionaje,13+,2009,98,0,1,Español,Reino Unido,No,2024-08-27
+C0411,Vértigo Silencioso 411,Película,Acción,Artes marciales,16+,2012,84,0,1,Español,Estados Unidos,Sí,2024-06-22
+C0412,Horizonte Global 412,Serie,Ciencia ficción,Distopía,7+,2010,30,3,21,Inglés,Argentina,Sí,2024-03-11
+C0413,Secreto Invisible 413,Documental,Crimen,Judicial,13+,2025,64,0,1,Inglés,Reino Unido,Sí,2022-06-22
+C0414,Destino Abierto 414,Serie,Comedia,Romántica,13+,1999,40,4,32,Portugués,Estados Unidos,No,2022-12-03
+C0415,Punto Libre 415,Película,Romance,Juvenil,16+,1999,134,0,1,Portugués,Estados Unidos,Sí,2023-10-10
+C0416,Secreto Azul 416,Película,Thriller,Suspenso,7+,2000,151,0,1,Portugués,Reino Unido,No,2023-05-30
+C0417,Memoria Final 417,Película,Thriller,Psicológico,13+,2013,122,0,1,Español,España,No,2022-05-16
+C0418,Sombras Secreto 418,Documental,Thriller,Misterio,16+,2008,45,0,1,Inglés,Estados Unidos,Sí,2024-08-14
+C0419,Eco Invisible 419,Serie,Romance,Juvenil,13+,2024,36,4,36,Español,Argentina,No,2024-01-10
+C0420,Pulso Rojo 420,Serie,Thriller,Conspiración,7+,2001,58,5,40,Español,Estados Unidos,No,2024-08-15

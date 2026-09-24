@@ -1,0 +1,10 @@
+{
+    // Intérprete del entorno virtual del proyecto (Windows).
+    // En Mac/Linux cambia la ruta a: ${workspaceFolder}/.venv/bin/python
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/Scripts/python.exe",
+    "python.terminal.activateEnvironment": true,
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/.ipynb_checkpoints": true
+    }
+}

@@ -1,0 +1,16 @@
+# Configuración de Streamlit (local y en Community Cloud)
+
+[theme]
+# Tema claro fijo: la paleta del equipo está pensada sobre fondo blanco
+base = "light"
+primaryColor = "#2E86AB"          # COLOR_ACENTO_POS del notebook
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F3F5F7"
+textColor = "#1F2A33"
+font = "sans serif"
+
+[server]
+runOnSave = true                  # recarga la app al guardar un archivo
+
+[browser]
+gatherUsageStats = false

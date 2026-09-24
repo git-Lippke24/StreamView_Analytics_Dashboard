@@ -1,0 +1,8 @@
+# Normaliza finales de línea entre Windows, Mac y Linux
+* text=auto
+*.ps1 text eol=crlf
+*.sh  text eol=lf
+# El dataset se guarda tal cual, sin tocar finales de línea
+*.csv -text
+*.png binary
+*.jpg binary

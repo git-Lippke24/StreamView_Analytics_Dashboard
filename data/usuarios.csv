@@ -1,0 +1,1501 @@
+﻿usuario_id,fecha_registro,pais,ciudad,edad,segmento_edad,genero,canal_adquisicion
+U00001,2024-02-06,Chile,Concepción,33,25-34,Prefiere no indicar,Orgánico
+U00002,2025-05-13,Chile,Valparaíso,63,55+,Femenino,Redes sociales
+U00003,2023-03-17,México,Ciudad de México,32,25-34,Femenino,Referido
+U00004,2023-01-25,España,Madrid,47,45-54,Femenino,Orgánico
+U00005,2025-03-16,Chile,La Serena,41,35-44,Femenino,Orgánico
+U00006,2025-03-13,Chile,Temuco,37,35-44,Masculino,Redes sociales
+U00007,2023-05-16,Chile,Valparaíso,18,18-24,Femenino,Publicidad digital
+U00008,2024-12-12,Chile,Valparaíso,28,25-34,Femenino,Publicidad digital
+U00009,2024-04-26,Argentina,Córdoba,29,25-34,Femenino,Referido
+U00010,2024-03-14,México,Puebla,36,35-44,Masculino,Orgánico
+U00011,2023-04-10,México,Puebla,33,25-34,Masculino,Redes sociales
+U00012,2025-10-05,México,Ciudad de México,56,55+,Masculino,Orgánico
+U00013,2024-12-02,Argentina,Mendoza,42,35-44,Prefiere no indicar,Orgánico
+U00014,2025-03-04,Ecuador,Guayaquil,28,25-34,Femenino,Redes sociales
+U00015,2025-02-03,España,Barcelona,29,25-34,Prefiere no indicar,Referido
+U00016,2023-01-16,Chile,Valparaíso,43,35-44,Femenino,Referido
+U00017,2023-11-21,México,Puebla,52,45-54,Masculino,Orgánico
+U00018,2024-06-19,Ecuador,Guayaquil,44,35-44,Masculino,Redes sociales
+U00019,2024-02-19,Perú,Trujillo,44,35-44,Femenino,Orgánico
+U00020,2025-07-16,Argentina,Córdoba,38,35-44,Masculino,Orgánico
+U00021,2025-06-01,Argentina,Buenos Aires,35,35-44,Masculino,Alianza comercial
+U00022,2023-06-22,Colombia,Barranquilla,28,25-34,Femenino,Orgánico
+U00023,2024-12-15,Ecuador,Cuenca,18,18-24,Femenino,Orgánico
+U00024,2025-01-30,Perú,Arequipa,45,45-54,Femenino,Redes sociales
+U00025,2024-11-02,Chile,La Serena,58,55+,Masculino,Referido
+U00026,2025-08-09,Chile,La Serena,25,25-34,Femenino,Orgánico
+U00027,2025-04-21,Chile,La Serena,26,25-34,Masculino,Publicidad digital
+U00028,2023-09-22,México,Guadalajara,37,35-44,Masculino,Redes sociales
+U00029,2024-02-12,España,Valencia,40,35-44,Femenino,Referido
+U00030,2024-03-16,Perú,Trujillo,21,18-24,Masculino,Orgánico
+U00031,2024-12-20,Perú,Lima,45,45-54,Masculino,Alianza comercial
+U00032,2025-06-17,Ecuador,Cuenca,18,18-24,Femenino,Orgánico
+U00033,2023-02-10,Perú,Lima,45,45-54,No binario,Redes sociales
+U00034,2024-04-23,Chile,Concepción,52,45-54,Femenino,Redes sociales
+U00035,2025-05-11,Chile,Temuco,44,35-44,Femenino,Alianza comercial
+U00036,2024-02-21,Ecuador,Cuenca,41,35-44,Femenino,Redes sociales
+U00037,2023-02-13,México,Ciudad de México,23,18-24,Femenino,Orgánico
+U00038,2025-10-10,México,Monterrey,18,18-24,Masculino,Alianza comercial
+U00039,2024-10-26,México,Monterrey,33,25-34,Femenino,Referido
+U00040,2025-02-21,Chile,Temuco,50,45-54,Femenino,Referido
+U00041,2023-11-02,Perú,Trujillo,33,25-34,Masculino,Alianza comercial
+U00042,2025-08-20,Chile,Valparaíso,32,25-34,Femenino,Publicidad digital
+U00043,2023-03-30,México,Monterrey,46,45-54,Femenino,Orgánico
+U00044,2024-06-15,España,Madrid,47,45-54,Femenino,Referido
+U00045,2024-06-26,Chile,Santiago,40,35-44,Masculino,Redes sociales
+U00046,2025-01-21,Colombia,Barranquilla,37,35-44,Femenino,Publicidad digital
+U00047,2025-09-23,Argentina,Buenos Aires,18,18-24,Masculino,Alianza comercial
+U00048,2025-08-09,México,Guadalajara,18,18-24,No binario,Orgánico
+U00049,2024-09-25,Argentina,Mendoza,20,18-24,Masculino,Orgánico
+U00050,2023-12-08,Chile,La Serena,38,35-44,Femenino,Publicidad digital
+U00051,2023-02-12,Chile,Valparaíso,23,18-24,Masculino,Redes sociales
+U00052,2024-11-26,Colombia,Bogotá,24,18-24,Masculino,Redes sociales
+U00053,2023-05-07,Argentina,Buenos Aires,43,35-44,Masculino,Publicidad digital
+U00054,2025-01-12,México,Monterrey,36,35-44,No binario,Redes sociales
+U00055,2025-11-01,Perú,Trujillo,36,35-44,Femenino,Alianza comercial
+U00056,2025-09-13,España,Valencia,24,18-24,Femenino,Orgánico
+U00057,2025-02-26,Chile,La Serena,43,35-44,Masculino,Referido
+U00058,2023-07-15,Colombia,Barranquilla,18,18-24,Femenino,Orgánico
+U00059,2024-02-24,Perú,Arequipa,43,35-44,Femenino,Publicidad digital
+U00060,2025-01-17,México,Guadalajara,51,45-54,Masculino,Publicidad digital
+U00061,2025-03-11,México,Guadalajara,35,35-44,Masculino,Redes sociales
+U00062,2023-09-04,Chile,Concepción,29,25-34,Masculino,Referido
+U00063,2024-09-09,Chile,La Serena,41,35-44,Femenino,Orgánico
+U00064,2025-01-07,México,Monterrey,35,35-44,Masculino,Redes sociales
+U00065,2023-05-27,Chile,Concepción,34,25-34,Masculino,Publicidad digital
+U00066,2023-08-18,Chile,Temuco,35,35-44,Masculino,Redes sociales
+U00067,2024-04-14,Perú,Lima,46,45-54,Femenino,Referido
+U00068,2025-05-01,México,Puebla,37,35-44,Femenino,Redes sociales
+U00069,2023-04-01,Chile,Temuco,41,35-44,Masculino,Redes sociales
+U00070,2025-10-16,México,Ciudad de México,25,25-34,Masculino,Orgánico
+U00071,2023-12-21,México,Ciudad de México,39,35-44,Femenino,Redes sociales
+U00072,2024-10-07,Argentina,Buenos Aires,18,18-24,Masculino,Redes sociales
+U00073,2024-12-08,Chile,Concepción,54,45-54,Femenino,Orgánico
+U00074,2025-09-14,Argentina,Rosario,27,25-34,Prefiere no indicar,Referido
+U00075,2024-04-30,México,Puebla,22,18-24,Femenino,Orgánico
+U00076,2024-02-05,España,Madrid,21,18-24,Femenino,Referido
+U00077,2023-03-18,Argentina,Rosario,23,18-24,Masculino,Referido
+U00078,2024-10-06,Ecuador,Cuenca,49,45-54,Masculino,Orgánico
+U00079,2023-07-03,Chile,Santiago,36,35-44,Masculino,Orgánico
+U00080,2023-10-11,Perú,Cusco,35,35-44,Femenino,Publicidad digital
+U00081,2023-02-24,Chile,Valparaíso,51,45-54,Femenino,Redes sociales
+U00082,2024-06-19,Argentina,Rosario,20,18-24,Prefiere no indicar,Referido
+U00083,2025-08-02,Colombia,Barranquilla,21,18-24,Masculino,Orgánico
+U00084,2025-08-31,Perú,Cusco,28,25-34,Masculino,Publicidad digital
+U00085,2025-05-17,Chile,Valparaíso,46,45-54,Femenino,Redes sociales
+U00086,2024-03-02,Argentina,Rosario,29,25-34,Masculino,Redes sociales
+U00087,2023-09-10,Colombia,Cali,22,18-24,Masculino,Orgánico
+U00088,2025-01-25,Chile,Concepción,63,55+,Masculino,Redes sociales
+U00089,2025-04-12,Argentina,Buenos Aires,35,35-44,Masculino,Publicidad digital
+U00090,2023-07-08,Argentina,Córdoba,26,25-34,Masculino,Orgánico
+U00091,2024-07-20,Colombia,Cali,19,18-24,Femenino,Referido
+U00092,2023-05-09,Perú,Arequipa,18,18-24,Masculino,Alianza comercial
+U00093,2024-04-22,Chile,La Serena,33,25-34,Masculino,Redes sociales
+U00094,2024-01-25,México,Ciudad de México,33,25-34,Masculino,Referido
+U00095,2024-10-26,Argentina,Mendoza,43,35-44,Masculino,Orgánico
+U00096,2025-03-28,Argentina,Mendoza,38,35-44,Masculino,Orgánico
+U00097,2024-01-27,Chile,Santiago,45,45-54,Masculino,Orgánico
+U00098,2025-04-17,México,Monterrey,34,25-34,Masculino,Orgánico
+U00099,2023-08-09,Colombia,Barranquilla,33,25-34,Masculino,Orgánico
+U00100,2024-12-20,Perú,Trujillo,41,35-44,Masculino,Redes sociales
+U00101,2023-08-12,Chile,Concepción,18,18-24,Masculino,Publicidad digital
+U00102,2025-01-09,Chile,La Serena,36,35-44,Masculino,Alianza comercial
+U00103,2024-12-08,Chile,Santiago,30,25-34,Masculino,Redes sociales
+U00104,2024-08-31,Argentina,Buenos Aires,31,25-34,Femenino,Orgánico
+U00105,2025-08-31,Chile,La Serena,46,45-54,Prefiere no indicar,Redes sociales
+U00106,2023-11-13,Chile,Concepción,35,35-44,Femenino,Orgánico
+U00107,2025-10-12,Chile,Concepción,38,35-44,Masculino,Referido
+U00108,2023-06-12,Chile,Santiago,55,55+,Femenino,Publicidad digital
+U00109,2023-07-21,México,Ciudad de México,18,18-24,Femenino,Referido
+U00110,2024-03-22,España,Valencia,28,25-34,Femenino,Publicidad digital
+U00111,2024-09-25,Perú,Lima,28,25-34,Femenino,Orgánico
+U00112,2024-05-19,Chile,Valparaíso,19,18-24,Masculino,Publicidad digital
+U00113,2024-10-26,Perú,Arequipa,30,25-34,Masculino,Referido
+U00114,2025-06-24,Perú,Trujillo,38,35-44,Femenino,Publicidad digital
+U00115,2025-06-05,México,Guadalajara,25,25-34,Masculino,Orgánico
+U00116,2024-08-13,Chile,La Serena,40,35-44,Masculino,Publicidad digital
+U00117,2025-08-15,Colombia,Medellín,33,25-34,Masculino,Orgánico
+U00118,2023-08-22,Perú,Cusco,32,25-34,Masculino,Orgánico
+U00119,2023-02-10,Chile,La Serena,34,25-34,Femenino,Orgánico
+U00120,2025-02-10,México,Guadalajara,19,18-24,Femenino,Publicidad digital
+U00121,2024-12-24,España,Madrid,43,35-44,Masculino,Publicidad digital
+U00122,2025-01-23,Chile,La Serena,35,35-44,Femenino,Redes sociales
+U00123,2024-11-02,Argentina,Mendoza,36,35-44,Femenino,Redes sociales
+U00124,2024-08-17,Chile,Concepción,24,18-24,Femenino,Publicidad digital
+U00125,2025-06-16,España,Barcelona,59,55+,Masculino,Alianza comercial
+U00126,2023-09-06,México,Puebla,34,25-34,Masculino,Referido
+U00127,2024-08-12,Chile,Concepción,48,45-54,Masculino,Publicidad digital
+U00128,2023-12-24,Chile,La Serena,37,35-44,Femenino,Publicidad digital
+U00129,2024-01-13,Chile,Santiago,20,18-24,Masculino,Publicidad digital
+U00130,2025-06-21,Colombia,Cali,40,35-44,Femenino,Orgánico
+U00131,2025-04-07,Perú,Trujillo,18,18-24,Femenino,Redes sociales
+U00132,2024-09-24,México,Monterrey,18,18-24,Masculino,Alianza comercial
+U00133,2024-10-29,México,Guadalajara,22,18-24,Masculino,Orgánico
+U00134,2023-07-05,España,Madrid,18,18-24,Femenino,Publicidad digital
+U00135,2024-06-18,Argentina,Rosario,18,18-24,No binario,Redes sociales
+U00136,2024-04-24,Chile,Temuco,28,25-34,Masculino,Referido
+U00137,2023-07-08,Chile,Temuco,31,25-34,Masculino,Orgánico
+U00138,2023-04-15,México,Guadalajara,25,25-34,Masculino,Publicidad digital
+U00139,2025-10-17,Chile,Concepción,42,35-44,Masculino,Redes sociales
+U00140,2025-07-25,Chile,Concepción,40,35-44,Masculino,Alianza comercial
+U00141,2023-07-07,Chile,La Serena,29,25-34,Femenino,Referido
+U00142,2025-06-27,Chile,Valparaíso,18,18-24,Masculino,Alianza comercial
+U00143,2023-07-24,Perú,Lima,58,55+,Masculino,Publicidad digital
+U00144,2023-10-28,Chile,Temuco,39,35-44,Masculino,Publicidad digital
+U00145,2025-07-01,México,Guadalajara,18,18-24,Femenino,Publicidad digital
+U00146,2024-09-28,Colombia,Barranquilla,30,25-34,Femenino,Orgánico
+U00147,2023-10-02,Chile,Concepción,49,45-54,Femenino,Referido
+U00148,2023-02-21,México,Ciudad de México,51,45-54,Femenino,Orgánico
+U00149,2023-08-18,México,Monterrey,23,18-24,Masculino,Publicidad digital
+U00150,2024-12-04,Colombia,Cali,31,25-34,Femenino,Orgánico
+U00151,2025-11-13,Argentina,Mendoza,25,25-34,Masculino,Redes sociales
+U00152,2023-12-16,Chile,La Serena,23,18-24,Masculino,Alianza comercial
+U00153,2023-05-09,Perú,Lima,50,45-54,Masculino,Redes sociales
+U00154,2024-11-09,Chile,Valparaíso,43,35-44,Masculino,Redes sociales
+U00155,2024-03-07,México,Monterrey,28,25-34,Masculino,Publicidad digital
+U00156,2024-07-10,Perú,Lima,26,25-34,Femenino,Publicidad digital
+U00157,2023-05-09,Perú,Lima,53,45-54,Femenino,Orgánico
+U00158,2024-09-21,Chile,Concepción,47,45-54,Femenino,Publicidad digital
+U00159,2024-06-23,España,Valencia,35,35-44,Masculino,Referido
+U00160,2025-03-18,Perú,Cusco,49,45-54,Femenino,Orgánico
+U00161,2023-03-24,Chile,Valparaíso,53,45-54,Femenino,Publicidad digital
+U00162,2025-09-18,Colombia,Barranquilla,33,25-34,Masculino,Redes sociales
+U00163,2025-10-06,México,Guadalajara,32,25-34,Masculino,Orgánico
+U00164,2023-08-05,Ecuador,Quito,55,55+,Femenino,Referido
+U00165,2023-01-27,México,Guadalajara,43,35-44,Masculino,Referido
+U00166,2024-08-25,Chile,Santiago,23,18-24,Femenino,Orgánico
+U00167,2023-07-07,Perú,Cusco,38,35-44,Masculino,Orgánico
+U00168,2023-01-28,Chile,Concepción,35,35-44,Femenino,Alianza comercial
+U00169,2023-05-22,Colombia,Bogotá,32,25-34,Femenino,Orgánico
+U00170,2024-09-25,Ecuador,Quito,57,55+,Femenino,Orgánico
+U00171,2023-02-23,Colombia,Bogotá,61,55+,Masculino,Orgánico
+U00172,2025-08-06,Ecuador,Cuenca,50,45-54,Masculino,Redes sociales
+U00173,2023-06-09,México,Puebla,45,45-54,Masculino,Alianza comercial
+U00174,2023-11-07,Chile,La Serena,40,35-44,Femenino,Alianza comercial
+U00175,2025-04-21,Ecuador,Guayaquil,31,25-34,Masculino,Publicidad digital
+U00176,2024-04-08,México,Puebla,35,35-44,Femenino,Referido
+U00177,2023-12-27,Chile,La Serena,39,35-44,Masculino,Orgánico
+U00178,2025-01-22,España,Sevilla,28,25-34,Femenino,Publicidad digital
+U00179,2025-01-07,Chile,La Serena,31,25-34,Masculino,Referido
+U00180,2024-07-14,México,Puebla,27,25-34,Femenino,Publicidad digital
+U00181,2024-12-08,Perú,Lima,48,45-54,Masculino,Publicidad digital
+U00182,2024-04-15,Chile,Temuco,41,35-44,Masculino,Redes sociales
+U00183,2024-11-19,México,Ciudad de México,38,35-44,Femenino,Alianza comercial
+U00184,2025-01-29,Argentina,Buenos Aires,40,35-44,Masculino,Orgánico
+U00185,2025-08-15,Colombia,Cali,38,35-44,Femenino,Referido
+U00186,2024-10-27,España,Sevilla,33,25-34,Masculino,Orgánico
+U00187,2025-06-02,Chile,Concepción,38,35-44,Masculino,Orgánico
+U00188,2023-05-24,Chile,Santiago,19,18-24,Masculino,Orgánico
+U00189,2025-07-07,México,Monterrey,37,35-44,Masculino,Orgánico
+U00190,2025-04-23,Chile,Valparaíso,42,35-44,Femenino,Orgánico
+U00191,2025-07-04,Perú,Cusco,37,35-44,Masculino,Redes sociales
+U00192,2025-04-25,Chile,Valparaíso,26,25-34,Femenino,Publicidad digital
+U00193,2024-11-12,México,Monterrey,31,25-34,Masculino,Redes sociales
+U00194,2024-10-01,Argentina,Rosario,33,25-34,Masculino,Alianza comercial
+U00195,2024-12-11,Perú,Cusco,41,35-44,Prefiere no indicar,Referido
+U00196,2024-12-18,México,Ciudad de México,23,18-24,Femenino,Publicidad digital
+U00197,2024-03-26,Perú,Arequipa,21,18-24,Femenino,Orgánico
+U00198,2024-09-13,Chile,La Serena,31,25-34,Femenino,Redes sociales
+U00199,2025-03-02,México,Guadalajara,29,25-34,Femenino,Publicidad digital
+U00200,2025-10-16,Ecuador,Quito,42,35-44,Femenino,Redes sociales
+U00201,2024-03-19,Chile,Concepción,21,18-24,Femenino,Publicidad digital
+U00202,2024-02-11,Argentina,Mendoza,19,18-24,Masculino,Redes sociales
+U00203,2023-10-09,Colombia,Cali,43,35-44,Femenino,Redes sociales
+U00204,2023-01-28,México,Ciudad de México,38,35-44,Masculino,Publicidad digital
+U00205,2023-04-22,Chile,Concepción,38,35-44,Femenino,Publicidad digital
+U00206,2023-04-17,México,Ciudad de México,55,55+,Femenino,Orgánico
+U00207,2025-05-16,Chile,La Serena,29,25-34,Femenino,Orgánico
+U00208,2023-10-11,Colombia,Cali,60,55+,Prefiere no indicar,Referido
+U00209,2023-07-06,Argentina,Buenos Aires,43,35-44,Femenino,Orgánico
+U00210,2023-07-30,España,Sevilla,32,25-34,Femenino,Publicidad digital
+U00211,2025-09-24,Chile,Valparaíso,48,45-54,Prefiere no indicar,Referido
+U00212,2023-06-22,Chile,Temuco,46,45-54,Femenino,Alianza comercial
+U00213,2023-02-20,Colombia,Cali,29,25-34,Masculino,Publicidad digital
+U00214,2024-05-03,Chile,Temuco,40,35-44,Masculino,Publicidad digital
+U00215,2024-03-15,Colombia,Barranquilla,27,25-34,Prefiere no indicar,Referido
+U00216,2023-03-10,México,Monterrey,43,35-44,No binario,Publicidad digital
+U00217,2023-10-27,Colombia,Medellín,34,25-34,Masculino,Publicidad digital
+U00218,2024-11-12,Argentina,Mendoza,29,25-34,Masculino,Publicidad digital
+U00219,2023-09-27,Chile,La Serena,29,25-34,Masculino,Redes sociales
+U00220,2024-07-05,México,Puebla,50,45-54,Masculino,Orgánico
+U00221,2023-07-20,Perú,Lima,38,35-44,Femenino,Referido
+U00222,2023-08-14,Chile,Valparaíso,28,25-34,Masculino,Referido
+U00223,2024-04-25,Ecuador,Cuenca,23,18-24,Masculino,Orgánico
+U00224,2023-03-18,España,Madrid,28,25-34,Masculino,Publicidad digital
+U00225,2023-05-22,Perú,Trujillo,43,35-44,Femenino,Orgánico
+U00226,2024-06-21,Chile,La Serena,18,18-24,Masculino,Referido
+U00227,2023-04-13,Chile,La Serena,58,55+,Masculino,Orgánico
+U00228,2024-03-27,Chile,Temuco,57,55+,Femenino,Publicidad digital
+U00229,2023-06-01,Chile,Valparaíso,46,45-54,Masculino,Orgánico
+U00230,2023-10-06,Chile,La Serena,37,35-44,Femenino,Publicidad digital
+U00231,2023-05-11,Colombia,Cali,23,18-24,Femenino,Redes sociales
+U00232,2023-05-16,Chile,La Serena,39,35-44,Masculino,Referido
+U00233,2025-02-02,Chile,Santiago,50,45-54,Masculino,Redes sociales
+U00234,2023-07-14,Perú,Trujillo,22,18-24,Femenino,Referido
+U00235,2024-07-26,Chile,La Serena,18,18-24,Femenino,Orgánico
+U00236,2025-09-01,Argentina,Mendoza,47,45-54,Prefiere no indicar,Referido
+U00237,2023-11-13,España,Barcelona,27,25-34,Femenino,Referido
+U00238,2025-08-23,Colombia,Bogotá,36,35-44,Femenino,Alianza comercial
+U00239,2024-05-15,Argentina,Córdoba,47,45-54,Femenino,Orgánico
+U00240,2024-09-11,Chile,Concepción,39,35-44,Masculino,Publicidad digital
+U00241,2025-11-09,Chile,La Serena,36,35-44,Masculino,Orgánico
+U00242,2024-07-19,Perú,Lima,43,35-44,Masculino,Redes sociales
+U00243,2024-07-01,Chile,Temuco,40,35-44,Femenino,Publicidad digital
+U00244,2025-08-05,Perú,Trujillo,36,35-44,Femenino,Redes sociales
+U00245,2024-03-20,Colombia,Cali,24,18-24,Masculino,Publicidad digital
+U00246,2024-11-30,Colombia,Bogotá,45,45-54,Femenino,Alianza comercial
+U00247,2023-01-04,Chile,Temuco,31,25-34,Masculino,Referido
+U00248,2025-04-14,Chile,Temuco,25,25-34,Masculino,Redes sociales
+U00249,2025-09-07,México,Monterrey,44,35-44,No binario,Orgánico
+U00250,2025-05-17,Chile,Concepción,27,25-34,Femenino,Publicidad digital
+U00251,2025-02-10,Argentina,Rosario,51,45-54,Femenino,Publicidad digital
+U00252,2024-03-26,México,Guadalajara,43,35-44,Masculino,Orgánico
+U00253,2023-06-03,Argentina,Rosario,34,25-34,Masculino,Orgánico
+U00254,2025-09-22,México,Guadalajara,67,55+,Femenino,Redes sociales
+U00255,2023-11-02,Perú,Arequipa,24,18-24,Masculino,Redes sociales
+U00256,2023-02-11,Chile,Valparaíso,38,35-44,Masculino,Redes sociales
+U00257,2025-09-05,Chile,Concepción,64,55+,Masculino,Redes sociales
+U00258,2023-02-15,Perú,Cusco,27,25-34,No binario,Orgánico
+U00259,2024-01-05,Argentina,Córdoba,42,35-44,Femenino,Orgánico
+U00260,2023-12-20,Perú,Arequipa,37,35-44,Masculino,Orgánico
+U00261,2024-07-06,Argentina,Córdoba,33,25-34,Femenino,Redes sociales
+U00262,2025-03-05,Chile,Temuco,61,55+,Masculino,Orgánico
+U00263,2024-10-08,Chile,Temuco,18,18-24,Femenino,Referido
+U00264,2023-07-09,Chile,La Serena,18,18-24,Femenino,Publicidad digital
+U00265,2023-11-15,Perú,Arequipa,23,18-24,Prefiere no indicar,Orgánico
+U00266,2023-10-18,Chile,Concepción,18,18-24,Masculino,Alianza comercial
+U00267,2025-08-14,México,Monterrey,20,18-24,Femenino,Redes sociales
+U00268,2024-07-19,Ecuador,Guayaquil,28,25-34,Masculino,Publicidad digital
+U00269,2024-09-21,España,Barcelona,19,18-24,Masculino,Orgánico
+U00270,2025-07-26,Perú,Trujillo,22,18-24,Masculino,Orgánico
+U00271,2024-10-23,España,Valencia,42,35-44,Masculino,Referido
+U00272,2023-05-12,Chile,Temuco,20,18-24,Femenino,Redes sociales
+U00273,2024-07-13,España,Madrid,38,35-44,Femenino,Referido
+U00274,2024-06-14,Chile,Valparaíso,33,25-34,Femenino,Alianza comercial
+U00275,2025-01-01,Chile,Valparaíso,53,45-54,Masculino,Publicidad digital
+U00276,2025-03-11,Chile,Valparaíso,29,25-34,Femenino,Referido
+U00277,2025-10-29,Chile,Santiago,18,18-24,Femenino,Redes sociales
+U00278,2024-05-01,México,Guadalajara,19,18-24,Masculino,Redes sociales
+U00279,2025-08-22,Chile,Temuco,48,45-54,Femenino,Publicidad digital
+U00280,2023-03-19,España,Valencia,60,55+,Prefiere no indicar,Orgánico
+U00281,2025-01-29,Chile,Valparaíso,18,18-24,Masculino,Publicidad digital
+U00282,2024-07-27,Chile,Temuco,24,18-24,Masculino,Orgánico
+U00283,2025-06-28,Chile,Santiago,32,25-34,Femenino,Orgánico
+U00284,2024-01-29,México,Guadalajara,25,25-34,Prefiere no indicar,Alianza comercial
+U00285,2023-07-09,Chile,Temuco,35,35-44,Masculino,Orgánico
+U00286,2025-10-27,Chile,Concepción,52,45-54,Masculino,Orgánico
+U00287,2024-11-05,Chile,Valparaíso,47,45-54,Femenino,Referido
+U00288,2025-11-22,México,Ciudad de México,31,25-34,Femenino,Publicidad digital
+U00289,2024-02-17,Chile,Temuco,40,35-44,Femenino,Orgánico
+U00290,2024-09-24,Chile,La Serena,22,18-24,Masculino,Redes sociales
+U00291,2024-02-03,Argentina,Buenos Aires,21,18-24,Femenino,Publicidad digital
+U00292,2024-04-12,Perú,Trujillo,44,35-44,Femenino,Referido
+U00293,2025-08-07,México,Guadalajara,29,25-34,Masculino,Publicidad digital
+U00294,2025-10-13,Chile,Concepción,41,35-44,Prefiere no indicar,Referido
+U00295,2023-12-09,Colombia,Barranquilla,27,25-34,Femenino,Orgánico
+U00296,2025-09-03,Perú,Lima,33,25-34,Femenino,Referido
+U00297,2025-10-14,Perú,Arequipa,43,35-44,Masculino,Orgánico
+U00298,2024-04-11,Chile,Santiago,19,18-24,Masculino,Redes sociales
+U00299,2025-10-08,Colombia,Bogotá,18,18-24,Femenino,Redes sociales
+U00300,2025-03-23,Argentina,Rosario,47,45-54,Femenino,Referido
+U00301,2025-01-03,Chile,Temuco,33,25-34,Femenino,Orgánico
+U00302,2025-04-17,Argentina,Mendoza,40,35-44,Femenino,Publicidad digital
+U00303,2025-02-22,Chile,Temuco,46,45-54,Femenino,Orgánico
+U00304,2025-10-12,Chile,Santiago,64,55+,Masculino,Orgánico
+U00305,2024-06-29,España,Sevilla,25,25-34,Femenino,Orgánico
+U00306,2023-12-02,México,Guadalajara,41,35-44,Femenino,Orgánico
+U00307,2025-09-02,México,Monterrey,38,35-44,Femenino,Publicidad digital
+U00308,2024-02-03,Perú,Arequipa,31,25-34,Femenino,Redes sociales
+U00309,2024-11-04,Perú,Lima,18,18-24,Femenino,Redes sociales
+U00310,2023-01-18,Colombia,Medellín,55,55+,Masculino,Redes sociales
+U00311,2023-11-25,Argentina,Buenos Aires,25,25-34,Masculino,Referido
+U00312,2024-09-27,España,Madrid,21,18-24,Masculino,Publicidad digital
+U00313,2025-05-30,Chile,Valparaíso,49,45-54,Masculino,Orgánico
+U00314,2023-08-06,Perú,Lima,41,35-44,Femenino,Redes sociales
+U00315,2025-10-12,Chile,Temuco,54,45-54,Masculino,Orgánico
+U00316,2024-09-14,Argentina,Mendoza,18,18-24,Femenino,Redes sociales
+U00317,2025-06-08,México,Guadalajara,27,25-34,Femenino,Publicidad digital
+U00318,2024-07-26,Chile,Valparaíso,36,35-44,Femenino,Publicidad digital
+U00319,2023-10-21,Chile,Santiago,37,35-44,Femenino,Orgánico
+U00320,2024-12-15,México,Guadalajara,29,25-34,Femenino,Redes sociales
+U00321,2023-04-11,España,Madrid,30,25-34,Masculino,Orgánico
+U00322,2024-02-08,Argentina,Córdoba,44,35-44,Prefiere no indicar,Redes sociales
+U00323,2024-10-31,Colombia,Bogotá,27,25-34,Masculino,Referido
+U00324,2023-11-17,Colombia,Cali,34,25-34,Masculino,Orgánico
+U00325,2024-07-02,Argentina,Mendoza,29,25-34,Masculino,Publicidad digital
+U00326,2024-02-19,Chile,Concepción,24,18-24,Femenino,Redes sociales
+U00327,2024-12-14,Chile,Temuco,39,35-44,Femenino,Publicidad digital
+U00328,2025-09-12,Argentina,Buenos Aires,23,18-24,Femenino,Redes sociales
+U00329,2024-04-11,Argentina,Mendoza,44,35-44,Femenino,Publicidad digital
+U00330,2023-03-05,México,Guadalajara,51,45-54,Masculino,Alianza comercial
+U00331,2023-03-13,Chile,Valparaíso,46,45-54,Femenino,Alianza comercial
+U00332,2025-02-02,Perú,Cusco,36,35-44,Masculino,Orgánico
+U00333,2025-05-20,Perú,Lima,18,18-24,Masculino,Referido
+U00334,2024-07-21,Perú,Lima,40,35-44,Masculino,Publicidad digital
+U00335,2025-08-01,Argentina,Rosario,45,45-54,Femenino,Redes sociales
+U00336,2023-07-20,Perú,Trujillo,33,25-34,Masculino,Redes sociales
+U00337,2025-10-29,Chile,Santiago,18,18-24,Femenino,Orgánico
+U00338,2025-10-20,Argentina,Rosario,33,25-34,Masculino,Publicidad digital
+U00339,2024-09-13,Chile,Santiago,40,35-44,Femenino,Redes sociales
+U00340,2023-07-12,Chile,Concepción,60,55+,Femenino,Redes sociales
+U00341,2023-07-09,Colombia,Barranquilla,47,45-54,Masculino,Orgánico
+U00342,2025-09-09,Colombia,Cali,41,35-44,Femenino,Orgánico
+U00343,2025-07-22,España,Madrid,22,18-24,Femenino,Publicidad digital
+U00344,2023-10-09,Perú,Arequipa,25,25-34,Femenino,Orgánico
+U00345,2023-07-03,México,Monterrey,31,25-34,Femenino,Orgánico
+U00346,2024-11-19,Chile,Concepción,27,25-34,Masculino,Redes sociales
+U00347,2024-09-07,México,Monterrey,21,18-24,Femenino,Redes sociales
+U00348,2025-07-13,México,Ciudad de México,32,25-34,Femenino,Orgánico
+U00349,2023-01-13,México,Ciudad de México,33,25-34,Masculino,Referido
+U00350,2024-03-26,España,Madrid,19,18-24,Masculino,Publicidad digital
+U00351,2023-10-16,Perú,Lima,49,45-54,Femenino,Redes sociales
+U00352,2024-12-25,Perú,Trujillo,30,25-34,Masculino,Publicidad digital
+U00353,2023-06-16,México,Monterrey,23,18-24,Femenino,Alianza comercial
+U00354,2024-03-26,México,Guadalajara,31,25-34,Femenino,Redes sociales
+U00355,2025-08-15,España,Madrid,36,35-44,Masculino,Alianza comercial
+U00356,2024-12-31,Perú,Trujillo,42,35-44,Masculino,Alianza comercial
+U00357,2025-05-11,Chile,La Serena,36,35-44,Femenino,Orgánico
+U00358,2023-07-29,Chile,Santiago,38,35-44,Masculino,Orgánico
+U00359,2023-05-02,Chile,Valparaíso,42,35-44,Femenino,Publicidad digital
+U00360,2025-08-18,Chile,La Serena,31,25-34,Masculino,Referido
+U00361,2025-05-16,Colombia,Medellín,39,35-44,Femenino,Publicidad digital
+U00362,2025-05-23,Chile,Santiago,33,25-34,Masculino,Orgánico
+U00363,2023-12-23,Colombia,Barranquilla,18,18-24,Masculino,Orgánico
+U00364,2024-09-28,Argentina,Mendoza,18,18-24,Femenino,Alianza comercial
+U00365,2024-03-13,Chile,Concepción,26,25-34,Masculino,Redes sociales
+U00366,2023-03-02,España,Valencia,29,25-34,Masculino,Publicidad digital
+U00367,2024-12-18,Ecuador,Quito,37,35-44,Masculino,Orgánico
+U00368,2025-05-26,Perú,Arequipa,18,18-24,Femenino,Alianza comercial
+U00369,2023-03-24,Chile,Temuco,39,35-44,Prefiere no indicar,Publicidad digital
+U00370,2023-09-15,Perú,Lima,18,18-24,Masculino,Alianza comercial
+U00371,2024-05-13,Chile,Temuco,18,18-24,Femenino,Referido
+U00372,2023-10-15,Colombia,Bogotá,36,35-44,Femenino,Publicidad digital
+U00373,2023-03-03,España,Sevilla,54,45-54,Femenino,Redes sociales
+U00374,2024-12-17,Colombia,Barranquilla,33,25-34,Femenino,Orgánico
+U00375,2024-01-20,México,Puebla,28,25-34,Masculino,Orgánico
+U00376,2023-12-06,Colombia,Cali,35,35-44,Masculino,Referido
+U00377,2024-02-26,Colombia,Bogotá,27,25-34,Femenino,Alianza comercial
+U00378,2025-06-25,Chile,La Serena,19,18-24,Femenino,Orgánico
+U00379,2025-03-12,Perú,Cusco,18,18-24,Masculino,Redes sociales
+U00380,2024-07-30,México,Ciudad de México,18,18-24,Masculino,Orgánico
+U00381,2024-08-23,México,Puebla,53,45-54,Femenino,Redes sociales
+U00382,2025-01-28,España,Barcelona,43,35-44,Femenino,Redes sociales
+U00383,2023-01-21,Ecuador,Quito,43,35-44,Masculino,Orgánico
+U00384,2024-08-12,Chile,La Serena,38,35-44,Femenino,Publicidad digital
+U00385,2023-01-04,Chile,Santiago,50,45-54,Masculino,Referido
+U00386,2023-12-02,México,Guadalajara,35,35-44,Femenino,Redes sociales
+U00387,2024-02-21,México,Monterrey,23,18-24,Femenino,Referido
+U00388,2024-04-05,Perú,Lima,23,18-24,Masculino,Publicidad digital
+U00389,2024-12-07,México,Puebla,24,18-24,Masculino,Referido
+U00390,2023-05-12,Chile,Santiago,41,35-44,Masculino,Redes sociales
+U00391,2023-08-11,Chile,Temuco,42,35-44,Femenino,Publicidad digital
+U00392,2024-04-08,Chile,Temuco,45,45-54,Femenino,Alianza comercial
+U00393,2024-05-27,Chile,La Serena,33,25-34,Prefiere no indicar,Orgánico
+U00394,2024-04-11,Colombia,Cali,35,35-44,Femenino,Orgánico
+U00395,2024-10-14,Argentina,Mendoza,26,25-34,Femenino,Publicidad digital
+U00396,2025-01-24,México,Guadalajara,33,25-34,Femenino,Publicidad digital
+U00397,2025-05-31,Argentina,Mendoza,36,35-44,Masculino,Redes sociales
+U00398,2023-07-17,México,Ciudad de México,27,25-34,Femenino,Alianza comercial
+U00399,2025-04-12,Chile,Santiago,18,18-24,Masculino,Orgánico
+U00400,2023-05-04,Colombia,Barranquilla,46,45-54,Masculino,Orgánico
+U00401,2024-04-24,Colombia,Medellín,52,45-54,Femenino,Publicidad digital
+U00402,2025-10-08,Chile,Temuco,30,25-34,Masculino,Publicidad digital
+U00403,2024-11-20,Chile,Temuco,34,25-34,Femenino,Referido
+U00404,2023-03-06,Perú,Trujillo,38,35-44,Femenino,Publicidad digital
+U00405,2023-07-12,Argentina,Buenos Aires,29,25-34,Masculino,Redes sociales
+U00406,2023-09-15,Chile,Temuco,28,25-34,Femenino,Referido
+U00407,2023-04-08,Chile,Santiago,40,35-44,Masculino,Publicidad digital
+U00408,2023-12-31,Chile,Santiago,39,35-44,Femenino,Orgánico
+U00409,2024-06-01,México,Monterrey,22,18-24,Femenino,Redes sociales
+U00410,2023-05-03,España,Madrid,18,18-24,Femenino,Publicidad digital
+U00411,2025-04-28,Colombia,Cali,61,55+,Masculino,Orgánico
+U00412,2025-06-23,Argentina,Mendoza,31,25-34,Masculino,Orgánico
+U00413,2024-07-26,Perú,Trujillo,26,25-34,Femenino,Redes sociales
+U00414,2024-11-05,España,Valencia,49,45-54,Masculino,Publicidad digital
+U00415,2023-08-28,México,Ciudad de México,36,35-44,Masculino,Orgánico
+U00416,2024-01-17,Chile,Temuco,20,18-24,Masculino,Orgánico
+U00417,2024-11-10,Ecuador,Guayaquil,34,25-34,Prefiere no indicar,Publicidad digital
+U00418,2024-08-12,Perú,Arequipa,56,55+,Prefiere no indicar,Redes sociales
+U00419,2024-04-10,Chile,La Serena,22,18-24,Masculino,Orgánico
+U00420,2024-12-27,España,Barcelona,53,45-54,No binario,Publicidad digital
+U00421,2023-07-14,Colombia,Bogotá,57,55+,Masculino,Alianza comercial
+U00422,2023-06-04,Chile,Santiago,32,25-34,Masculino,Orgánico
+U00423,2023-08-01,México,Ciudad de México,35,35-44,Masculino,Referido
+U00424,2024-10-24,Argentina,Córdoba,45,45-54,Femenino,Redes sociales
+U00425,2025-04-25,México,Puebla,41,35-44,Masculino,Redes sociales
+U00426,2025-09-14,México,Ciudad de México,40,35-44,Masculino,Referido
+U00427,2025-02-08,España,Valencia,31,25-34,Femenino,Redes sociales
+U00428,2023-11-06,España,Valencia,18,18-24,Masculino,Referido
+U00429,2023-09-17,España,Valencia,38,35-44,Femenino,Referido
+U00430,2025-03-30,Chile,Temuco,38,35-44,Femenino,Publicidad digital
+U00431,2024-01-23,Argentina,Mendoza,68,55+,Masculino,Orgánico
+U00432,2023-04-06,Perú,Cusco,55,55+,Masculino,Orgánico
+U00433,2025-05-18,Argentina,Rosario,33,25-34,Femenino,Orgánico
+U00434,2024-01-06,México,Monterrey,40,35-44,Femenino,Redes sociales
+U00435,2023-02-14,Argentina,Córdoba,33,25-34,Masculino,Redes sociales
+U00436,2025-11-22,México,Guadalajara,31,25-34,Femenino,Orgánico
+U00437,2023-05-08,México,Monterrey,32,25-34,Masculino,Orgánico
+U00438,2023-05-25,Argentina,Buenos Aires,25,25-34,Masculino,Redes sociales
+U00439,2025-04-15,Argentina,Mendoza,22,18-24,Masculino,Redes sociales
+U00440,2024-07-26,Chile,Concepción,29,25-34,Masculino,Publicidad digital
+U00441,2025-04-20,Ecuador,Cuenca,48,45-54,Masculino,Publicidad digital
+U00442,2023-11-17,Colombia,Barranquilla,34,25-34,Masculino,Publicidad digital
+U00443,2025-09-10,Chile,Concepción,30,25-34,Femenino,Publicidad digital
+U00444,2025-02-08,México,Monterrey,23,18-24,Femenino,Referido
+U00445,2025-02-25,Chile,Concepción,38,35-44,Masculino,Orgánico
+U00446,2024-06-10,Chile,Concepción,18,18-24,Masculino,Orgánico
+U00447,2025-08-16,Chile,Santiago,19,18-24,Masculino,Orgánico
+U00448,2024-08-31,Perú,Arequipa,39,35-44,Femenino,Publicidad digital
+U00449,2024-09-23,España,Valencia,39,35-44,Masculino,Orgánico
+U00450,2024-07-27,Perú,Lima,18,18-24,Masculino,Orgánico
+U00451,2023-06-25,México,Guadalajara,35,35-44,Femenino,Orgánico
+U00452,2025-03-06,México,Puebla,37,35-44,Femenino,Orgánico
+U00453,2023-10-22,España,Valencia,40,35-44,Femenino,Referido
+U00454,2023-10-25,Argentina,Mendoza,43,35-44,Femenino,Alianza comercial
+U00455,2024-05-15,Colombia,Medellín,32,25-34,Femenino,Referido
+U00456,2024-05-30,Perú,Cusco,33,25-34,Femenino,Alianza comercial
+U00457,2025-07-29,Chile,La Serena,41,35-44,Masculino,Publicidad digital
+U00458,2023-03-21,Chile,Temuco,21,18-24,Masculino,Redes sociales
+U00459,2025-07-30,Chile,Valparaíso,25,25-34,Masculino,Orgánico
+U00460,2025-05-05,México,Monterrey,33,25-34,Masculino,Orgánico
+U00461,2024-07-16,Argentina,Rosario,23,18-24,Femenino,Publicidad digital
+U00462,2025-01-29,Argentina,Buenos Aires,40,35-44,Femenino,Orgánico
+U00463,2024-05-23,Colombia,Barranquilla,51,45-54,Femenino,Alianza comercial
+U00464,2024-01-28,España,Sevilla,22,18-24,Femenino,Redes sociales
+U00465,2025-02-06,México,Guadalajara,22,18-24,Femenino,Orgánico
+U00466,2023-11-01,Chile,Temuco,53,45-54,Masculino,Referido
+U00467,2025-05-23,Colombia,Bogotá,35,35-44,Masculino,Publicidad digital
+U00468,2023-07-10,Colombia,Medellín,48,45-54,Femenino,Publicidad digital
+U00469,2024-06-18,Argentina,Córdoba,45,45-54,Masculino,Alianza comercial
+U00470,2025-08-16,Chile,Temuco,40,35-44,Femenino,Redes sociales
+U00471,2023-10-03,Chile,Valparaíso,31,25-34,Masculino,Publicidad digital
+U00472,2024-05-22,Perú,Cusco,18,18-24,Masculino,Redes sociales
+U00473,2025-10-23,Colombia,Cali,50,45-54,Masculino,Orgánico
+U00474,2024-01-16,España,Sevilla,18,18-24,Femenino,Publicidad digital
+U00475,2025-01-31,Ecuador,Cuenca,29,25-34,Masculino,Alianza comercial
+U00476,2024-08-31,Chile,Temuco,35,35-44,Femenino,Redes sociales
+U00477,2023-07-23,España,Madrid,25,25-34,Masculino,Publicidad digital
+U00478,2024-12-14,Perú,Arequipa,34,25-34,Femenino,Alianza comercial
+U00479,2023-08-02,Ecuador,Cuenca,42,35-44,Femenino,Redes sociales
+U00480,2024-07-14,México,Ciudad de México,38,35-44,Femenino,Orgánico
+U00481,2023-08-20,Argentina,Rosario,42,35-44,Masculino,Publicidad digital
+U00482,2024-06-28,Chile,Concepción,52,45-54,Masculino,Redes sociales
+U00483,2024-02-22,México,Puebla,27,25-34,Prefiere no indicar,Orgánico
+U00484,2024-02-24,Argentina,Córdoba,18,18-24,Femenino,Orgánico
+U00485,2025-07-07,Chile,Concepción,45,45-54,Femenino,Orgánico
+U00486,2024-12-04,México,Ciudad de México,59,55+,Femenino,Redes sociales
+U00487,2023-08-29,Colombia,Bogotá,37,35-44,Masculino,Publicidad digital
+U00488,2025-03-11,Colombia,Cali,35,35-44,Femenino,Orgánico
+U00489,2023-05-12,Argentina,Mendoza,43,35-44,Masculino,Orgánico
+U00490,2024-06-05,Argentina,Buenos Aires,28,25-34,Masculino,Referido
+U00491,2023-03-04,Chile,La Serena,28,25-34,Masculino,Publicidad digital
+U00492,2024-04-11,Perú,Lima,27,25-34,Femenino,Orgánico
+U00493,2024-06-02,Chile,Concepción,39,35-44,Femenino,Publicidad digital
+U00494,2024-08-02,Argentina,Rosario,48,45-54,Masculino,Redes sociales
+U00495,2023-10-24,España,Sevilla,68,55+,Masculino,Orgánico
+U00496,2023-05-08,Ecuador,Cuenca,25,25-34,Femenino,Publicidad digital
+U00497,2025-11-27,Ecuador,Guayaquil,36,35-44,Masculino,Redes sociales
+U00498,2025-08-27,Chile,Valparaíso,18,18-24,Femenino,Redes sociales
+U00499,2025-04-14,Chile,La Serena,49,45-54,Femenino,Publicidad digital
+U00500,2023-01-18,México,Ciudad de México,20,18-24,Masculino,Redes sociales
+U00501,2023-02-12,Ecuador,Guayaquil,42,35-44,Masculino,Referido
+U00502,2025-09-01,Chile,Temuco,29,25-34,Masculino,Publicidad digital
+U00503,2024-12-21,México,Guadalajara,27,25-34,Masculino,Alianza comercial
+U00504,2023-04-24,México,Guadalajara,27,25-34,Femenino,Redes sociales
+U00505,2023-02-07,Chile,Santiago,24,18-24,Masculino,Orgánico
+U00506,2024-04-16,México,Puebla,38,35-44,Masculino,Redes sociales
+U00507,2025-06-04,México,Puebla,18,18-24,Masculino,Alianza comercial
+U00508,2024-02-20,Chile,Valparaíso,37,35-44,Masculino,Publicidad digital
+U00509,2024-05-12,Chile,Valparaíso,46,45-54,Masculino,Referido
+U00510,2023-09-27,España,Sevilla,18,18-24,Femenino,Referido
+U00511,2023-12-15,Chile,Concepción,55,55+,Masculino,Orgánico
+U00512,2025-09-19,Chile,Concepción,26,25-34,Masculino,Publicidad digital
+U00513,2024-02-15,Colombia,Barranquilla,63,55+,Masculino,Referido
+U00514,2023-05-27,Chile,Concepción,58,55+,Femenino,Redes sociales
+U00515,2024-08-16,Chile,Valparaíso,18,18-24,Femenino,Redes sociales
+U00516,2023-02-16,México,Ciudad de México,18,18-24,Masculino,Publicidad digital
+U00517,2025-08-05,España,Barcelona,25,25-34,Femenino,Orgánico
+U00518,2025-06-21,Chile,La Serena,52,45-54,Masculino,Orgánico
+U00519,2024-05-25,Ecuador,Guayaquil,36,35-44,Femenino,Orgánico
+U00520,2025-06-16,Perú,Lima,23,18-24,Femenino,Orgánico
+U00521,2023-02-17,Argentina,Rosario,38,35-44,Femenino,Referido
+U00522,2023-06-17,Chile,Valparaíso,60,55+,Femenino,Alianza comercial
+U00523,2023-08-15,Colombia,Bogotá,45,45-54,No binario,Redes sociales
+U00524,2023-05-22,Argentina,Buenos Aires,21,18-24,Masculino,Redes sociales
+U00525,2025-04-10,Perú,Cusco,29,25-34,Masculino,Redes sociales
+U00526,2024-07-03,Chile,Temuco,41,35-44,Masculino,Referido
+U00527,2024-11-27,Chile,Temuco,40,35-44,Femenino,Referido
+U00528,2023-09-17,Colombia,Bogotá,34,25-34,Masculino,Alianza comercial
+U00529,2024-03-20,Chile,Valparaíso,30,25-34,Femenino,Redes sociales
+U00530,2024-01-11,Chile,La Serena,40,35-44,Femenino,Referido
+U00531,2023-04-14,Chile,Concepción,28,25-34,Masculino,Publicidad digital
+U00532,2024-03-07,Chile,La Serena,40,35-44,Femenino,Referido
+U00533,2025-04-18,México,Monterrey,25,25-34,Masculino,Orgánico
+U00534,2023-01-31,Perú,Lima,18,18-24,Prefiere no indicar,Alianza comercial
+U00535,2024-03-25,España,Sevilla,55,55+,Femenino,Orgánico
+U00536,2024-02-21,Colombia,Barranquilla,28,25-34,Femenino,Orgánico
+U00537,2023-04-16,Ecuador,Cuenca,24,18-24,Femenino,Referido
+U00538,2025-04-01,Chile,Valparaíso,46,45-54,Femenino,Alianza comercial
+U00539,2025-04-28,Colombia,Medellín,18,18-24,Femenino,Publicidad digital
+U00540,2023-03-18,Argentina,Buenos Aires,31,25-34,Femenino,Alianza comercial
+U00541,2023-07-29,España,Valencia,44,35-44,Masculino,Orgánico
+U00542,2025-08-17,México,Ciudad de México,48,45-54,Femenino,Alianza comercial
+U00543,2024-02-24,México,Puebla,32,25-34,Femenino,Orgánico
+U00544,2024-10-19,México,Guadalajara,34,25-34,Masculino,Orgánico
+U00545,2025-02-20,Chile,La Serena,18,18-24,Femenino,Publicidad digital
+U00546,2024-01-09,Chile,Concepción,21,18-24,Masculino,Publicidad digital
+U00547,2023-03-07,Colombia,Bogotá,43,35-44,Masculino,Redes sociales
+U00548,2024-03-19,España,Valencia,33,25-34,Masculino,Publicidad digital
+U00549,2024-05-26,Perú,Trujillo,36,35-44,Femenino,Referido
+U00550,2023-09-05,Chile,Valparaíso,30,25-34,Masculino,Publicidad digital
+U00551,2024-09-19,España,Sevilla,39,35-44,Femenino,Publicidad digital
+U00552,2025-11-16,Argentina,Córdoba,29,25-34,Masculino,Redes sociales
+U00553,2023-02-14,Colombia,Bogotá,34,25-34,Masculino,Redes sociales
+U00554,2023-03-12,Perú,Cusco,28,25-34,Masculino,Redes sociales
+U00555,2023-10-24,Colombia,Bogotá,21,18-24,Femenino,Referido
+U00556,2025-09-20,Colombia,Bogotá,27,25-34,Femenino,Alianza comercial
+U00557,2025-10-14,Colombia,Cali,41,35-44,Masculino,Publicidad digital
+U00558,2024-12-16,Perú,Lima,28,25-34,Femenino,Publicidad digital
+U00559,2023-04-12,España,Barcelona,18,18-24,Femenino,Publicidad digital
+U00560,2024-07-10,Perú,Cusco,23,18-24,Masculino,Referido
+U00561,2025-05-17,México,Guadalajara,39,35-44,Femenino,Redes sociales
+U00562,2024-03-05,Chile,Temuco,51,45-54,Masculino,Redes sociales
+U00563,2023-06-05,Perú,Trujillo,49,45-54,Femenino,Redes sociales
+U00564,2023-02-03,Argentina,Buenos Aires,47,45-54,Masculino,Publicidad digital
+U00565,2024-11-27,México,Ciudad de México,27,25-34,Femenino,Publicidad digital
+U00566,2023-06-20,Perú,Lima,34,25-34,Femenino,Redes sociales
+U00567,2024-04-20,España,Madrid,32,25-34,Femenino,Redes sociales
+U00568,2023-05-14,Argentina,Córdoba,51,45-54,Femenino,Publicidad digital
+U00569,2023-10-11,México,Monterrey,41,35-44,Femenino,Redes sociales
+U00570,2025-06-27,Perú,Trujillo,37,35-44,Masculino,Referido
+U00571,2023-02-07,Argentina,Rosario,35,35-44,Masculino,Orgánico
+U00572,2024-11-18,Chile,Concepción,40,35-44,Femenino,Referido
+U00573,2025-03-03,México,Guadalajara,33,25-34,No binario,Publicidad digital
+U00574,2025-10-17,España,Valencia,21,18-24,Masculino,Redes sociales
+U00575,2024-08-18,México,Ciudad de México,47,45-54,Femenino,Orgánico
+U00576,2024-07-01,Argentina,Córdoba,42,35-44,Femenino,Orgánico
+U00577,2024-12-06,Perú,Lima,24,18-24,Masculino,Referido
+U00578,2025-07-19,Chile,Santiago,37,35-44,Masculino,Publicidad digital
+U00579,2024-05-12,México,Monterrey,18,18-24,Masculino,Orgánico
+U00580,2024-08-21,España,Valencia,47,45-54,Femenino,Redes sociales
+U00581,2025-02-16,Argentina,Mendoza,20,18-24,Masculino,Orgánico
+U00582,2024-02-17,España,Sevilla,52,45-54,Masculino,Publicidad digital
+U00583,2025-03-25,Colombia,Barranquilla,18,18-24,Femenino,Orgánico
+U00584,2023-09-28,Chile,Temuco,18,18-24,Masculino,Publicidad digital
+U00585,2025-08-01,Chile,Concepción,26,25-34,Femenino,Orgánico
+U00586,2025-04-27,Argentina,Buenos Aires,38,35-44,Masculino,Alianza comercial
+U00587,2023-04-22,Chile,Temuco,44,35-44,Masculino,Orgánico
+U00588,2025-11-11,Ecuador,Cuenca,54,45-54,Femenino,Orgánico
+U00589,2024-12-29,Perú,Arequipa,24,18-24,Femenino,Publicidad digital
+U00590,2025-08-23,Colombia,Cali,44,35-44,Femenino,Redes sociales
+U00591,2024-10-10,Perú,Arequipa,36,35-44,Masculino,Referido
+U00592,2024-02-26,Argentina,Córdoba,42,35-44,Femenino,Redes sociales
+U00593,2023-11-19,México,Guadalajara,37,35-44,Masculino,Redes sociales
+U00594,2023-04-13,México,Puebla,35,35-44,Masculino,Publicidad digital
+U00595,2024-06-21,Colombia,Medellín,41,35-44,Femenino,Publicidad digital
+U00596,2023-12-07,España,Valencia,54,45-54,Prefiere no indicar,Orgánico
+U00597,2025-09-14,Chile,Concepción,41,35-44,Masculino,Orgánico
+U00598,2023-06-17,Colombia,Cali,21,18-24,Femenino,Publicidad digital
+U00599,2024-06-09,Colombia,Bogotá,44,35-44,Femenino,Redes sociales
+U00600,2024-06-24,Chile,Santiago,38,35-44,Masculino,Redes sociales
+U00601,2023-07-05,España,Barcelona,22,18-24,No binario,Orgánico
+U00602,2025-09-08,Chile,Valparaíso,56,55+,Masculino,Orgánico
+U00603,2023-05-01,Chile,La Serena,26,25-34,Femenino,Publicidad digital
+U00604,2023-08-02,Chile,Valparaíso,68,55+,Femenino,Redes sociales
+U00605,2025-05-03,Chile,Temuco,51,45-54,Femenino,Redes sociales
+U00606,2025-06-14,Argentina,Rosario,18,18-24,Masculino,Publicidad digital
+U00607,2023-01-29,Perú,Arequipa,22,18-24,Femenino,Orgánico
+U00608,2025-08-26,Perú,Lima,46,45-54,Femenino,Publicidad digital
+U00609,2025-05-02,Chile,Concepción,25,25-34,Masculino,Referido
+U00610,2024-08-20,Argentina,Córdoba,46,45-54,Femenino,Referido
+U00611,2024-04-11,México,Guadalajara,47,45-54,Masculino,Orgánico
+U00612,2024-11-16,Chile,Temuco,66,55+,Femenino,Redes sociales
+U00613,2023-08-26,México,Puebla,18,18-24,Masculino,Orgánico
+U00614,2024-08-13,Perú,Cusco,46,45-54,Masculino,Orgánico
+U00615,2025-05-14,México,Puebla,24,18-24,Masculino,Orgánico
+U00616,2024-06-23,Perú,Cusco,53,45-54,Femenino,Redes sociales
+U00617,2023-06-20,España,Barcelona,61,55+,Femenino,Publicidad digital
+U00618,2025-05-02,Chile,La Serena,52,45-54,Masculino,Orgánico
+U00619,2024-04-21,Ecuador,Cuenca,36,35-44,Masculino,Publicidad digital
+U00620,2023-02-20,México,Monterrey,18,18-24,Masculino,Referido
+U00621,2025-05-14,Chile,La Serena,18,18-24,Femenino,Publicidad digital
+U00622,2025-03-04,Chile,Santiago,22,18-24,No binario,Orgánico
+U00623,2025-01-10,Perú,Trujillo,39,35-44,Femenino,Referido
+U00624,2025-03-09,España,Barcelona,36,35-44,Masculino,Orgánico
+U00625,2025-11-09,Argentina,Buenos Aires,29,25-34,Masculino,Publicidad digital
+U00626,2025-07-22,México,Guadalajara,37,35-44,Femenino,Publicidad digital
+U00627,2023-02-21,Colombia,Barranquilla,18,18-24,Femenino,Publicidad digital
+U00628,2023-06-01,México,Puebla,40,35-44,Masculino,Referido
+U00629,2024-05-19,España,Barcelona,49,45-54,Masculino,Orgánico
+U00630,2023-11-10,Argentina,Mendoza,32,25-34,Femenino,Orgánico
+U00631,2023-07-03,México,Puebla,23,18-24,Femenino,Orgánico
+U00632,2025-08-03,Argentina,Mendoza,65,55+,Femenino,Redes sociales
+U00633,2023-08-23,Colombia,Cali,28,25-34,Masculino,Referido
+U00634,2025-10-17,Chile,Santiago,50,45-54,Femenino,Redes sociales
+U00635,2023-04-11,Colombia,Bogotá,18,18-24,Femenino,Orgánico
+U00636,2024-06-09,Chile,Temuco,18,18-24,Femenino,Orgánico
+U00637,2025-03-08,México,Puebla,57,55+,Masculino,Redes sociales
+U00638,2024-03-02,Chile,La Serena,31,25-34,Masculino,Publicidad digital
+U00639,2025-05-06,México,Monterrey,18,18-24,Femenino,Publicidad digital
+U00640,2025-04-17,Argentina,Buenos Aires,44,35-44,Masculino,Redes sociales
+U00641,2024-11-22,Chile,Temuco,24,18-24,Femenino,Redes sociales
+U00642,2024-08-18,Colombia,Bogotá,33,25-34,Femenino,Referido
+U00643,2023-04-20,Colombia,Bogotá,32,25-34,Femenino,Referido
+U00644,2025-08-28,España,Sevilla,26,25-34,Masculino,Referido
+U00645,2023-09-23,México,Guadalajara,37,35-44,Femenino,Publicidad digital
+U00646,2023-03-15,México,Monterrey,43,35-44,Femenino,Redes sociales
+U00647,2025-11-04,México,Puebla,26,25-34,Femenino,Publicidad digital
+U00648,2024-06-06,México,Ciudad de México,28,25-34,Femenino,Referido
+U00649,2024-12-15,Colombia,Medellín,23,18-24,Masculino,Redes sociales
+U00650,2023-04-24,Chile,La Serena,59,55+,Masculino,Publicidad digital
+U00651,2024-12-28,España,Barcelona,22,18-24,Masculino,Orgánico
+U00652,2024-05-02,Argentina,Buenos Aires,37,35-44,Femenino,Publicidad digital
+U00653,2024-07-27,Colombia,Barranquilla,39,35-44,Femenino,Redes sociales
+U00654,2023-08-02,Chile,Santiago,18,18-24,Femenino,Orgánico
+U00655,2023-07-26,Colombia,Cali,43,35-44,Femenino,Orgánico
+U00656,2024-03-24,México,Guadalajara,18,18-24,Prefiere no indicar,Orgánico
+U00657,2025-08-12,Chile,Santiago,34,25-34,Femenino,Redes sociales
+U00658,2023-05-08,España,Valencia,42,35-44,Femenino,Publicidad digital
+U00659,2023-03-19,Chile,La Serena,42,35-44,Masculino,Redes sociales
+U00660,2025-09-25,Chile,Concepción,30,25-34,Masculino,Publicidad digital
+U00661,2023-08-15,Chile,Temuco,49,45-54,Femenino,Redes sociales
+U00662,2025-03-02,España,Sevilla,18,18-24,Masculino,Redes sociales
+U00663,2023-10-14,Ecuador,Guayaquil,40,35-44,Masculino,Orgánico
+U00664,2024-10-31,México,Ciudad de México,40,35-44,Masculino,Referido
+U00665,2024-03-29,Perú,Trujillo,23,18-24,Masculino,Referido
+U00666,2024-04-11,México,Puebla,39,35-44,Femenino,Orgánico
+U00667,2024-08-20,Argentina,Córdoba,51,45-54,Femenino,Alianza comercial
+U00668,2023-05-30,Chile,Temuco,32,25-34,Femenino,Redes sociales
+U00669,2025-08-21,México,Monterrey,43,35-44,Femenino,Publicidad digital
+U00670,2023-02-27,México,Monterrey,26,25-34,Masculino,Orgánico
+U00671,2025-05-11,Colombia,Bogotá,26,25-34,Femenino,Referido
+U00672,2025-09-17,Chile,Valparaíso,36,35-44,Masculino,Redes sociales
+U00673,2024-03-08,Chile,Temuco,19,18-24,Masculino,Orgánico
+U00674,2025-08-22,Chile,Santiago,35,35-44,Masculino,Referido
+U00675,2025-06-29,España,Valencia,46,45-54,Masculino,Orgánico
+U00676,2024-03-21,Chile,La Serena,52,45-54,Masculino,Redes sociales
+U00677,2024-05-05,México,Guadalajara,37,35-44,Femenino,Referido
+U00678,2023-06-08,España,Barcelona,22,18-24,Masculino,Alianza comercial
+U00679,2024-05-07,Chile,Temuco,28,25-34,Femenino,Referido
+U00680,2023-09-29,Argentina,Buenos Aires,18,18-24,Masculino,Publicidad digital
+U00681,2024-06-12,Ecuador,Cuenca,27,25-34,Masculino,Redes sociales
+U00682,2023-06-26,Ecuador,Cuenca,29,25-34,Masculino,Publicidad digital
+U00683,2025-09-21,Colombia,Barranquilla,38,35-44,Masculino,Orgánico
+U00684,2025-06-02,Chile,La Serena,28,25-34,Femenino,Orgánico
+U00685,2024-09-08,Argentina,Rosario,18,18-24,Femenino,Orgánico
+U00686,2024-02-09,Colombia,Bogotá,42,35-44,Masculino,Orgánico
+U00687,2024-05-03,Chile,Valparaíso,45,45-54,Femenino,Orgánico
+U00688,2024-10-20,Argentina,Buenos Aires,25,25-34,Femenino,Referido
+U00689,2024-04-03,México,Monterrey,60,55+,Femenino,Referido
+U00690,2023-07-23,Argentina,Córdoba,43,35-44,Masculino,Orgánico
+U00691,2025-11-19,España,Sevilla,22,18-24,Masculino,Orgánico
+U00692,2025-04-13,Chile,La Serena,42,35-44,Prefiere no indicar,Redes sociales
+U00693,2025-06-22,Ecuador,Cuenca,24,18-24,Masculino,Referido
+U00694,2024-06-22,Ecuador,Cuenca,22,18-24,Masculino,Orgánico
+U00695,2025-05-25,Chile,Concepción,47,45-54,Femenino,Orgánico
+U00696,2025-03-10,Perú,Lima,44,35-44,Masculino,Orgánico
+U00697,2024-04-14,Chile,Concepción,38,35-44,Femenino,Referido
+U00698,2025-08-05,Argentina,Buenos Aires,32,25-34,Masculino,Referido
+U00699,2023-10-04,Perú,Trujillo,28,25-34,Masculino,Redes sociales
+U00700,2025-10-21,México,Guadalajara,19,18-24,Femenino,Redes sociales
+U00701,2024-01-01,Chile,Temuco,18,18-24,Masculino,Alianza comercial
+U00702,2023-08-01,España,Barcelona,43,35-44,Masculino,Referido
+U00703,2025-10-11,México,Monterrey,34,25-34,Masculino,Orgánico
+U00704,2025-07-18,Perú,Arequipa,26,25-34,Masculino,Publicidad digital
+U00705,2023-07-08,Ecuador,Cuenca,19,18-24,Femenino,Publicidad digital
+U00706,2024-03-25,México,Ciudad de México,20,18-24,Masculino,Redes sociales
+U00707,2025-07-07,Perú,Trujillo,26,25-34,Femenino,Orgánico
+U00708,2023-05-16,Perú,Cusco,25,25-34,Masculino,Publicidad digital
+U00709,2024-08-28,Colombia,Cali,25,25-34,Femenino,Publicidad digital
+U00710,2025-08-18,México,Monterrey,18,18-24,Masculino,Referido
+U00711,2025-06-13,México,Monterrey,37,35-44,Femenino,Orgánico
+U00712,2025-04-03,España,Valencia,18,18-24,Masculino,Referido
+U00713,2023-10-24,Perú,Lima,31,25-34,Masculino,Publicidad digital
+U00714,2024-06-18,México,Puebla,26,25-34,Masculino,Redes sociales
+U00715,2023-12-26,Chile,La Serena,49,45-54,Femenino,Orgánico
+U00716,2024-03-03,Chile,La Serena,49,45-54,Femenino,Redes sociales
+U00717,2025-08-05,Colombia,Medellín,21,18-24,Masculino,Publicidad digital
+U00718,2024-05-05,México,Guadalajara,51,45-54,Masculino,Redes sociales
+U00719,2023-06-14,Argentina,Buenos Aires,37,35-44,Masculino,Orgánico
+U00720,2024-08-23,Colombia,Barranquilla,33,25-34,Femenino,Referido
+U00721,2024-06-12,Chile,Valparaíso,37,35-44,Femenino,Referido
+U00722,2023-05-20,Ecuador,Quito,25,25-34,Femenino,Publicidad digital
+U00723,2024-11-06,España,Sevilla,43,35-44,Femenino,Alianza comercial
+U00724,2024-04-03,Argentina,Rosario,18,18-24,Masculino,Redes sociales
+U00725,2023-06-10,México,Guadalajara,39,35-44,Femenino,Referido
+U00726,2023-02-24,Chile,Concepción,29,25-34,Femenino,Redes sociales
+U00727,2025-04-17,México,Puebla,37,35-44,Femenino,Alianza comercial
+U00728,2023-07-26,México,Ciudad de México,39,35-44,Masculino,Redes sociales
+U00729,2024-08-23,Colombia,Medellín,39,35-44,Femenino,Publicidad digital
+U00730,2023-11-30,España,Barcelona,48,45-54,Femenino,Redes sociales
+U00731,2024-05-02,Argentina,Buenos Aires,23,18-24,Masculino,Redes sociales
+U00732,2024-12-15,Argentina,Rosario,34,25-34,Femenino,Alianza comercial
+U00733,2023-10-29,Chile,La Serena,27,25-34,Masculino,Alianza comercial
+U00734,2023-11-24,Perú,Arequipa,18,18-24,Masculino,Redes sociales
+U00735,2025-03-05,México,Ciudad de México,34,25-34,Masculino,Referido
+U00736,2024-07-12,México,Monterrey,47,45-54,Masculino,Referido
+U00737,2025-02-10,Argentina,Córdoba,29,25-34,Masculino,Redes sociales
+U00738,2025-03-07,México,Monterrey,18,18-24,Masculino,Publicidad digital
+U00739,2025-06-11,Colombia,Cali,57,55+,Masculino,Redes sociales
+U00740,2023-11-02,Perú,Arequipa,55,55+,Femenino,Redes sociales
+U00741,2024-07-20,Chile,Santiago,32,25-34,Femenino,Orgánico
+U00742,2024-11-19,Chile,Valparaíso,29,25-34,Femenino,Redes sociales
+U00743,2025-04-04,Chile,Valparaíso,18,18-24,Masculino,Orgánico
+U00744,2023-10-29,Argentina,Mendoza,25,25-34,Prefiere no indicar,Redes sociales
+U00745,2023-07-15,España,Barcelona,41,35-44,Masculino,Alianza comercial
+U00746,2025-04-28,México,Ciudad de México,22,18-24,Femenino,Referido
+U00747,2024-09-24,Colombia,Cali,35,35-44,Femenino,Redes sociales
+U00748,2025-06-28,Perú,Trujillo,18,18-24,Femenino,Alianza comercial
+U00749,2023-06-21,Chile,Valparaíso,48,45-54,Masculino,Orgánico
+U00750,2023-07-11,Argentina,Mendoza,31,25-34,Masculino,Referido
+U00751,2025-07-24,Perú,Lima,26,25-34,Masculino,Orgánico
+U00752,2025-01-20,Chile,Santiago,38,35-44,Femenino,Orgánico
+U00753,2025-10-03,Colombia,Barranquilla,32,25-34,Femenino,Orgánico
+U00754,2025-02-18,Perú,Lima,68,55+,Masculino,Orgánico
+U00755,2024-10-19,México,Monterrey,30,25-34,Femenino,Referido
+U00756,2024-05-30,Colombia,Cali,28,25-34,Masculino,Publicidad digital
+U00757,2025-11-02,Chile,Concepción,33,25-34,Femenino,Orgánico
+U00758,2023-05-17,Ecuador,Cuenca,51,45-54,Femenino,Alianza comercial
+U00759,2025-06-29,Argentina,Córdoba,23,18-24,Femenino,Redes sociales
+U00760,2025-09-03,Chile,La Serena,28,25-34,Masculino,Publicidad digital
+U00761,2023-02-05,Argentina,Mendoza,42,35-44,Femenino,Redes sociales
+U00762,2025-03-23,México,Puebla,25,25-34,No binario,Redes sociales
+U00763,2024-01-05,España,Barcelona,29,25-34,Femenino,Orgánico
+U00764,2023-04-15,Chile,Valparaíso,18,18-24,Masculino,Redes sociales
+U00765,2025-04-11,Chile,La Serena,42,35-44,Femenino,Redes sociales
+U00766,2025-10-04,Argentina,Rosario,18,18-24,Masculino,Redes sociales
+U00767,2023-03-06,Chile,Santiago,22,18-24,Masculino,Alianza comercial
+U00768,2023-09-08,Argentina,Buenos Aires,38,35-44,Femenino,Orgánico
+U00769,2023-02-03,Chile,Concepción,27,25-34,Masculino,Redes sociales
+U00770,2023-10-29,Colombia,Barranquilla,39,35-44,Masculino,Referido
+U00771,2023-12-06,Chile,Santiago,30,25-34,Femenino,Redes sociales
+U00772,2024-11-14,Chile,La Serena,48,45-54,Femenino,Orgánico
+U00773,2024-08-18,Colombia,Barranquilla,25,25-34,Prefiere no indicar,Publicidad digital
+U00774,2024-01-22,Colombia,Bogotá,43,35-44,Prefiere no indicar,Publicidad digital
+U00775,2025-03-04,México,Guadalajara,53,45-54,Femenino,Publicidad digital
+U00776,2025-01-27,Colombia,Barranquilla,44,35-44,Femenino,Publicidad digital
+U00777,2024-03-26,España,Madrid,32,25-34,Femenino,Orgánico
+U00778,2025-04-20,Colombia,Medellín,45,45-54,Masculino,Referido
+U00779,2025-10-08,España,Madrid,37,35-44,Femenino,Alianza comercial
+U00780,2024-07-26,Colombia,Barranquilla,32,25-34,Masculino,Referido
+U00781,2023-09-16,Perú,Lima,47,45-54,Masculino,Referido
+U00782,2024-11-21,Chile,Concepción,18,18-24,Masculino,Publicidad digital
+U00783,2024-06-10,Colombia,Medellín,18,18-24,Femenino,Referido
+U00784,2024-11-09,México,Puebla,21,18-24,Masculino,Redes sociales
+U00785,2023-11-15,Chile,Santiago,29,25-34,Masculino,Orgánico
+U00786,2024-02-12,Perú,Cusco,44,35-44,Masculino,Redes sociales
+U00787,2025-03-22,Colombia,Cali,39,35-44,Femenino,Publicidad digital
+U00788,2025-05-11,Argentina,Rosario,20,18-24,Femenino,Orgánico
+U00789,2023-11-20,Argentina,Buenos Aires,34,25-34,Masculino,Orgánico
+U00790,2025-06-22,Chile,Temuco,46,45-54,Femenino,Alianza comercial
+U00791,2025-02-21,España,Barcelona,26,25-34,Femenino,Orgánico
+U00792,2024-11-22,México,Monterrey,50,45-54,Masculino,Orgánico
+U00793,2025-11-29,Chile,Valparaíso,54,45-54,Masculino,Redes sociales
+U00794,2025-08-04,Chile,La Serena,44,35-44,Masculino,Redes sociales
+U00795,2023-05-06,España,Valencia,42,35-44,Masculino,Redes sociales
+U00796,2025-07-30,Chile,Santiago,46,45-54,No binario,Redes sociales
+U00797,2023-06-23,Chile,Santiago,18,18-24,Masculino,Redes sociales
+U00798,2025-06-04,Argentina,Mendoza,41,35-44,Femenino,Referido
+U00799,2024-05-27,Colombia,Barranquilla,35,35-44,Masculino,Orgánico
+U00800,2025-01-06,Chile,La Serena,20,18-24,Masculino,Redes sociales
+U00801,2023-04-18,México,Monterrey,27,25-34,Masculino,Redes sociales
+U00802,2025-07-31,Argentina,Córdoba,44,35-44,Femenino,Alianza comercial
+U00803,2024-05-04,Argentina,Buenos Aires,28,25-34,Masculino,Publicidad digital
+U00804,2024-04-18,México,Guadalajara,43,35-44,Masculino,Alianza comercial
+U00805,2023-07-01,Chile,La Serena,36,35-44,Masculino,Publicidad digital
+U00806,2024-12-20,España,Sevilla,36,35-44,Femenino,Referido
+U00807,2023-03-02,Ecuador,Guayaquil,50,45-54,Femenino,Redes sociales
+U00808,2024-12-13,Perú,Lima,44,35-44,Femenino,Referido
+U00809,2023-02-06,España,Sevilla,43,35-44,Masculino,Referido
+U00810,2025-05-13,Perú,Arequipa,34,25-34,Masculino,Orgánico
+U00811,2025-11-12,Chile,Temuco,61,55+,Femenino,Orgánico
+U00812,2025-03-31,Perú,Lima,43,35-44,Masculino,Publicidad digital
+U00813,2023-02-28,Chile,La Serena,22,18-24,Masculino,Publicidad digital
+U00814,2023-01-06,Argentina,Córdoba,45,45-54,Femenino,Alianza comercial
+U00815,2024-11-29,Chile,Santiago,18,18-24,Masculino,Redes sociales
+U00816,2023-07-07,Chile,Santiago,30,25-34,Masculino,Publicidad digital
+U00817,2024-11-04,Argentina,Mendoza,24,18-24,Femenino,Publicidad digital
+U00818,2025-02-14,Chile,Valparaíso,35,35-44,No binario,Referido
+U00819,2024-05-26,Argentina,Buenos Aires,28,25-34,Femenino,Publicidad digital
+U00820,2024-01-05,Perú,Arequipa,41,35-44,Masculino,Redes sociales
+U00821,2023-11-18,México,Guadalajara,32,25-34,Femenino,Orgánico
+U00822,2025-02-05,México,Monterrey,26,25-34,Masculino,Referido
+U00823,2023-04-08,España,Madrid,45,45-54,Femenino,Orgánico
+U00824,2023-09-08,México,Ciudad de México,54,45-54,Masculino,Orgánico
+U00825,2024-11-25,Perú,Cusco,32,25-34,No binario,Redes sociales
+U00826,2025-08-06,México,Puebla,57,55+,Masculino,Redes sociales
+U00827,2024-04-28,Chile,Temuco,36,35-44,Prefiere no indicar,Orgánico
+U00828,2024-02-06,México,Guadalajara,44,35-44,Femenino,Redes sociales
+U00829,2024-07-04,Colombia,Bogotá,27,25-34,Masculino,Publicidad digital
+U00830,2025-06-09,Chile,Concepción,35,35-44,Femenino,Orgánico
+U00831,2024-10-30,Chile,Valparaíso,29,25-34,Femenino,Orgánico
+U00832,2025-01-15,Colombia,Cali,40,35-44,Femenino,Referido
+U00833,2025-01-24,Colombia,Cali,18,18-24,Femenino,Orgánico
+U00834,2025-02-18,Colombia,Barranquilla,21,18-24,Femenino,Publicidad digital
+U00835,2025-09-29,Argentina,Mendoza,18,18-24,Femenino,Orgánico
+U00836,2024-03-27,Perú,Cusco,33,25-34,Femenino,Publicidad digital
+U00837,2023-08-03,Perú,Trujillo,31,25-34,Femenino,Publicidad digital
+U00838,2023-06-14,Chile,Concepción,46,45-54,Masculino,Orgánico
+U00839,2024-03-15,Perú,Lima,50,45-54,Masculino,Referido
+U00840,2025-09-21,México,Ciudad de México,25,25-34,Femenino,Orgánico
+U00841,2024-08-04,México,Monterrey,36,35-44,Femenino,Redes sociales
+U00842,2024-11-28,México,Guadalajara,27,25-34,Femenino,Redes sociales
+U00843,2023-03-09,Chile,Temuco,23,18-24,Masculino,Redes sociales
+U00844,2023-11-14,Argentina,Rosario,40,35-44,Femenino,Publicidad digital
+U00845,2024-01-25,México,Puebla,41,35-44,Femenino,Redes sociales
+U00846,2024-03-22,Perú,Lima,32,25-34,Femenino,Redes sociales
+U00847,2025-03-25,Chile,Temuco,23,18-24,Prefiere no indicar,Orgánico
+U00848,2025-11-09,España,Valencia,31,25-34,Prefiere no indicar,Publicidad digital
+U00849,2025-05-31,Chile,Temuco,20,18-24,Masculino,Orgánico
+U00850,2023-12-19,España,Barcelona,18,18-24,Masculino,Publicidad digital
+U00851,2023-04-11,Chile,Santiago,57,55+,Masculino,Orgánico
+U00852,2024-04-26,Ecuador,Guayaquil,49,45-54,Masculino,Publicidad digital
+U00853,2024-02-17,México,Puebla,44,35-44,Femenino,Redes sociales
+U00854,2023-08-05,México,Guadalajara,22,18-24,No binario,Referido
+U00855,2025-10-08,México,Monterrey,43,35-44,Masculino,Alianza comercial
+U00856,2023-07-30,Colombia,Barranquilla,58,55+,Femenino,Redes sociales
+U00857,2023-10-09,Perú,Trujillo,30,25-34,Masculino,Orgánico
+U00858,2023-10-31,Chile,La Serena,38,35-44,Femenino,Referido
+U00859,2025-05-28,España,Madrid,18,18-24,Femenino,Referido
+U00860,2025-11-23,Chile,Temuco,43,35-44,Masculino,Referido
+U00861,2024-01-18,México,Puebla,31,25-34,Femenino,Publicidad digital
+U00862,2024-12-08,Argentina,Buenos Aires,60,55+,Femenino,Referido
+U00863,2023-06-14,Colombia,Cali,23,18-24,Masculino,Orgánico
+U00864,2025-06-28,Argentina,Buenos Aires,20,18-24,Femenino,Referido
+U00865,2023-03-28,Argentina,Mendoza,34,25-34,Masculino,Publicidad digital
+U00866,2024-03-23,México,Guadalajara,19,18-24,Masculino,Redes sociales
+U00867,2023-10-02,Ecuador,Guayaquil,38,35-44,No binario,Publicidad digital
+U00868,2025-04-24,México,Monterrey,48,45-54,Masculino,Publicidad digital
+U00869,2025-09-05,Chile,Concepción,42,35-44,Femenino,Alianza comercial
+U00870,2025-05-02,Chile,Valparaíso,42,35-44,Masculino,Redes sociales
+U00871,2023-09-05,Chile,Temuco,46,45-54,Femenino,Redes sociales
+U00872,2024-11-10,Chile,La Serena,42,35-44,Femenino,Publicidad digital
+U00873,2025-11-28,México,Guadalajara,27,25-34,Masculino,Orgánico
+U00874,2025-05-19,Chile,Valparaíso,18,18-24,Masculino,Alianza comercial
+U00875,2023-07-01,Chile,La Serena,22,18-24,Masculino,Redes sociales
+U00876,2023-01-22,España,Valencia,38,35-44,No binario,Redes sociales
+U00877,2025-03-29,España,Sevilla,37,35-44,Femenino,Orgánico
+U00878,2023-03-25,Chile,Concepción,36,35-44,Femenino,Redes sociales
+U00879,2024-10-24,Chile,Concepción,35,35-44,Masculino,Publicidad digital
+U00880,2024-12-03,España,Barcelona,48,45-54,Masculino,Referido
+U00881,2024-10-31,Argentina,Mendoza,45,45-54,Femenino,Orgánico
+U00882,2023-11-04,México,Puebla,28,25-34,No binario,Orgánico
+U00883,2024-10-28,Chile,Concepción,31,25-34,Femenino,Redes sociales
+U00884,2023-04-12,Colombia,Medellín,38,35-44,Femenino,Redes sociales
+U00885,2023-05-12,Chile,La Serena,18,18-24,Femenino,Referido
+U00886,2024-08-06,Chile,Santiago,28,25-34,Masculino,Orgánico
+U00887,2023-03-28,Chile,Concepción,45,45-54,Femenino,Publicidad digital
+U00888,2025-08-08,España,Barcelona,21,18-24,Masculino,Redes sociales
+U00889,2023-01-09,Chile,Valparaíso,39,35-44,Femenino,Redes sociales
+U00890,2023-03-02,México,Puebla,31,25-34,Femenino,Referido
+U00891,2024-09-13,España,Madrid,23,18-24,No binario,Orgánico
+U00892,2023-04-03,Chile,La Serena,48,45-54,Masculino,Orgánico
+U00893,2025-11-09,España,Barcelona,39,35-44,Masculino,Orgánico
+U00894,2023-03-19,Argentina,Mendoza,53,45-54,Prefiere no indicar,Publicidad digital
+U00895,2024-04-16,México,Monterrey,52,45-54,Femenino,Redes sociales
+U00896,2023-01-19,Perú,Trujillo,58,55+,Masculino,Orgánico
+U00897,2023-02-18,Ecuador,Guayaquil,26,25-34,Femenino,Referido
+U00898,2023-02-23,Perú,Arequipa,21,18-24,Femenino,Orgánico
+U00899,2024-01-28,México,Guadalajara,24,18-24,Masculino,Orgánico
+U00900,2023-12-07,Chile,Temuco,18,18-24,Femenino,Publicidad digital
+U00901,2024-08-19,Chile,Concepción,54,45-54,Femenino,Publicidad digital
+U00902,2024-05-16,Ecuador,Guayaquil,29,25-34,Femenino,Publicidad digital
+U00903,2025-01-10,Chile,Concepción,19,18-24,Masculino,Publicidad digital
+U00904,2023-09-12,Chile,Temuco,32,25-34,Masculino,Publicidad digital
+U00905,2024-05-18,Argentina,Mendoza,39,35-44,Masculino,Referido
+U00906,2024-05-24,Perú,Cusco,34,25-34,No binario,Orgánico
+U00907,2025-03-05,Chile,Concepción,32,25-34,Masculino,Publicidad digital
+U00908,2025-01-06,Chile,La Serena,38,35-44,Masculino,Orgánico
+U00909,2025-09-15,Chile,Valparaíso,20,18-24,Masculino,Publicidad digital
+U00910,2024-06-16,México,Puebla,30,25-34,Masculino,Redes sociales
+U00911,2025-03-10,Argentina,Buenos Aires,44,35-44,Femenino,Publicidad digital
+U00912,2023-02-11,México,Ciudad de México,22,18-24,Femenino,Referido
+U00913,2025-02-25,Perú,Lima,33,25-34,Masculino,Publicidad digital
+U00914,2024-03-08,Perú,Cusco,34,25-34,Femenino,Publicidad digital
+U00915,2024-06-25,México,Guadalajara,27,25-34,Masculino,Publicidad digital
+U00916,2024-07-07,México,Puebla,26,25-34,Femenino,Publicidad digital
+U00917,2025-01-29,España,Barcelona,32,25-34,Masculino,Redes sociales
+U00918,2023-04-10,Perú,Lima,20,18-24,Masculino,Referido
+U00919,2025-06-09,México,Ciudad de México,23,18-24,Femenino,Referido
+U00920,2025-08-31,Chile,Temuco,42,35-44,Masculino,Redes sociales
+U00921,2024-12-03,España,Madrid,35,35-44,Masculino,Redes sociales
+U00922,2025-11-11,España,Barcelona,47,45-54,Masculino,Redes sociales
+U00923,2024-05-16,Chile,Valparaíso,34,25-34,Femenino,Redes sociales
+U00924,2025-08-10,Chile,Concepción,49,45-54,Masculino,Redes sociales
+U00925,2023-02-28,España,Valencia,22,18-24,Femenino,Publicidad digital
+U00926,2024-04-02,Chile,Santiago,31,25-34,Femenino,Alianza comercial
+U00927,2024-05-04,Argentina,Córdoba,42,35-44,Masculino,Orgánico
+U00928,2025-06-02,México,Guadalajara,28,25-34,Masculino,Referido
+U00929,2025-07-08,México,Guadalajara,32,25-34,Masculino,Publicidad digital
+U00930,2023-09-06,México,Puebla,18,18-24,Masculino,Referido
+U00931,2024-05-31,Chile,Santiago,37,35-44,Masculino,Redes sociales
+U00932,2023-07-01,Chile,Santiago,35,35-44,Masculino,Alianza comercial
+U00933,2023-03-28,Perú,Cusco,27,25-34,Masculino,Redes sociales
+U00934,2025-11-20,Colombia,Cali,46,45-54,Femenino,Orgánico
+U00935,2023-06-18,Chile,Santiago,22,18-24,Masculino,Orgánico
+U00936,2023-04-19,Chile,Temuco,18,18-24,Femenino,Orgánico
+U00937,2025-08-10,Perú,Arequipa,52,45-54,Masculino,Redes sociales
+U00938,2023-01-21,Argentina,Rosario,28,25-34,Masculino,Alianza comercial
+U00939,2023-01-17,México,Puebla,48,45-54,Femenino,Referido
+U00940,2023-06-03,México,Monterrey,37,35-44,Masculino,Alianza comercial
+U00941,2024-11-29,España,Valencia,36,35-44,Masculino,Referido
+U00942,2023-09-21,Chile,Concepción,30,25-34,Femenino,Redes sociales
+U00943,2025-06-29,España,Madrid,24,18-24,Masculino,Redes sociales
+U00944,2024-03-10,Chile,Temuco,24,18-24,Masculino,Orgánico
+U00945,2025-06-24,Colombia,Bogotá,29,25-34,Femenino,Alianza comercial
+U00946,2024-07-18,Chile,Temuco,35,35-44,Prefiere no indicar,Publicidad digital
+U00947,2023-12-04,México,Puebla,22,18-24,Femenino,Referido
+U00948,2023-10-10,España,Barcelona,22,18-24,Prefiere no indicar,Referido
+U00949,2025-11-06,Argentina,Rosario,27,25-34,Femenino,Referido
+U00950,2024-08-08,México,Ciudad de México,35,35-44,Masculino,Referido
+U00951,2025-03-04,Ecuador,Quito,45,45-54,Masculino,Publicidad digital
+U00952,2025-04-17,México,Monterrey,38,35-44,Masculino,Redes sociales
+U00953,2024-05-25,Ecuador,Cuenca,28,25-34,Femenino,Orgánico
+U00954,2023-02-18,Perú,Trujillo,41,35-44,Masculino,Publicidad digital
+U00955,2024-10-05,España,Valencia,27,25-34,Masculino,Publicidad digital
+U00956,2024-08-23,Colombia,Bogotá,42,35-44,Femenino,Alianza comercial
+U00957,2025-01-11,Argentina,Rosario,41,35-44,Femenino,Orgánico
+U00958,2025-11-19,Perú,Lima,49,45-54,Masculino,Publicidad digital
+U00959,2024-05-16,España,Valencia,26,25-34,Femenino,Orgánico
+U00960,2025-04-27,España,Valencia,29,25-34,Femenino,Redes sociales
+U00961,2024-01-18,Perú,Trujillo,27,25-34,Femenino,Referido
+U00962,2024-02-11,Perú,Trujillo,47,45-54,Femenino,Orgánico
+U00963,2024-12-12,Chile,Concepción,38,35-44,Prefiere no indicar,Publicidad digital
+U00964,2024-02-23,México,Guadalajara,41,35-44,Masculino,Referido
+U00965,2024-05-11,Ecuador,Guayaquil,50,45-54,Femenino,Publicidad digital
+U00966,2024-11-07,Chile,Temuco,29,25-34,Femenino,Publicidad digital
+U00967,2025-03-15,España,Valencia,28,25-34,Masculino,Redes sociales
+U00968,2025-05-21,Chile,Concepción,47,45-54,Masculino,Redes sociales
+U00969,2024-06-08,Colombia,Barranquilla,40,35-44,Femenino,Orgánico
+U00970,2025-06-04,Chile,Temuco,32,25-34,Masculino,Redes sociales
+U00971,2024-10-18,Chile,Santiago,26,25-34,Femenino,Orgánico
+U00972,2023-05-24,Ecuador,Cuenca,22,18-24,Masculino,Referido
+U00973,2023-03-18,España,Valencia,39,35-44,Femenino,Redes sociales
+U00974,2023-09-20,España,Madrid,33,25-34,Masculino,Orgánico
+U00975,2025-03-18,Chile,La Serena,41,35-44,Masculino,Redes sociales
+U00976,2024-01-13,España,Barcelona,35,35-44,Masculino,Alianza comercial
+U00977,2023-10-10,Argentina,Mendoza,35,35-44,Masculino,Orgánico
+U00978,2023-09-18,España,Valencia,40,35-44,Masculino,Publicidad digital
+U00979,2025-11-02,México,Puebla,28,25-34,Femenino,Orgánico
+U00980,2023-02-23,Chile,La Serena,29,25-34,Femenino,Redes sociales
+U00981,2025-05-30,México,Guadalajara,41,35-44,Femenino,Referido
+U00982,2025-09-17,España,Barcelona,40,35-44,Femenino,Alianza comercial
+U00983,2024-02-26,Chile,Valparaíso,30,25-34,Femenino,Orgánico
+U00984,2024-01-18,México,Ciudad de México,20,18-24,Femenino,Publicidad digital
+U00985,2024-05-13,Chile,La Serena,43,35-44,Masculino,Orgánico
+U00986,2024-12-22,México,Ciudad de México,35,35-44,Masculino,Redes sociales
+U00987,2023-07-07,Perú,Arequipa,46,45-54,Masculino,Orgánico
+U00988,2024-10-13,Chile,Temuco,39,35-44,Masculino,Redes sociales
+U00989,2025-05-06,México,Ciudad de México,35,35-44,Femenino,Orgánico
+U00990,2025-08-13,Argentina,Mendoza,25,25-34,Masculino,Referido
+U00991,2025-04-21,Chile,Santiago,54,45-54,Femenino,Redes sociales
+U00992,2023-03-18,Colombia,Bogotá,19,18-24,Masculino,Publicidad digital
+U00993,2024-10-29,Perú,Cusco,41,35-44,Femenino,Publicidad digital
+U00994,2024-04-08,Perú,Trujillo,31,25-34,Masculino,Publicidad digital
+U00995,2024-10-11,Argentina,Mendoza,42,35-44,Femenino,Redes sociales
+U00996,2024-06-12,Chile,La Serena,39,35-44,Femenino,Referido
+U00997,2025-09-24,Chile,Santiago,58,55+,Masculino,Redes sociales
+U00998,2023-05-10,Argentina,Córdoba,41,35-44,No binario,Publicidad digital
+U00999,2023-11-22,Chile,Temuco,30,25-34,Femenino,Orgánico
+U01000,2024-12-26,México,Ciudad de México,36,35-44,Masculino,Redes sociales
+U01001,2025-07-20,Colombia,Bogotá,18,18-24,Femenino,Publicidad digital
+U01002,2025-05-01,México,Ciudad de México,19,18-24,Masculino,Redes sociales
+U01003,2023-06-15,México,Ciudad de México,45,45-54,Femenino,Publicidad digital
+U01004,2023-11-02,Colombia,Medellín,35,35-44,Masculino,Orgánico
+U01005,2023-08-13,España,Sevilla,35,35-44,Masculino,Alianza comercial
+U01006,2023-05-17,México,Puebla,32,25-34,Femenino,Orgánico
+U01007,2024-09-08,Chile,Temuco,33,25-34,Prefiere no indicar,Publicidad digital
+U01008,2024-11-14,Chile,Temuco,22,18-24,Masculino,Orgánico
+U01009,2023-03-11,México,Ciudad de México,41,35-44,Femenino,Publicidad digital
+U01010,2024-07-17,Colombia,Barranquilla,33,25-34,Masculino,Orgánico
+U01011,2024-07-07,Chile,Temuco,33,25-34,Masculino,Orgánico
+U01012,2024-08-15,Ecuador,Cuenca,18,18-24,Masculino,Orgánico
+U01013,2025-02-08,Colombia,Cali,32,25-34,Femenino,Publicidad digital
+U01014,2023-07-15,Ecuador,Guayaquil,39,35-44,Femenino,Referido
+U01015,2024-03-19,México,Ciudad de México,20,18-24,Femenino,Orgánico
+U01016,2025-06-08,Chile,Santiago,40,35-44,Femenino,Redes sociales
+U01017,2024-04-21,Chile,Valparaíso,18,18-24,Masculino,Referido
+U01018,2025-06-22,España,Barcelona,31,25-34,Femenino,Redes sociales
+U01019,2023-06-09,Perú,Trujillo,18,18-24,Femenino,Alianza comercial
+U01020,2023-02-10,Argentina,Buenos Aires,18,18-24,Femenino,Redes sociales
+U01021,2024-05-16,Argentina,Córdoba,44,35-44,Femenino,Redes sociales
+U01022,2023-05-27,Colombia,Bogotá,21,18-24,Masculino,Orgánico
+U01023,2025-11-01,Argentina,Mendoza,31,25-34,Femenino,Referido
+U01024,2024-01-06,Perú,Lima,41,35-44,Masculino,Referido
+U01025,2024-05-26,México,Monterrey,37,35-44,Femenino,Orgánico
+U01026,2024-12-03,Argentina,Rosario,24,18-24,Masculino,Referido
+U01027,2025-06-02,España,Sevilla,38,35-44,Masculino,Orgánico
+U01028,2024-07-02,México,Monterrey,31,25-34,Masculino,Redes sociales
+U01029,2024-02-19,Argentina,Córdoba,44,35-44,Masculino,Alianza comercial
+U01030,2024-02-16,México,Monterrey,41,35-44,Femenino,Redes sociales
+U01031,2024-11-23,Chile,La Serena,40,35-44,Femenino,Referido
+U01032,2025-05-27,Chile,Valparaíso,46,45-54,Masculino,Alianza comercial
+U01033,2025-08-15,Chile,Temuco,30,25-34,No binario,Publicidad digital
+U01034,2025-02-09,Chile,La Serena,39,35-44,Masculino,Redes sociales
+U01035,2025-07-03,Argentina,Rosario,18,18-24,Masculino,Publicidad digital
+U01036,2025-09-27,Colombia,Medellín,41,35-44,Femenino,Redes sociales
+U01037,2025-08-10,España,Sevilla,23,18-24,Masculino,Alianza comercial
+U01038,2023-03-13,España,Sevilla,18,18-24,Femenino,Redes sociales
+U01039,2023-08-05,México,Monterrey,24,18-24,Masculino,Orgánico
+U01040,2023-08-12,Chile,Valparaíso,53,45-54,Masculino,Redes sociales
+U01041,2023-01-20,Perú,Lima,36,35-44,Femenino,Publicidad digital
+U01042,2024-03-25,Perú,Trujillo,40,35-44,Masculino,Referido
+U01043,2024-01-07,Chile,Temuco,33,25-34,Femenino,Orgánico
+U01044,2024-10-31,Colombia,Bogotá,18,18-24,Masculino,Redes sociales
+U01045,2024-01-01,Chile,Valparaíso,36,35-44,Prefiere no indicar,Redes sociales
+U01046,2025-11-20,Argentina,Mendoza,43,35-44,Femenino,Referido
+U01047,2024-08-22,Perú,Trujillo,18,18-24,Masculino,Redes sociales
+U01048,2023-07-09,Chile,Concepción,50,45-54,Femenino,Redes sociales
+U01049,2024-01-23,Chile,Santiago,35,35-44,Femenino,Publicidad digital
+U01050,2024-01-19,Chile,Valparaíso,22,18-24,Masculino,Publicidad digital
+U01051,2025-10-17,Colombia,Cali,49,45-54,Femenino,Orgánico
+U01052,2023-09-20,Chile,Valparaíso,28,25-34,Femenino,Referido
+U01053,2025-09-08,Colombia,Barranquilla,35,35-44,Femenino,Redes sociales
+U01054,2025-07-10,Chile,Concepción,34,25-34,Femenino,Referido
+U01055,2025-07-31,Chile,Temuco,24,18-24,Masculino,Alianza comercial
+U01056,2024-03-20,Chile,Concepción,47,45-54,Masculino,Referido
+U01057,2024-09-08,México,Guadalajara,54,45-54,Femenino,Publicidad digital
+U01058,2023-06-03,España,Madrid,22,18-24,Masculino,Referido
+U01059,2023-08-27,España,Sevilla,32,25-34,Femenino,Redes sociales
+U01060,2023-02-25,Argentina,Córdoba,18,18-24,Femenino,Alianza comercial
+U01061,2024-10-13,Perú,Lima,36,35-44,Masculino,Referido
+U01062,2023-01-30,España,Barcelona,29,25-34,Femenino,Orgánico
+U01063,2025-07-07,Argentina,Córdoba,18,18-24,Masculino,Publicidad digital
+U01064,2024-01-02,España,Sevilla,34,25-34,Masculino,Publicidad digital
+U01065,2024-12-01,Chile,Concepción,33,25-34,Femenino,Orgánico
+U01066,2025-01-16,Chile,La Serena,34,25-34,Femenino,Redes sociales
+U01067,2024-03-31,Perú,Cusco,18,18-24,Masculino,Alianza comercial
+U01068,2023-04-27,Colombia,Bogotá,35,35-44,Masculino,Publicidad digital
+U01069,2025-04-25,México,Ciudad de México,43,35-44,Femenino,Alianza comercial
+U01070,2025-11-08,Chile,Temuco,43,35-44,Femenino,Orgánico
+U01071,2025-07-14,Chile,Santiago,33,25-34,Masculino,Referido
+U01072,2024-01-27,Chile,Concepción,35,35-44,Femenino,Referido
+U01073,2024-11-26,Ecuador,Quito,38,35-44,Femenino,Orgánico
+U01074,2025-01-30,México,Guadalajara,60,55+,Femenino,Publicidad digital
+U01075,2024-11-03,Chile,Concepción,32,25-34,Femenino,Publicidad digital
+U01076,2024-07-20,España,Valencia,33,25-34,Femenino,Publicidad digital
+U01077,2023-10-22,España,Valencia,29,25-34,Femenino,Redes sociales
+U01078,2024-08-26,Perú,Lima,44,35-44,Masculino,Orgánico
+U01079,2025-03-22,Perú,Arequipa,51,45-54,Masculino,Publicidad digital
+U01080,2023-08-20,Perú,Lima,45,45-54,Femenino,Referido
+U01081,2025-01-27,Perú,Arequipa,35,35-44,Femenino,Referido
+U01082,2023-02-23,Chile,La Serena,28,25-34,Femenino,Orgánico
+U01083,2025-09-02,España,Sevilla,66,55+,Femenino,Referido
+U01084,2025-09-06,Chile,La Serena,43,35-44,Femenino,Redes sociales
+U01085,2025-05-31,Chile,La Serena,38,35-44,Masculino,Orgánico
+U01086,2023-02-18,Colombia,Bogotá,31,25-34,Femenino,Referido
+U01087,2024-02-29,Colombia,Barranquilla,37,35-44,Femenino,Orgánico
+U01088,2025-10-19,Perú,Trujillo,34,25-34,Masculino,Referido
+U01089,2024-03-25,Perú,Trujillo,26,25-34,Masculino,Orgánico
+U01090,2023-05-07,Colombia,Barranquilla,34,25-34,Masculino,Publicidad digital
+U01091,2023-08-27,Argentina,Mendoza,42,35-44,Femenino,Alianza comercial
+U01092,2023-08-08,España,Barcelona,39,35-44,Masculino,Orgánico
+U01093,2023-10-18,Chile,Temuco,20,18-24,Masculino,Orgánico
+U01094,2023-12-08,Chile,Concepción,41,35-44,Masculino,Redes sociales
+U01095,2024-05-02,España,Madrid,22,18-24,Masculino,Redes sociales
+U01096,2025-08-29,Chile,Valparaíso,29,25-34,Masculino,Publicidad digital
+U01097,2025-06-05,Colombia,Cali,29,25-34,Femenino,Publicidad digital
+U01098,2023-05-02,México,Ciudad de México,46,45-54,Femenino,Publicidad digital
+U01099,2023-11-12,Ecuador,Guayaquil,27,25-34,Masculino,Publicidad digital
+U01100,2023-05-30,Colombia,Barranquilla,30,25-34,Masculino,Orgánico
+U01101,2025-01-30,Chile,Valparaíso,41,35-44,Masculino,Orgánico
+U01102,2024-01-07,Perú,Cusco,36,35-44,Masculino,Publicidad digital
+U01103,2024-04-29,México,Ciudad de México,49,45-54,Masculino,Orgánico
+U01104,2023-04-24,Perú,Lima,18,18-24,Masculino,Referido
+U01105,2025-09-05,Perú,Arequipa,43,35-44,Masculino,Orgánico
+U01106,2024-05-26,España,Madrid,47,45-54,Masculino,Publicidad digital
+U01107,2025-08-24,Chile,Santiago,29,25-34,Masculino,Publicidad digital
+U01108,2023-03-05,Chile,Valparaíso,43,35-44,Prefiere no indicar,Orgánico
+U01109,2025-07-15,Chile,La Serena,27,25-34,Femenino,Publicidad digital
+U01110,2024-12-22,Colombia,Medellín,42,35-44,Masculino,Redes sociales
+U01111,2025-05-01,Colombia,Cali,26,25-34,Masculino,Referido
+U01112,2024-04-06,México,Guadalajara,23,18-24,Femenino,Publicidad digital
+U01113,2024-11-21,Perú,Arequipa,27,25-34,Femenino,Redes sociales
+U01114,2024-03-11,Argentina,Córdoba,20,18-24,Masculino,Redes sociales
+U01115,2024-08-07,Chile,Temuco,22,18-24,Masculino,Orgánico
+U01116,2024-04-26,Perú,Lima,26,25-34,Femenino,Orgánico
+U01117,2023-10-24,Colombia,Barranquilla,50,45-54,Masculino,Alianza comercial
+U01118,2025-09-24,Argentina,Buenos Aires,34,25-34,Masculino,Referido
+U01119,2024-03-09,Perú,Trujillo,18,18-24,Femenino,Orgánico
+U01120,2025-05-21,Perú,Cusco,54,45-54,Masculino,Publicidad digital
+U01121,2025-02-18,Chile,Santiago,38,35-44,Masculino,Redes sociales
+U01122,2023-08-20,México,Ciudad de México,44,35-44,Femenino,Publicidad digital
+U01123,2024-02-21,Chile,Santiago,29,25-34,Masculino,Orgánico
+U01124,2025-01-15,México,Ciudad de México,48,45-54,Masculino,Orgánico
+U01125,2023-10-11,Argentina,Mendoza,33,25-34,Femenino,Publicidad digital
+U01126,2023-11-02,Chile,Santiago,68,55+,Femenino,Publicidad digital
+U01127,2025-07-28,España,Sevilla,37,35-44,Masculino,Publicidad digital
+U01128,2025-10-13,Chile,Temuco,35,35-44,Masculino,Orgánico
+U01129,2024-02-20,Colombia,Barranquilla,37,35-44,Femenino,Orgánico
+U01130,2023-07-12,Colombia,Medellín,47,45-54,Masculino,Orgánico
+U01131,2025-05-21,Argentina,Mendoza,21,18-24,Masculino,Referido
+U01132,2025-07-01,Perú,Cusco,37,35-44,Femenino,Referido
+U01133,2024-05-16,Perú,Trujillo,26,25-34,Masculino,Referido
+U01134,2023-08-29,México,Monterrey,23,18-24,Masculino,Redes sociales
+U01135,2023-06-25,España,Barcelona,38,35-44,Masculino,Referido
+U01136,2023-09-01,México,Ciudad de México,32,25-34,Femenino,Publicidad digital
+U01137,2025-01-18,Colombia,Medellín,48,45-54,Femenino,Redes sociales
+U01138,2024-06-27,Perú,Arequipa,46,45-54,Femenino,Publicidad digital
+U01139,2024-05-23,Chile,Santiago,31,25-34,Femenino,Referido
+U01140,2024-07-13,México,Ciudad de México,34,25-34,Masculino,Publicidad digital
+U01141,2023-07-20,España,Sevilla,19,18-24,Femenino,Redes sociales
+U01142,2024-10-11,Ecuador,Cuenca,18,18-24,Femenino,Orgánico
+U01143,2024-05-25,Argentina,Córdoba,31,25-34,Masculino,Referido
+U01144,2023-01-17,Perú,Cusco,27,25-34,Masculino,Publicidad digital
+U01145,2023-12-27,Chile,La Serena,23,18-24,Masculino,Orgánico
+U01146,2023-10-18,Argentina,Mendoza,18,18-24,Masculino,Alianza comercial
+U01147,2025-07-24,México,Monterrey,36,35-44,Masculino,Referido
+U01148,2025-09-12,Chile,Santiago,36,35-44,Masculino,Redes sociales
+U01149,2023-06-15,Argentina,Rosario,37,35-44,Masculino,Publicidad digital
+U01150,2023-08-22,México,Ciudad de México,23,18-24,Masculino,Orgánico
+U01151,2025-07-14,Chile,Santiago,31,25-34,Masculino,Alianza comercial
+U01152,2024-11-22,Chile,La Serena,27,25-34,Femenino,Redes sociales
+U01153,2023-11-01,España,Barcelona,51,45-54,Masculino,Redes sociales
+U01154,2023-07-15,España,Madrid,52,45-54,Femenino,Referido
+U01155,2025-04-02,Colombia,Medellín,45,45-54,Masculino,Orgánico
+U01156,2023-05-04,Chile,Santiago,18,18-24,Femenino,Publicidad digital
+U01157,2024-08-01,Chile,Valparaíso,56,55+,Femenino,Redes sociales
+U01158,2023-02-25,Chile,Concepción,31,25-34,Masculino,Orgánico
+U01159,2025-10-11,Colombia,Barranquilla,18,18-24,Masculino,Referido
+U01160,2025-02-26,Chile,Concepción,46,45-54,Masculino,Referido
+U01161,2024-08-13,Perú,Lima,44,35-44,Masculino,Redes sociales
+U01162,2025-11-25,Chile,Temuco,30,25-34,Masculino,Redes sociales
+U01163,2024-08-03,Argentina,Rosario,18,18-24,Masculino,Referido
+U01164,2023-06-15,España,Sevilla,18,18-24,Masculino,Referido
+U01165,2024-12-21,España,Barcelona,35,35-44,Masculino,Orgánico
+U01166,2023-08-09,España,Barcelona,41,35-44,Masculino,Referido
+U01167,2023-01-19,Argentina,Rosario,39,35-44,Masculino,Publicidad digital
+U01168,2024-09-19,México,Ciudad de México,30,25-34,Femenino,Referido
+U01169,2025-05-30,Colombia,Medellín,29,25-34,Masculino,Publicidad digital
+U01170,2023-10-13,Argentina,Mendoza,29,25-34,Masculino,Alianza comercial
+U01171,2023-08-04,México,Guadalajara,52,45-54,Masculino,Redes sociales
+U01172,2024-11-27,España,Madrid,20,18-24,Masculino,Orgánico
+U01173,2024-10-11,Chile,La Serena,38,35-44,Femenino,Alianza comercial
+U01174,2024-10-25,Ecuador,Quito,45,45-54,Femenino,Publicidad digital
+U01175,2023-12-15,Chile,Temuco,51,45-54,Masculino,Publicidad digital
+U01176,2023-05-07,Colombia,Barranquilla,33,25-34,Masculino,Orgánico
+U01177,2024-09-20,México,Monterrey,34,25-34,Masculino,Referido
+U01178,2024-10-10,México,Guadalajara,53,45-54,Femenino,Publicidad digital
+U01179,2024-12-05,Chile,Concepción,18,18-24,Femenino,Redes sociales
+U01180,2023-09-21,Perú,Lima,27,25-34,Masculino,Publicidad digital
+U01181,2025-08-26,Chile,Temuco,18,18-24,Femenino,Orgánico
+U01182,2024-03-08,Chile,Valparaíso,36,35-44,Masculino,Redes sociales
+U01183,2025-04-13,España,Barcelona,30,25-34,Femenino,Publicidad digital
+U01184,2024-11-18,Perú,Lima,44,35-44,Masculino,Redes sociales
+U01185,2023-05-16,Chile,Santiago,39,35-44,Femenino,Referido
+U01186,2024-07-05,Chile,Temuco,47,45-54,Masculino,Orgánico
+U01187,2024-07-10,Argentina,Buenos Aires,44,35-44,Masculino,Redes sociales
+U01188,2025-06-05,Perú,Arequipa,23,18-24,Femenino,Orgánico
+U01189,2024-05-19,México,Ciudad de México,18,18-24,Masculino,Publicidad digital
+U01190,2024-02-25,Perú,Lima,33,25-34,Prefiere no indicar,Referido
+U01191,2025-10-19,México,Ciudad de México,29,25-34,Prefiere no indicar,Redes sociales
+U01192,2023-01-16,Chile,La Serena,53,45-54,Masculino,Orgánico
+U01193,2023-12-01,Ecuador,Guayaquil,49,45-54,Femenino,Orgánico
+U01194,2025-11-01,Chile,Valparaíso,27,25-34,Femenino,Alianza comercial
+U01195,2023-06-24,México,Guadalajara,30,25-34,Masculino,Redes sociales
+U01196,2023-01-24,México,Guadalajara,37,35-44,Femenino,Publicidad digital
+U01197,2025-01-25,Colombia,Bogotá,19,18-24,Masculino,Orgánico
+U01198,2025-07-05,Chile,Concepción,35,35-44,Prefiere no indicar,Redes sociales
+U01199,2023-12-03,Colombia,Cali,33,25-34,Masculino,Orgánico
+U01200,2023-01-25,Chile,Santiago,23,18-24,Femenino,Publicidad digital
+U01201,2024-12-18,México,Guadalajara,38,35-44,Masculino,Redes sociales
+U01202,2024-05-13,España,Valencia,35,35-44,Masculino,Orgánico
+U01203,2023-09-27,Perú,Trujillo,46,45-54,Femenino,Redes sociales
+U01204,2024-09-25,Argentina,Córdoba,18,18-24,Femenino,Publicidad digital
+U01205,2025-10-15,Chile,Concepción,40,35-44,Masculino,Alianza comercial
+U01206,2025-11-26,Chile,La Serena,34,25-34,No binario,Orgánico
+U01207,2024-01-01,Chile,Valparaíso,21,18-24,Femenino,Orgánico
+U01208,2024-11-19,Chile,Temuco,24,18-24,Femenino,Referido
+U01209,2025-08-27,Perú,Arequipa,40,35-44,Femenino,Publicidad digital
+U01210,2023-03-28,Colombia,Cali,32,25-34,Femenino,Redes sociales
+U01211,2023-11-11,Chile,Temuco,26,25-34,Masculino,Publicidad digital
+U01212,2024-04-24,Colombia,Cali,35,35-44,Masculino,Orgánico
+U01213,2023-09-22,Chile,Temuco,42,35-44,Femenino,Orgánico
+U01214,2024-09-13,Perú,Arequipa,31,25-34,Femenino,Referido
+U01215,2023-09-23,Ecuador,Quito,31,25-34,Masculino,Publicidad digital
+U01216,2025-02-18,España,Madrid,55,55+,Masculino,Publicidad digital
+U01217,2023-07-06,Perú,Arequipa,36,35-44,Femenino,Redes sociales
+U01218,2023-05-08,Perú,Trujillo,18,18-24,Femenino,Orgánico
+U01219,2025-09-12,Chile,Temuco,47,45-54,Femenino,Referido
+U01220,2023-10-27,Colombia,Bogotá,18,18-24,Masculino,Publicidad digital
+U01221,2024-01-29,Chile,Valparaíso,44,35-44,Femenino,Redes sociales
+U01222,2024-11-24,Chile,Valparaíso,31,25-34,Femenino,Referido
+U01223,2024-09-12,México,Puebla,40,35-44,Masculino,Publicidad digital
+U01224,2023-03-09,Chile,Concepción,24,18-24,Masculino,Orgánico
+U01225,2024-02-10,España,Barcelona,33,25-34,Masculino,Publicidad digital
+U01226,2024-02-26,Chile,Concepción,28,25-34,Masculino,Publicidad digital
+U01227,2024-05-15,Argentina,Mendoza,47,45-54,Masculino,Orgánico
+U01228,2023-07-07,México,Puebla,34,25-34,Masculino,Publicidad digital
+U01229,2023-04-20,Chile,La Serena,27,25-34,Femenino,Orgánico
+U01230,2025-10-11,Colombia,Bogotá,42,35-44,Masculino,Alianza comercial
+U01231,2023-04-15,Perú,Trujillo,33,25-34,Femenino,Orgánico
+U01232,2024-02-06,Perú,Trujillo,28,25-34,Masculino,Referido
+U01233,2023-11-22,México,Ciudad de México,29,25-34,Femenino,Orgánico
+U01234,2025-08-17,Colombia,Bogotá,20,18-24,Femenino,Orgánico
+U01235,2025-11-14,Colombia,Medellín,28,25-34,Masculino,Alianza comercial
+U01236,2023-12-26,Ecuador,Guayaquil,32,25-34,Femenino,Referido
+U01237,2024-09-02,España,Valencia,56,55+,Prefiere no indicar,Orgánico
+U01238,2024-04-20,España,Sevilla,32,25-34,Masculino,Referido
+U01239,2025-07-09,España,Sevilla,41,35-44,Masculino,Redes sociales
+U01240,2023-05-16,México,Guadalajara,43,35-44,Masculino,Orgánico
+U01241,2023-01-10,Perú,Arequipa,18,18-24,Femenino,Publicidad digital
+U01242,2023-07-06,Ecuador,Guayaquil,39,35-44,Femenino,Redes sociales
+U01243,2025-11-03,Chile,Valparaíso,53,45-54,Masculino,Redes sociales
+U01244,2024-11-20,Chile,La Serena,18,18-24,Masculino,Alianza comercial
+U01245,2024-07-07,Chile,Santiago,55,55+,Femenino,Redes sociales
+U01246,2024-10-18,Perú,Lima,36,35-44,Femenino,Referido
+U01247,2023-04-02,España,Madrid,49,45-54,Femenino,Redes sociales
+U01248,2023-09-19,España,Barcelona,18,18-24,Masculino,Publicidad digital
+U01249,2025-02-26,México,Puebla,36,35-44,Femenino,Orgánico
+U01250,2023-03-31,Ecuador,Quito,43,35-44,Femenino,Orgánico
+U01251,2024-01-28,Chile,La Serena,52,45-54,Femenino,Orgánico
+U01252,2023-09-23,Colombia,Medellín,33,25-34,Femenino,Orgánico
+U01253,2023-03-12,Chile,Concepción,29,25-34,Masculino,Publicidad digital
+U01254,2024-11-18,Perú,Arequipa,18,18-24,Femenino,Publicidad digital
+U01255,2025-01-31,Colombia,Bogotá,33,25-34,Femenino,Publicidad digital
+U01256,2023-05-22,España,Sevilla,24,18-24,Femenino,Referido
+U01257,2023-11-26,Chile,Concepción,36,35-44,Femenino,Redes sociales
+U01258,2024-04-17,Chile,Valparaíso,42,35-44,Masculino,Publicidad digital
+U01259,2024-11-18,Chile,Santiago,41,35-44,Femenino,Redes sociales
+U01260,2025-01-16,España,Sevilla,50,45-54,Masculino,Orgánico
+U01261,2024-05-12,Argentina,Mendoza,27,25-34,Femenino,Publicidad digital
+U01262,2023-02-13,Chile,Concepción,37,35-44,Femenino,Orgánico
+U01263,2023-07-25,Chile,Santiago,46,45-54,Femenino,Redes sociales
+U01264,2025-05-29,Chile,Temuco,33,25-34,Masculino,Publicidad digital
+U01265,2023-07-26,Argentina,Córdoba,18,18-24,Masculino,Publicidad digital
+U01266,2025-05-13,Chile,Concepción,24,18-24,Femenino,Orgánico
+U01267,2025-03-06,Chile,La Serena,36,35-44,Masculino,Alianza comercial
+U01268,2024-12-08,Chile,Santiago,23,18-24,Femenino,Alianza comercial
+U01269,2025-09-06,Chile,Santiago,18,18-24,Femenino,Redes sociales
+U01270,2024-08-14,Colombia,Barranquilla,37,35-44,Masculino,Referido
+U01271,2025-08-15,México,Monterrey,34,25-34,Femenino,Referido
+U01272,2024-03-03,México,Guadalajara,18,18-24,Masculino,Orgánico
+U01273,2025-05-27,Perú,Cusco,33,25-34,Masculino,Referido
+U01274,2024-09-02,México,Monterrey,50,45-54,Masculino,Referido
+U01275,2024-06-22,Colombia,Medellín,30,25-34,Masculino,Orgánico
+U01276,2025-03-26,Ecuador,Quito,30,25-34,Femenino,Publicidad digital
+U01277,2023-06-27,Colombia,Barranquilla,22,18-24,Femenino,Orgánico
+U01278,2024-12-25,España,Valencia,43,35-44,Masculino,Redes sociales
+U01279,2024-02-25,México,Guadalajara,23,18-24,Masculino,Orgánico
+U01280,2023-01-28,Perú,Cusco,49,45-54,Femenino,Orgánico
+U01281,2023-10-28,Perú,Trujillo,39,35-44,Femenino,Publicidad digital
+U01282,2025-08-03,Argentina,Mendoza,48,45-54,Femenino,Publicidad digital
+U01283,2025-06-11,Chile,Valparaíso,36,35-44,Femenino,Publicidad digital
+U01284,2023-02-07,Chile,Concepción,41,35-44,Femenino,Orgánico
+U01285,2023-12-22,México,Monterrey,27,25-34,Femenino,Referido
+U01286,2024-08-31,Chile,La Serena,30,25-34,Masculino,Alianza comercial
+U01287,2025-09-21,Perú,Lima,33,25-34,Masculino,Publicidad digital
+U01288,2025-11-16,Perú,Arequipa,49,45-54,Femenino,Orgánico
+U01289,2023-10-18,Chile,La Serena,21,18-24,Masculino,Publicidad digital
+U01290,2024-06-06,México,Ciudad de México,35,35-44,Masculino,Orgánico
+U01291,2025-11-22,Colombia,Barranquilla,34,25-34,Femenino,Referido
+U01292,2024-12-16,Argentina,Mendoza,36,35-44,Masculino,Referido
+U01293,2025-02-03,México,Ciudad de México,29,25-34,Femenino,Publicidad digital
+U01294,2025-01-20,Argentina,Rosario,29,25-34,Femenino,Publicidad digital
+U01295,2024-11-12,Argentina,Rosario,24,18-24,Femenino,Alianza comercial
+U01296,2023-09-03,Argentina,Córdoba,63,55+,Femenino,Redes sociales
+U01297,2025-11-02,Argentina,Buenos Aires,18,18-24,Masculino,Publicidad digital
+U01298,2024-08-27,Colombia,Barranquilla,41,35-44,Masculino,Publicidad digital
+U01299,2023-07-01,Chile,Santiago,30,25-34,Femenino,Redes sociales
+U01300,2023-06-05,España,Valencia,35,35-44,Masculino,Redes sociales
+U01301,2024-06-26,Argentina,Rosario,21,18-24,Femenino,Referido
+U01302,2025-04-17,Chile,La Serena,27,25-34,Femenino,Referido
+U01303,2024-01-17,Colombia,Bogotá,30,25-34,Masculino,Redes sociales
+U01304,2025-10-03,Perú,Cusco,46,45-54,Femenino,Publicidad digital
+U01305,2025-06-11,Argentina,Rosario,35,35-44,Masculino,Referido
+U01306,2024-10-06,Chile,Santiago,32,25-34,Femenino,Redes sociales
+U01307,2025-06-16,México,Ciudad de México,20,18-24,Femenino,Publicidad digital
+U01308,2025-10-12,México,Ciudad de México,18,18-24,Masculino,Publicidad digital
+U01309,2024-01-08,Chile,La Serena,30,25-34,Prefiere no indicar,Orgánico
+U01310,2023-08-05,México,Guadalajara,37,35-44,Masculino,Redes sociales
+U01311,2024-07-17,México,Puebla,18,18-24,Prefiere no indicar,Orgánico
+U01312,2024-02-09,México,Monterrey,30,25-34,Femenino,Orgánico
+U01313,2023-11-08,Argentina,Mendoza,43,35-44,Femenino,Redes sociales
+U01314,2024-04-05,Perú,Lima,20,18-24,Prefiere no indicar,Orgánico
+U01315,2023-12-14,Argentina,Córdoba,58,55+,Masculino,Orgánico
+U01316,2024-10-04,Colombia,Barranquilla,31,25-34,Masculino,Redes sociales
+U01317,2025-10-19,Chile,Temuco,22,18-24,Femenino,Orgánico
+U01318,2025-04-28,Chile,La Serena,39,35-44,Femenino,Publicidad digital
+U01319,2025-08-01,México,Puebla,48,45-54,Femenino,Redes sociales
+U01320,2025-04-06,Argentina,Buenos Aires,44,35-44,Masculino,Alianza comercial
+U01321,2024-09-26,Colombia,Medellín,30,25-34,Masculino,Redes sociales
+U01322,2024-11-06,Colombia,Bogotá,28,25-34,Femenino,Orgánico
+U01323,2025-10-30,Chile,Santiago,51,45-54,Masculino,Orgánico
+U01324,2023-03-01,Ecuador,Guayaquil,45,45-54,Femenino,Referido
+U01325,2025-06-03,Argentina,Córdoba,30,25-34,Femenino,Publicidad digital
+U01326,2023-12-14,España,Barcelona,29,25-34,Femenino,Redes sociales
+U01327,2024-11-09,Ecuador,Cuenca,50,45-54,Femenino,Orgánico
+U01328,2025-08-16,Chile,La Serena,18,18-24,Femenino,Publicidad digital
+U01329,2023-12-17,España,Barcelona,18,18-24,Femenino,Alianza comercial
+U01330,2023-10-16,Chile,Temuco,31,25-34,Femenino,Publicidad digital
+U01331,2024-07-09,Chile,Valparaíso,30,25-34,Femenino,Publicidad digital
+U01332,2024-08-25,México,Puebla,26,25-34,Femenino,Publicidad digital
+U01333,2024-04-02,España,Barcelona,31,25-34,Masculino,Redes sociales
+U01334,2023-11-04,Perú,Cusco,20,18-24,Femenino,Publicidad digital
+U01335,2024-08-08,México,Puebla,49,45-54,Masculino,Referido
+U01336,2024-08-15,Chile,La Serena,44,35-44,Masculino,Orgánico
+U01337,2025-01-30,Argentina,Mendoza,25,25-34,Masculino,Referido
+U01338,2023-09-09,Perú,Lima,41,35-44,Femenino,Referido
+U01339,2025-10-15,Perú,Lima,32,25-34,No binario,Redes sociales
+U01340,2024-02-11,México,Guadalajara,47,45-54,Femenino,Redes sociales
+U01341,2024-08-03,Argentina,Buenos Aires,20,18-24,Masculino,Referido
+U01342,2024-06-04,Chile,La Serena,30,25-34,Femenino,Orgánico
+U01343,2025-10-24,Chile,La Serena,28,25-34,Masculino,Redes sociales
+U01344,2024-01-10,Chile,Concepción,35,35-44,Femenino,Orgánico
+U01345,2025-11-27,Chile,Santiago,22,18-24,Femenino,Referido
+U01346,2024-11-19,Perú,Cusco,30,25-34,Femenino,Referido
+U01347,2023-10-25,Perú,Trujillo,21,18-24,Femenino,Alianza comercial
+U01348,2024-06-21,España,Barcelona,46,45-54,Masculino,Referido
+U01349,2024-05-28,Perú,Trujillo,37,35-44,Femenino,Orgánico
+U01350,2024-08-19,Chile,La Serena,24,18-24,Masculino,Referido
+U01351,2025-01-07,Chile,Temuco,24,18-24,Masculino,Redes sociales
+U01352,2025-04-11,Chile,Concepción,31,25-34,Femenino,Publicidad digital
+U01353,2024-01-16,México,Ciudad de México,46,45-54,Masculino,Publicidad digital
+U01354,2023-02-14,México,Guadalajara,41,35-44,Masculino,Orgánico
+U01355,2025-10-12,Chile,La Serena,30,25-34,Femenino,Redes sociales
+U01356,2024-01-26,Colombia,Medellín,45,45-54,Femenino,Redes sociales
+U01357,2024-08-10,Ecuador,Quito,48,45-54,Femenino,Referido
+U01358,2025-09-15,Chile,Valparaíso,36,35-44,Femenino,Redes sociales
+U01359,2024-03-06,Chile,Valparaíso,21,18-24,Masculino,Orgánico
+U01360,2024-12-06,Chile,Santiago,23,18-24,Masculino,Referido
+U01361,2025-09-20,México,Ciudad de México,18,18-24,Femenino,Orgánico
+U01362,2023-01-17,México,Ciudad de México,37,35-44,Femenino,Publicidad digital
+U01363,2024-06-12,México,Guadalajara,53,45-54,Femenino,Orgánico
+U01364,2023-03-27,Chile,Santiago,55,55+,Femenino,Redes sociales
+U01365,2024-06-10,Chile,Concepción,18,18-24,Masculino,Orgánico
+U01366,2023-11-12,Ecuador,Cuenca,27,25-34,Masculino,Referido
+U01367,2024-07-24,Argentina,Rosario,19,18-24,Femenino,Orgánico
+U01368,2024-10-31,Ecuador,Cuenca,38,35-44,Femenino,Orgánico
+U01369,2025-11-19,Chile,La Serena,36,35-44,Femenino,Alianza comercial
+U01370,2025-10-19,España,Valencia,19,18-24,Masculino,Publicidad digital
+U01371,2024-03-02,Chile,Santiago,33,25-34,Femenino,Redes sociales
+U01372,2024-08-21,Perú,Lima,18,18-24,Masculino,Orgánico
+U01373,2023-11-05,Perú,Arequipa,43,35-44,Masculino,Publicidad digital
+U01374,2024-08-12,Argentina,Córdoba,18,18-24,Masculino,Redes sociales
+U01375,2024-09-23,España,Valencia,36,35-44,Masculino,Orgánico
+U01376,2024-04-22,Ecuador,Quito,35,35-44,Femenino,Redes sociales
+U01377,2023-06-08,Chile,Concepción,36,35-44,Masculino,Redes sociales
+U01378,2024-01-21,México,Ciudad de México,30,25-34,Femenino,Redes sociales
+U01379,2025-01-15,España,Valencia,18,18-24,Masculino,Redes sociales
+U01380,2025-01-06,España,Valencia,41,35-44,Femenino,Orgánico
+U01381,2024-08-18,Chile,Temuco,55,55+,Femenino,Orgánico
+U01382,2023-01-18,Ecuador,Quito,24,18-24,Femenino,Referido
+U01383,2023-01-15,México,Puebla,28,25-34,Masculino,Orgánico
+U01384,2024-12-12,Chile,Temuco,47,45-54,Masculino,Alianza comercial
+U01385,2024-03-04,Argentina,Mendoza,18,18-24,Masculino,Redes sociales
+U01386,2023-08-09,España,Barcelona,42,35-44,Masculino,Redes sociales
+U01387,2025-04-30,México,Guadalajara,18,18-24,Masculino,Referido
+U01388,2023-10-06,Argentina,Córdoba,20,18-24,Femenino,Orgánico
+U01389,2023-01-15,México,Monterrey,43,35-44,Femenino,Publicidad digital
+U01390,2025-07-02,Colombia,Barranquilla,52,45-54,Femenino,Redes sociales
+U01391,2025-05-27,Chile,Concepción,41,35-44,Femenino,Referido
+U01392,2025-07-07,Chile,La Serena,48,45-54,Masculino,Publicidad digital
+U01393,2023-08-29,Perú,Lima,20,18-24,Masculino,Publicidad digital
+U01394,2023-12-16,México,Ciudad de México,45,45-54,Femenino,Publicidad digital
+U01395,2025-04-25,Colombia,Cali,35,35-44,Femenino,Redes sociales
+U01396,2024-01-23,Chile,La Serena,31,25-34,Femenino,Referido
+U01397,2025-01-28,México,Guadalajara,18,18-24,Masculino,Publicidad digital
+U01398,2023-07-25,Colombia,Barranquilla,32,25-34,Femenino,Alianza comercial
+U01399,2024-08-05,México,Puebla,48,45-54,Femenino,Redes sociales
+U01400,2023-07-30,México,Guadalajara,18,18-24,Masculino,Publicidad digital
+U01401,2023-05-12,España,Barcelona,51,45-54,Femenino,Orgánico
+U01402,2023-06-15,Colombia,Bogotá,43,35-44,Masculino,Orgánico
+U01403,2023-01-27,Chile,La Serena,37,35-44,Masculino,Redes sociales
+U01404,2025-01-02,Perú,Lima,18,18-24,Femenino,Redes sociales
+U01405,2025-01-02,México,Ciudad de México,31,25-34,No binario,Redes sociales
+U01406,2023-07-19,Chile,Temuco,25,25-34,Masculino,Orgánico
+U01407,2025-06-06,México,Monterrey,18,18-24,Masculino,Referido
+U01408,2025-07-27,Ecuador,Quito,27,25-34,Femenino,Referido
+U01409,2024-04-03,Perú,Arequipa,42,35-44,Prefiere no indicar,Orgánico
+U01410,2025-08-31,México,Monterrey,37,35-44,Masculino,Orgánico
+U01411,2023-05-28,España,Valencia,48,45-54,No binario,Redes sociales
+U01412,2024-07-16,España,Barcelona,39,35-44,Masculino,Alianza comercial
+U01413,2025-01-07,Chile,Concepción,22,18-24,Masculino,Redes sociales
+U01414,2025-11-08,Argentina,Buenos Aires,32,25-34,Masculino,Referido
+U01415,2023-12-15,Chile,Valparaíso,47,45-54,Masculino,Redes sociales
+U01416,2024-07-20,Chile,Valparaíso,33,25-34,Masculino,Orgánico
+U01417,2024-12-16,Chile,Santiago,18,18-24,Masculino,Orgánico
+U01418,2023-05-24,Chile,Temuco,18,18-24,Femenino,Orgánico
+U01419,2024-11-23,Perú,Trujillo,27,25-34,Femenino,Orgánico
+U01420,2025-04-06,España,Valencia,29,25-34,Femenino,Publicidad digital
+U01421,2024-03-28,Argentina,Mendoza,43,35-44,Femenino,Publicidad digital
+U01422,2023-04-03,Colombia,Medellín,34,25-34,Femenino,Referido
+U01423,2025-03-18,México,Monterrey,29,25-34,Femenino,Alianza comercial
+U01424,2023-01-30,Colombia,Medellín,18,18-24,Masculino,Referido
+U01425,2023-10-29,Colombia,Bogotá,31,25-34,Masculino,Alianza comercial
+U01426,2025-11-03,Colombia,Cali,33,25-34,Masculino,Publicidad digital
+U01427,2024-11-10,Chile,Concepción,52,45-54,Femenino,Orgánico
+U01428,2024-02-12,Chile,Valparaíso,27,25-34,Femenino,Publicidad digital
+U01429,2023-06-27,Chile,Concepción,29,25-34,Masculino,Publicidad digital
+U01430,2025-03-26,Colombia,Cali,48,45-54,Masculino,Orgánico
+U01431,2025-01-26,Perú,Trujillo,40,35-44,Masculino,Orgánico
+U01432,2025-08-07,Colombia,Cali,45,45-54,Masculino,Orgánico
+U01433,2023-12-28,España,Madrid,29,25-34,Femenino,Redes sociales
+U01434,2024-03-24,Colombia,Bogotá,18,18-24,Femenino,Redes sociales
+U01435,2023-06-11,Chile,Temuco,26,25-34,Masculino,Redes sociales
+U01436,2024-08-16,Chile,La Serena,48,45-54,Femenino,Orgánico
+U01437,2023-05-07,Perú,Cusco,29,25-34,Femenino,Publicidad digital
+U01438,2025-10-07,Perú,Trujillo,50,45-54,Femenino,Publicidad digital
+U01439,2025-05-11,Chile,La Serena,33,25-34,Masculino,Publicidad digital
+U01440,2025-03-27,Chile,Valparaíso,28,25-34,Femenino,Publicidad digital
+U01441,2025-04-14,México,Guadalajara,18,18-24,Femenino,Alianza comercial
+U01442,2024-03-13,Chile,La Serena,36,35-44,Masculino,Referido
+U01443,2023-04-25,Chile,La Serena,27,25-34,Masculino,Orgánico
+U01444,2023-12-26,Colombia,Bogotá,48,45-54,Femenino,Orgánico
+U01445,2025-11-17,Chile,Concepción,58,55+,Masculino,Publicidad digital
+U01446,2024-05-05,Colombia,Bogotá,40,35-44,Femenino,Referido
+U01447,2025-01-22,Argentina,Buenos Aires,38,35-44,Masculino,Alianza comercial
+U01448,2024-10-20,Argentina,Rosario,31,25-34,Masculino,Publicidad digital
+U01449,2025-01-16,Chile,Temuco,29,25-34,Femenino,Orgánico
+U01450,2023-07-29,España,Valencia,37,35-44,Masculino,Referido
+U01451,2023-07-20,Argentina,Rosario,40,35-44,Masculino,Orgánico
+U01452,2024-10-18,España,Valencia,39,35-44,Masculino,Orgánico
+U01453,2025-01-23,Colombia,Bogotá,34,25-34,Masculino,Orgánico
+U01454,2024-02-09,Perú,Cusco,51,45-54,Masculino,Publicidad digital
+U01455,2024-03-04,Argentina,Mendoza,46,45-54,Masculino,Orgánico
+U01456,2024-05-18,Chile,La Serena,24,18-24,Femenino,Orgánico
+U01457,2024-05-12,Ecuador,Guayaquil,56,55+,Femenino,Publicidad digital
+U01458,2025-10-03,Ecuador,Guayaquil,60,55+,Femenino,Orgánico
+U01459,2024-05-18,España,Sevilla,25,25-34,Femenino,Redes sociales
+U01460,2025-08-14,Chile,La Serena,37,35-44,Masculino,Orgánico
+U01461,2023-05-01,Chile,La Serena,51,45-54,No binario,Publicidad digital
+U01462,2023-12-20,Colombia,Medellín,39,35-44,Femenino,Orgánico
+U01463,2025-08-29,Ecuador,Quito,18,18-24,Femenino,Referido
+U01464,2023-03-11,España,Madrid,35,35-44,Masculino,Orgánico
+U01465,2025-10-04,Perú,Arequipa,19,18-24,Masculino,Referido
+U01466,2025-09-12,Colombia,Cali,28,25-34,Masculino,Orgánico
+U01467,2025-01-29,México,Puebla,46,45-54,Masculino,Referido
+U01468,2025-07-03,Colombia,Barranquilla,45,45-54,Femenino,Referido
+U01469,2023-02-23,Chile,La Serena,43,35-44,Masculino,Orgánico
+U01470,2024-01-03,Perú,Trujillo,33,25-34,Masculino,Publicidad digital
+U01471,2024-10-15,Chile,Concepción,32,25-34,Masculino,Publicidad digital
+U01472,2023-03-12,Chile,La Serena,41,35-44,Masculino,Publicidad digital
+U01473,2023-07-16,Chile,Concepción,37,35-44,Femenino,Orgánico
+U01474,2024-08-11,México,Guadalajara,33,25-34,Masculino,Orgánico
+U01475,2023-06-17,México,Monterrey,52,45-54,Masculino,Orgánico
+U01476,2024-03-06,México,Puebla,18,18-24,Femenino,Redes sociales
+U01477,2024-03-01,Colombia,Bogotá,44,35-44,Femenino,Redes sociales
+U01478,2025-10-24,España,Madrid,43,35-44,Femenino,Redes sociales
+U01479,2023-07-19,Perú,Lima,18,18-24,Femenino,Publicidad digital
+U01480,2024-01-20,México,Ciudad de México,23,18-24,Femenino,Orgánico
+U01481,2023-03-11,México,Monterrey,43,35-44,Femenino,Redes sociales
+U01482,2025-06-03,Colombia,Medellín,28,25-34,Femenino,Publicidad digital
+U01483,2024-07-27,México,Ciudad de México,31,25-34,Femenino,Orgánico
+U01484,2025-08-05,Perú,Arequipa,43,35-44,Masculino,Redes sociales
+U01485,2024-09-21,Perú,Cusco,31,25-34,Femenino,Orgánico
+U01486,2023-11-30,México,Monterrey,34,25-34,Masculino,Orgánico
+U01487,2024-01-03,Colombia,Medellín,51,45-54,Masculino,Referido
+U01488,2024-08-23,España,Valencia,43,35-44,Masculino,Alianza comercial
+U01489,2024-05-18,Colombia,Barranquilla,37,35-44,Masculino,Publicidad digital
+U01490,2024-05-24,Chile,Temuco,45,45-54,Masculino,Referido
+U01491,2024-09-27,Colombia,Barranquilla,23,18-24,Masculino,Orgánico
+U01492,2024-02-20,Ecuador,Cuenca,34,25-34,Masculino,Orgánico
+U01493,2024-11-29,Chile,Temuco,26,25-34,Masculino,Orgánico
+U01494,2023-02-25,Perú,Trujillo,26,25-34,Femenino,Redes sociales
+U01495,2025-01-02,Colombia,Cali,18,18-24,Femenino,Publicidad digital
+U01496,2025-02-09,Chile,La Serena,18,18-24,Masculino,Referido
+U01497,2025-06-07,Chile,Concepción,18,18-24,Masculino,Orgánico
+U01498,2025-11-21,Chile,Santiago,43,35-44,Masculino,Redes sociales
+U01499,2025-02-24,Perú,Arequipa,28,25-34,Masculino,Publicidad digital
+U01500,2025-04-03,México,Monterrey,48,45-54,Masculino,Referido

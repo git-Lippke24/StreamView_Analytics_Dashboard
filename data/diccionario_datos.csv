@@ -1,0 +1,63 @@
+﻿Tabla,Campo,Tipo,Descripción,Clave/Relación
+usuarios,usuario_id,Texto,Identificador único del usuario.,PK
+usuarios,fecha_registro,Fecha,Fecha de alta del usuario en la plataforma.,
+usuarios,pais,Texto,País de residencia.,
+usuarios,ciudad,Texto,Ciudad de residencia.,
+usuarios,edad,Entero,Edad del usuario.,
+usuarios,segmento_edad,Texto,Tramo etario.,
+usuarios,genero,Texto,Género declarado.,
+usuarios,canal_adquisicion,Texto,Canal por el que llegó el usuario.,
+contenidos,contenido_id,Texto,Identificador único del contenido.,PK
+contenidos,titulo,Texto,Título ficticio del contenido.,
+contenidos,tipo_contenido,Texto,"Película, Serie o Documental.",
+contenidos,genero_principal,Texto,Género principal.,
+contenidos,subgenero,Texto,Subgénero del contenido.,
+contenidos,clasificacion_edad,Texto,Clasificación por edad.,
+contenidos,anio_estreno,Entero,Año de estreno.,
+contenidos,duracion_min,Entero,Duración en minutos; en series corresponde a episodio.,
+contenidos,temporadas,Entero,Número de temporadas (0 si no corresponde).,
+contenidos,episodios,Entero,Número de episodios.,
+contenidos,idioma_original,Texto,Idioma original.,
+contenidos,pais_origen,Texto,País de origen de la producción.,
+contenidos,exclusivo,Sí/No,Indica si es contenido exclusivo de StreamView.,
+contenidos,fecha_alta_catalogo,Fecha,Fecha de incorporación al catálogo.,
+suscripciones,suscripcion_id,Texto,Identificador de suscripción.,PK
+suscripciones,usuario_id,Texto,Usuario asociado.,FK -> usuarios.usuario_id
+suscripciones,plan,Texto,"Básico, Estándar o Premium.",
+suscripciones,fecha_inicio,Fecha,Inicio de la suscripción.,
+suscripciones,fecha_fin,Fecha,Fin de la suscripción; vacío si sigue activa.,
+suscripciones,estado,Texto,Activa o Cancelada.,
+suscripciones,precio_mensual_usd,Decimal,Precio mensual de referencia en USD.,
+suscripciones,renovacion_automatica,Sí/No,Indica si mantiene renovación automática.,
+suscripciones,motivo_cancelacion,Texto,Motivo informado cuando fue cancelada.,
+dispositivos,dispositivo_id,Texto,Identificador único del dispositivo.,PK
+dispositivos,usuario_id,Texto,Usuario propietario.,FK -> usuarios.usuario_id
+dispositivos,tipo_dispositivo,Texto,"Smart TV, Móvil, Tablet, Computador o Consola.",
+dispositivos,sistema_operativo,Texto,Sistema operativo.,
+dispositivos,version_app,Texto,Versión de aplicación.,
+dispositivos,fecha_registro_dispositivo,Fecha,Fecha de registro del dispositivo.,
+reproducciones,reproduccion_id,Texto,Identificador de reproducción.,PK
+reproducciones,usuario_id,Texto,Usuario que reprodujo.,FK -> usuarios.usuario_id
+reproducciones,contenido_id,Texto,Contenido reproducido.,FK -> contenidos.contenido_id
+reproducciones,dispositivo_id,Texto,Dispositivo usado.,FK -> dispositivos.dispositivo_id
+reproducciones,fecha_hora_inicio,FechaHora,Inicio de reproducción.,
+reproducciones,tipo_dispositivo,Texto,Tipo de dispositivo usado.,
+reproducciones,calidad_video,Texto,"SD, HD, Full HD o 4K.",
+reproducciones,minutos_reproducidos,Decimal,Minutos reproducidos.,
+reproducciones,porcentaje_completado,Decimal,Porcentaje completado.,
+reproducciones,abandono_temprano,Sí/No,Sí cuando se reproduce menos del 20%.,
+reproducciones,buffering_segundos,Decimal,Segundos de buffering aproximados.,
+calificaciones,calificacion_id,Texto,Identificador de calificación.,PK
+calificaciones,usuario_id,Texto,Usuario que calificó.,FK -> usuarios.usuario_id
+calificaciones,contenido_id,Texto,Contenido calificado.,FK -> contenidos.contenido_id
+calificaciones,fecha_calificacion,FechaHora,Fecha de calificación.,
+calificaciones,puntuacion_1_5,Entero,Puntuación de 1 a 5.,
+calificaciones,recomendaria,Sí/No,Indica si recomendaría el contenido.,
+calificaciones,categoria_comentario,Texto,Aspecto principal asociado a la opinión.,
+interacciones,interaccion_id,Texto,Identificador de interacción.,PK
+interacciones,usuario_id,Texto,Usuario que interactuó.,FK -> usuarios.usuario_id
+interacciones,contenido_id,Texto,Contenido asociado.,FK -> contenidos.contenido_id
+interacciones,fecha_hora,FechaHora,Fecha y hora del evento.,
+interacciones,tipo_interaccion,Texto,Acción realizada.,
+interacciones,canal,Texto,App o Web.,
+interacciones,origen_interfaz,Texto,Lugar de la interfaz desde donde ocurrió.,
