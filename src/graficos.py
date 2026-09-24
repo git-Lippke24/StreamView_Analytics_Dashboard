@@ -63,7 +63,8 @@ def colores(categorias: Sequence, destacar=None, color_destacado: str = COLOR_AC
 def barras(df: pd.DataFrame, categoria: str, valor: str, *, titulo: str, eje_valor: str,
            horizontal: bool = True, destacar=None, color_destacado: str = COLOR_ACENTO,
            decimales: int = 1, sufijo: str = "", hover: dict[str, str] | None = None,
-           orden: Sequence | None = None, alto: int | None = None) -> go.Figure:
+           orden: Sequence | None = None, alto: int | None = None,
+           textos: Sequence[str] | None = None) -> go.Figure:
     """Barras de una sola medida con etiqueta en la punta.
 
     - Sin `destacar`: todas las barras en COLOR_ACENTO_POS (una sola serie).
@@ -71,6 +72,7 @@ def barras(df: pd.DataFrame, categoria: str, valor: str, *, titulo: str, eje_val
     - `orden`: orden natural de las categorías (si no, se respeta el orden del DataFrame;
       en barras horizontales la primera fila queda abajo, así que ordena ascendente).
     - `hover`: {etiqueta: columna} con texto extra para el tooltip.
+    - `textos`: etiquetas propias para la punta de cada barra (por ejemplo, valor y n).
     """
     datos = df.reset_index(drop=True)
     cats = datos[categoria].astype(str)
@@ -78,7 +80,8 @@ def barras(df: pd.DataFrame, categoria: str, valor: str, *, titulo: str, eje_val
         color = COLOR_ACENTO_POS
     else:
         color = colores(cats, destacar, color_destacado)
-    texto = [f"{fmt_num(v, decimales)}{sufijo}" for v in datos[valor]]
+    valores_txt = [f"{fmt_num(v, decimales)}{sufijo}" for v in datos[valor]]
+    texto = list(textos) if textos is not None else valores_txt
 
     extra = ""
     custom = None
@@ -93,7 +96,8 @@ def barras(df: pd.DataFrame, categoria: str, valor: str, *, titulo: str, eje_val
         marker_color=color,
         text=texto, textposition="outside", cliponaxis=False,
         customdata=custom,
-        hovertemplate=f"<b>%{{{eje_cat}}}</b><br>{eje_valor}: %{{text}}{extra}<extra></extra>",
+        hovertext=valores_txt,
+        hovertemplate=f"<b>%{{{eje_cat}}}</b><br>{eje_valor}: %{{hovertext}}{extra}<extra></extra>",
     ))
     tope = datos[valor].max() if len(datos) else 1
     eje_valor_cfg = dict(title_text=eje_valor, range=[0, tope * 1.18], showgrid=True, zeroline=False)

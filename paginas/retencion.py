@@ -49,7 +49,8 @@ columna, orden = DIMENSIONES[dimension]
 tabla = tasa_cancelacion_por(usuarios, columna)
 if orden is None:
     tabla = tabla.sort_values("tasa")  # horizontal: la mayor queda arriba
-peor = tabla.loc[tabla["tasa"].idxmax(), columna]
+# Con filtros extremos todas las tasas pueden ser 0: en ese caso no se destaca ninguna
+peor = tabla.loc[tabla["tasa"].idxmax(), columna] if tabla["tasa"].max() > 0 else None
 tabla["n_txt"] = tabla["usuarios"].map(fmt_num)
 tabla["c_txt"] = tabla["canceladas"].map(fmt_num)
 

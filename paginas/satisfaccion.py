@@ -35,16 +35,19 @@ if not sin_datos(cal_par):
     por_punt["puntuacion"] = por_punt["puntuacion_1_5"].astype(str)
     por_punt["n_txt"] = por_punt["calificaciones"].map(fmt_num)
     corr_par = cal_par["puntuacion_1_5"].corr(cal_par["porcentaje_completado"])
+    # El n va visible en cada barra: la nota 2 tiene muy pocos casos
+    etiquetas = [f"{fmt_num(p, 1)}% · n={n}" for p, n in zip(por_punt["pct"], por_punt["n_txt"])]
     mostrar(barras(por_punt, "puntuacion", "pct", horizontal=False,
                    titulo="% completado del mismo contenido según la puntuación otorgada",
                    eje_valor="% completado promedio", sufijo="%",
                    destacar=por_punt["puntuacion"].iloc[-1], color_destacado=COLOR_ACENTO_POS,
-                   hover={"Calificaciones": "n_txt"}))
+                   hover={"Calificaciones": "n_txt"}, textos=etiquetas))
     st.caption(f"{fmt_num(len(cal_par))} calificaciones cruzadas con su reproducción · "
                f"correlación puntuación–% completado: {fmt_num(corr_par, 2)}.")
-    hallazgo("La relación más clara de la sección: el % completado sube de forma consistente "
-             "con la puntuación (64,3% con nota 2 → 78,8% con nota 5). Terminar un contenido es "
-             "un mejor termómetro de satisfacción que esperar a que el usuario califique.")
+    hallazgo("La relación más clara de la sección: el % completado sube con la puntuación, de "
+             "64,7% con nota 3 (504 calificaciones) a 78,8% con nota 5 (396). La nota 2 tiene "
+             "solo 3 casos y no se usa para concluir. La correlación es débil (0,20), pero el "
+             "patrón es monotónico: terminar un contenido es un buen termómetro de satisfacción.")
 
 # ---------------------------------------------------------------- correlaciones
 st.divider()

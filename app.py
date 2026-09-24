@@ -11,7 +11,7 @@ import streamlit as st
 from src.datos import MESES, ORDEN_PLAN, ORDEN_SEGMENTO, cargar_datos, filtrar
 
 st.set_page_config(page_title="StreamView Analytics 2025", page_icon=":material/live_tv:",
-                layout="wide")
+                   layout="wide")
 
 datos = cargar_datos()
 usuarios = datos["usuarios"]
@@ -26,17 +26,7 @@ with st.sidebar:
     planes = st.multiselect("Plan", ORDEN_PLAN, default=ORDEN_PLAN)
     segmentos = st.multiselect("Segmento de edad", ORDEN_SEGMENTO, default=ORDEN_SEGMENTO)
     st.caption("El estado de las suscripciones es al 31-12-2025: el filtro de meses "
-            "no cambia la tasa de cancelación. La página Historia usa siempre el año completo.")
-
-if not (paises and planes and segmentos):
-    st.warning("Selecciona al menos un país, un plan y un segmento de edad en la barra lateral.")
-    st.stop()
-
-st.session_state["datos"] = filtrar(
-    datos,
-    meses=(MESES.index(mes_desde) + 1, MESES.index(mes_hasta) + 1),
-    paises=paises, planes=planes, segmentos=segmentos,
-)
+               "no cambia la tasa de cancelación. La página Historia usa siempre el año completo.")
 
 # ---------------------------------------------------------------- navegación
 # Para agregar una página: crea el archivo en paginas/ y súmalo a esta lista.
@@ -55,4 +45,17 @@ paginas = {
                 icon=":material/auto_stories:"),
     ],
 }
-st.navigation(paginas).run()
+pagina = st.navigation(paginas)
+
+# ---------------------------------------------------------------- datos filtrados
+if paises and planes and segmentos:
+    st.session_state["datos"] = filtrar(
+        datos,
+        meses=(MESES.index(mes_desde) + 1, MESES.index(mes_hasta) + 1),
+        paises=paises, planes=planes, segmentos=segmentos,
+    )
+elif pagina.url_path != "historia":  # Historia usa siempre el año completo
+    st.warning("Selecciona al menos un país, un plan y un segmento de edad en la barra lateral.")
+    st.stop()
+
+pagina.run()

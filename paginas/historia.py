@@ -65,7 +65,7 @@ with c2:
 # ================================================================ 3. Hallazgos
 st.header("3. Hallazgos: quién se va y dónde falla la experiencia")
 
-st.subheader("Se va el plan Básico, y se va por poco uso")
+st.subheader("La fuga se concentra en el plan Básico, y el motivo más declarado es el poco uso")
 col_a, col_b = st.columns(2)
 with col_a:
     por_plan = tasa_cancelacion_por(usuarios, "plan")
@@ -75,7 +75,7 @@ with col_b:
     motivos = (usuarios.loc[usuarios["estado"] == "Cancelada", "motivo_cancelacion"]
                .value_counts(normalize=True).mul(100).rename_axis("motivo")
                .reset_index(name="pct").sort_values("pct"))
-    mostrar(barras(motivos, "motivo", "pct", titulo="Motivos de cancelación",
+    mostrar(barras(motivos, "motivo", "pct", titulo="Motivos declarados de cancelación (todos los planes)",
                    eje_valor="% de las cancelaciones", sufijo="%", decimales=0,
                    destacar=motivos.iloc[-1]["motivo"]))
 
@@ -93,30 +93,36 @@ col_b.metric("Buffering promedio en móvil", f"{fmt_num(movil['buffering'], 1)} 
 col_b.metric("Buffering promedio en Smart TV",
              f"{fmt_num(por_disp.set_index('tipo_dispositivo').loc['Smart TV', 'buffering'], 1)} s")
 
-st.subheader("Terminar un contenido anticipa una buena nota")
+st.subheader("Quien termina un contenido lo califica mejor")
 rep_par = rep.groupby(["usuario_id", "contenido_id"])["porcentaje_completado"].mean().reset_index()
 cal_par = d["calificaciones"].merge(rep_par, on=["usuario_id", "contenido_id"])
-por_punt = (cal_par.groupby("puntuacion_1_5")["porcentaje_completado"].mean()
-                   .reset_index(name="pct"))
+por_punt = (cal_par.groupby("puntuacion_1_5")
+                   .agg(pct=("porcentaje_completado", "mean"), n=("calificacion_id", "count"))
+                   .reset_index())
 por_punt["puntuacion"] = por_punt["puntuacion_1_5"].astype(str)
 mostrar(barras(por_punt, "puntuacion", "pct", horizontal=False,
                titulo="% completado según la puntuación otorgada al mismo contenido",
                eje_valor="% completado promedio", sufijo="%",
-               destacar=por_punt["puntuacion"].iloc[-1], color_destacado=COLOR_ACENTO_POS))
+               destacar=por_punt["puntuacion"].iloc[-1], color_destacado=COLOR_ACENTO_POS,
+               textos=[f"{fmt_num(p, 1)}% · n={fmt_num(n)}"
+                       for p, n in zip(por_punt["pct"], por_punt["n"])]))
+st.caption("La nota 2 tiene muy pocos casos; la lectura se apoya en las notas 3 a 5.")
 
 # ================================================================ 4. Acción
 st.header("4. Acción: recomendaciones")
 st.markdown(
     """
-1. **Retener al plan Básico antes de que deje de usar la plataforma.** Casi la mitad cancela y
-   "Poco uso" es el motivo principal: detectar a quienes bajan su consumo y reactivarlos
-   (recomendaciones personalizadas, recordatorios, beneficios de upgrade).
+1. **Retener al plan Básico.** Casi la mitad cancela y "Poco uso" es el motivo más declarado:
+   probar campañas de reactivación (recomendaciones personalizadas, recordatorios) y beneficios
+   de upgrade, midiendo su efecto en la tasa de cancelación.
 2. **Priorizar la experiencia en móvil:** precarga, calidad adaptativa y recuperación ante cortes,
    porque ahí se concentran el menor % completado y el mayor buffering.
 3. **Tratar el buffering como KPI de calidad de servicio,** no solo como métrica de
-   infraestructura: se asocia a menor consumo efectivo.
-4. **Usar el % completado como señal de satisfacción en tiempo real:** anticipa la calificación
-   y cubre a todos los usuarios, no solo a los que califican.
+   infraestructura: se asocia a menor consumo efectivo. Su efecto en la retención queda por
+   validar.
+4. **Usar el % completado como señal de satisfacción en tiempo real:** se asocia con la
+   calificación más que las interacciones de un clic y está disponible en cada reproducción,
+   mientras que solo el 12,7% de las reproducciones tiene una calificación.
 5. **Decidir portada y licencias cruzando reproducciones con % completado y puntuación,**
    no solo por volumen.
 """

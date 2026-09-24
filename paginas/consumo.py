@@ -30,9 +30,10 @@ mostrar(paneles_mensuales(
     ],
     titulo="Reproducciones y minutos vistos por mes",
 ))
-hallazgo("Tras una baja entre febrero y abril, reproducciones y minutos crecen desde mayo y se "
-         "aceleran desde septiembre; diciembre es el mes de mayor consumo. Ambas series se "
-         "mueven en paralelo.")
+hallazgo("Enero parte alto, febrero cae 16% y el consumo queda plano hasta abril, el mínimo del "
+         "año. Desde mayo crece casi todos los meses y se acelera desde septiembre: diciembre "
+         "cierra en el máximo, +62% sobre abril. Reproducciones y minutos se mueven en paralelo "
+         "(r = 0,998).")
 
 # ---------------------------------------------------------------- distribución % completado
 st.divider()
@@ -55,9 +56,9 @@ mostrar(estilo(fig, "Distribución del % completado por reproducción"))
 aband = rep["abandono_temprano"].eq("Sí")
 st.caption(f"Abandono temprano (menos de 20% de avance): {fmt_num(aband.sum())} de "
            f"{fmt_num(len(rep))} reproducciones ({fmt_num(aband.mean() * 100, 2)}%).")
-hallazgo("El % completado se concentra entre 55% y 90%. La cola bajo 20% es pequeña (0,4%): "
-         "el abandono no es masivo, se concentra en condiciones específicas de dispositivo y "
-         "calidad (ver Experiencia técnica).")
+hallazgo("La mitad central de las reproducciones está entre 59% y 86% completado. La cola bajo "
+         "20% es pequeña (0,4%): el abandono no es masivo y se concentra en condiciones "
+         "específicas, sobre todo en móvil y con más buffering (ver Experiencia técnica).")
 
 # ---------------------------------------------------------------- por tipo de contenido
 st.divider()
@@ -94,9 +95,9 @@ with col_b:
     mostrar(barras(top, "titulo", "reproducciones", titulo="Top 10 contenidos más reproducidos",
                    eje_valor="Reproducciones", decimales=0,
                    hover={"% completado prom.": "pct_txt"}, alto=420))
-    hallazgo("La popularidad no siempre acompaña al % completado: hay títulos muy vistos que "
-             "se terminan menos que el promedio. Reportar siempre reproducciones y % completado "
-             "juntos.")
+    hallazgo("La popularidad no siempre acompaña al % completado: 4 de los 10 títulos más vistos "
+             "quedan bajo el promedio de 71,5% (por ejemplo, Pulso Global 32 con 65,1%). "
+             "Reportar siempre reproducciones y % completado juntos.")
     ver_tabla(top.sort_values("reproducciones", ascending=False)
                  .rename(columns={"titulo": "Título", "reproducciones": "Reproducciones",
                                   "pct": "% completado prom."})

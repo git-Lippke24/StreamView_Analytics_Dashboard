@@ -47,9 +47,10 @@ with col_b:
                    eje_valor="% de reproducciones abandonadas", sufijo="%", decimales=2,
                    destacar=peor_ab, orden=orden,
                    hover={"Buffering prom.": "buf_txt", "Reproducciones": "n_txt"}))
-hallazgo("Móvil, el dispositivo con más reproducciones, tiene el menor % completado (63,2% vs. "
-         "79,8% en Smart TV) y la mayor tasa de abandono (0,98%). Móvil y Tablet duplican el "
-         "buffering promedio del resto (~11 s vs. ~6 s).")
+hallazgo("Móvil, el dispositivo más usado (30,6% de las reproducciones), tiene el menor % "
+         "completado (63,2% vs. 79,8% en Smart TV) y la mayor tasa de abandono (0,98%): concentra "
+         "75 de los 99 abandonos del año (76%). Móvil y Tablet duplican el buffering promedio del "
+         "resto (≈11,5 s vs. ≈5,8 s).")
 ver_tabla(por_disp.rename(columns={"tipo_dispositivo": "Dispositivo",
                                    "reproducciones": "Reproducciones",
                                    "pct": "% completado prom.", "abandono": "% abandono",
@@ -60,9 +61,12 @@ ver_tabla(por_disp.rename(columns={"tipo_dispositivo": "Dispositivo",
 # ---------------------------------------------------------------- buffering vs completado
 st.divider()
 muestra = rep.sample(min(2000, len(rep)), random_state=42)
-pendiente, intercepto = np.polyfit(rep["buffering_segundos"], rep["porcentaje_completado"], 1)
-x_linea = np.array([rep["buffering_segundos"].min(), rep["buffering_segundos"].max()])
-corr = rep["buffering_segundos"].corr(rep["porcentaje_completado"])
+# La tendencia y la correlación solo tienen sentido con varios puntos y buffering que varíe
+hay_tendencia = len(rep) >= 3 and rep["buffering_segundos"].nunique() > 1
+if hay_tendencia:
+    pendiente, intercepto = np.polyfit(rep["buffering_segundos"], rep["porcentaje_completado"], 1)
+    x_linea = np.array([rep["buffering_segundos"].min(), rep["buffering_segundos"].max()])
+    corr = rep["buffering_segundos"].corr(rep["porcentaje_completado"])
 
 fig = go.Figure()
 fig.add_trace(go.Scatter(
@@ -70,19 +74,24 @@ fig.add_trace(go.Scatter(
     marker=dict(color=COLOR_NEUTRO, size=6, opacity=0.35), name="Reproducción (muestra)",
     hovertemplate="Buffering: %{x:.1f} s<br>Completado: %{y:.1f}%<extra></extra>",
 ))
-fig.add_trace(go.Scatter(
-    x=x_linea, y=intercepto + pendiente * x_linea, mode="lines",
-    line=dict(color=COLOR_ACENTO, width=2), name="Tendencia lineal",
-    hovertemplate="Tendencia: %{y:.1f}%<extra></extra>",
-))
+if hay_tendencia:
+    fig.add_trace(go.Scatter(
+        x=x_linea, y=intercepto + pendiente * x_linea, mode="lines",
+        line=dict(color=COLOR_ACENTO, width=2), name="Tendencia lineal",
+        hovertemplate="Tendencia: %{y:.1f}%<extra></extra>",
+    ))
 fig.update_xaxes(title_text="Buffering (segundos)", showgrid=False)
 fig.update_yaxes(title_text="% completado")
 mostrar(estilo(fig, "Buffering vs. % completado", alto=420))
-st.caption(f"Correlación con los filtros actuales: {fmt_num(corr, 2)}. Se grafica una muestra "
-           f"de {fmt_num(len(muestra))} reproducciones; la tendencia usa todas.")
+if hay_tendencia:
+    st.caption(f"Correlación con los filtros actuales: {fmt_num(corr, 2)}. Se grafica una muestra "
+               f"de {fmt_num(len(muestra))} reproducciones; la tendencia usa todas.")
+else:
+    st.caption("Con los filtros actuales hay muy pocas reproducciones para calcular una tendencia.")
 hallazgo("Correlación negativa moderada (≈ −0,31): a más segundos de buffering, menor avance "
-         "en el contenido. El buffering es una palanca de retención, no solo una métrica "
-         "técnica.")
+         "en el contenido. El buffering es una palanca de consumo efectivo; su efecto sobre la "
+         "retención es una hipótesis a validar (el buffering promedio de un usuario no se asocia "
+         "con haber cancelado).")
 
 # ---------------------------------------------------------------- calidad de video
 st.divider()
@@ -105,7 +114,10 @@ st.dataframe(
         "abandono": st.column_config.NumberColumn("% abandono", format="localized"),
     },
 )
-hallazgo("El abandono es mayor en SD (0,51%) y menor en 4K (0,32%), aunque no baja de forma pareja: Full HD (0,42%) supera a HD (0,37%).")
+hallazgo("La calidad de video casi no cambia el % completado (71,2% a 72,4%). El abandono es "
+         "mayor en SD (0,51%) y menor en 4K (0,32%), pero no baja de forma pareja: Full HD "
+         "(0,42%) supera a HD (0,37%). Son diferencias de décimas con pocos casos, así que la "
+         "calidad no aparece como un factor fuerte; el buffering sí.")
 
 # ---------------------------------------------------------------- pendiente
 st.divider()

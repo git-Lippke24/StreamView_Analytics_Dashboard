@@ -1,5 +1,5 @@
 # Dependencias de la app (las usa también Streamlit Community Cloud al desplegar)
 streamlit>=1.50,<2
-pandas>=2.2
-numpy>=1.26
+pandas>=2.2,<4
+numpy>=1.26,<3
 plotly>=6.0,<8
