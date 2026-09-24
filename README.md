@@ -2,24 +2,26 @@
 
 Dashboard interactivo en Streamlit sobre **StreamView Analytics**, una plataforma de streaming ficticia (datos 2025): retención, consumo, experiencia técnica, preferencias y satisfacción. Trabajo colaborativo de **ADY1104 Visualización de Datos (Duoc UC)**, Evaluación Parcial 1: narrativa visual y storytelling para comunicar hallazgos a un público objetivo.
 
-**App en línea:** _pendiente de despliegue_ (agregar aquí el enlace `https://….streamlit.app`)
+[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://streamview-analytics-duocuc.streamlit.app/)
+
+**App en línea:** https://streamview-analytics-duocuc.streamlit.app/
 
 ---
 
 ## Contexto académico
 
-| Sigla | Asignatura | Créditos SCT | Créditos Duoc | Formato | Línea formativa |
-|---|---|---|---|---|---|
-| ADY1104 | Visualización de Datos | 4 | 10 | Presencial | Análisis de Datos |
+| Sigla   | Asignatura             | Créditos SCT | Créditos Duoc | Formato    | Línea formativa   |
+| ------- | ---------------------- | ------------ | ------------- | ---------- | ----------------- |
+| ADY1104 | Visualización de Datos | 4            | 10            | Presencial | Análisis de Datos |
 
 **Resultado de aprendizaje (RA1).** Desarrolla narrativas creativas para explicar casos de ciencia de datos a un público objetivo, utilizando técnicas de comunicación oral, escrita y visual.
 
-| Indicador de logro | Descripción | Dónde se trabaja en este proyecto |
-|---|---|---|
-| IL1.1 | Identifica audiencias y objetivos de comunicación para adaptar narrativas visuales según el contexto de análisis y el público objetivo. | Audiencia definida (comité de Producto y Retención) y propósito informativo y persuasivo: notebook y página **Historia y recomendaciones**. |
-| IL1.2 | Aplica principios de percepción visual y cognición para favorecer la interpretación y comprensión de información cuantitativa. | Color de acento solo en la categoría relevante sobre gris neutro, barras ordenadas, sin doble eje Y y etiquetas directas (`src/graficos.py`). |
-| IL1.3 | Selecciona tipologías de gráficos, atributos visuales y formas de representación considerando el tipo de dato y el propósito comunicacional. | Líneas para tiempo, barras para comparar, histograma para distribuciones, dispersión para relaciones, mapa de calor para correlaciones y tarjetas para KPIs. |
-| IL1.4 | Construye narrativas visuales integrando técnicas de storytelling y recursos de comunicación oral, escrita y visual para comunicar hallazgos analíticos. | Página **Historia y recomendaciones**: contexto → tensión → hallazgos → acción, más la presentación oral del equipo. |
+| Indicador de logro | Descripción                                                                                                                                              | Dónde se trabaja en este proyecto                                                                                                                            |
+| ------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| IL1.1              | Identifica audiencias y objetivos de comunicación para adaptar narrativas visuales según el contexto de análisis y el público objetivo.                  | Audiencia definida (comité de Producto y Retención) y propósito informativo y persuasivo: notebook y página **Historia y recomendaciones**.                  |
+| IL1.2              | Aplica principios de percepción visual y cognición para favorecer la interpretación y comprensión de información cuantitativa.                           | Color de acento solo en la categoría relevante sobre gris neutro, barras ordenadas, sin doble eje Y y etiquetas directas (`src/graficos.py`).                |
+| IL1.3              | Selecciona tipologías de gráficos, atributos visuales y formas de representación considerando el tipo de dato y el propósito comunicacional.             | Líneas para tiempo, barras para comparar, histograma para distribuciones, dispersión para relaciones, mapa de calor para correlaciones y tarjetas para KPIs. |
+| IL1.4              | Construye narrativas visuales integrando técnicas de storytelling y recursos de comunicación oral, escrita y visual para comunicar hallazgos analíticos. | Página **Historia y recomendaciones**: contexto → tensión → hallazgos → acción, más la presentación oral del equipo.                                         |
 
 ---
 
@@ -32,16 +34,16 @@ StreamView Analytics es una plataforma ficticia de streaming digital. El dataset
 
 ### Dataset
 
-| Tabla | Registros | Contenido |
-|---|---|---|
-| `usuarios.csv` | 1.500 | País, ciudad, edad, segmento, género y canal de adquisición |
-| `contenidos.csv` | 420 | Tipo, género, idioma, duración, exclusividad |
-| `suscripciones.csv` | 1.500 | Plan, fechas, estado, precio y motivo de cancelación |
-| `dispositivos.csv` | 2.492 | Tipo, sistema operativo y versión de app |
-| `reproducciones.csv` | 25.000 | Minutos, % completado, abandono temprano, calidad y buffering |
-| `calificaciones.csv` | 3.119 | Puntuación 1 a 5, recomendaría y categoría del comentario |
-| `interacciones.csv` | 7.438 | Me gusta, listas, compartir, descargas, clics en recomendaciones |
-| `diccionario_datos.csv` | — | Descripción de cada campo |
+| Tabla                   | Registros | Contenido                                                        |
+| ----------------------- | --------- | ---------------------------------------------------------------- |
+| `usuarios.csv`          | 1.500     | País, ciudad, edad, segmento, género y canal de adquisición      |
+| `contenidos.csv`        | 420       | Tipo, género, idioma, duración, exclusividad                     |
+| `suscripciones.csv`     | 1.500     | Plan, fechas, estado, precio y motivo de cancelación             |
+| `dispositivos.csv`      | 2.492     | Tipo, sistema operativo y versión de app                         |
+| `reproducciones.csv`    | 25.000    | Minutos, % completado, abandono temprano, calidad y buffering    |
+| `calificaciones.csv`    | 3.119     | Puntuación 1 a 5, recomendaría y categoría del comentario        |
+| `interacciones.csv`     | 7.438     | Me gusta, listas, compartir, descargas, clics en recomendaciones |
+| `diccionario_datos.csv` | —         | Descripción de cada campo                                        |
 
 **Relaciones**
 
@@ -62,15 +64,15 @@ El enunciado original del dataset está en [`data/README_dataset.txt`](data/READ
 
 ## Líneas de análisis y páginas del dashboard
 
-| Línea de análisis | Página | Responsable | Estado |
-|---|---|---|---|
-| KPIs y dashboard ejecutivo | Resumen ejecutivo | Grupal | Lista |
-| Retención y cancelación por plan, país, segmento y canal | Retención | Sebastian Gonzalez Pino | Lista |
-| Reproducciones, minutos vistos, % completado y abandono | Consumo | Hernan Lippke | Lista |
-| Experiencia técnica por dispositivo, sistema operativo, app y calidad | Experiencia técnica | Hernan Lippke + por asignar | En progreso |
-| Preferencias por género, tipo, idioma, país y segmento | Preferencias | Por asignar | Pendiente |
-| Relación entre consumo, interacciones y calificaciones | Satisfacción | Hernan Lippke | Lista |
-| Data storytelling y recomendaciones | Historia y recomendaciones | Grupal | En progreso |
+| Línea de análisis                                                     | Página                     | Responsable                 | Estado      |
+| --------------------------------------------------------------------- | -------------------------- | --------------------------- | ----------- |
+| KPIs y dashboard ejecutivo                                            | Resumen ejecutivo          | Grupal                      | Lista       |
+| Retención y cancelación por plan, país, segmento y canal              | Retención                  | Sebastian Gonzalez Pino     | Lista       |
+| Reproducciones, minutos vistos, % completado y abandono               | Consumo                    | Hernan Lippke               | Lista       |
+| Experiencia técnica por dispositivo, sistema operativo, app y calidad | Experiencia técnica        | Hernan Lippke + por asignar | En progreso |
+| Preferencias por género, tipo, idioma, país y segmento                | Preferencias               | Por asignar                 | Pendiente   |
+| Relación entre consumo, interacciones y calificaciones                | Satisfacción               | Hernan Lippke               | Lista       |
+| Data storytelling y recomendaciones                                   | Historia y recomendaciones | Grupal                      | En progreso |
 
 ---
 
