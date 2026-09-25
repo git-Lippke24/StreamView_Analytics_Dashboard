@@ -32,15 +32,15 @@ DIMENSIONES = {
     "Segmento de edad": ("segmento_edad", ORDEN_SEGMENTO),
     "Canal de adquisición": ("canal_adquisicion", None),
 }
-HALLAZGOS = {  # redactados en el notebook con todos los datos
-    "Plan": "Premium retiene muy bien (88%), Estándar razonable (79%), pero Básico tiene fuga "
-            "alta (44% de cancelación): casi 1 de cada 2 se va.",
-    "País": "Tasas parejas entre mercados (24% a 36% de cancelación). Ecuador es el más débil "
-            "(64% activa), aunque con muestra chica. Argentina y Chile retienen mejor (~75%).",
-    "Segmento de edad": "45-54 es el tramo más leal (79% activa). Los extremos, 18-24 (67%) y "
-                        "55+ (68%), cancelan más.",
-    "Canal de adquisición": "Referido retiene mejor (78%): llegan precalificados. Publicidad "
-                            "digital retiene peor (69%, 31% de cancelación).",
+HALLAZGOS = {  # redactados en el notebook con todos los datos (ver notebook, sección Retención)
+    "Plan": "Básico concentra la fuga: 44% cancela, casi 1 de cada 2. Estándar cancela 21% y "
+            "Premium solo 12% (88% retiene).",
+    "País": "Tasas de cancelación entre 24% (Chile) y 36% (Ecuador, muestra chica, n=67). "
+            "Argentina y Chile retienen mejor (~75% activa).",
+    "Segmento de edad": "45-54 cancela menos (21%, 79% activa). Los extremos cancelan más: "
+                        "18-24 (33%, 67% activa) y 55+ (32%, 68% activa, muestra chica, n=65).",
+    "Canal de adquisición": "Referido cancela menos (22%): llegan precalificados. Publicidad "
+                            "digital cancela más (31%).",
 }
 
 dimension = st.segmented_control("Ver la tasa de cancelación por", list(DIMENSIONES),

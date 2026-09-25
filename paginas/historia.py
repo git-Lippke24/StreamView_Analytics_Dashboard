@@ -72,10 +72,11 @@ with col_a:
     mostrar(barras(por_plan, "plan", "tasa", titulo="Tasa de cancelación por plan",
                    eje_valor="% canceladas", sufijo="%", destacar="Básico", orden=ORDEN_PLAN))
 with col_b:
-    motivos = (usuarios.loc[usuarios["estado"] == "Cancelada", "motivo_cancelacion"]
+    cancel_basico = usuarios.loc[(usuarios["estado"] == "Cancelada") & (usuarios["plan"] == "Básico")]
+    motivos = (cancel_basico["motivo_cancelacion"]
                .value_counts(normalize=True).mul(100).rename_axis("motivo")
                .reset_index(name="pct").sort_values("pct"))
-    mostrar(barras(motivos, "motivo", "pct", titulo="Motivos declarados de cancelación (todos los planes)",
+    mostrar(barras(motivos, "motivo", "pct", titulo="Motivos declarados de cancelación (plan Básico)",
                    eje_valor="% de las cancelaciones", sufijo="%", decimales=0,
                    destacar=motivos.iloc[-1]["motivo"]))
 
@@ -112,9 +113,10 @@ st.caption("La nota 2 tiene muy pocos casos; la lectura se apoya en las notas 3 
 st.header("4. Acción: recomendaciones")
 st.markdown(
     """
-1. **Retener al plan Básico.** Casi la mitad cancela y "Poco uso" es el motivo más declarado:
-   probar campañas de reactivación (recomendaciones personalizadas, recordatorios) y beneficios
-   de upgrade, midiendo su efecto en la tasa de cancelación.
+1. **Retener al plan Básico.** Casi la mitad cancela y "Poco uso" es el motivo más declarado,
+   aunque no se confirma como causa única (quienes cancelan también estuvieron activos menos
+   meses): probar campañas de reactivación (recomendaciones personalizadas, recordatorios) y
+   beneficios de upgrade, midiendo su efecto en la tasa de cancelación.
 2. **Priorizar la experiencia en móvil:** precarga, calidad adaptativa y recuperación ante cortes,
    porque ahí se concentran el menor % completado y el mayor buffering.
 3. **Tratar el buffering como KPI de calidad de servicio,** no solo como métrica de
