@@ -1,21 +1,23 @@
 """Página 4 · Experiencia técnica — Responsables: Hernán (dispositivo, buffering, calidad)
-y pendiente de asignar (sistema operativo y versión de app).
+y Matias (sistema operativo, versión de app, foco geográfico y relación con cancelaciones).
 
 Secciones del notebook: "Reproducciones…" (gráficos de dispositivo y buffering) y
-"Experiencia técnica por dispositivo" (pendiente).
-Tablas: reproducciones + dispositivos.
+"Experiencia técnica por dispositivo" (sistema operativo/versión, países y cancelaciones).
+Tablas: reproducciones + dispositivos + usuarios.
 """
 import numpy as np
+import pandas as pd
 import plotly.graph_objects as go
 import streamlit as st
 
 from src.datos import ORDEN_CALIDAD, sin_datos
-from src.graficos import (COLOR_ACENTO, COLOR_NEUTRO, barras, estilo, hallazgo, mostrar,
-                          ver_tabla)
+from src.graficos import (COLOR_ACENTO, COLOR_LINEA, COLOR_NEUTRO, barras, estilo, hallazgo,
+                          mostrar, ver_tabla)
 from src.kpis import fmt_num
 
 d = st.session_state["datos"]
 rep = d["reproducciones"]
+usu = d["usuarios"]
 
 st.title("Experiencia técnica")
 st.caption("¿En qué dispositivo y con qué calidad falla la reproducción?")
@@ -119,13 +121,113 @@ hallazgo("La calidad de video casi no cambia el % completado (71,2% a 72,4%). El
          "(0,42%) supera a HD (0,37%). Son diferencias de décimas con pocos casos, así que la "
          "calidad no aparece como un factor fuerte; el buffering sí.")
 
-# ---------------------------------------------------------------- pendiente
+# ---------------------------------------------------------------- sistema operativo y version app
 st.divider()
 st.subheader("Sistema operativo y versión de app")
-st.info(
-    "**Pendiente: responsable por asignar (sección \"Experiencia técnica por dispositivo\" "
-    "del notebook).** `reproducciones` ya trae las columnas `sistema_operativo` y "
-    "`version_app` unidas desde `dispositivos`. Sugerencia: % completado, abandono y buffering "
-    "por sistema operativo y por versión de app, con el mismo helper `barras()` de arriba.",
-    icon=":material/construction:",
+
+DISPOSITIVOS_FIJOS = {"Smart TV", "Computador", "Consola"}
+ANDROID, APPLE, FIJO = "Android", "Apple (iOS/iPadOS)", "Fijo (TV/PC/consola)"
+ORDEN_VERSION = ["6.8", "6.9", "7.0", "7.1", "7.2"]
+
+rep_os = rep.dropna(subset=["sistema_operativo", "version_app"]).copy()
+rep_os["familia_app"] = np.select(
+    [rep_os["sistema_operativo"].eq("Android"),
+     rep_os["sistema_operativo"].isin(["iOS", "iPadOS"]),
+     rep_os["tipo_dispositivo"].isin(DISPOSITIVOS_FIJOS)],
+    [ANDROID, APPLE, FIJO], default=None,
 )
+rep_os = rep_os.dropna(subset=["familia_app"])
+
+if not sin_datos(rep_os, minimo=10):
+    buf_version = (rep_os.groupby(["familia_app", "version_app"])["buffering_segundos"]
+                         .mean().unstack("familia_app").reindex(ORDEN_VERSION))
+    fig = go.Figure()
+    for serie, color, grosor in [(FIJO, COLOR_NEUTRO, 2), (APPLE, COLOR_LINEA, 2),
+                                 (ANDROID, COLOR_ACENTO, 3)]:
+        if serie not in buf_version.columns:
+            continue
+        fig.add_trace(go.Scatter(
+            x=ORDEN_VERSION, y=buf_version[serie], mode="lines+markers", name=serie,
+            line=dict(color=color, width=grosor), marker=dict(size=8),
+            hovertemplate=f"{serie}<br>Versión %{{x}}: %{{y:.1f}} s<extra></extra>",
+        ))
+    fig.update_xaxes(title_text="Versión de la app", showgrid=False)
+    fig.update_yaxes(title_text="Buffering promedio (s)", rangemode="tozero")
+    mostrar(estilo(fig, "El buffering de Android cae a la mitad desde la versión 7.0", alto=380))
+    ver_tabla(buf_version.round(1).reset_index().rename(columns={"version_app": "Versión de app"}))
+hallazgo("En Android, las versiones 6.8 y 6.9 tienen ≈22 s de buffering; desde la 7.0 bajan a "
+         "≈10 s, igual que en Apple y en los dispositivos fijos (que no cambian con la versión). "
+         "Es un problema acotado (1.050 reproducciones, 103 dispositivos) y específico del "
+         "reproductor de Android anterior a la 7.0: la versión que lo corrige ya existe, solo "
+         "falta que esos usuarios actualicen.")
+
+# ---------------------------------------------------------------- foco geografico
+st.divider()
+st.subheader("Buffering por país")
+
+FOCOS_PAIS = ["Perú", "Ecuador"]
+rep_geo = rep.assign(familia=np.where(rep["tipo_dispositivo"].isin(DISPOSITIVOS_FIJOS),
+                                      "Fijo", "Portátil"))
+buf_pais = rep_geo.groupby(["familia", "pais"])["buffering_segundos"].mean().reset_index()
+
+col_fijo, col_portatil = st.columns(2)
+for col, familia in [(col_fijo, "Fijo"), (col_portatil, "Portátil")]:
+    with col:
+        datos_familia = (buf_pais[buf_pais["familia"] == familia]
+                                  .sort_values("buffering_segundos"))
+        if not sin_datos(datos_familia, minimo=2):
+            mostrar(barras(datos_familia, "pais", "buffering_segundos",
+                           titulo=f"Buffering promedio — {familia}",
+                           eje_valor="Buffering promedio (s)", sufijo=" s",
+                           destacar=FOCOS_PAIS, orden=datos_familia["pais"].tolist()))
+hallazgo("Perú y Ecuador tienen ≈3,5 s más de buffering que el resto en ambas familias de "
+         "dispositivo (fijos: 8,6–8,8 s vs. ≈5,2 s; portátiles: 14,5–14,7 s vs. ≈10,9 s), y juntos "
+         "suman el 17% de las reproducciones. Como el aumento aparece en todo tipo de dispositivo "
+         "y no solo en la app móvil, apunta a un problema de red o de distribución de contenido "
+         "(CDN) en esos países, más que a la app.")
+ver_tabla(buf_pais.pivot(index="pais", columns="familia", values="buffering_segundos")
+                  .round(1).reset_index().rename(columns={"pais": "País"}))
+
+# ---------------------------------------------------------------- relacion con cancelaciones
+st.divider()
+st.subheader("¿La experiencia técnica explica las cancelaciones?")
+
+usuario_tec = (rep.groupby("usuario_id")["buffering_segundos"].mean()
+                  .rename("buffering_prom").reset_index()
+                  .merge(usu[["usuario_id", "estado"]], on="usuario_id", how="left"))
+
+CUARTILES = ["Q1\nmenos buffering", "Q2", "Q3", "Q4\nmás buffering"]
+cuartil_ok = False
+if len(usuario_tec) >= 20 and usuario_tec["buffering_prom"].nunique() >= 4:
+    try:
+        usuario_tec["cuartil"] = pd.qcut(usuario_tec["buffering_prom"], 4, labels=CUARTILES)
+        cuartil_ok = True
+    except ValueError:
+        pass  # muy pocos valores distintos de buffering con los filtros actuales
+
+if cuartil_ok:
+    churn_cuartil = (usuario_tec.groupby("cuartil", observed=True)["estado"]
+                                .apply(lambda s: s.eq("Cancelada").mean() * 100)
+                                .reset_index(name="tasa"))
+    mostrar(barras(churn_cuartil, "cuartil", "tasa", horizontal=False,
+                   titulo="Cancelación según el buffering promedio del usuario",
+                   eje_valor="% de usuarios cancelados", sufijo="%", orden=CUARTILES))
+    st.caption(f"Con los filtros actuales: {fmt_num(len(usuario_tec))} usuarios agrupados en "
+               f"cuartiles de buffering promedio.")
+else:
+    st.info("Con los filtros actuales no hay suficiente variación de buffering para formar "
+            "cuartiles.")
+
+cancelados = usu[usu["estado"] == "Cancelada"]
+if not sin_datos(cancelados, minimo=5):
+    pct_tecnico = cancelados["motivo_cancelacion"].eq("Problemas técnicos").mean() * 100
+    st.caption(f"\"Problemas técnicos\" explica el {fmt_num(pct_tecnico, 1)}% de las "
+               f"cancelaciones del filtro actual (ver el detalle de motivos en Retención).")
+
+hallazgo("La tasa de cancelación es prácticamente la misma entre cuartiles de buffering (entre "
+         "24,5% y 29,9%, promedio 27,7% con todos los datos de 2025): el buffering promedio de un "
+         "usuario no predice si cancela. \"Problemas técnicos\" es además un motivo declarado "
+         "minoritario (36 de 415 cancelaciones, 8,7%), muy por debajo de \"Poco uso\" y "
+         "\"Precio\". La experiencia técnica reduce el consumo efectivo (ver más arriba), pero no "
+         "aparece como la causa principal de las cancelaciones: son fenómenos relacionados pero "
+         "distintos.")
