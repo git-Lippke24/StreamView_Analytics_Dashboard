@@ -169,17 +169,51 @@ FOCOS_PAIS = ["Perú", "Ecuador"]
 rep_geo = rep.assign(familia=np.where(rep["tipo_dispositivo"].isin(DISPOSITIVOS_FIJOS),
                                       "Fijo", "Portátil"))
 buf_pais = rep_geo.groupby(["familia", "pais"])["buffering_segundos"].mean().reset_index()
+buf_pais_ancho = buf_pais.pivot(index="pais", columns="familia", values="buffering_segundos")
 
-col_fijo, col_portatil = st.columns(2)
-for col, familia in [(col_fijo, "Fijo"), (col_portatil, "Portátil")]:
-    with col:
-        datos_familia = (buf_pais[buf_pais["familia"] == familia]
-                                  .sort_values("buffering_segundos"))
-        if not sin_datos(datos_familia, minimo=2):
-            mostrar(barras(datos_familia, "pais", "buffering_segundos",
-                           titulo=f"Buffering promedio — {familia}",
-                           eje_valor="Buffering promedio (s)", sufijo=" s",
-                           destacar=FOCOS_PAIS, orden=datos_familia["pais"].tolist()))
+# Gráfico de pesas (dumbbell): un punto por familia y país, conectados por una línea.
+# Con dos paneles separados el orden de países no coincide entre uno y otro (cada uno
+# ordena por su propio valor); el dumbbell fija un único orden y muestra el nivel de
+# cada familia y la brecha entre ambas en la misma fila.
+if {"Fijo", "Portátil"}.issubset(buf_pais_ancho.columns):
+    buf_pais_ancho = buf_pais_ancho.dropna(subset=["Fijo", "Portátil"])
+if not sin_datos(buf_pais_ancho, minimo=2):
+    orden_pais = buf_pais_ancho.sort_values("Portátil").index.tolist()
+    y_pos = list(range(len(orden_pais)))
+    colores_pais = [COLOR_ACENTO if p in FOCOS_PAIS else COLOR_NEUTRO for p in orden_pais]
+
+    fig = go.Figure()
+    for i, (pais, color) in enumerate(zip(orden_pais, colores_pais)):
+        fig.add_trace(go.Scatter(
+            x=[buf_pais_ancho.loc[pais, "Fijo"], buf_pais_ancho.loc[pais, "Portátil"]],
+            y=[i, i], mode="lines", line=dict(color=color, width=2),
+            showlegend=False, hoverinfo="skip",
+        ))
+    fig.add_trace(go.Scatter(
+        x=buf_pais_ancho.loc[orden_pais, "Fijo"], y=y_pos, mode="markers",
+        name="Fijo (TV/PC/consola)", customdata=orden_pais,
+        marker=dict(size=11, color="white", line=dict(width=2, color=colores_pais)),
+        hovertemplate="<b>%{customdata}</b><br>Fijo: %{x:.1f} s<extra></extra>",
+    ))
+    fig.add_trace(go.Scatter(
+        x=buf_pais_ancho.loc[orden_pais, "Portátil"], y=y_pos, mode="markers",
+        name="Portátil (Móvil/Tablet)", customdata=orden_pais,
+        marker=dict(size=11, color=colores_pais),
+        hovertemplate="<b>%{customdata}</b><br>Portátil: %{x:.1f} s<extra></extra>",
+    ))
+    for pais in FOCOS_PAIS:  # etiqueta directa solo en los países foco, para no saturar
+        if pais not in orden_pais:
+            continue
+        i = orden_pais.index(pais)
+        for familia in ("Fijo", "Portátil"):
+            fig.add_annotation(x=buf_pais_ancho.loc[pais, familia], y=i,
+                               text=f"{fmt_num(buf_pais_ancho.loc[pais, familia], 1)} s",
+                               showarrow=False, yshift=13, font=dict(size=10, color=COLOR_LINEA))
+    fig.update_yaxes(tickmode="array", tickvals=y_pos, ticktext=orden_pais, showgrid=False)
+    fig.update_xaxes(title_text="Buffering promedio (s)", rangemode="tozero", showgrid=True,
+                     zeroline=False)
+    mostrar(estilo(fig, "Buffering promedio por país: fijos vs. portátiles",
+                  alto=max(280, 60 + 34 * len(orden_pais))))
 hallazgo("Perú y Ecuador tienen ≈3,5 s más de buffering que el resto en ambas familias de "
          "dispositivo (fijos: 8,6–8,8 s vs. ≈5,2 s; portátiles: 14,5–14,7 s vs. ≈10,9 s), y juntos "
          "suman el 17% de las reproducciones. Como el aumento aparece en todo tipo de dispositivo "
@@ -209,9 +243,16 @@ if cuartil_ok:
     churn_cuartil = (usuario_tec.groupby("cuartil", observed=True)["estado"]
                                 .apply(lambda s: s.eq("Cancelada").mean() * 100)
                                 .reset_index(name="tasa"))
-    mostrar(barras(churn_cuartil, "cuartil", "tasa", horizontal=False,
-                   titulo="Cancelación según el buffering promedio del usuario",
-                   eje_valor="% de usuarios cancelados", sufijo="%", orden=CUARTILES))
+    promedio_churn = usuario_tec["estado"].eq("Cancelada").mean() * 100
+    fig = barras(churn_cuartil, "cuartil", "tasa", horizontal=False,
+                titulo="Cancelación según el buffering promedio del usuario",
+                eje_valor="% de usuarios cancelados", sufijo="%", orden=CUARTILES)
+    # Línea de referencia en el promedio general: si las barras la siguen de cerca,
+    # es la prueba visual de que el cuartil de buffering no cambia la cancelación.
+    fig.add_hline(y=promedio_churn, line=dict(color=COLOR_LINEA, dash="dash", width=1.5),
+                 annotation_text=f"Promedio: {fmt_num(promedio_churn, 1)}%",
+                 annotation_position="top left", annotation_font_size=11)
+    mostrar(fig)
     st.caption(f"Con los filtros actuales: {fmt_num(len(usuario_tec))} usuarios agrupados en "
                f"cuartiles de buffering promedio.")
 else:
