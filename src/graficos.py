@@ -18,14 +18,20 @@ from plotly.subplots import make_subplots
 from src.kpis import fmt_num
 
 # Paleta del equipo, validada con el validador de accesibilidad (contraste +
-# daltonismo, protan/deutan/tritan) del skill de dataviz: pasa las seis
-# verificaciones tanto en el par que se usa junto (acento vs. acento_pos) como
-# en el trío completo con neutro.
+# daltonismo, protan/deutan/tritan) del skill de dataviz. COLOR_ACENTO y
+# COLOR_ACENTO_POS pasan las seis verificaciones como par (azul-rojo, nunca
+# rojo-verde); COLOR_CATEGORICO es el trío azul/naranja/aguamarina que valida
+# el skill para comparar todas las series entre sí a la vez (scatter, barras
+# agrupadas), no solo la vecina.
 COLOR_NEUTRO = "#B0B7C3"      # el resto de las categorías
-COLOR_ACENTO = "#EB6834"      # alerta: peor desempeño
+COLOR_ACENTO = "#E34948"      # alerta: peor desempeño (rojo franco, no naranja)
 COLOR_ACENTO_POS = "#2A78D6"  # destacar en positivo / serie única
 COLOR_LINEA = "#264653"       # líneas de tendencia y referencias
-ESCALA_DIVERGENTE = "RdBu_r"  # correlaciones: azul negativo, blanco 0, rojo positivo
+COLOR_CATEGORICO = ["#2A78D6", "#EB6834", "#1BAF7A"]  # 3+ series sin orden bueno/malo
+# Correlaciones: azul negativo / rojo positivo (el mismo rojo de alerta de arriba),
+# punto medio gris neutro en 0 (en vez del RdBu genérico de Plotly)
+ESCALA_DIVERGENTE = [[0, "#2A78D6"], [0.25, "#8DB4E1"], [0.5, "#F0EFEC"],
+                     [0.75, "#EA9C9A"], [1, "#E34948"]]
 
 _CONFIG_PLOTLY = {
     "displaylogo": False,

@@ -8,8 +8,8 @@ import plotly.graph_objects as go
 import streamlit as st
 
 from src.datos import ORDEN_SEGMENTO, sin_datos
-from src.graficos import (COLOR_ACENTO, COLOR_ACENTO_POS, COLOR_NEUTRO, barras, estilo,
-                          hallazgo, mostrar, ver_tabla)
+from src.graficos import (COLOR_ACENTO_POS, COLOR_CATEGORICO, barras, estilo, hallazgo,
+                          mostrar, ver_tabla)
 from src.kpis import fmt_num
 
 d = st.session_state["datos"]
@@ -72,15 +72,17 @@ if not sin_datos(usu):
 
     fig = go.Figure()
     tipos = sorted(pref_edad["tipo_contenido"].unique())
-    colores = [COLOR_NEUTRO, COLOR_ACENTO_POS, COLOR_ACENTO]
+    # Identidad, no bueno/malo: cada tipo de contenido lleva su propio color fijo
+    # del trío categórico (validado para distinguirse entre sí, no solo del vecino).
 
     # Iterar sobre cada tipo de contenido para crear las barras agrupadas
     for i, tipo in enumerate(tipos):
         df_tipo = pref_edad[pref_edad["tipo_contenido"] == tipo].set_index("segmento_edad")
         y_vals = [df_tipo.loc[seg, "reproducciones"] if seg in df_tipo.index else 0 for seg in ORDEN_SEGMENTO]
-        
+
         fig.add_trace(go.Bar(
-            x=ORDEN_SEGMENTO, y=y_vals, name=tipo, marker_color=colores[i % len(colores)],
+            x=ORDEN_SEGMENTO, y=y_vals, name=tipo,
+            marker_color=COLOR_CATEGORICO[i % len(COLOR_CATEGORICO)],
             hovertemplate="%{x}: " + tipo + "<br>Reproducciones: %{y}<extra></extra>"
         ))
 
