@@ -8,6 +8,9 @@ import pandas as pd
 
 from src.datos import MESES
 
+# Segundos de buffering sobre los que el abandono temprano se dispara (notebook 4.4.2)
+UMBRAL_BUFFERING = 15
+
 
 def kpis_generales(d: dict) -> dict[str, float]:
     """KPIs de cabecera sobre las tablas ya filtradas."""
@@ -19,11 +22,14 @@ def kpis_generales(d: dict) -> dict[str, float]:
         "canceladas": int((~activas).sum()),
         "tasa_cancelacion": usu["estado"].eq("Cancelada").mean(),
         "ingreso_mensual": usu.loc[activas, "precio_mensual_usd"].sum(),
+        "ingreso_perdido": usu.loc[~activas, "precio_mensual_usd"].sum(),
+        "ingreso_potencial": usu["precio_mensual_usd"].sum(),
         "reproducciones": len(rep),
         "minutos": rep["minutos_reproducidos"].sum(),
         "pct_completado": rep["porcentaje_completado"].mean(),
         "tasa_abandono": rep["abandono_temprano"].eq("Sí").mean(),
         "buffering": rep["buffering_segundos"].mean(),
+        "pct_buffering_alto": rep["buffering_segundos"].gt(UMBRAL_BUFFERING).mean(),
         "puntuacion": cal["puntuacion_1_5"].mean(),
         "tasa_recomienda": cal["recomendaria"].eq("Sí").mean(),
     }

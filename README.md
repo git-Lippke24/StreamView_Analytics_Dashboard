@@ -64,15 +64,15 @@ El enunciado original del dataset está en [`data/README_dataset.txt`](data/READ
 
 ## Líneas de análisis y páginas del dashboard
 
-| Línea de análisis                                                     | Página                     | Responsable                 | Estado      |
-| --------------------------------------------------------------------- | -------------------------- | --------------------------- | ----------- |
-| KPIs y dashboard ejecutivo                                            | Resumen ejecutivo          | Grupal                      | Lista       |
-| Retención y cancelación por plan, país, segmento y canal              | Retención                  | Sebastian Gonzalez Pino     | Lista       |
-| Reproducciones, minutos vistos, % completado y abandono               | Consumo                    | Hernan Lippke               | Lista       |
-| Experiencia técnica por dispositivo, sistema operativo, app y calidad | Experiencia técnica        | Hernan Lippke + por asignar | En progreso |
-| Preferencias por género, tipo, idioma, país y segmento                | Preferencias               | Por asignar                 | Pendiente   |
-| Relación entre consumo, interacciones y calificaciones                | Satisfacción               | Hernan Lippke               | Lista       |
-| Data storytelling y recomendaciones                                   | Historia y recomendaciones | Grupal                      | En progreso |
+| Línea de análisis                                                     | Notebook | Página                     | Responsable                  | Estado |
+| --------------------------------------------------------------------- | -------- | -------------------------- | ---------------------------- | ------ |
+| KPIs y dashboard ejecutivo                                            | 5        | Resumen ejecutivo          | Grupal                       | Lista  |
+| Retención y cancelación por plan, país, segmento y canal              | 4.1      | Retención                  | Sebastian Gonzalez Pino      | Lista  |
+| Reproducciones, minutos vistos, % completado y abandono               | 4.2      | Consumo                    | Hernan Lippke                | Lista  |
+| Preferencias por género, tipo, idioma, país y segmento                | 4.3      | Preferencias               | Michelangelo Bandelli        | Lista  |
+| Experiencia técnica por dispositivo, sistema operativo, app y calidad | 4.4      | Experiencia técnica        | Matias Arauz + Hernan Lippke | Lista  |
+| Relación entre consumo, interacciones y calificaciones                | 4.5      | Satisfacción               | Hernan Lippke                | Lista  |
+| Data storytelling y recomendaciones                                   | 6 y 7    | Historia y recomendaciones | Grupal                       | Lista  |
 
 ---
 
@@ -85,13 +85,14 @@ StreamView_Analytics_Dashboard/
 │   ├── resumen.py
 │   ├── retencion.py
 │   ├── consumo.py
-│   ├── experiencia.py
 │   ├── preferencias.py
+│   ├── experiencia.py
 │   ├── satisfaccion.py
 │   └── historia.py
 ├── src/
 │   ├── datos.py            # carga de CSV, uniones y filtros
 │   ├── kpis.py             # KPIs y formato de números (1.423.491 · 71,5%)
+│   ├── hallazgos.py        # hallazgos clave del año (los usan Resumen e Historia)
 │   └── graficos.py         # paleta del equipo y ayudas para Plotly
 ├── data/                   # los 7 CSV + diccionario + enunciado del dataset
 ├── notebooks/
@@ -146,7 +147,7 @@ Abre `notebooks/EV1_Visualizacion_de_Datos.ipynb` en VS Code y elige el kernel *
 
 1. Crea o edita el archivo en `paginas/`. Una página nueva se registra en la lista `paginas` de `app.py`.
 2. Lee los datos ya filtrados: `d = st.session_state["datos"]` (tablas `usuarios`, `reproducciones`, `calificaciones`, `interacciones`, `contenidos`, `dispositivos`).
-3. Usa las ayudas de `src/graficos.py` para mantener el estilo: `barras()`, `paneles_mensuales()`, `mostrar()`, `ver_tabla()` y `hallazgo()`.
+3. Usa las ayudas de `src/graficos.py` para mantener el estilo: `barras()`, `paneles_mensuales()`, `mostrar()`, `ver_tabla()`, `hallazgo()` y `recomendaciones()`.
 
 Convenciones del equipo:
 

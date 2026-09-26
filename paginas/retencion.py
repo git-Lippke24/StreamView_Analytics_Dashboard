@@ -1,19 +1,22 @@
 """Página 2 · Retención y cancelación — Responsable: Sebastián.
 
-Sección del notebook: "Retención y cancelación de clientes".
+Sección del notebook: 4.1 "Retención y cancelación de clientes".
 Tablas: usuarios + suscripciones (una suscripción por usuario).
 """
+import plotly.graph_objects as go
 import streamlit as st
 
 from src.datos import ORDEN_PLAN, ORDEN_SEGMENTO, sin_datos
-from src.graficos import barras, hallazgo, mostrar, ver_tabla
-from src.kpis import fmt_num, fmt_pct, kpis_generales, tasa_cancelacion_por
+from src.graficos import (COLOR_ACENTO, COLOR_NEUTRO, barras, estilo, hallazgo, mostrar,
+                          recomendaciones, ver_tabla)
+from src.kpis import fmt_num, fmt_pct, kpis_generales, serie_mensual, tasa_cancelacion_por
 
 d = st.session_state["datos"]
 usuarios = d["usuarios"]
 
 st.title("Retención y cancelación")
-st.caption("¿Quién cancela su suscripción y por qué? Estado de las suscripciones al 31-12-2025.")
+st.caption("¿Quién cancela su suscripción y por qué? Estado de las suscripciones al 31-12-2025. "
+           "· Notebook, sección 4.1.")
 
 if sin_datos(usuarios):
     st.stop()
@@ -36,15 +39,15 @@ DIMENSIONES = {
     "Segmento de edad": ("segmento_edad", ORDEN_SEGMENTO),
     "Canal de adquisición": ("canal_adquisicion", None),
 }
-HALLAZGOS = {  # redactados en el notebook con todos los datos (ver notebook, sección Retención)
-    "Plan": "Básico concentra la fuga: 44% cancela, casi 1 de cada 2. Estándar cancela 21% y "
-            "Premium solo 12% (88% retiene).",
-    "País": "Tasas de cancelación entre 24% (Chile) y 36% (Ecuador, muestra chica, n=67). "
+HALLAZGOS = {  # redactados en el notebook con todos los datos (notebook, sección 4.1.1)
+    "Plan": "Básico concentra la fuga: 44,1% cancela, casi 1 de cada 2. Estándar cancela 20,7% y "
+            "Premium solo 12,0% (88% retiene).",
+    "País": "Tasas de cancelación entre 24,5% (Chile) y 35,8% (Ecuador, muestra chica, n=67). "
             "Argentina y Chile retienen mejor (~75% activa).",
-    "Segmento de edad": "45-54 cancela menos (21%, 79% activa). Los extremos cancelan más: "
-                        "18-24 (33%, 67% activa) y 55+ (32%, 68% activa, muestra chica, n=65).",
-    "Canal de adquisición": "Referido cancela menos (22%): llegan precalificados. Publicidad "
-                            "digital cancela más (31%).",
+    "Segmento de edad": "45-54 cancela menos (21,2%, 79% activa). Los extremos cancelan más: "
+                        "18-24 (33,4%, 67% activa) y 55+ (32,3%, 68% activa, muestra chica, n=65).",
+    "Canal de adquisición": "Referido cancela menos (22,0%): llegan precalificados. Publicidad "
+                            "digital cancela más (30,8%).",
 }
 
 dimension = st.segmented_control("Ver la tasa de cancelación por", list(DIMENSIONES),
@@ -82,7 +85,37 @@ if not sin_datos(canceladas):
                  hover={"% de las cancelaciones": "pct_txt"})
     mostrar(fig)
     st.caption(f"\"{principal['motivo']}\" explica el {fmt_num(principal['pct'], 0)}% de las "
-               f"cancelaciones del filtro actual.")
+               f"cancelaciones del filtro actual. Para ver los motivos de un plan, fíltralo en la "
+               f"barra lateral.")
+    hallazgo("\"Poco uso\" es el motivo más declarado (32,3% de las cancelaciones), seguido de "
+             "\"Precio\" (21,9%) y \"Cambio a otra plataforma\" (16,6%). \"Poco uso\" encabeza en los "
+             "tres planes; lo que cambia es el segundo motivo: \"Precio\" en Básico (20,0%) y Estándar "
+             "(25,2%), y en Premium empatan \"Precio\" y \"Contenido insuficiente\" (22,9% cada uno, "
+             "con solo 35 cancelaciones). El motivo declarado no prueba la causa: quienes cancelan "
+             "estuvieron activos 5,8 meses en promedio en 2025, contra 10,2 de quienes siguen.")
     ver_tabla(motivos.rename(columns={"motivo": "Motivo", "cancelaciones": "Cancelaciones",
                                       "pct": "% del total"})
                      [["Motivo", "Cancelaciones", "% del total"]].round(1))
+
+# ---------------------------------------------------------------- cancelaciones por mes
+st.divider()
+serie = serie_mensual(d)
+fig = go.Figure(go.Bar(
+    x=serie["mes_nombre"], y=serie["cancelaciones"],
+    marker_color=[COLOR_NEUTRO if m <= 6 else COLOR_ACENTO for m in serie["mes"]],
+    text=serie["cancelaciones"].map(fmt_num), textposition="outside", cliponaxis=False,
+    hovertemplate="<b>%{x}</b><br>Cancelaciones: %{text}<extra></extra>",
+))
+fig.update_yaxes(title_text="Suscripciones canceladas",
+                 range=[0, max(serie["cancelaciones"].max(), 1) * 1.2])
+fig.update_xaxes(showgrid=False)
+mostrar(estilo(fig, "Suscripciones canceladas por mes (2° semestre destacado)"))
+hallazgo("Las cancelaciones crecen fuerte durante el año: de 15 en enero a 68 en diciembre, y el "
+         "67,2% ocurre en el segundo semestre, justo cuando más crece el consumo: más actividad no se "
+         "tradujo en más retención.")
+
+recomendaciones([
+    "Priorizar **campañas de reactivación y beneficios de upgrade para el plan Básico**, antes del "
+    "2.º semestre (cuando se acelera la fuga), midiendo su efecto en la tasa de cancelación mensual "
+    "como KPI de seguimiento.",
+])

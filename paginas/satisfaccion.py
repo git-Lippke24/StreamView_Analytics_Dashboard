@@ -1,6 +1,6 @@
 """Página 6 · Consumo, interacciones y calificaciones — Responsable: Hernán.
 
-Sección del notebook: "Relación entre consumo, interacciones y calificaciones".
+Sección del notebook: 4.5 "Relación entre consumo, interacciones y calificaciones".
 Tablas: reproducciones, interacciones, calificaciones.
 """
 import pandas as pd
@@ -9,14 +9,15 @@ import streamlit as st
 
 from src.datos import sin_datos
 from src.graficos import (COLOR_ACENTO_POS, COLOR_LINEA, COLOR_NEUTRO, ESCALA_DIVERGENTE,
-                          barras, estilo, hallazgo, mostrar, ver_tabla)
+                          barras, estilo, hallazgo, mostrar, recomendaciones, ver_tabla)
 from src.kpis import fmt_num
 
 d = st.session_state["datos"]
 rep, inter, cal = d["reproducciones"], d["interacciones"], d["calificaciones"]
 
 st.title("Satisfacción")
-st.caption("¿Ver más significa estar más satisfecho? Consumo, interacciones y calificaciones.")
+st.caption("¿Ver más significa estar más satisfecho? Consumo, interacciones y calificaciones. "
+           "· Notebook, sección 4.5.")
 
 if sin_datos(rep) or sin_datos(cal):
     st.stop()
@@ -167,3 +168,11 @@ with col_b:
                    "calificaciones.")
         hallazgo("Hay títulos muy vistos bajo el promedio y títulos poco vistos muy bien "
                  "evaluados (posibles joyas ocultas del catálogo).")
+
+recomendaciones([
+    "Usar el **% completado como señal de satisfacción en tiempo real:** sube con la puntuación "
+    "(r = 0,20), mientras que un \"Me gusta\" casi no la cambia (3,97 vs. 3,96), y está disponible en "
+    "cada reproducción, cuando solo el 12,7% de las reproducciones tiene una calificación.",
+    "Para portada, recomendaciones y renovación de licencias, **cruzar siempre reproducciones con % "
+    "completado y puntuación**, no solo el volumen.",
+])

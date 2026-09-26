@@ -36,8 +36,8 @@ paginas = {
                 default=True),
         st.Page("paginas/retencion.py", title="Retención", icon=":material/group_remove:"),
         st.Page("paginas/consumo.py", title="Consumo", icon=":material/play_circle:"),
-        st.Page("paginas/experiencia.py", title="Experiencia técnica", icon=":material/devices:"),
         st.Page("paginas/preferencias.py", title="Preferencias", icon=":material/movie:"),
+        st.Page("paginas/experiencia.py", title="Experiencia técnica", icon=":material/devices:"),
         st.Page("paginas/satisfaccion.py", title="Satisfacción", icon=":material/star:"),
     ],
     "Storytelling": [

@@ -1,6 +1,6 @@
 """Página 3 · Consumo: reproducciones, minutos, % completado y abandono — Responsable: Hernán.
 
-Sección del notebook: "Reproducciones, minutos vistos, % completado y abandono".
+Sección del notebook: 4.2 "Reproducciones, minutos vistos, % completado y abandono".
 Tablas: reproducciones + contenidos.
 """
 import plotly.graph_objects as go
@@ -8,14 +8,15 @@ import streamlit as st
 
 from src.datos import sin_datos
 from src.graficos import (COLOR_ACENTO, COLOR_ACENTO_POS, COLOR_LINEA, barras, estilo,
-                          hallazgo, mostrar, paneles_mensuales, ver_tabla)
+                          hallazgo, mostrar, paneles_mensuales, recomendaciones, ver_tabla)
 from src.kpis import fmt_num, serie_mensual
 
 d = st.session_state["datos"]
 rep = d["reproducciones"]
 
 st.title("Consumo")
-st.caption("¿Cuánto se ve, qué tan completo y dónde se abandona?")
+st.caption("¿Cuánto se ve, qué tan completo y dónde se abandona? · Notebook, sección 4.2 (el detalle "
+           "por dispositivo y calidad está en Experiencia técnica).")
 
 if sin_datos(rep):
     st.stop()
@@ -102,3 +103,12 @@ with col_b:
                  .rename(columns={"titulo": "Título", "reproducciones": "Reproducciones",
                                   "pct": "% completado prom."})
                  [["Título", "Reproducciones", "% completado prom."]].round(1))
+
+recomendaciones([
+    "Priorizar mejoras de experiencia en **Móvil** (precarga, reproducción adaptativa, recuperación "
+    "ante cortes): concentra el 76% del abandono temprano y el menor % completado.",
+    "Monitorear el **buffering** como KPI de calidad de servicio, no solo como métrica de "
+    "infraestructura: está asociado a menor consumo efectivo.",
+    "Al evaluar el desempeño de un contenido, reportar siempre **reproducciones y % completado "
+    "juntos**, no el volumen por sí solo.",
+])

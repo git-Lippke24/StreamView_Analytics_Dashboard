@@ -24,6 +24,7 @@ from src.kpis import fmt_num
 # el skill para comparar todas las series entre sí a la vez (scatter, barras
 # agrupadas), no solo la vecina.
 COLOR_NEUTRO = "#B0B7C3"      # el resto de las categorías
+COLOR_NEUTRO_OSCURO = "#6C7A89"  # segundo gris, para un grupo intermedio de contexto
 COLOR_ACENTO = "#E34948"      # alerta: peor desempeño (rojo franco, no naranja)
 COLOR_ACENTO_POS = "#2A78D6"  # destacar en positivo / serie única
 COLOR_LINEA = "#264653"       # líneas de tendencia y referencias
@@ -171,3 +172,9 @@ def ver_tabla(df: pd.DataFrame, etiqueta: str = "Ver datos") -> None:
 def hallazgo(texto: str) -> None:
     """Hallazgo redactado en el notebook (calculado con todos los datos de 2025)."""
     st.caption(f"**Hallazgo (año completo, sin filtros):** {texto}")
+
+
+def recomendaciones(items: Sequence[str]) -> None:
+    """Recomendaciones de la sección, las mismas del notebook, en un recuadro numerado."""
+    with st.container(border=True):
+        st.markdown("**Recomendaciones**\n\n" + "\n".join(f"{i}. {t}" for i, t in enumerate(items, 1)))
