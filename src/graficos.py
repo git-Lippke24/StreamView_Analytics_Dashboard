@@ -17,10 +17,13 @@ from plotly.subplots import make_subplots
 
 from src.kpis import fmt_num
 
-# Paleta del equipo (misma del notebook)
+# Paleta del equipo, validada con el validador de accesibilidad (contraste +
+# daltonismo, protan/deutan/tritan) del skill de dataviz: pasa las seis
+# verificaciones tanto en el par que se usa junto (acento vs. acento_pos) como
+# en el trío completo con neutro.
 COLOR_NEUTRO = "#B0B7C3"      # el resto de las categorías
-COLOR_ACENTO = "#E4572E"      # alerta: peor desempeño
-COLOR_ACENTO_POS = "#2E86AB"  # destacar en positivo / serie única
+COLOR_ACENTO = "#EB6834"      # alerta: peor desempeño
+COLOR_ACENTO_POS = "#2A78D6"  # destacar en positivo / serie única
 COLOR_LINEA = "#264653"       # líneas de tendencia y referencias
 ESCALA_DIVERGENTE = "RdBu_r"  # correlaciones: azul negativo, blanco 0, rojo positivo
 
@@ -31,7 +34,12 @@ _CONFIG_PLOTLY = {
 
 
 def estilo(fig: go.Figure, titulo: str | None = None, alto: int = 360) -> go.Figure:
-    """Aplica el estilo común: título a la izquierda, separadores chilenos, barras delgadas."""
+    """Aplica el estilo común: título a la izquierda, separadores chilenos, barras delgadas.
+
+    El fondo del gráfico queda fijo en blanco para que se vea como una "tarjeta"
+    propia sobre el fondo con tinte de la app (ver .streamlit/config.toml) en vez
+    de fundirse con la página.
+    """
     fig.update_layout(
         height=alto,
         margin=dict(l=8, r=32, t=64 if titulo else 16, b=8),
@@ -40,6 +48,8 @@ def estilo(fig: go.Figure, titulo: str | None = None, alto: int = 360) -> go.Fig
         barcornerradius=4,
         legend=dict(orientation="h", yanchor="bottom", y=1.0, xanchor="left", x=0, title=None),
         hoverlabel=dict(font_size=13),
+        paper_bgcolor="#FFFFFF",
+        plot_bgcolor="#FFFFFF",
     )
     # números en los ejes con separador de miles: 150.000 en vez de 150k
     fig.update_xaxes(tickformat=",~r")

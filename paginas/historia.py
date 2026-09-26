@@ -28,8 +28,9 @@ st.header("1. Contexto: el consumo creció durante 2025")
 minutos = serie.set_index("mes")["minutos"]
 var_abr_dic = (minutos[12] / minutos[4] - 1) * 100
 c1, c2 = st.columns([1, 3])
-c1.metric("Minutos vistos en 2025", fmt_num(k["minutos"]))
-c1.metric("Diciembre vs. abril", f"+{fmt_num(var_abr_dic, 0)}%")
+with c1.container(border=True):
+    st.metric("Minutos vistos en 2025", fmt_num(k["minutos"]))
+    st.metric("Diciembre vs. abril", f"+{fmt_num(var_abr_dic, 0)}%")
 with c2:
     fig = go.Figure(go.Scatter(
         x=serie["mes_nombre"], y=serie["minutos"], mode="lines+markers",
@@ -48,9 +49,10 @@ st.header("2. Tensión: las cancelaciones crecieron más rápido")
 cancel = serie.set_index("mes")["cancelaciones"]
 pct_h2 = cancel.loc[7:12].sum() / cancel.sum() * 100
 c1, c2 = st.columns([1, 3])
-c1.metric("Cancelaciones en enero", fmt_num(cancel[1]))
-c1.metric("Cancelaciones en diciembre", fmt_num(cancel[12]))
-c1.metric("Ocurridas en el 2° semestre", f"{fmt_num(pct_h2, 0)}%")
+with c1.container(border=True):
+    st.metric("Cancelaciones en enero", fmt_num(cancel[1]))
+    st.metric("Cancelaciones en diciembre", fmt_num(cancel[12]))
+    st.metric("Ocurridas en el 2° semestre", f"{fmt_num(pct_h2, 0)}%")
 with c2:
     fig = go.Figure(go.Bar(
         x=serie["mes_nombre"], y=serie["cancelaciones"],
@@ -90,8 +92,9 @@ with col_a:
     mostrar(barras(por_disp, "tipo_dispositivo", "pct",
                    titulo="% completado promedio por dispositivo", eje_valor="% completado",
                    sufijo="%", destacar="Móvil"))
-col_b.metric("Buffering promedio en móvil", f"{fmt_num(movil['buffering'], 1)} s")
-col_b.metric("Buffering promedio en Smart TV",
+with col_b.container(border=True):
+    st.metric("Buffering promedio en móvil", f"{fmt_num(movil['buffering'], 1)} s")
+    st.metric("Buffering promedio en Smart TV",
              f"{fmt_num(por_disp.set_index('tipo_dispositivo').loc['Smart TV', 'buffering'], 1)} s")
 
 st.subheader("Quien termina un contenido lo califica mejor")

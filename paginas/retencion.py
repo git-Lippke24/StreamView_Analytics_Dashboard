@@ -20,10 +20,14 @@ if sin_datos(usuarios):
 
 k = kpis_generales(d)
 c1, c2, c3, c4 = st.columns(4)
-c1.metric("Usuarios", fmt_num(k["usuarios"]))
-c2.metric("Activas", fmt_num(k["activas"]))
-c3.metric("Canceladas", fmt_num(k["canceladas"]))
-c4.metric("Tasa de cancelación", fmt_pct(k["tasa_cancelacion"]))
+with c1.container(border=True):
+    st.metric("Usuarios", fmt_num(k["usuarios"]))
+with c2.container(border=True):
+    st.metric("Activas", fmt_num(k["activas"]))
+with c3.container(border=True):
+    st.metric("Canceladas", fmt_num(k["canceladas"]))
+with c4.container(border=True):
+    st.metric("Tasa de cancelación", fmt_pct(k["tasa_cancelacion"]))
 
 # ---------------------------------------------------------------- tasa por dimensión
 DIMENSIONES = {

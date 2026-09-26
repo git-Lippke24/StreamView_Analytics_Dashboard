@@ -1,13 +1,23 @@
 # Configuración de Streamlit (local y en Community Cloud)
 
 [theme]
-# Tema claro fijo: la paleta del equipo está pensada sobre fondo blanco
+# Tema claro fijo. primaryColor sincronizado con COLOR_ACENTO_POS de
+# src/graficos.py. Fondo con tinte suave (los gráficos fijan su propio fondo
+# blanco en estilo(), así resaltan como tarjetas) y tipografía de títulos más
+# marcada para que el dashboard no se sienta plano.
 base = "light"
-primaryColor = "#2E86AB"          # COLOR_ACENTO_POS del notebook
-backgroundColor = "#FFFFFF"
-secondaryBackgroundColor = "#F3F5F7"
+primaryColor = "#2A78D6"          # COLOR_ACENTO_POS de src/graficos.py
+backgroundColor = "#F5F7FA"        # tinte suave: los gráficos (fondo blanco fijo) resaltan como tarjetas
+secondaryBackgroundColor = "#E8ECF1"
 textColor = "#1F2A33"
 font = "sans serif"
+headingFont = "Sora:https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&display=swap"
+headingFontSizes = ["3.25rem", "2.25rem", "2rem"]   # h1 (título), h2, h3 (subheader) más grandes
+headingFontWeights = [800, 600, 700]                 # h1 y h3 bien marcados
+baseFontSize = 17                                    # texto de cuerpo un poco más grande
+baseRadius = "0.75rem"                                # esquinas redondeadas (tarjetas, tablas, botones)
+showWidgetBorder = true                               # borde sutil en filtros/widgets
+borderColor = "#DCE1E7"
 
 [server]
 runOnSave = true                  # recarga la app al guardar un archivo
